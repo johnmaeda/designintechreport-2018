@@ -1,44 +1,19 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115610134-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-115610134-1');
-</script>
-  <title>2018 Design In Tech Report</title>
   <meta charset="utf-8">
+  <title>2018 Design In Tech Report</title>
   <link rel="stylesheet" type="text/css" href="stylesheets/ditstyles.css">
 
-  <script defer type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script></head>
-  <script type="text/javascript" src="js/ditwordtrees.js"></script>
+  <!-- Deferred sources -->
+  <script defer src="https://www.gstatic.com/charts/loader.js"></script>
+  <script defer src="js/ditwordtrees.js"></script>
 
-<!--
-  .box[
-<details><summary>Colorize lineart <a target="_blank" href="https://github.com/pfnet/PaintsChainer">*</a></summary>
-<img width="100%" src="https://github.com/pfnet/PaintsChainer/raw/open/sample.png">
-</details>
-]
-.box[<details><summary>Personal favorite <a target="_blank" href="http://getportraitapp.com">*</a></summary>
-  <img width="100%" src="http://getportraitapp.com/img/portrait.jpeg">
-</details>
-]
-.box[<details><summary>Measuring aesthetics <a target="_blank" href="https://devblogs.nvidia.com/personalized-aesthetics-machine-learning/">*</a></summary>
-  <img width="100%" src="https://devblogs.nvidia.com/wp-content/uploads/2017/03/image02.png">
-</details>
-]
-.box[<details><summary>Auto panorama <a target="_blank" href="https://research.googleblog.com/2017/07/using-deep-learning-to-create.html">*</a></summary>
-  <img width="100%" src="https://4.bp.blogspot.com/-M1OHQAOz2ck/WWe1dmH-zSI/AAAAAAAAB38/7fZlP4bRZmsfNAwHiVdXlJyA0jugfZtsACLcBGAs/s640/image8.png">
-</details>
-]
--->
+  <!-- Asyncronous sources -->
+  <script async src="https://platform.twitter.com/widgets.js"></script>
+  <script async src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+</head>
+
 <body>
   <textarea id="source">
 
@@ -2989,31 +2964,21 @@ Please report any errors to @johnmaeda on Twitter. Thank you!
 John Maeda has minor equity positions as an investor in certain companies referenced in the presentation maedastudio.com/startups.
 ]
 ]
-    </textarea>
-  <script src="https://remarkjs.com/downloads/remark-latest.min.js">
-  </script>
+
+  </textarea>
+  <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
   <script>
-    var slideshow = remark.create({ ratio: '16:9',
-      // Navigation options
-        navigation: {
+    remark.create({
+      ratio: '16:9',
+      navigation: {
         // Enable or disable navigating using scroll
-        // Default: true
-        // Alternatives: false
         scroll: false,
-
         // Enable or disable navigation using touch
-        // Default: true
-        // Alternatives: false
         touch: true,
-
         // Enable or disable navigation using click
-        // Default: false
-        // Alternatives: true
         click: false
       }
-   },
-      );
+   });
   </script>
 </body>
-
 </html>
