@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Source+Serif+Pro|Source+Sans+Pro');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
-@import url(http://compass-style.org/reference/compass/css3/);
 @import url('https://rsms.me/inter/inter-ui.css');
+
 /* for rainy day:
 
 Colorizing images: https://css-tricks.com/color-filters-can-turn-your-gray-skies-blue/
@@ -16,80 +16,80 @@ $col-dkgray: #6F7489;
 $col-ltgray:  #DDDEE0;
 $col-white: #ffffff;
 $col-black: #000000;
-$font-stack-sans:   'Roboto', sans-serif;
-$font-stack-serif:  'Georgia', serif;
-$font-stack-mono:   'Roboto Mono', sans-serif;
-$font-size-x-large:            48px;
-$font-size-large:           36px;
-$font-size-x-medium:        30px;
-$font-size-medium:          20px;
-$font-size-small:         15px;
-$font-size-x-small:           13px;
+$font-stack-sans: 'Roboto', sans-serif;
+$font-stack-serif: 'Georgia', serif;
+$font-stack-mono: 'Roboto Mono', sans-serif;
+$font-size-x-large: 48px;
+$font-size-large: 36px;
+$font-size-x-medium: 30px;
+$font-size-medium: 20px;
+$font-size-small: 15px;
+$font-size-x-small: 13px;
 
 %x-monochrome {
-    -webkit-filter: grayscale(1);filter: grayscale(1);
+  -webkit-filter: grayscale(1);filter: grayscale(1);
 }
 
 /* okay -- happy to see this default in the code that is making me bonkers */
 
 .general p {
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
 }
 
 .team-circles {
-    @extend %x-monochrome;
-    width: 100%; position: relative; overflow: hidden; border-radius: 50%;
+  @extend %x-monochrome;
+  width: 100%; position: relative; overflow: hidden; border-radius: 50%;
 }
 
 body {
-    font-family: $font-stack-serif;
+  font-family: $font-stack-serif;
 }
 
 /* for captions */
 /* https://www.designlabthemes.com/text-over-image-with-css/ */
 
 .caption {
-    position: relative;
-    padding: 0;
-    margin: 0;
+  position: relative;
+  padding: 0;
+  margin: 0;
 }
 .caption img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 .caption:after {
-    content: "";
-    position: absolute;
-    display: block;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
+  content: "";
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
 }
 %caption-junk {
-    display: inline;
-    font-size: $font-size-x-small;
-    font-family: $font-stack-sans;
-    position: absolute;
-    background-color: rgba(0,0,0,.5);
-    color: #fff;
-    left: 5px;
-    padding: 0 .5em;
-    font-weight: 200;
-    z-index: 2;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+  display: inline;
+  font-size: $font-size-x-small;
+  font-family: $font-stack-sans;
+  position: absolute;
+  background-color: rgba(0,0,0,.5);
+  color: #fff;
+  left: 5px;
+  padding: 0 .5em;
+  font-weight: 200;
+  z-index: 2;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .caption-text {
-    @extend %caption-junk;
-    bottom: 5px;
+  @extend %caption-junk;
+  bottom: 5px;
 }
 .caption-text-top {
-    @extend %caption-junk;
-    top: 5px;
+  @extend %caption-junk;
+  top: 5px;
 }
 
 /* for the WordTree */
@@ -101,12 +101,12 @@ text {
 h1,
 h2,
 h3 {
-    font-family: $font-stack-sans;
-    font-weight: regular;
+  font-family: $font-stack-sans;
+  font-weight: regular;
 }
 
 .general {
-    font-family: $font-stack-serif;
+  font-family: $font-stack-serif;
 }
 
 a {
@@ -116,64 +116,64 @@ a {
 .comment { display: none; }
 
 .table-item {
-    font-family: $font-stack-sans;
-    font-size: $font-size-small;
-    padding: 8px;
+  font-family: $font-stack-sans;
+  font-size: $font-size-small;
+  padding: 8px;
 }
 .general a, a:visited, a:link{
-    color: black;
-    border-bottom: 2px solid $col-em-x;
+  color: black;
+  border-bottom: 2px solid $col-em-x;
 }
 
 .general a:hover {
-    background-color: $col-em-x;
-    color: white;
+  background-color: $col-em-x;
+  color: white;
 }
 
 .general h1 {
-    font-size: $font-size-large;
-    font-weight: 400;
-    margin-bottom: 15px;
+  font-size: $font-size-large;
+  font-weight: 400;
+  margin-bottom: 15px;
 }
 
 .general h2 {
-    font-weight: 400;
+  font-weight: 400;
 }
 .general h3 {
-    font-size: $font-size-medium;
+  font-size: $font-size-medium;
 }
 
 .remark-container {
 }
 
 .my-sans {
-    font-family: $font-stack-sans;
-    font-weight: lighter;
+  font-family: $font-stack-sans;
+  font-weight: lighter;
 }
 
 .my-serif {
-    font-family: $font-stack-serif;
+  font-family: $font-stack-serif;
 }
 
 .my-mono {
-    font-family: $font-stack-mono;
+  font-family: $font-stack-mono;
 }
 
 /* https://iros.github.io/patternfills/sample_css.html */
 
 .circles-1 {
-    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+CiAgPHJlY3Qgd2lkdGg9JzEwJyBoZWlnaHQ9JzEwJyBmaWxsPSJ3aGl0ZSIgLz4KICA8Y2lyY2xlIGN4PSIxIiBjeT0iMSIgcj0iMSIgZmlsbD0iYmxhY2siLz4KPC9zdmc+");
-    background-repeat: repeat;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+CiAgPHJlY3Qgd2lkdGg9JzEwJyBoZWlnaHQ9JzEwJyBmaWxsPSJ3aGl0ZSIgLz4KICA8Y2lyY2xlIGN4PSIxIiBjeT0iMSIgcj0iMSIgZmlsbD0iYmxhY2siLz4KPC9zdmc+");
+  background-repeat: repeat;
 }
 
 .horizontal-stripe-1 {
-    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+CiAgPHJlY3Qgd2lkdGg9JzEwJyBoZWlnaHQ9JzEwJyBmaWxsPSd3aGl0ZScgLz4KICA8cmVjdCB4PScwJyB5PScwJyB3aWR0aD0nMTAnIGhlaWdodD0nMScgZmlsbD0nYmxhY2snIC8+Cjwvc3ZnPg==");
-    background-repeat: repeat;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+CiAgPHJlY3Qgd2lkdGg9JzEwJyBoZWlnaHQ9JzEwJyBmaWxsPSd3aGl0ZScgLz4KICA8cmVjdCB4PScwJyB5PScwJyB3aWR0aD0nMTAnIGhlaWdodD0nMScgZmlsbD0nYmxhY2snIC8+Cjwvc3ZnPg==");
+  background-repeat: repeat;
 }
 
 .diagonal-stripe-4 {
-    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+CiAgPHJlY3Qgd2lkdGg9JzEwJyBoZWlnaHQ9JzEwJyBmaWxsPSdibGFjaycvPgogIDxwYXRoIGQ9J00tMSwxIGwyLC0yCiAgICAgICAgICAgTTAsMTAgbDEwLC0xMAogICAgICAgICAgIE05LDExIGwyLC0yJyBzdHJva2U9J3doaXRlJyBzdHJva2Utd2lkdGg9JzMnLz4KPC9zdmc+");
-    background-repeat: repeat;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+CiAgPHJlY3Qgd2lkdGg9JzEwJyBoZWlnaHQ9JzEwJyBmaWxsPSdibGFjaycvPgogIDxwYXRoIGQ9J00tMSwxIGwyLC0yCiAgICAgICAgICAgTTAsMTAgbDEwLC0xMAogICAgICAgICAgIE05LDExIGwyLC0yJyBzdHJva2U9J3doaXRlJyBzdHJva2Utd2lkdGg9JzMnLz4KPC9zdmc+");
+  background-repeat: repeat;
 }
 
 .clear {
@@ -181,193 +181,193 @@ a {
 }
 
 .fg-ltgray {
-    color: $col-ltgray;
+  color: $col-ltgray;
 }
 
 .fg-dkgray {
-    color: $col-dkgray;
+  color: $col-dkgray;
 }
 
 .fg-white {
-    color: $col-white;
+  color: $col-white;
 }
 .fg-em {
-    color: $col-em;
+  color: $col-em;
 }
 
 .fg-em-x{
-    color: $col-em-x;
+  color: $col-em-x;
 }
 
 .fg-em-y{
-    color: $col-em-y;
+  color: $col-em-y;
 }
 
 .fg-em-z{
-    color: $col-em-z;
+  color: $col-em-z;
 }
 
 .tx-italic {
-    font-style: italic;
+  font-style: italic;
 }
 
 .tx-center{
-    text-align: center;
+  text-align: center;
 }
 
 .tx-sans {
-    font-family: $font-stack-sans;
+  font-family: $font-stack-sans;
 }
 
 .tx-mono {
-    font-family: $font-stack-mono;
+  font-family: $font-stack-mono;
 }
 .tx-serif {
-    font-family: $font-stack-serif;
+  font-family: $font-stack-serif;
 }
 
 .tx-small {
-    font-size: $font-size-small;
+  font-size: $font-size-small;
 }
 
 .tx-x-small {
-    font-size: $font-size-x-small;
+  font-size: $font-size-x-small;
 }
 
 .tx-medium {
-    font-size: $font-size-medium;
+  font-size: $font-size-medium;
 }
 
 .tx-x-medium {
-    font-size: $font-size-x-medium;
+  font-size: $font-size-x-medium;
 }
 
 .tx-large {
-    font-size: $font-size-large;
+  font-size: $font-size-large;
 }
 
 .tx-x-large {
-    font-size: $font-size-x-large;
+  font-size: $font-size-x-large;
 }
 
 .bg-dkgray {
-    background-color: $col-dkgray;
+  background-color: $col-dkgray;
 }
 
 .bg-ltgray {
-    background-color: $col-ltgray;
+  background-color: $col-ltgray;
 }
 
 .bg-em {
-    background-color: $col-em;
+  background-color: $col-em;
 }
 
 .bg-em-x {
-    background-color: $col-em-x;
+  background-color: $col-em-x;
 }
 
 .bg-em-y {
-    background-color: $col-em-y;
+  background-color: $col-em-y;
 }
 
 .bg-em-z {
-    background-color: $col-em-z;
+  background-color: $col-em-z;
 }
 
 .bg-black {
-    background-color: $col-black;
+  background-color: $col-black;
 }
 
 .subhead {
-    font-family: $font-stack-sans;
-    color: $col-white;
-    font-size: $font-size-medium;
-    padding: 3px 60px 3px 20px;
+  font-family: $font-stack-sans;
+  color: $col-white;
+  font-size: $font-size-medium;
+  padding: 3px 60px 3px 20px;
 }
 
 .subhead-slim {
-    font-family: $font-stack-sans;
-    color: $col-white;
-    font-size: $font-size-medium;
-    padding: 3px 6px;
+  font-family: $font-stack-sans;
+  color: $col-white;
+  font-size: $font-size-medium;
+  padding: 3px 6px;
 }
 
 .subhead-mini {
-    font-family: $font-stack-sans;
-    color: $col-white;
-    font-size: $font-size-x-small; 
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    padding: 3px 3px;   
+  font-family: $font-stack-sans;
+  color: $col-white;
+  font-size: $font-size-x-small;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 3px 3px;
 }
 .subhead-zero {
-    font-family: $font-stack-sans;
-    color: $col-white;
-    font-size: $font-size-medium;
-    padding: 3px 3px;
+  font-family: $font-stack-sans;
+  color: $col-white;
+  font-size: $font-size-medium;
+  padding: 3px 3px;
 }
 
 .myserif-voice {
-    color: #fe4040;
-    font-family: $font-stack-serif;
+  color: #fe4040;
+  font-family: $font-stack-serif;
 }
 
 div.subhead-thinner {
-    font-family: $font-stack-serif;
-    color: white;
-    font-size: $font-size-medium;
-    padding: 3px 20px 3px 20px;
-    margin-bottom: 10px;
+  font-family: $font-stack-serif;
+  color: white;
+  font-size: $font-size-medium;
+  padding: 3px 20px 3px 20px;
+  margin-bottom: 10px;
 }
 
 .subhead-gray {
-    background-color: #333333;
-    color: white;
-    font-size: 20px;
-    padding: 3px 60px 3px 60px;
+  background-color: #333333;
+  color: white;
+  font-size: 20px;
+  padding: 3px 60px 3px 60px;
 }
 
 .subhead-numeral {
-    font-family: $font-stack-mono;
-    font-size: $font-size-large;
-    color: white;
-    padding: 5px 5px 5px 8px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    float: left;
+  font-family: $font-stack-mono;
+  font-size: $font-size-large;
+  color: white;
+  padding: 5px 5px 5px 8px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  float: left;
 }
 
 .subhead-box {
-    font-family: $font-stack-mono;
-    font-size: $font-size-large;
-    color: white;
-    padding: 5px 8px 5px 8px;
-    margin-right: 10px;
+  font-family: $font-stack-mono;
+  font-size: $font-size-large;
+  color: white;
+  padding: 5px 8px 5px 8px;
+  margin-right: 10px;
 }
 
 .subhead-numeral-afterparty {
-    clear: left;
-    font-size: $font-size-medium;
+  clear: left;
+  font-size: $font-size-medium;
 }
 
 .inline-subheads {
-    font-size: $font-size-x-medium;
-    color: black;
-    font-family: $font-stack-sans;
+  font-size: $font-size-x-medium;
+  color: black;
+  font-family: $font-stack-sans;
 }
 
 .cellbox {
-    font-family: $font-stack-serif;
-    color: black;
-    font-size: $font-size-small;
-    margin-top: 8px;
+  font-family: $font-stack-serif;
+  color: black;
+  font-size: $font-size-small;
+  margin-top: 8px;
 }
 
 .cellbox-indented {
-    font-family: $font-stack-serif;
-    color: black;
-    margin-left: 20px;
-    font-size: $font-size-small;
+  font-family: $font-stack-serif;
+  color: black;
+  margin-left: 20px;
+  font-size: $font-size-small;
 }
 
 .im-tint {
@@ -387,100 +387,100 @@ div.subhead-thinner {
 }
 
 div.footer {
-    font-family: $font-stack-sans;
-    color: $col-em-x;
-    font-size: $font-size-x-small;
-    position: absolute;
-    left: 792px;
-    bottom: 15px;
+  font-family: $font-stack-sans;
+  color: $col-em-x;
+  font-size: $font-size-x-small;
+  position: absolute;
+  left: 792px;
+  bottom: 15px;
 }
 
 div.footer::before {
-    content: "2018 Design In Tech Report | ";
+  content: "2018 Design In Tech Report | ";
 }
 
 .source {
-    font-family: $font-stack-sans;
-    position: absolute;
-    font-size: $font-size-x-small;
-    color: gray;
-    height: 50px;
-    top: 100%;
-    margin-top: -30px;
+  font-family: $font-stack-sans;
+  position: absolute;
+  font-size: $font-size-x-small;
+  color: gray;
+  height: 50px;
+  top: 100%;
+  margin-top: -30px;
 }
 
 .source::before {
-    content: "Source: ";
+  content: "Source: ";
 }
 
 .remark-slide-number {
-    font-family: $font-stack-sans;
-    font-size: 9pt;
-    color: gray;
-    margin-bottom: 0;
-    margin-right: 20px;
-    padding-bottom: 3px;
-    color: gray;
-    opacity: 1;
+  font-family: $font-stack-sans;
+  font-size: 9pt;
+  color: gray;
+  margin-bottom: 0;
+  margin-right: 20px;
+  padding-bottom: 3px;
+  color: gray;
+  opacity: 1;
 }
 
 /* from sample remark.js deck*/
 
 .quote-x-large {
-    font-family: $font-stack-serif;
-    color: $col-dkgray;
-    font-size: $font-size-x-large;
+  font-family: $font-stack-serif;
+  color: $col-dkgray;
+  font-size: $font-size-x-large;
 }
 
 .quote-big {
-    font-family: $font-stack-serif;
-    color: $col-dkgray;
-    font-size: $font-size-large;
+  font-family: $font-stack-serif;
+  color: $col-dkgray;
+  font-size: $font-size-large;
 }
 
 .quote-large {
-    font-size: $font-size-large;
-    color: $col-dkgray;
-    line-height: 1;
+  font-size: $font-size-large;
+  color: $col-dkgray;
+  line-height: 1;
 }
 
 .quote-medium {
-    font-size: $font-size-medium;
-    line-height: 1;
+  font-size: $font-size-medium;
+  line-height: 1;
 }
 
 .im-monochrome {
-    -webkit-filter: grayscale(1);filter: grayscale(1);
+  -webkit-filter: grayscale(1);filter: grayscale(1);
 }
 .quote-regular {
-    font-size: $font-size-small;
-    color: $col-dkgray;
+  font-size: $font-size-small;
+  color: $col-dkgray;
 }
 .quote-small {
-    font-family: $font-stack-serif;
-    font-size: $font-size-small;
-    color: $col-dkgray;
+  font-family: $font-stack-serif;
+  font-size: $font-size-small;
+  color: $col-dkgray;
 }
 
 .quote-small ul {
-    padding-left: 0px;
+  padding-left: 0px;
 }
 
 .quote-small ol {
-    padding-left: 18px;
+  padding-left: 18px;
 }
 .quote-smaller {
-    font-family: $font-stack-serif;
-    font-size: $font-size-x-small;
+  font-family: $font-stack-serif;
+  font-size: $font-size-x-small;
 }
 
 .twenty15 {
-    background: #e7f2fe;
+  background: #e7f2fe;
 }
 
 .twenty16 {
-    background: #c2f7ad;
-    /*
+  background: #c2f7ad;
+  /*
 background: rgba(98,247,52,1);
 background: -moz-linear-gradient(-45deg, rgba(98,247,52,1) 0%, rgba(16,128,207,1) 100%);
 background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(98,247,52,1)), color-stop(100%, rgba(16,128,207,1)));
@@ -495,135 +495,135 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#62f734', end
 /* Two-column layout */
 
 .left-column {
-    color: #777;
-    width: 25%;
-    height: 92%;
-    float: left;
+  color: #777;
+  width: 25%;
+  height: 92%;
+  float: left;
 }
 
 .left-column h2:last-of-type,
 .left-column h3:last-child {
-    color: #000;
+  color: #000;
 }
 
 .right-column {
-    width: 70%;
-    float: right;
-    padding-top: 0em;
+  width: 70%;
+  float: right;
+  padding-top: 0em;
 }
 
 .sp-remotework {
-    line-height: 20px;
-    text-size: 10px;
+  line-height: 20px;
+  text-size: 10px;
 }
 
 .sp-remotework a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* CSS GRID STUFF */
 
 %use-grid {
-    display: grid;
-    grid-gap: 10px;
+  display: grid;
+  grid-gap: 10px;
 
 }
 
 ._8-across {
-    @extend %use-grid;
-    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% ;
+  @extend %use-grid;
+  grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% ;
 }
 
 .grid-1-across {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-gap: 10px;
-    color: black;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 10px;
+  color: black;
 }
 
 .grid-2-across {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-gap: 10px;
-    color: black;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 10px;
+  color: black;
 }
 
 .grid-3-across {
-    display: grid;
-    grid-template-columns: [col] 33% [col] 33% [col] 33%;
-    grid-gap: 10px;
-    color: black;
+  display: grid;
+  grid-template-columns: [col] 33% [col] 33% [col] 33%;
+  grid-gap: 10px;
+  color: black;
 }
 
 .grid-4-across {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-gap: 10px;
-    color: black;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-gap: 10px;
+  color: black;
 }
 
 .grid-5-across {
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-gap: 10px;
-    color: black;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-gap: 10px;
+  color: black;
 }
 
 .grid-6-across {
-    display: grid;
-    grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6% ;
-    grid-gap: 10px;
-    color: black;
+  display: grid;
+  grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6% ;
+  grid-gap: 10px;
+  color: black;
 }
 
 .box {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
 .layout-3-left-2 {
-    grid-column: col / span 2;
+  grid-column: col / span 2;
 }
 
 .layout-3-right-1 {
-    grid-column: col 3;
+  grid-column: col 3;
 }
 
 .layout-3-left-1 {
-    grid-column: col;
+  grid-column: col;
 }
 
 .layout-3-right-2 {
-    grid-column: col 2 / span 2;
+  grid-column: col 2 / span 2;
 }
 .box-sm {
-    background: white;
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-    margin-top: 10px;
-    padding: 0px 5px 0px 5px;
+  background: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  margin-top: 10px;
+  padding: 0px 5px 0px 5px;
 
-    color: black;
-    font-size: 11px;
-    font-family: $font-stack-serif;
-    text-align: left;
+  color: black;
+  font-size: 11px;
+  font-family: $font-stack-serif;
+  text-align: left;
 }
 
 .listicle ul {
-    margin-left: 0px;
-    list-style: none;
-    padding-left: 0px;
+  margin-left: 0px;
+  list-style: none;
+  padding-left: 0px;
 }
 
 .listicle li {
-    margin-left: 0px;
-    padding-left: 0px;
-    font-size: $font-size-small;
-    padding-bottom: 5px;
+  margin-left: 0px;
+  padding-left: 0px;
+  font-size: $font-size-small;
+  padding-bottom: 5px;
 }
 
 .box li {
-    padding-bottom: 5px;
+  padding-bottom: 5px;
 }
 
 .box-no-indent ul {
@@ -639,61 +639,61 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#62f734', end
 }
 
 .box-no-indent li {
-    font-size: 14px;
-    border-style: solid;
-    border-width: 0px 0px 0px 2px;
-    border-left-color: #dddddd;
-    padding-bottom: 0px;
-    padding-left: 5px;
-    margin-bottom: 10px;
+  font-size: 14px;
+  border-style: solid;
+  border-width: 0px 0px 0px 2px;
+  border-left-color: #dddddd;
+  padding-bottom: 0px;
+  padding-left: 5px;
+  margin-bottom: 10px;
 }
 
 .box-no-indent-xl li {
-    font-size: 24px;
-    border-style: solid;
-    border-width: 0px 0px 0px 2px;
-    border-left-color: #dddddd;
-    padding-bottom: 10px;
-    padding-left: 5px;
-    margin-bottom: 10px;
+  font-size: 24px;
+  border-style: solid;
+  border-width: 0px 0px 0px 2px;
+  border-left-color: #dddddd;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  margin-bottom: 10px;
 }
 
 .box-quote {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
 .box-svelte {
 }
 
 .box-svelte ol {
-    list-style-type: upper-alpha;
-    padding-left: 12px;
+  list-style-type: upper-alpha;
+  padding-left: 12px;
 }
 
 .box-svelte li {
-    font-size: 10px;
-    padding-left: 0px;
-    padding-bottom: 2px;
+  font-size: 10px;
+  padding-left: 0px;
+  padding-bottom: 2px;
 }
 
 /* for month titles */
 
 .cell-title {
-    color: #6918F9;
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: .6rem;
+  color: #6918F9;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: .6rem;
 }
 
 .cell-title-xl {
-    color: #6918F9;
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: .9rem;
+  color: #6918F9;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: .9rem;
 }
 
 /* CSS FLEX STUFF */
@@ -702,32 +702,32 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#62f734', end
 }
 
 .timeline ul {
-    padding: 0;
-    margin: 0px;
-    list-style: none;
+  padding: 0;
+  margin: 0px;
+  list-style: none;
 
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
 
-    -webkit-flex-flow: row wrap;
-    justify-content: space-around;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
 }
 
 .timeline li {
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-    width: 100px;
-    margin-top: 10px;
-    padding: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  width: 100px;
+  margin-top: 10px;
+  padding: 5px;
 
-    color: black;
-    font-size: 11px;
-    font-family: $font-stack-serif;
-    text-align: left;
+  color: black;
+  font-size: 11px;
+  font-family: $font-stack-serif;
+  text-align: left;
 }
 
 /* just a wider version -- I know ... not clean but needed to use some of remark.js' syntax on lists */
@@ -736,62 +736,62 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#62f734', end
 }
 
 .timeline-wider ul {
-    padding: 0;
-    margin: 0px;
-    list-style: none;
+  padding: 0;
+  margin: 0px;
+  list-style: none;
 
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
 
-    -webkit-flex-flow: row wrap;
-    justify-content: space-around;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
 }
 
 .timeline-wider li {
-    background: white;
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-    width: 150px;
-    margin-top: 10px;
-    padding: 5px;
+  background: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  width: 150px;
+  margin-top: 10px;
+  padding: 5px;
 
-    color: black;
-    font-size: 11px;
-    font-family: $font-stack-serif;
-    text-align: left;
+  color: black;
+  font-size: 11px;
+  font-family: $font-stack-serif;
+  text-align: left;
 }
 
-/* if I ever need an alternating col thing but I won't I think      .timeline li:nth-child(2n) {
-        background: gray;
-      }*/
+/* if I ever need an alternating col thing but I won't I think    .timeline li:nth-child(2n) {
+    background: gray;
+    }*/
 
 /* Tooltip texthttps://www.w3schools.com/css/css_tooltip.asp  */
 
 .tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
 }
 
 .tooltip .tooltiptext {
-    visibility: hidden;
-    width: 200px;
-    font-size: 12px;
-    background-color: #fe4040;
-    color: #fff;
-    text-align: center;
-    padding: 15px 15px;
-    border-radius: 3px;
- 
-    /* Position the tooltip text - see examples below! */
-    position: absolute;
-    z-index: 1;
+  visibility: hidden;
+  width: 200px;
+  font-size: 12px;
+  background-color: #fe4040;
+  color: #fff;
+  text-align: center;
+  padding: 15px 15px;
+  border-radius: 3px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
 }
 
 .tooltip:hover .tooltiptext {
-    visibility: visible;
+  visibility: visible;
 }
