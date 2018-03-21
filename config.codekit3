@@ -9,19 +9,40 @@
 	],
 "creatorBuild": "26330",
 "files": {
-	"\/.vscode\/settings.json": {
-		"ft": 524288,
+	"\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/build\/.vscode\/settings-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
+		"oAP": "\/build\/.gitignore",
+		"oF": 1
 		},
 	"\/build": {
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "\/build\/build",
 		"oF": 0
+		},
+	"\/node_modules": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/node_modules",
+		"oF": 1
+		},
+	"\/package-lock.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/build\/package-lock-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/build\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"\/source\/index.html": {
 		"cB": 0,
@@ -35,19 +56,9 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/build\/js\/ditwordtrees-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/source\/js\/fontawesome-all.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/build\/js\/fontawesome-all-min.js",
-		"oF": 0,
-		"sC": 3,
+		"oAP": "\/build\/js\/ditwordtrees.js",
+		"oF": 2,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/source\/stylesheets\/ditstyles.scss": {
@@ -70,10 +81,10 @@
 	},
 "projectAttributes": {
 	"creationDate": 541985689,
-	"displayValue": "codekit master",
+	"displayValue": "designintechreport-2018",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-wonka",
-	"lastBuiltDate": 543088716
+	"lastBuiltDate": 543311404
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
