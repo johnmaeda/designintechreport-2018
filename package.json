@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
+    "compass-mixins": "^0.12.10",
     "remark": "github:gnab/remark#develop"
   },
   "devDependencies": {
