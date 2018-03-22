@@ -1,8 +1,7 @@
 @import '../colors';
 @import '../typography';
-@import '../slide';
 
-.slide.slide--welcome-note {
+.slide--welcome-note {
   @include typography-serif;
   color: $color-black;
   background-color: $color-yellow;

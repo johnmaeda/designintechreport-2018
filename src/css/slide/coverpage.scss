@@ -1,7 +1,7 @@
 @import '../colors';
 @import '../typography';
 
-.slide.slide--coverpage {
+.slide--coverpage {
   @include typography-mono;
 
   color: $color-white;

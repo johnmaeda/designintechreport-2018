@@ -1,7 +1,7 @@
 @import '../colors';
 @import '../typography';
 
-.slide.slide--welcome-team {
+.slide--welcome-team {
   @include typography-sans;
   color: $color-black;
   background-color: $color-lightgray;
