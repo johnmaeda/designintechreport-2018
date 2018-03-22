@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono');
+
+$font-family-sans: 'Roboto', sans-serif;
+$font-family-serif: 'Georgia', serif;
+$font-family-mono: 'Roboto Mono', sans-serif;
+$font-size-x-large: 48px;
+$font-size-large: 36px;
+$font-size-x-medium: 30px;
+$font-size-medium: 20px;
+$font-size-small: 15px;
+$font-size-x-small: 13px;
+$font-size-xx-small: 12px;
+
+@mixin typography-sans() {
+  font-family: $font-family-sans;
+}
+
+@mixin typography-serif() {
+  font-family: $font-family-serif;
+}
+
+@mixin typography-mono() {
+  font-family: $font-family-mono;
+}

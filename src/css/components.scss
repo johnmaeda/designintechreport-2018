@@ -1,0 +1,15 @@
+@import './colors';
+@import './typography';
+
+.layout-horizontal {
+  margin-top: 8rem;
+  display: grid;
+  grid-template-columns: [col] 1fr [col] 2.5fr;
+  grid-gap: 2rem;
+}
+
+.refresh-label {
+  color: $color-white;
+  background-color: $color-purple;
+  padding: 0.1rem 0.25rem;
+}

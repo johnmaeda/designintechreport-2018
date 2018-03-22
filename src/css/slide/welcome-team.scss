@@ -1,0 +1,57 @@
+@import '../colors';
+@import '../typography';
+@import '../slide';
+
+.slide-welcome-team {
+  @include slide;
+  @include typography-sans;
+  color: $color-black;
+  background-color: $color-lightgray;
+
+  h1 {
+    margin-top: 1.75rem;
+    margin-bottom: 2rem;
+    font-size: $font-size-large;
+    line-height: 1;
+  }
+
+  .body {
+    display: grid;
+    grid-template-columns: [col] 1fr [col] 1fr [col] 1fr;
+    grid-gap: 3rem;
+  }
+
+  .section {
+    display: block;
+
+    h2 {
+      display: inline-block;
+      padding: 0.3rem 3.75rem 0.3rem 1.25rem;
+      color: $color-white;
+      background-color: $color-black;
+      font-size: $font-size-medium;
+      line-height: 1;
+    }
+
+    > ul {
+      display: grid;
+      grid-template-columns: [col] 1fr [col] 1fr [col] 1fr;
+      grid-gap: 1.5rem;
+      margin-top: 2.5rem;
+    }
+
+    > ul > li {
+      display: block;
+      margin-bottom: 1rem;
+      font-size: $font-size-x-small;
+      line-height: 1.6;
+      text-align: center;
+
+      img {
+        width: 100%;
+        border-radius: 100vw;
+        filter: grayscale(1);
+      }
+    }
+  }
+}
