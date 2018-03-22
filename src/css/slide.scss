@@ -2,19 +2,21 @@
 @import './typography';
 
 .slide {
-  @include typography-sans;
+  @include typography-serif;
   padding: 1.25rem 5rem;
   font-size: $font-size-medium;
   line-height: 1.2;
 
   h1 {
+    @include typography-sans;
     margin-top: 1.75rem;
     margin-bottom: 2rem;
-    font-size: $font-size-heading;
+    font-size: $font-size-large;
     line-height: 1.2;
   }
 
   h2 {
+    @include typography-sans;
     display: inline-block;
     padding: 0.3rem 0.5rem;
     color: $color-white;
@@ -38,6 +40,21 @@
         color: white;
         background-color: $color-orange;
       }
+    }
+  }
+
+  .source {
+    @include typography-sans;
+    display: block;
+    position: absolute;
+    left: 5rem;
+    bottom: 15px;
+    color: $color-gray;
+    font-size: $font-size-xx-small;
+    line-height: 1.2;
+
+    &:before {
+      content: 'Source: ';
     }
   }
 

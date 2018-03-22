@@ -1,6 +1,52 @@
 @import './colors';
 @import './typography';
 
+.text {
+  &-black {
+    color: $color-black;
+  }
+
+  &-darkgray {
+    color: $color-darkgray;
+  }
+
+  &-gray {
+    color: $color-gray;
+  }
+
+  &-lightgray {
+    color: $color-lightgray;
+  }
+
+  &-orange {
+    color: $color-orange;
+  }
+
+  &-purple {
+    color: $color-purple;
+  }
+
+  &-white {
+    color: $color-white;
+  }
+
+  &-yellow {
+    color: $color-yellow;
+  }
+
+  &-sans {
+    @include typography-sans;
+  }
+
+  &-serif {
+    @include typography-serif;
+  }
+
+  &-mono {
+    @include typography-mono;
+  }
+}
+
 .horizontal-layout {
   margin-top: 8rem;
   display: grid;
@@ -9,6 +55,8 @@
 
   h1 {
     margin-top: 0;
+    font-size: $font-size-heading;
+    line-height: 1.2;
   }
 }
 
@@ -26,9 +74,54 @@
   }
 
   > ul > li > ul > li {
-    @include typography-serif;
     margin: 0.75rem 0 0 1rem;
     font-size: $font-size-small;
     line-height: 1.2;
+  }
+}
+
+.timeline {
+  display: flex;
+  flex-direction: row;
+
+  .section {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+  }
+
+  .section + .section {
+    margin-left: 1rem;
+  }
+
+  h2 {
+    @include typography-mono;
+    font-size: $font-size-large;
+    line-height: 1;
+    padding: 0.5rem 0.5rem;
+  }
+
+  ul {
+    @include typography-serif;
+    margin-top: 1rem;
+    font-size: $font-size-x-small;
+    line-height: 1.2;
+
+    > li {
+      margin-top: 0.5rem;
+    }
+  }
+
+  strong {
+    @include typography-sans;
+    font-weight: bold;
+  }
+
+  blockquote {
+    border-style: solid;
+    border-width: 0px 0px 0px 2px;
+    border-left-color: #dddddd;
+    padding-bottom: 0px;
+    padding-left: 5px;
   }
 }

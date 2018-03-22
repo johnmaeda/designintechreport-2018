@@ -2,9 +2,14 @@
 @import '../typography';
 
 .slide--welcome-note {
-  @include typography-serif;
   color: $color-black;
   background-color: $color-yellow;
+
+  h1 {
+    @include typography-serif;
+    font-size: $font-size-heading;
+    line-height: 1.2;
+  }
 
   .body {
     @include typography-sans;
