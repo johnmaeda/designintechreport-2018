@@ -91,7 +91,7 @@
   }
 
   .section + .section {
-    margin-left: 1rem;
+    margin-left: 2rem;
   }
 
   h2 {
@@ -112,8 +112,12 @@
     }
   }
 
-  strong {
+  em {
     @include typography-sans;
+    color: $color-purple;
+  }
+
+  strong {
     font-weight: bold;
   }
 

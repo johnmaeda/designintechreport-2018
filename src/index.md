@@ -139,7 +139,7 @@ class: slide
 * > 27 startups that were co-founded by designers were acquired since 2010 by companies like Intuit, Google, Facebook, Adobe, LinkedIn, and Yahoo.
 * > Five (20%) of the top cumulative-funded VC-backed ventures that have raised additional capital since 2013 are noted to have designer co-founders.
 * > There were no designers on Silicon Valley's fabled “Sand Hill Road” until January of 2014 when Kleiner Perkins appointed their first Design Partner **John Maeda**. Shortly afterwards six more VC firms acquired new Design Partners.
-* > .text-purple[.fas.fa-chart-line[] **DESIGN DE$IGN** Designing for mobile brought new experience constraints compared with the desktop, and made designers' skills invaluable as the pathway to non-techy consumers.]
+* > _ .fas.fa-chart-line[] **DESIGN DE$IGN** Designing for mobile brought new experience constraints compared with the desktop, and made designers' skills invaluable as the pathway to non-techy consumers. _
 ]
 
 .section[
@@ -147,21 +147,23 @@ class: slide
 * > Design firm acquisitions continue: 42 design firms since 2004, and ~50% of them in the last year alone. Accenture, Deloitte, IBM take the lead.
 * > Designers in venture capital have increased: More designers entered VC in the last two years than the previous 4 years combined. Its history is revealed.
 * > 93.5% of 370 designers surveyed believe that coding and data-oriented skills are table stakes knowledge for designers in tech.
+<!-- * 86% of design students surveyed say that they learned their digital skills from resources outside their coursework. Design education lags the technology industry’s needs for data-oriented, coding-enabled graduates with business acumen.) -->
 * > 100% of the top 10 business schools have student-led design/innovation clubs. 6-7% of the 2015 class of HBS take product management jobs.
 * > Designing Systems and Designer Culture emerge as key methods for design to achieve scale — building on agency practices and Karl Gerstner's pioneering work on Designing Programmes.
 * > Instead of seeing diversity as a problem that needs solving, designing for inclusion becomes an economic opportunity and cultural responsibility.
-* > .text-purple[.fas.fa-chart-line[] **The 3 Kinds of Design** There are 3 kinds of design: Classical Design, Design Thinking, and Computational Design. The most business value is being driven by the latter two kinds of design.]
+* > _ .fas.fa-chart-line[] **The 3 Kinds of Design** There are 3 kinds of design: Classical Design, Design Thinking, and Computational Design. The most business value is being driven by the latter two kinds of design. _
 ]
 
 .section[
 ## 2017
 * > Demand for designers is up with Facebook, Google, and Amazon collectively growing designer headcount by 65% in a year according to LinkedIn.
 * > McKinsey & Co and Salesforce make significant bets on design with more acquisitions. Design tool startup InVision acquires 5 smaller startups.
+<!-- * 4 Design Partners are elected at McKinsey & Co and IBM appoints 3 Distinguished Designers — to the highest senior levels of a corporate hierarchy. -->
 * > Design tools begin to evolve out of print and early web design paradigms from the Photoshop era to encompass prototyping, project management, version control, inline coding, and automation.
 * > Voice- and chat-based interfaces are grounded in mental models that don't require a visual representation. Related and unrelated artificial intelligence advancements are accelerating.
 * > Coverage of tech design trends in China begins. Chinese design in tech principles and practices are leading the world, and are often overlooked.
 * > 90% of designers surveyed say that having a more diverse design team is personally important to them. The number one request inside their companies is to: "Talk about it more internally."
-* > .text-purple[.fas.fa-chart-line[] **Inclusive Design Takes Off** Adopting an inclusive design approach expands a tech product’s total addressable market. The tipping point for inclusive design begins to tip.]
+* > _ .fas.fa-chart-line[] **Inclusive Design Takes Off** Adopting an inclusive design approach expands a tech product’s total addressable market. The tipping point for inclusive design begins to tip. _
 ]
 
 ]
