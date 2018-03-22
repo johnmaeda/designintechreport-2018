@@ -87,16 +87,19 @@ module.exports = mode => ({
   },
   plugins: [
     // Clean the build directory first.
+    // https://github.com/johnagan/clean-webpack-plugin
     new CleanWebpackPlugin(['build/**/*'], {
       root: path.resolve(__dirname),
     }),
     // This plugin collects all of the CSS sources imported by the entry point,
     // and merges them into a single CSS file.
+    // https://github.com/webpack-contrib/mini-css-extract-plugin
     new MiniCssExtractPlugin({
       filename: 'css/[name].css',
       chunkFilename: 'css/[id].css',
     }),
     // Provides just for observing changes in HTML.
+    // https://github.com/jantimon/html-webpack-plugin
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'src', 'index.html'),
       inject: false,

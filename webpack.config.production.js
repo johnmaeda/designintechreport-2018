@@ -12,13 +12,16 @@ module.exports = merge(common('production'), {
   },
   plugins: [
     // When in production build, we can determine it by looking up
-    // process.env.NODE_ENV === 'production'.
+    // process.env.NODE_ENV === 'production', which removes such conditionals
+    // because they virtually compare constants.
+    // https://webpack.js.org/plugins/define-plugin/
     new webpack.DefinePlugin({
       'process.env': {
         'NODE_ENV': JSON.stringify('production'),
       },
     }),
     // Minimize CSS outputs.
+    // https://github.com/NMFR/optimize-css-assets-webpack-plugin
     new OptimizeCssAssetsPlugin({
       cssProcessorOptions: {
         discardComments: {
