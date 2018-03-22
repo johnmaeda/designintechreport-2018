@@ -8,6 +8,7 @@
   "dependencies": {
     "babel-polyfill": "^6.26.0",
     "compass-mixins": "^0.12.10",
+    "normalize.css": "^8.0.0",
     "remark": "github:gnab/remark#develop"
   },
   "devDependencies": {

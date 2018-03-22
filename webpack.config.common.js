@@ -43,8 +43,17 @@ module.exports = mode => ({
         ],
       },
       {
+        test: /\.css$/,
+        use: [
+          mode === 'production' ? MiniCssExtractPlugin.loader : 'style-loader',
+          {
+            loader: 'css-loader',
+            options: { sourceMap: true },
+          },
+        ],
+      },
+      {
         test: /\.scss$/,
-        exclude: /node_modules/,
         use: [
           mode === 'production' ? MiniCssExtractPlugin.loader : 'style-loader',
           {
@@ -57,7 +66,12 @@ module.exports = mode => ({
           },
           {
             loader: 'sass-loader',
-            options: { sourceMap: true },
+            options: {
+              sourceMap: true,
+              includePaths: [
+                path.resolve(__dirname, 'node_modules', 'compass-mixins', 'lib'),
+              ],
+            },
           },
         ],
       },

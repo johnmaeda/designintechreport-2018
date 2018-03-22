@@ -8,6 +8,7 @@ import {
 
 import source from '../index.md'
 
+import 'normalize.css'
 import '../css/main.scss'
 
 async function main() {
