@@ -17,3 +17,18 @@
   background-color: $color-purple;
   padding: 0.1rem 0.25rem;
 }
+
+.definition-list {
+  > ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5rem;
+  }
+
+  > ul > li > ul > li {
+    @include typography-serif;
+    margin: 0.75rem 0 0 1rem;
+    font-size: $font-size-small;
+    line-height: 1.2;
+  }
+}
