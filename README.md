@@ -9,6 +9,7 @@ Design In Tech Report 2018 Japanese Translation
 
     ```sh
     git clone git@github.com:takram-design-engineering/designintechreport-2018.git
+    cd designintechreport-2018
     npm install
     ```
 
