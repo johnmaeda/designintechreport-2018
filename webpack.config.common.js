@@ -26,8 +26,8 @@ module.exports = mode => ({
         exclude: /node_modules/,
         use: 'raw-loader',
       },
-      // Transpile JavaScript sources via Babel up from Stage 3 Candidate of
-      // ECMAScript down to ES2015.
+      // Transpile JavaScript sources via Babel up from Stage 2 Candidate of
+      // ECMAScript down to ES2016.
       {
         test: /\.js$/,
         exclude: /node_modules/,
@@ -36,10 +36,10 @@ module.exports = mode => ({
             loader: 'babel-loader',
             options: {
               presets: [
-                'es2015',
                 'es2016',
                 'es2017',
                 'stage-3',
+                'stage-2',
               ],
             },
           },
