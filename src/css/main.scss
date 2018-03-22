@@ -1,11 +1,13 @@
 @import 'compass/reset';
 
 @import './colors';
-@import './components';
+@import './typography';
 @import './slide';
 @import './slide/coverpage';
 @import './slide/welcome-note';
 @import './slide/welcome-team';
-@import './typography';
+
+// Import after slides to override them in the same cascading priority
+@import './components';
 
 @include global-reset;
