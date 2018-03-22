@@ -8,7 +8,7 @@
 
   .body {
     @include typography-sans;
-    font-size: 45px; // TODO
+    font-size: $font-size-heading;
     line-height: 1.2;
   }
 }
