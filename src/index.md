@@ -45,7 +45,7 @@ class: slide-welcome-team
 ## Report Translators
 - ![](https://designintech.report/wp-content/uploads/2018/03/takram.jpg)
 	- Takram
-		- Japanese
+	- Japanese
 ]
 ]
 

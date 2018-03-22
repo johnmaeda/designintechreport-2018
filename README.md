@@ -23,6 +23,8 @@ Design In Tech Report 2018 Japanese Translation
 
 `src/index.md` is the markdown source file for [remark.js](https://github.com/gnab/remark).
 
+Github Flavoured Markdown [explicitly states](https://github.github.com/gfm/#list-items) that 4 spaces are needed to indent list items, which is a bit wider, personally. It may make you better if you configure the tab width of your editor to 2 spaces or whatever you prefer and use tabs in Markdown files.
+
 ## Building
 
 Runing the following command outputs compiled files in the `build` directory.
