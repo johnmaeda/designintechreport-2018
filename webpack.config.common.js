@@ -20,11 +20,14 @@ module.exports = mode => ({
   },
   module: {
     rules: [
+      // For markdown sources, use raw-loader to retrieve it as a string.
       {
         test: /\.md$/,
         exclude: /node_modules/,
         use: 'raw-loader',
       },
+      // Transpile JavaScript sources via Babel up from Stage 3 Candidate of
+      // ECMAScript down to ES2015.
       {
         test: /\.js$/,
         exclude: /node_modules/,
@@ -42,6 +45,7 @@ module.exports = mode => ({
           },
         ],
       },
+      // Just use css-loader for CSS. This includes files in node_modules.
       {
         test: /\.css$/,
         use: [
@@ -52,6 +56,10 @@ module.exports = mode => ({
           },
         ],
       },
+      // SASS transpilation pipe. Loaders are piped from the last to the first
+      // loader. Sass-loader first transpiles SASS sources and then pipe it
+      // to postcss-loader. Postcss-loader manipulates the piped CSS according
+      // to postcss.config.js.
       {
         test: /\.scss$/,
         use: [
@@ -78,13 +86,17 @@ module.exports = mode => ({
     ],
   },
   plugins: [
+    // Clean the build directory first.
     new CleanWebpackPlugin(['build/**/*'], {
       root: path.resolve(__dirname),
     }),
+    // This plugin collects all of the CSS sources imported by the entry point,
+    // and merges them into a single CSS file.
     new MiniCssExtractPlugin({
       filename: 'css/[name].css',
       chunkFilename: 'css/[id].css',
     }),
+    // Provides just for observing changes in HTML.
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'src', 'index.html'),
       inject: false,
