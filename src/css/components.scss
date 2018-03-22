@@ -1,14 +1,18 @@
 @import './colors';
 @import './typography';
 
-.layout-horizontal {
+.slide .horizontal-layout {
   margin-top: 8rem;
   display: grid;
   grid-template-columns: [col] 1fr [col] 2.5fr;
   grid-gap: 2rem;
+
+  h1 {
+    margin-top: 0;
+  }
 }
 
-.refresh-label {
+.slide .refresh-label {
   color: $color-white;
   background-color: $color-purple;
   padding: 0.1rem 0.25rem;

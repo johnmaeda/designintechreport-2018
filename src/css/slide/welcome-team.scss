@@ -1,17 +1,22 @@
 @import '../colors';
 @import '../typography';
-@import '../slide';
 
-.slide-welcome-team {
-  @include slide;
+.slide.slide--welcome-team {
   @include typography-sans;
   color: $color-black;
   background-color: $color-lightgray;
 
   h1 {
-    margin-top: 1.75rem;
-    margin-bottom: 2rem;
     font-size: $font-size-large;
+    line-height: 1;
+  }
+
+  h2 {
+    display: inline-block;
+    padding: 0.3rem 3.75rem 0.3rem 1.25rem;
+    color: $color-white;
+    background-color: $color-black;
+    font-size: $font-size-medium;
     line-height: 1;
   }
 
@@ -23,15 +28,6 @@
 
   .section {
     display: block;
-
-    h2 {
-      display: inline-block;
-      padding: 0.3rem 3.75rem 0.3rem 1.25rem;
-      color: $color-white;
-      background-color: $color-black;
-      font-size: $font-size-medium;
-      line-height: 1;
-    }
 
     > ul {
       display: grid;

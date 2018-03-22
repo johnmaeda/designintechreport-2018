@@ -9,18 +9,3 @@
 @import './typography';
 
 @include global-reset;
-
-// Possibly move this to somewhere else
-a {
-  color: black;
-  text-decoration: none;
-
-  &:visited, &:link {
-    border-bottom: 2px solid $color-orange;
-
-    &:hover {
-      color: white;
-      background-color: $color-orange;
-    }
-  }
-}

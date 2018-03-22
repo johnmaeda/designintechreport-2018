@@ -1,4 +1,4 @@
-class: slide-coverpage
+class: slide slide--coverpage
 
 .byline[John Maeda]
 .heading[
@@ -8,7 +8,7 @@ class: slide-coverpage
 
 ---
 
-class: slide-welcome-team
+class: slide slide--welcome-team
 
 # Team
 
@@ -53,7 +53,7 @@ class: slide-welcome-team
 
 ---
 
-class: slide-welcome-note
+class: slide slide--welcome-note
 
 # Desktop-First / Beta Release Notes
 
@@ -67,11 +67,11 @@ I had originally intended to design this report in some clever way that was mobi
 
 class: slide slide--darkgray
 
-.layout-horizontal[
+.horizontal-layout[
 
 # Welcome
 
-.body.body--paragraphs[
+.body[
 Welcome to a new format for the Design in Tech Report. For this year's report, I took a stab at learning all the CSS/JS that I've always wanted to know, and then went after the task of making a fully responsive report. I've partially succeeded on my road there with this letterbox-only version — which is better than a PDF, but it's a little buggy. Sorry!
 
 When you see .refresh-label[Refresh Screen If Needed] please refresh your window and a dynamic diagram is likely to reappear. Chrome seems to work best with this report. If you don't like an interactive version like this, please visit the one[**](https://www.slideshare.net/johnmaeda/design-in-tech-report-2018) on Slideshare.
@@ -89,7 +89,7 @@ Expect a video version on my new YouTube channel "John Maeda is Learning" by thi
 
 class: slide slide--lightgray
 
-.layout-horizontal[
+.horizontal-layout[
 
 # Sections Overview
 
