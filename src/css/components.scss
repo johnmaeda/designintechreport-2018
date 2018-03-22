@@ -1,6 +1,7 @@
 @import './colors';
 @import './typography';
 
+// Maybe we don't need these
 .text {
   &-black {
     color: $color-black;
@@ -73,25 +74,29 @@
     grid-gap: 1.5rem;
   }
 
-  > ul > li > ul > li {
-    margin: 0.75rem 0 0 1rem;
-    font-size: $font-size-small;
-    line-height: 1.2;
+  > ul ul {
+    > li {
+      margin: 0.75rem 0 0 1rem;
+      font-size: $font-size-small;
+      line-height: 1.2;
+    }
   }
 }
 
 .timeline {
-  display: flex;
-  flex-direction: row;
+  > ul {
+    display: flex;
+    flex-direction: row;
 
-  .section {
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0;
-  }
+    > li {
+      flex-grow: 1;
+      flex-shrink: 1;
+      flex-basis: 0;
+    }
 
-  .section + .section {
-    margin-left: 2rem;
+    > li + li {
+      margin-left: 2rem;
+    }
   }
 
   h2 {
@@ -101,7 +106,7 @@
     padding: 0.5rem 0.5rem;
   }
 
-  ul {
+  > ul ul {
     @include typography-serif;
     margin-top: 1rem;
     font-size: $font-size-x-small;
@@ -122,10 +127,9 @@
   }
 
   blockquote {
+    padding-left: 0.3rem;
     border-style: solid;
-    border-width: 0px 0px 0px 2px;
-    border-left-color: #dddddd;
-    padding-bottom: 0px;
-    padding-left: 5px;
+    border-color: #dddddd;
+    border-left-width: 2px;
   }
 }

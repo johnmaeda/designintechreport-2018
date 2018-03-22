@@ -24,19 +24,19 @@
       grid-template-columns: 1fr 1fr 1fr;
       grid-gap: 1.5rem;
       margin-top: 2.5rem;
-    }
 
-    > ul > li {
-      display: block;
-      margin-bottom: 1rem;
-      font-size: $font-size-x-small;
-      line-height: 1.6;
-      text-align: center;
+      > li {
+        display: block;
+        margin-bottom: 1rem;
+        font-size: $font-size-x-small;
+        line-height: 1.6;
+        text-align: center;
 
-      img {
-        width: 100%;
-        border-radius: 100vw;
-        filter: grayscale(1);
+        img {
+          width: 100%;
+          border-radius: 100vw;
+          filter: grayscale(1);
+        }
       }
     }
   }
