@@ -14,6 +14,15 @@
     line-height: 1;
   }
 
+  h2 {
+    display: inline-block;
+    padding: 0.3rem 0.5rem;
+    color: $color-white;
+    background-color: $color-black;
+    font-size: $font-size-medium;
+    line-height: 1;
+  }
+
   p + p {
     margin-top: 1rem;
   }
