@@ -1,0 +1,21 @@
+@import '../colors';
+@import '../typography';
+@import '../slide';
+
+.slide-welcome-note {
+  @include slide;
+  @include typography-serif;
+  color: $color-black;
+  background-color: $color-yellow;
+
+  h1 {
+    margin-top: 1.75rem;
+    margin-bottom: 2rem;
+  }
+
+  .body {
+    @include typography-sans;
+    font-size: 45px; // TODO
+    line-height: 1.2;
+  }
+}

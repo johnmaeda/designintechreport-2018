@@ -1,0 +1,61 @@
+@import './colors';
+@import './typography';
+
+@mixin slide() {
+  padding: 1.25rem 5rem;
+  font-size: $font-size-medium;
+  line-height: 1.2;
+
+  h1 {
+    font-size: $font-size-x-large;
+    line-height: 1;
+  }
+
+  .body {
+    &--paragraphs > p {
+      margin-bottom: 1rem;
+    }
+  }
+
+  .footer {
+    @include typography-sans;
+    display: block;
+    position: absolute;
+    left: 60%;
+    bottom: 15px;
+    color: $color-orange;
+    font-size: $font-size-xx-small;
+    line-height: 1.2;
+
+    &:before {
+      content: '2018 Design In Tech Report | ';
+    }
+  }
+
+  .remark-slide-number {
+    @include typography-sans;
+    display: block;
+    position: absolute;
+    right: 40px;
+    bottom: 15px;
+    color: $color-gray;
+    font-size: $font-size-xx-small;
+    line-height: 1.2;
+    opacity: 1;
+  }
+
+  &--lightgray {
+    color: $color-black;
+    background-color: $color-lightgray;
+  }
+
+  &--darkgray {
+    color: $color-white;
+    background-color: $color-darkgray;
+  }
+}
+
+.slide {
+  @include slide;
+  @include typography-sans;
+}

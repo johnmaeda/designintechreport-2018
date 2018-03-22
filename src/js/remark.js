@@ -1,9 +1,11 @@
 import 'remark/src/remark'
 
+import Slide from './slide'
+
 // Create remark with the given source string after the document is fully
 // loaded, and returns a promise that resolves when remark is created.
-export function createRemark(source) {
-  new Promise((resolve, reject) => {
+export function createRemark(source, option = {}) {
+  return new Promise((resolve, reject) => {
     window.addEventListener('load', event => {
       remark.create({
         source,
@@ -13,8 +15,18 @@ export function createRemark(source) {
           touch: true,
           click: false,
         },
+        ...option,
       })
-      resolve()
+      const nodeList = document.querySelectorAll('.remark-slide-container')
+      if (nodeList.length === 0) {
+        reject()
+        return
+      }
+      const containers = []
+      for (let i = 0; i < nodeList.length; ++i) {
+        containers[i] = nodeList[i]
+      }
+      resolve(containers.map(container => new Slide(container)))
     })
   })
 }

@@ -6,36 +6,33 @@ import {
   drawChart3,
 } from './charts'
 
-import source from '../index.md'
-
 import 'normalize.css'
 import '../css/main.scss'
 
+import source from '../index.md'
+
 async function main() {
-  const remarkPromise = createRemark(source)
+  const slides = createRemark(source)
 
-  const wordtreeDataPromise = loadChartData({
-    version: 'current',
-    packages: ['wordtree'],
-  })
-  const barDataPromise = loadChartData({
-    version: 'current',
-    packages: ['bar'],
+  Promise.all([
+    slides,
+    loadChartData({
+      version: 'current',
+      packages: ['wordtree'],
+    }),
+  ]).then(() => {
+    // drawChart()
+    // drawChart2()
   })
 
   Promise.all([
-    remarkPromise,
-    wordtreeDataPromise
+    slides,
+    loadChartData({
+      version: 'current',
+      packages: ['bar'],
+    }),
   ]).then(() => {
-    drawChart()
-    drawChart2()
-  })
-
-  Promise.all([
-    remarkPromise,
-    barDataPromise
-  ]).then(() => {
-    drawChart3()
+    // drawChart3()
   })
 }
 
