@@ -166,3 +166,28 @@ class: slide
 
 .source[[Design in Tech Reports](https://designintechreport.wordpress.com)]
 .footer[Welcome]
+
+---
+
+class: slide
+
+# Design in Tech Reports simplified
+
+.timeline[
+
+*	## 2015
+	* _Design isn't just about beauty; it’s about market relevance and meaningful results._
+	* DESIGN is about DE$IGN — and it's traditionally been that case since the era of the Bauhaus, and even way before.
+
+* ## 2016
+	* _There are 3 kinds of design: Classical Design, Design Thinking, and Computational Design._
+	* There are 3 kinds of design: Classical Design, Design Thinking, and Computational Design.
+
+* ## 2017
+	* _Adopting an inclusive design approach expands a tech product’s total addressable market._
+	* Inclusion is good business. And new proof points are emerging. More will start to emerge as inclusive design takes hold.
+
+]
+
+.source[Past [Design in Tech Reports](https://designintechreport.wordpress.com)]
+.footer[Welcome]

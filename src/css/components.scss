@@ -109,8 +109,6 @@
   > ul ul {
     @include typography-serif;
     margin-top: 1rem;
-    font-size: $font-size-x-small;
-    line-height: 1.2;
 
     > li {
       margin-top: 0.5rem;
@@ -131,5 +129,7 @@
     border-style: solid;
     border-color: #dddddd;
     border-left-width: 2px;
+    font-size: $font-size-x-small;
+    line-height: 1.2;
   }
 }
