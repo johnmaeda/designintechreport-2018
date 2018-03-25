@@ -5,28 +5,99 @@
   @include typography-serif;
   padding: 1.25rem 5rem;
   font-size: $font-size-medium;
-  line-height: 1.2;
+  line-height: 1.1;
+
+  &--lightgray {
+    color: $color-black;
+    background-color: $color-lightgray;
+  }
+
+  &--darkgray {
+    color: $color-white;
+    background-color: $color-darkgray;
+  }
+
+  * {
+    line-height: 1.1;
+  }
 
   h1 {
     @include typography-sans;
     margin-top: 1.75rem;
     margin-bottom: 2rem;
     font-size: $font-size-large;
-    line-height: 1.2;
   }
 
   h2 {
     @include typography-sans;
-    display: inline-block;
+    display: table; // To get both collapsing margins and block layout
+    margin-top: 0.5rem;
+    padding: 0.3rem 3.75rem 0.3rem 1.25rem;
+    color: $color-white;
+    background-color: $color-black;
+    font-size: $font-size-medium;
+
+    &:first-child {
+      margin-top: 0
+    }
+  }
+
+  h3 {
+    @include typography-sans;
+    display: table; // To get both collapsing margins and block layout
     padding: 0.3rem 0.5rem;
     color: $color-white;
     background-color: $color-black;
     font-size: $font-size-medium;
-    line-height: 1;
   }
 
-  p + p {
-    margin-top: 1rem;
+  h1 + h2 {
+    margin-top: 0;
+  }
+
+  p {
+    margin: 1rem 0;
+
+    &:first-child {
+      margin-top: 0
+    }
+  }
+
+  ul, ol {
+    margin: 1rem 0;
+    padding-left: 2rem;
+
+    &:first-child {
+      margin-top: 0
+    }
+
+    &:last-child {
+      margin-bottom: 0
+    }
+
+    > li {
+      margin: 0.25rem 0;
+    }
+  }
+
+  ul > li {
+    list-style-type: disc;
+  }
+
+  ol > li {
+    list-style-type: decimal;
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  code {
+    @include typography-mono;
   }
 
   a {
@@ -51,7 +122,6 @@
     bottom: 15px;
     color: $color-gray;
     font-size: $font-size-xx-small;
-    line-height: 1.2;
 
     &:before {
       content: 'Source: ';
@@ -66,7 +136,6 @@
     bottom: 15px;
     color: $color-orange;
     font-size: $font-size-xx-small;
-    line-height: 1.2;
 
     &:before {
       content: '2018 Design In Tech Report | ';
@@ -81,17 +150,6 @@
     bottom: 15px;
     color: $color-gray;
     font-size: $font-size-xx-small;
-    line-height: 1.2;
     opacity: 1;
-  }
-
-  &--lightgray {
-    color: $color-black;
-    background-color: $color-lightgray;
-  }
-
-  &--darkgray {
-    color: $color-white;
-    background-color: $color-darkgray;
   }
 }

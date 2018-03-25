@@ -1,3 +1,227 @@
+class: slide
+layout: true
+
+---
+
+class: small
+
+# Basic Styles
+
+.stack[
+* ## Inline Elements
+
+	**Strong**
+
+	*Emphasis*
+
+	~~Strikethrough~~
+
+	`Code`
+
+	[Link]()
+
+	https://example.com/automatic-link
+
+	.highlight[Highlight]
+
+	.refresh[Refresh]
+
+	.button[Button]
+
+* ## Unordered List
+	- Item
+	- Item
+		- Item
+		- Item
+			- Item
+			- Item
+			- Item
+		- Item
+	- Item
+
+	## Ordered List
+	1. Item
+	1. Item
+		1. Item
+		1. Item
+			1. Item
+			1. Item
+			1. Item
+		1. Item
+	1. Item
+
+* ## Definition List
+	.dl[
+		.dt[### Term]
+		.dd[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]
+		.dt[**Term**]
+		.dd[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]
+		.dt[*Term*]
+		.dd[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]
+	]
+
+]
+
+---
+
+class: small
+
+# Stack
+
+.stack[
+* ## &nbsp;
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+* ## &nbsp;
+	Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+]
+
+.stack[
+* ## &nbsp;
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+* ## &nbsp;
+	Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+* ## &nbsp;
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+]
+
+.stack[
+* ## &nbsp;
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+* ## &nbsp;
+	Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+* ## &nbsp;
+	Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+* ## &nbsp;
+	Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+]
+
+---
+
+class: small
+
+# Columns
+
+## 2 Columns
+.columns-2[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]
+
+## 3 Columns
+.columns-3[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]
+
+## 4 Columns
+.columns-4[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]
+
+---
+
+# Erondu's Playbook has the Qs&As for designers amidst scaling
+
+## The top 15 questions designers are asking today
+
+.columns-2[
+
+1. How do you elevate the perception of design at a company? [.far.fa-question-circle[]](https://askplaybook.com/as-a-manager-how-do-you-elevate-the-perception-of-design-at-a-company/answers)
+1. How do you show the value of design to justify hiring more designers? [.far.fa-question-circle[]](https://askplaybook.com/how-do-you-show-the-value-of-design-to-justify-hiring-more-designers/answers)
+1. How do you establish more transparency for design within a company? [.far.fa-question-circle[]](https://askplaybook.com/how-do-you-establish-more-transparency-for-design-within-a-company/answers)
+1. How do you know when it's time to leave a company? [.far.fa-question-circle[]](https://askplaybook.com/how-do-i-know-when-it-s-time-to-leave-my-company/answers)
+1. As a team grows, how do you maintain the quality and consistency of its design work? [.far.fa-question-circle[]](https://askplaybook.com/as-a-team-grows-how-do-you-maintain-the-quality-and-consistency-of-its-design-work/answers)
+1. What’s the best way to present work during a design critique? [.far.fa-question-circle[]](https://askplaybook.com/what-s-the-best-way-to-present-work-during-a-design-critique/answers)
+1. How can a team keep track of past work and learnings as a living repository? [.far.fa-question-circle[]](https://askplaybook.com/how-can-a-team-keep-track-of-past-work-and-learnings-as-a-living-repository/answers)
+1. When working with remote teams, how do you effectively collaborate with each other? [.far.fa-question-circle[]](https://askplaybook.com/when-working-with-remote-teams-how-do-you-effectively-collaborate-with-each-other/answer/taramann)
+1. How do you know when a design is 'done'/right? [.far.fa-question-circle[]](https://askplaybook.com/how-do-you-know-when-a-design-is-done-or-right/answers)
+1. What are commonly used design KPIs? [.far.fa-question-circle[]](https://askplaybook.com/what-are-commonly-used-design-kpis/answer/alison-rand)
+1. What are things to do to avoid burnout? [.far.fa-question-circle[]](https://askplaybook.com/what-are-the-signs-that-you-re-about-to-burnout/answers) / [.far.fa-question-circle[]](https://askplaybook.com/what-can-you-do-after-you-burnout/answers)
+1. When interviewing, what are some questions to ask about a company's culture and design team? [.far.fa-question-circle[]](https://askplaybook.com/when-interviewing-what-are-some-questions-to-ask-to-understand-the-culture-of-a-company-and-design-team/answers)
+1. Is going to college worth it? ([college](#college))
+1. How should I structure my design portfolio to best communicate my skillsets? [.far.fa-question-circle[]](https://askplaybook.com/how-should-i-structure-my-design-portfolio-to-best-communicate-my-skillsets/answers)
+1. Should I start my career at an agency, startup, or big company? [.far.fa-question-circle[]](https://askplaybook.com/how-do-i-be-a-confident-designer/answers)
+
+]
+
+.source[@erondu @askplaybook]
+.footer[Scaling Design]
+
+---
+
+# We're in a new age of data visualization &times; quant-qual science
+
+.stack[
+
+* ## What's a Data Scientist?
+
+	The [core](https://blog.udacity.com/2014/11/data-science-job-skills.html) set of skills:
+
+	* Programming Skills
+	* Statistics
+	* Machine Learning
+	* Multivariable Calculus & Linear Algebra
+	* Data Wrangling
+	* Data Intuition
+	* Data Visualization & Communication
+
+	## OSDSM
+
+	The Open Source Data Science Master's Degree is a cool set of resources gathered by [Clare Corthell](http://datasciencemasters.org/).
+
+* ## Talk data to me
+
+	Data visualization and journalism teams at [The Guardian](https://www.theguardian.com/data) [NYT](https://www.informationisbeautifulawards.com/news/118-the-nyt-s-best-data-visualizations-of-the-year) [WSJ](http://graphics.wsj.com/wsj-interactives-2015/) have been at the forefront.
+
+	.fas.fa-wrench[]
+
+	These tools show a new direction:
+
+	* [Observable](https://beta.observablehq.com/) by Mike Bostock
+	* [Data Studio](https://www.google.com/analytics/data-studio/capabilities/) by Google
+	* [Colaboratory](https://research.google.com/colaboratory/faq.html) by Google
+
+	And open source ones exist too:
+	* [D3.js](https://d3js.org) by Mike Bostock
+	* [Processing](https://processing.org/) by Processing Team
+	* [Zeppelin](https://opensource.com/business/16/7/3-open-source-data-visualization-tools-hadoop) by Apache
+	* [DrawBot](http://www.drawbot.com/) by DrawBot Team
+
+* ## Have I given up on design?
+
+	<img style="width:100%;height:300px;object-fit:cover;object-position:0 5%;" src="https://designintech.report/wp-content/uploads/2018/03/maedadotpm.png">
+
+	.small.darkgray[_**Nope.** I'm just collecting all the parts I've been learning/doing for my whole life before — I get uploaded to the big cloud in the sky one day. To design amazing experiences for people, I've always chosen to think/work inclusively and broadly._]
+
+]
+
+.source[@udacity @clarecorthell]
+.footer[Scaling Design]
+
+---
+
+class: slide
+
+# Useful feedback on the 2017 #DesignInTech Report
+
+## Positive Sentiments Shared
+
+* "I've been calling myself a designer-developer—now changed, thanks 2017 #DesignInTech report."
+* "I'm putting your oral #designintech preso on @SoundCloud on repeat."
+* "Congrats @simplysecureorg for the #designintech shoutout. Great work in privacy & security."
+* "Designers Who Code & Write: opportune time to digest the #DesignInTech report."
+* "#DesignInTech 'reframes computational design as driver of accelerated growth.'"
+* "'Design isn't just about beauty; it's about relevance and meaningful results.'"
+
+## Constructive Criticism Shared
+* "Adding useless adjectives in front of the word 'designer' isn't doing anything positive for the industry."
+* "Using small gray text in the DesignInTech Report excludes anyone with visual difficulties."
+* "Appalled in 2017 to see platitude of 'Design is not about beauty.'"
+* "When computational design dominates, will we have a Universal Design Income?"
+
+.source[via Twitter]
+.footer[Welcome]
+
+---
+
 class: slide slide--coverpage
 
 .byline[John Maeda]
@@ -71,7 +295,7 @@ I had originally intended to design this report in some clever way that was mobi
 
 ---
 
-class: slide slide--darkgray
+class: slide slide--darkgray sans
 
 .horizontal-layout[
 
@@ -81,7 +305,7 @@ class: slide slide--darkgray
 
 Welcome to a new format for the Design in Tech Report. For this year's report, I took a stab at learning all the CSS/JS that I've always wanted to know, and then went after the task of making a fully responsive report. I've partially succeeded on my road there with this letterbox-only version — which is better than a PDF, but it's a little buggy. Sorry!
 
-When you see .refresh-label[Refresh Screen If Needed] please refresh your window and a dynamic diagram is likely to reappear. Chrome seems to work best with this report. If you don't like an interactive version like this, please visit the one[**](https://www.slideshare.net/johnmaeda/design-in-tech-report-2018) on Slideshare.
+When you see .refresh[Refresh Screen If Needed] please refresh your window and a dynamic diagram is likely to reappear. Chrome seems to work best with this report. If you don't like an interactive version like this, please visit the one[**](https://www.slideshare.net/johnmaeda/design-in-tech-report-2018) on Slideshare.
 
 Expect a video version on my new YouTube channel "John Maeda is Learning" by this weekend that walks you through all these findings.
 
@@ -95,7 +319,7 @@ Expect a video version on my new YouTube channel "John Maeda is Learning" by thi
 
 ---
 
-class: slide slide--lightgray
+class: slide slide--lightgray sans
 
 .horizontal-layout[
 
