@@ -11,11 +11,13 @@ import '../css/main.scss'
 
 import source from '../index.md'
 
+let slideshow
+
 async function main() {
-  const slides = createRemark(source)
+  slideshow = createRemark(source)
 
   Promise.all([
-    slides,
+    slideshow,
     loadChartData({
       version: 'current',
       packages: ['wordtree'],
@@ -26,7 +28,7 @@ async function main() {
   })
 
   Promise.all([
-    slides,
+    slideshow,
     loadChartData({
       version: 'current',
       packages: ['bar'],
@@ -39,3 +41,9 @@ async function main() {
 main().catch(error => {
   console.log(error)
 })
+
+if (module.hot) {
+  module.hot.accept('../index.md', async () => {
+    (await slideshow).loadFromString(source)
+  })
+}
