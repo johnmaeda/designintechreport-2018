@@ -102,7 +102,6 @@ module.exports = mode => ({
     // https://github.com/jantimon/html-webpack-plugin
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'src', 'index.html'),
-      inject: false,
     }),
   ],
 })
