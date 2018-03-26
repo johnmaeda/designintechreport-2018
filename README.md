@@ -21,34 +21,59 @@ Design In Tech Report 2018 Japanese Translation
 
 ## Working with Git
 
+Here're some useful resources:
+
 - [Git Cheat Sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf) – Github's official git cheatsheet
+- [Git Reference](https://git-scm.com/docs) – Git CLI reference
 - [Tower](https://www.git-tower.com/mac/) – Super well-made git GUI app
+- [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/) – One of the most commonly used strategies of Git branching
 
 ### Updating Local Branch
 
-```
+```sh
 git pull
 ```
 
-When you see `package.json` in changed files, make sure to do:
+This retrieves changes from the remote tracking branch of a remote repo.
+
+Pull is fetch + merge, meaning if you have any local changes you must stash the changes first:
+
+```sh
+git stash # Save your local changes in a stash
+git pull
+git stash pop # Apply and delete the stash
+```
+
+When you see `package.json` in changed files after pulling, make sure to do:
 
 ```
 npm install
 ```
 
-This reinstalls npm dependencies in your local copy according to the updated `package.json`. Don't confuse it with `npm update`, which checks for newer versions (minor and patch of [semver](https://semver.org)) of all the dependencies and *updates* `package.json`.
+This updates the installation of npm dependencies in your local copy according to the updated `package.json`. Don't confuse it with `npm update`, which checks for newer versions (minor and patch of [semver](https://semver.org)) of all the dependencies and *updates* `package.json`.
 
 ### Commiting and Pushing
 
-```
+```sh
 git commit -m '<your commit message>'
 git push
 ```
 
-### Track a Branch
+This makes a new commit, and sends the commit data and refs to the remote tracking branch of a remote repo.
 
-```
+### Checking Out a Branch
+
+```sh
 git checkout -b <local ref> <remote ref>
+```
+
+This create and checkout a new local branch with a remote tracking info to the remote branch. 
+
+The order of arguments and its notation is confusing.
+
+```sh
+git checkout -b master origin/master # Checkout remote `master` branch
+git checkout -b feature/fix origin/feature/fix # Checkout remote `feature/fix` branch
 ```
 
 ## Editing Markdown
