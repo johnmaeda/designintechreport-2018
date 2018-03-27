@@ -1,25 +1,30 @@
 @import './colors';
 @import './typography';
+@import './mixins';
+
+.remark-slide-scaler {
+  position: relative;
+}
+
+.remark-slide {
+  display: block;
+  overflow: hidden;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.remark-slide-content {
+  display: block;
+  overflow: hidden;
+  box-sizing: border-box;
+  height: 100%;
+}
 
 .slide {
   @include typography-serif;
   padding: 1.25rem 5rem;
   font-size: $font-size-medium;
   line-height: 1.1;
-
-  &--lightgray {
-    color: $color-black;
-    background-color: $color-lightgray;
-  }
-
-  &--darkgray {
-    color: $color-white;
-    background-color: $color-darkgray;
-  }
-
-  * {
-    line-height: 1.1;
-  }
 
   h1 {
     @include typography-sans;
@@ -49,6 +54,7 @@
     color: $color-white;
     background-color: $color-black;
     font-size: $font-size-medium;
+    // margin-bottom: 1em;
   }
 
   h1 + h2 {
@@ -56,16 +62,7 @@
   }
 
   p {
-    margin: 1rem 0;
-
-    &:first-child {
-      margin-top: 0
-    }
-  }
-
-  ul, ol {
-    margin: 1rem 0;
-    padding-left: 2rem;
+    margin: 0.75em 0;
 
     &:first-child {
       margin-top: 0
@@ -75,8 +72,18 @@
       margin-bottom: 0
     }
 
-    > li {
-      margin: 0.25rem 0;
+    > span:first-child:last-child {
+      display: table; // To get both collapsing margins and block layout
+      margin: 0.75em 0;
+    }
+  }
+
+  ul, ol {
+    @include block-margin;
+    padding-left: 2rem;
+
+    > li + li {
+      margin-top: 0.5em;
     }
   }
 
@@ -100,17 +107,40 @@
     @include typography-mono;
   }
 
+  img {
+    width: 100%;
+  }
+
   a {
-    color: black;
+    color: $color-black;
     text-decoration: none;
 
     &:visited, &:link {
       border-bottom: 2px solid $color-orange;
 
       &:hover {
-        color: white;
+        color: $color-white;
         background-color: $color-orange;
       }
+    }
+  }
+
+  &--lightgray {
+    color: $color-black;
+    background-color: $color-lightgray;
+  }
+
+  &--darkgray {
+    color: $color-white;
+    background-color: $color-darkgray;
+  }
+
+  &--black {
+    color: $color-white;
+    background-color: $color-black;
+
+    a {
+      color: $color-white;
     }
   }
 
@@ -134,6 +164,7 @@
     position: absolute;
     left: 60%;
     bottom: 15px;
+    margin: 0 !important;
     color: $color-orange;
     font-size: $font-size-xx-small;
 
@@ -148,6 +179,7 @@
     position: absolute;
     right: 40px;
     bottom: 15px;
+    margin: 0 !important;
     color: $color-gray;
     font-size: $font-size-xx-small;
     opacity: 1;

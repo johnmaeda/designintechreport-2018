@@ -18,6 +18,11 @@ export function createRemark(source, options = {}) {
         ...options,
       })
       resolve(slideshow)
+
+      // Initialize twitter widgets after creating DOM for the slideshow
+      // TODO: Do this after finishing loading the dedicated script.
+      twttr.widgets.load()
+
       // const nodeList = document.querySelectorAll('.remark-slide-container')
       // if (nodeList.length === 0) {
       //   reject()

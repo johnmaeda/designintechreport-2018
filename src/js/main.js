@@ -45,5 +45,6 @@ main().catch(error => {
 if (module.hot) {
   module.hot.accept('../index.md', async () => {
     (await slideshow).loadFromString(source)
+    twttr.widgets.load()
   })
 }

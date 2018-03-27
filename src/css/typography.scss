@@ -26,6 +26,7 @@ $font-size-xx-small: rem(12px);
 
 // Named font sizes
 $font-size-heading: rem(45px);
+$font-size-tiny: rem(9px);
 
 @mixin typography-sans() {
   font-family: $font-family-sans;
@@ -37,6 +38,11 @@ $font-size-heading: rem(45px);
 
 @mixin typography-mono() {
   font-family: $font-family-mono;
+}
+
+@mixin typography-size($size) {
+  display: block; // For consistency of line height
+  font-size: $size;
 }
 
 .sans {
@@ -52,29 +58,34 @@ $font-size-heading: rem(45px);
 }
 
 .x-large {
-  font-size: $font-size-x-large;
+  @include typography-size($font-size-x-large);
 }
 
 .large {
-  font-size: $font-size-large;
+  @include typography-size($font-size-large);
 }
 
 .x-medium {
-  font-size: $font-size-x-medium;
+  @include typography-size($font-size-x-medium);
 }
 
 .medium {
-  font-size: $font-size-medium;
+  @include typography-size($font-size-medium);
 }
 
 .small {
-  font-size: $font-size-small;
+  @include typography-size($font-size-small);
 }
 
 .x-small {
-  font-size: $font-size-x-small;
+  @include typography-size($font-size-x-small);
 }
 
 .xx-small {
-  font-size: $font-size-xx-small;
+  @include typography-size($font-size-xx-small);
+}
+
+.tiny {
+  @include typography-size($font-size-tiny);
+  line-height: 1.2;
 }

@@ -4,8 +4,11 @@
 @import './typography';
 @import './slide';
 @import './slide/coverpage';
+@import './slide/general';
 @import './slide/welcome-note';
 @import './slide/welcome-team';
+@import './slide/large-quote';
+@import './layouts';
 
 // Import after slides to override them in the same cascading priority
 @import './components';

@@ -1,0 +1,18 @@
+@import './colors';
+@import './typography';
+
+.layout-chapter {
+  padding-top: 8rem;
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  grid-gap: 2rem;
+
+  &--even {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  h1 {
+    margin-top: 0;
+    font-size: $font-size-heading;
+  }
+}
