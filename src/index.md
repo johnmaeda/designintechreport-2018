@@ -3,319 +3,6 @@ layout: true
 
 ---
 
-class: slide--document slide--black
-
-# A solution for inequality by design? Inclusive design re-awakens.
-
-![](https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/REYaAc?ver=f2a3)
-
-.center[[Microsoft Inclusive Design](https://www.microsoft.com/en-us/design/inclusive) has fantastic resources for you to get started.]
-
-.source[https://twitter.com/MicrosoftDesign]
-.footer[Inclusive Design]
-
----
-
-class: slide--document small
-
-# Basic Styles
-
-.stack[
-.group[
-## Inline Elements
-
-**Strong**
-
-*Emphasis*
-
-~~Strikethrough~~
-
-`Code`
-
-[Link]()
-
-https://example.com/automatic-link
-
-.highlight[Highlight]
-
-.refresh[Refresh]
-
-.button[Button]
-]
-.group[
-## Unordered List
-
-## Ordered List
-1. Item
-1. Item
-	1. Item
-	1. Item
-		1. Item
-		1. Item
-		1. Item
-	1. Item
-1. Item
-]
-.group[
-## Definition List
-.dl[
-.dt[
-### Term
-]
-.dd[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]
-.dt[**Term**]
-.dd[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]
-.dt[*Term*]
-.dd[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]
-]
-]
-]
-
-.footer[Examples]
-
----
-
-class: slide--document small
-
-# Paragraphs
-
-.stack[
-.group[
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-.gray.large[Lorem ipsum dolor sit amet, consectetur adipiscing elit]
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-.gray.large[
-Lorem ipsum dolor sit amet, consectetur adipiscing elit
-]
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-]
-
-.group[
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-.gray.large[Lorem ipsum dolor sit amet, consectetur adipiscing elit]
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-.gray.large[
-Lorem ipsum dolor sit amet, consectetur adipiscing elit
-]
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-]
-]
-
-.footer[Examples]
-
----
-
-class: slide--document
-
-# Quotes
-
-.stack[
-.group[
-.quote[
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-– [Citation]()
-]
-
-.x-medium.quote[
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-– [Citation]()
-]
-]
-.group[
-.small.quote-list[
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-	– [Citation]()
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-	– [Citation]()
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-	– [Citation]()
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-	– [Citation]()
-]
-]
-]
-
-.footer[Examples]
-
----
-
-class: slide--document small
-
-# Stack
-
-.stack[
-.group[
-## &nbsp;
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-]
-.group[
-## &nbsp;
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-]
-]
-
-.stack[
-.group[
-## &nbsp;
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-]
-.group[
-## &nbsp;
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-]
-.group[
-## &nbsp;
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-]
-]
-
-.stack[
-.group[
-## &nbsp;
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-]
-.group[
-## &nbsp;
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-]
-.group[
-## &nbsp;
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-]
-.group[
-## &nbsp;
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-]
-]
-
-.footer[Examples]
-
----
-
-class: slide--document small
-
-# Columns
-
-## 2 Columns
-.columns-2[
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-]
-
-## 3 Columns
-.columns-3[
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-]
-
-## 4 Columns
-.columns-4[
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-]
-
-.footer[Examples]
-
----
-
-class: slide--document x-small
-
-# Grids
-
-## 1:1 Grid
-
-.grid.ratio-1-1[
-.group[
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-]
-.group[
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-]
-]
-
-## 1:2 Grid
-
-.grid.ratio-1-2[
-.group[
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-]
-.group[
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-]
-]
-
-## 2:1 Grid
-
-.grid.ratio-2-1[
-.group[
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-]
-.group[
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-]
-]
-
-## 1:3 Grid
-
-.grid.ratio-1-3[
-.group[
-Lorem ipsum dolor sit amet, consectetur adipiscing elit
-]
-.group[
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-]
-]
-
-## 3:1 Grid
-
-.grid.ratio-3-1[
-.group[
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-]
-.group[
-Lorem ipsum dolor sit amet, consectetur adipiscing elit
-]
-]
-
-.footer[Examples]
-
----
-
-class: slide--document slide--lightgray layout-chapter
-
-# Chapter Layout
-
-.group[
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-]
-
----
-
-class: slide--document slide--lightgray layout-chapter layout-chapter--even
-
-# .large[Evenly-spaced <br> Chapter Layout]
-
-.group[
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-]
-
----
-
 class: slide--coverpage
 
 .byline[John Maeda]
@@ -389,7 +76,7 @@ class: slide--document slide--darkgray layout-chapter sans
 
 # Welcome
 
-.body[
+.group[
 
 Welcome to a new format for the Design in Tech Report. For this year's report, I took a stab at learning all the CSS/JS that I've always wanted to know, and then went after the task of making a fully responsive report. I've partially succeeded on my road there with this letterbox-only version — which is better than a PDF, but it's a little buggy. Sorry!
 
@@ -405,51 +92,9 @@ Expect a video version on my new YouTube channel "John Maeda is Learning" by thi
 
 ---
 
-class: slide--document slide--lightgray layout-chapter sans
+class: slide--document slide--lightgray layout-chapter in-progress
 
 # .x-large[Sections Overview]
-
-.columns-2[
-.dl[
-.dt[
-### 1) TBD = Tech × Business × Design
-]
-.dd[.small[
-How do technology, business, and design interrelate in the startup and corporate ecosystems?
-]]
-.dt[
-### 2) Scaling Design
-]
-.dd[.small[
-How do you scale the design function in a company to impact business at the speed of Moore's Law?
-]]
-.dt[
-### 3) Computational Design: 1st Steps
-]
-.dd[.small[
-What is "computational design" and why does it matter to business + tech?
-]]
-.dt[
-### 4) Computational Design &times; A.I.
-]
-.dd[.small[
-How does artificial intelligence change the future of design and what do designers need to know?
-]]
-.dt[
-### 5) Inequality
-]
-.dd[.small[
-What does technology have to do with rising inequalities and should I care as a designer?
-]]
-.dt[
-### 6) Why Inclusive Design
-]
-.dd[.small[
-Do I need to care about inclusive design more when considering TBD? What can I do about it?
-]]
-]
-
-]
 
 .footer[Welcome]
 
@@ -514,18 +159,21 @@ class: slide--document
 .stack[
 .group[
 .numeric.subhead[2015]
+
 .purple[Design isn't just about beauty; it’s about market relevance and meaningful results.]
 
 _DESIGN is about DE$IGN — and it's traditionally been that case since the era of the Bauhaus, and even way before._
 ]
 .group[
 .numeric.subhead[2016]
+
 .purple[There are 3 kinds of design: Classical Design, Design Thinking, and Computational Design.]
 
 _There are 3 kinds of design: Classical Design, Design Thinking, and Computational Design._
 ]
 .group[
 .numeric.subhead[2017]
+
 .purple[Adopting an inclusive design approach expands a tech product’s total addressable market.]
 
 _Inclusion is good business. And new proof points are emerging. More will start to emerge as inclusive design takes hold._
@@ -610,7 +258,7 @@ class: slide--document slide--lightgray layout-chapter layout-chapter--even
 
 # .mono[TBD<br>=<br>Tech &times;<br>Business &times;<br>Design]
 
-.group[
+.small.group[
 ### Design in tech is evolving rapidly and globally
 
 * Design isn't just about beauty; it’s about market relevance and meaningful results.
@@ -740,15 +388,29 @@ class: slide--document in-progress
 
 # Does computational design play a material role in a company?
 
+.orange.sans[.refresh[Refresh Screen If Needed] As reported in Leah Buley's widely reviewed 2016 State of UX essay:]
+
+.darkgray.columns-2[
+When asked, "What measurable outcomes resulting from user experience are you most proud of?" high-impact respondents gave responses like: "Multimillion dollar increases in conversion and customer lifetime value."
+
+By contrast, one low-impact respondent answered, "We are moving so fast there has been no time or resources for testing/outcomes – even for small usability improvements."
+]
+
+
+.source[@leahbuley / Leah Buley Co. [The State of UX in 2016](https://www.creativebloq.com/features/the-state-of-ux-in-2016)]
+.footer[Technology &times; Business &times; Design]
+
 ---
 
 class: slide--document in-progress
 
 # Computational Designer vs Classical Designer
 
+.darkgray[When people in the tech industry talk about “design,” they often make the mistake of not differentiating between classical designers and computational designers. The former kind of designer might craft a wooden chair for a home which is used by a few people; the latter kind of designer might craft an app for a smartphone which is used by hundreds of millions of people.]
+
 ---
 
-class: slide--document in-progress
+class: slide--document small in-progress
 
 # What's a Design Thinker?
 
@@ -853,9 +515,7 @@ class: slide--document
 	- **Rothco** acquired by Accenture
 ]
 
-.orange[
-.numeric.subhead[2018]
-]
+.orange.numeric.subhead[2018]
 
 .quote[
 > We’re excited to join Verizon in their quest to put customers in control of their connectivity and create breakthrough live and digital experiences.
@@ -863,7 +523,7 @@ class: slide--document
 —**Moment** acquired by Verizon [March 2018](http://www.momentdesign.com/what-lies-ahead-moment-joins-verizon/)
 ]
 
-.source[@tberno @jcoronado1 @leahbuley @hugosarrazin @randyjhunt @scootermcdoog @ezyjules @shatzygoespro @keithinstone]
+.source[@tberno @jcoronado1 @leahbuley @hugosarrazin @randyjhunt @scootermcdoog<br>@ezyjules @shatzygoespro @keithinstone]
 .footer[Technology &times; Business &times; Design]
 
 ---
@@ -911,7 +571,7 @@ Also, this is not an inventory of academic medical centers or hospitals that hav
 8. University of Virginia School of Medicine
 9. Zucker School of Medicine at Hofstra/Northwell
 
-.small.quote[
+.x-small.quote[
 [Bon Ku](https://twitter.com/BonKu/), MD, MPP /
 
 In my experience, Design Thinking provides a platform for non-designers (myself included) - doctors, nurses and medical students - to work with designers.
@@ -993,7 +653,7 @@ class: slide--document
 
 ---
 
-class: slide--document
+class: slide--document in-progress
 
 # The perception of design and its impact to business is cyclic
 
@@ -1047,7 +707,7 @@ class: slide--document
 
 ---
 
-class: slide--document
+class: slide--document in-progresss
 
 # People Moves and Milestones
 
@@ -1134,6 +794,8 @@ class: slide--document
 
 Latin America has the fastest rate of smartphone adoption in the world. —[Fast Company](https://www.fastcompany.com/3044662/what-latin-america-will-look-like-in-2020)
 
+<br>
+
 .stack[
 .group[
 .numeric.subhead[01]
@@ -1188,13 +850,13 @@ Latin America has the fastest rate of smartphone adoption in the world. —[Fast
 
 ---
 
-class: slide--document
+class: slide--document in-progress
 
 # Think Beyond Silicon Valley: China and Design
 
 ---
 
-class: slide--document
+class: slide--document in-progress
 
 # Think Again Beyond Silicon Valley: China and Design
 
@@ -1204,7 +866,7 @@ class: slide--document
 
 # You're not getting any younger. You're getting B(older).
 
-.large.quote[
+.x-medium.quote[
 > Restricting its estimate to those aged 60 and up, market research firm Euromonitor predicts that by 2020, worldwide older-adult spending will reach $15 trillion—and that's still well before global aging will fully hit its stride. By 2030, the Boston Consulting Group estimates that the 55-plus population will have been responsible for 50 percent of the US consumer spending growth since 2008, 67 percent of that of Japan, and 86 percent for that of Germany. It's no exaggeration to say that the world's most advanced economies will soon revolve around the needs, wants, and whims of grandparents.
 
 —[Joseph Coughlin](http://agelab.mit.edu/longevity-economy)
@@ -1215,7 +877,7 @@ class: slide--document
 
 ---
 
-class: slide--document
+class: slide--document in-progress
 
 # Think Beyond GenZ + Millennials: Think Gen B(older)
 
@@ -1225,7 +887,7 @@ class: slide--document slide--lightgray layout-chapter layout-chapter--even
 
 # .xx-large.mono[Scaling<br>Design]
 
-.group[
+.small.group[
 ### Design capabilities don't scale like Moore's Law
 
 * Design is generally used early in the product development process instead of applied at the very end before it is shipped.
@@ -1240,19 +902,19 @@ class: slide--document slide--lightgray layout-chapter layout-chapter--even
 
 ---
 
-class: slide--document
+class: slide--document in-progress
 
 # Is a college degree necessary to succeed as a designer in tech?
 
 ---
 
-class: slide--document
+class: slide--document in-progress
 
 # Is the culture of your company set up for design to succeed?
 
 ---
 
-class: slide--document
+class: slide--document in-progress
 
 # At what stage is design typically involved?
 
@@ -1273,25 +935,25 @@ class: slide--document
 
 ---
 
-class: slide--document
+class: slide--document in-progress
 
 # Creating an inclusive culture for designers is where to start
 
 ---
 
-class: slide--document
+class: slide--document in-progress
 
 # Unconscious bias is promoted by stereotypes that exclude others
 
 ---
 
-class: slide--document
+class: slide--document in-progress
 
 # How do you create an inclusively managed culture for designers?
 
 ---
 
-class: slide--document
+class: slide--document in-progress
 
 # Every boss of designers can stand to hear feedback every day
 
@@ -1469,47 +1131,49 @@ class: slide--document
 # We're in a new age of data visualization &times; quant-qual science
 
 .stack[
+.group[
+## What's a Data Scientist?
 
-* ## What's a Data Scientist?
+The [core](https://blog.udacity.com/2014/11/data-science-job-skills.html) set of skills:
 
-	The [core](https://blog.udacity.com/2014/11/data-science-job-skills.html) set of skills:
+* Programming Skills
+* Statistics
+* Machine Learning
+* Multivariable Calculus & Linear Algebra
+* Data Wrangling
+* Data Intuition
+* Data Visualization & Communication
 
-	* Programming Skills
-	* Statistics
-	* Machine Learning
-	* Multivariable Calculus & Linear Algebra
-	* Data Wrangling
-	* Data Intuition
-	* Data Visualization & Communication
+## OSDSM
 
-	## OSDSM
+The Open Source Data Science Master's Degree is a cool set of resources gathered by [Clare Corthell](http://datasciencemasters.org/).
+]
+.group[
+## Talk data to me
 
-	The Open Source Data Science Master's Degree is a cool set of resources gathered by [Clare Corthell](http://datasciencemasters.org/).
+Data visualization and journalism teams at [The Guardian](https://www.theguardian.com/data) [NYT](https://www.informationisbeautifulawards.com/news/118-the-nyt-s-best-data-visualizations-of-the-year) [WSJ](http://graphics.wsj.com/wsj-interactives-2015/) have been at the forefront.
 
-* ## Talk data to me
+.lightgray.subhead[.fas.fa-wrench[]]
 
-	Data visualization and journalism teams at [The Guardian](https://www.theguardian.com/data) [NYT](https://www.informationisbeautifulawards.com/news/118-the-nyt-s-best-data-visualizations-of-the-year) [WSJ](http://graphics.wsj.com/wsj-interactives-2015/) have been at the forefront.
+These tools show a new direction:
 
-	.lightgray.subhead[.fas.fa-wrench[]]
+* [Observable](https://beta.observablehq.com/) by Mike Bostock
+* [Data Studio](https://www.google.com/analytics/data-studio/capabilities/) by Google
+* [Colaboratory](https://research.google.com/colaboratory/faq.html) by Google
 
-	These tools show a new direction:
+And open source ones exist too:
+* [D3.js](https://d3js.org) by Mike Bostock
+* [Processing](https://processing.org/) by Processing Team
+* [Zeppelin](https://opensource.com/business/16/7/3-open-source-data-visualization-tools-hadoop) by Apache
+* [DrawBot](http://www.drawbot.com/) by DrawBot Team
+]
+.group[
+## Have I given up on design?
 
-	* [Observable](https://beta.observablehq.com/) by Mike Bostock
-	* [Data Studio](https://www.google.com/analytics/data-studio/capabilities/) by Google
-	* [Colaboratory](https://research.google.com/colaboratory/faq.html) by Google
+<img style="width:100%;height:300px;object-fit:cover;object-position:0 5%;" data-src="https://designintech.report/wp-content/uploads/2018/03/maedadotpm.png">
 
-	And open source ones exist too:
-	* [D3.js](https://d3js.org) by Mike Bostock
-	* [Processing](https://processing.org/) by Processing Team
-	* [Zeppelin](https://opensource.com/business/16/7/3-open-source-data-visualization-tools-hadoop) by Apache
-	* [DrawBot](http://www.drawbot.com/) by DrawBot Team
-
-* ## Have I given up on design?
-
-	<img style="width:100%;height:300px;object-fit:cover;object-position:0 5%;" data-src="https://designintech.report/wp-content/uploads/2018/03/maedadotpm.png">
-
-	.small.darkgray[_**Nope.** I'm just collecting all the parts I've been learning/doing for my whole life before — I get uploaded to the big cloud in the sky one day. To design amazing experiences for people, I've always chosen to think/work inclusively and broadly._]
-
+.small.darkgray[_**Nope.** I'm just collecting all the parts I've been learning/doing for my whole life before — I get uploaded to the big cloud in the sky one day. To design amazing experiences for people, I've always chosen to think/work inclusively and broadly._]
+]
 ]
 
 .source[@udacity @clarecorthell]
@@ -1640,7 +1304,7 @@ class: slide--document in-progress
 
 ---
 
-class: slide--document
+class: slide--document in-progress
 
 # Scaling Design Case Study: [Automattic.Design](https://automattic.design)
 
@@ -1650,7 +1314,7 @@ class: slide--document
 
 .x-large.darkgray.sans[Design Culture]
 
-.small[
+.x-small[
 .darkgray[<br>You need a CEO who cares about design, and recognizes that good design is good business. It's because the customer wants it. .fas.fa-check-square[]]
 
 .orange[_Resources_]
@@ -1667,7 +1331,7 @@ class: slide--document
 
 .x-large.darkgray.sans[Design Talent]
 
-.small[
+.x-small[
 .darkgray[<br>You need a strong designer hiring leader. They will be, "Someone who you wish was designing instead and loves talent, too." .fas.fa-check-square[]]
 
 .orange[_Resources_]
@@ -1684,8 +1348,8 @@ class: slide--document
 
 .x-large.darkgray.sans[Design Leaders]
 
-.small[
-darkgray[<br>You need a primary design lead who cares about leadership and enjoys fostering new leaders. .fas.fa-check-square[]]
+.x-small[
+/darkgray[<br>You need a primary design lead who cares about leadership and enjoys fostering new leaders. .fas.fa-check-square[]]
 
 .orange[_Resources_]
 
@@ -1702,7 +1366,7 @@ darkgray[<br>You need a primary design lead who cares about leadership and enjoy
 
 .x-large.darkgray.sans[Design Systems]
 
-.small[
+.x-small[
 .darkgray[<br>You need a few [computational designers](https://automattic.design/2018/02/09/react-components-design-and-wordpress-com-2015/) who work inclusively. Plus  listen to [Nathan Curtis](https://medium.com/eightshapes-llc/defining-design-systems-6dd4b03e0ff6). .fas.fa-check-square[]]
 
 .purple[Our design system offers *[kit scope]* released as *[kit outputs]* and documented at *[kit doc site]* produced by *[people]* in order to serve *[products]* products and experiences.] [&dagger;](https://medium.com/eightshapes-llc/defining-design-systems-6dd4b03e0ff6) [&dagger;&dagger;](https://medium.com/eightshapes-llc/design-systems-intermediaries-955ef18c9409)
@@ -1744,7 +1408,7 @@ class: slide--document slide--lightgray layout-chapter layout-chapter--even
 
 # .mono[Computational Design:<br> First Steps]
 
-.group[
+.small.sgroup[
 ### Atoms &times; Bits &times; People has happened at scale
 
 * Custom fabrication technology that leverages computation while using less tech, traditional manufacturing ideas is becoming more accessible.
@@ -1920,7 +1584,7 @@ or less constitute more than half of all smartphone sessions
 
 ---
 
-class: slide--document
+class: slide--document in-progress
 
 # Mobile phones have more sensors than a microphone these days
 
@@ -1941,19 +1605,19 @@ class: slide--document
 
 ---
 
-class: slide--document
+class: slide--document in-progress
 
 # Conversational experience design is worth talking about
 
 ---
 
-class: slide--document
+class: slide--document in-progress
 
 # The Web’s become much better at listening and speaking up
 
 ---
 
-class: slide--document
+class: slide--document in-progress
 
 # Should you care about augmented/virtual reality? Sure!
 
@@ -1963,7 +1627,7 @@ class: slide--document slide--lightgray layout-chapter layout-chapter--even
 
 # Computational Design:<br>Artificial Intelligence
 
-.group[
+.small.group[
 ### AI isn't good at inclusive design because we aren't, too
 
 * 88% of designers surveyed believe that it will be at least 5 years or more until visual designers are replaced by AI. AI can already do a lot right now.
@@ -1982,37 +1646,37 @@ class: slide--document
 
 ---
 
-class: slide--document
+class: slide--document in-progress
 
 # AI has gone to art school and its grades are improving
 
 ---
 
-class: slide--document
+class: slide--document in-progress
 
 # Hey AI-designer. Can you go and __ for me?
 
 ---
 
-class: slide--document
+class: slide--document in-progress
 
 # AI can make more than just images
 
 ---
 
-class: slide--document
+class: slide--document in-progress
 
 # Learn AI and don't be afraid — stay awake. Don't freeze.
 
 ---
 
-class: slide--document
+class: slide--document in-progress
 
 # It's only human that we will work to thwart AI with all our might
 
 ---
 
-class: slide--document
+class: slide--document in-progress
 
 # Because what we make in now has unintended consequences
 
@@ -2039,7 +1703,7 @@ class: slide--document slide--lightgray layout-chapter layout-chapter--even
 # Inequality
 ]
 
-.group[
+.small.group[
 ### We can expect AI to only widen the digital divide
 
 * It's easy in the technology world to look away from inequality becaus the privileges that come with tech life are pleasurable and self-fulfilling.
@@ -2198,6 +1862,12 @@ class: slide--document in-progress
 
 ---
 
+class: slide--document
+
+# Inclusive design takes center stage after many decades
+
+---
+
 class: slide--document in-progress
 
 # A solution to inequality? Possibly, distributed or "remote" work.
@@ -2217,11 +1887,10 @@ Bench, 100Starlings, 2600Hz, 33 Sticks, 3DprinterOS, 3nder, 3SMobile, 4 Ventos, 
 ]
 
 .source[[Remotive.io](https://remotive.io) [Zapier](https://zapier.com/blog/companies-hiring-remote-workers/)]
-.footer[Inequality & Skills Gap]
 
 ---
 
-class: slide--document in-progress
+class: slide--document
 
 # What's "remote work" and where is it heading today?
 
@@ -2304,19 +1973,13 @@ class: slide--document
 
 ---
 
-class: slide--document
+class: slide--document slide--black center
 
 # Inclusive design takes center stage after many decades
 
----
-
-class: slide--document slide--black
-
-# A solution for inequality by design? Inclusive design re-awakens.
-
 ![](https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/REYaAc?ver=f2a3)
 
-.center[[Microsoft Inclusive Design](https://www.microsoft.com/en-us/design/inclusive) has fantastic resources for you to get started.]
+[Microsoft Inclusive Design](https://www.microsoft.com/en-us/design/) has fantastic resources for you to get started.
 
 .source[https://twitter.com/MicrosoftDesign]
 .footer[Inclusive Design]
@@ -2388,11 +2051,12 @@ class: slide--document
 ---
 
 class: slide--document slide--black
-background-image: url('https://www.newstatesman.com/sites/default/files/styles/nodeimage/public/blogs_2018/02/black-panther-quad-poster.jpg')
 
-# .xx-large[Recent movie review SMS from my 82-year old mom]
+background-image: URL(https://www.newstatesman.com/sites/default/files/styles/nodeimage/public/blogs_2018/02/black-panther-quad-poster.jpg)
 
-![:twitter johnmaeda, 966462025781170176]
+# .x-large[Recent movie review SMS from my 82-year old moms]
+
+![:twitter johnmaeda, 966462025781170176v]
 
 .source[Marvel]
 
@@ -2425,112 +2089,3 @@ https://designintechreport.wordpress.com
 Please report any errors to @johnmaeda on Twitter. Thank you!
 John Maeda has minor equity positions as an investor in certain companies referenced in the presentation maedastudio.com/startups.
 ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----
-
-class: slide--document
-
-# Design has long been asking questions about social responsibility
-
-.xx-large.quote[
-> Design for All is design for human diversity, social inclusion and equality.
-
-—[EIDD Stockholm Declaration](http://dfaeurope.eu/what-is-dfa/dfa-documents/the-eidd-stockholm-declaration-2004/) (2004)
-]
-
-.source[@alicerawsthorn Victor Papanek [Design for the Real World (1971)](http://www.nytimes.com/2011/05/16/arts/16iht-design16.html)]
-.footer[Computational Design: **AI**]
-
----
-
-# Whatever you do, don't F up the culture
-
-.large.quote[
-> Why is culture so important to a business? Here is a simple way to frame it. The stronger the culture, the less corporate process a company needs. When the culture is strong, you can trust everyone to do the right thing. People can be independent and autonomous. They can be entrepreneurial. And if we have a company that is entrepreneurial in spirit, we will be able to take our next "(wo)man on the moon" leap. In organizations (or even in a society) where culture is weak, you need an abundance of heavy, precise rules and processes.
-
-—[Brian Chesky](https://medium.com/@bchesky/dont-fuck-up-the-culture-597cde9ee9d4)
-]
-
-.source[@bchesky]
-.footer[Scaling Design]
-
----
-
-# We're seeking a freedom that's being eroded on the Internet
-
-.grid.ratio-2-1[
-.large.quote[
-> We are in the "Internet Two" phase as Steven Johnson called it. Internet One was an open network, open protocols, open systems. Internet Two is closed platforms that increasingly dominate the market and own and control our content and us. We need to get to Internet Three where we take back control of ourselves. It is high time for that to happen.
-
-—[Fred Wilson](http://avc.com/2018/01/owning-yourself/)
-]
-.aside[
-### FCC votes to remove net neutrality
-
-The FCC's net neutrality vote has finally been published in the Federal Register, the government's official record of all administrative actions. The moment is key, because it kicks off the next phase of the fight over the future of the Internet.
-
-—[Washington Post](https://www.washingtonpost.com/news/the-switch/wp/2018/02/22/the-fccs-net-neutrality-rules-will-die-on-april-23-heres-what-happens-now/?utm_term=.ccec9d04532b)
-]
-]
-
-.source[@swissmiss]
-.footer[Inequality & Skills Gap]
-
----
-
-# Where do people work? On premise, remotely, or both?
-
----
-
-# Automattic Design is working with students in Paintsville, KY
-
----
-
-# Inclusive design takes center stage after many decades
-
----
-
-# Bias in AI and who's auto-complete?
-
----
-
-# So recognize exclusion, and take action
