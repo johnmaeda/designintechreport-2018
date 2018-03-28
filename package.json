@@ -12,6 +12,7 @@
     "serve": "browser-sync start --server build --files build --no-open --no-notify"
   },
   "dependencies": {
+    "browser-sync": "^2.23.6",
     "html-minifier": "^3.5.12",
     "node-sass": "^4.7.2",
     "nodemon": "^1.17.2",
