@@ -1,41 +1,13 @@
-import { createRemark } from './remark'
-import {
-  loadChartData,
-  drawChart,
-  drawChart2,
-  drawChart3,
-} from './charts'
-
-import 'normalize.css'
-import '../css/main.scss'
+import Slideshow from './module/Slideshow'
 
 import source from '../index.md'
 
-let slideshow
+import '../css/main.scss'
+
+let slideshow = new Slideshow()
 
 async function main() {
-  slideshow = createRemark(source)
-
-  Promise.all([
-    slideshow,
-    loadChartData({
-      version: 'current',
-      packages: ['wordtree'],
-    }),
-  ]).then(() => {
-    // drawChart()
-    // drawChart2()
-  })
-
-  Promise.all([
-    slideshow,
-    loadChartData({
-      version: 'current',
-      packages: ['bar'],
-    }),
-  ]).then(() => {
-    // drawChart3()
-  })
+  await slideshow.init(source)
 }
 
 main().catch(error => {
@@ -44,7 +16,6 @@ main().catch(error => {
 
 if (module.hot) {
   module.hot.accept('../index.md', async () => {
-    (await slideshow).loadFromString(source)
-    twttr.widgets.load()
+    slideshow.load(source)
   })
 }

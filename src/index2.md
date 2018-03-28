@@ -270,7 +270,7 @@ class: slide slide--lightgray serif
 # &nbsp;
 
 .grid-1-3[
-# .x-large[Sections Overview]
+# .xx-large[Sections Overview]
 
 .columns-2[
 .dl[
@@ -867,7 +867,7 @@ class: slide--lightgray
 
 .grid-1-1[
 
-# .x-large.mono[Scaling<br>Design]
+# .xx-large.mono[Scaling<br>Design]
 
 .group[
 ## Design capabilities don't scale like Moore's Law

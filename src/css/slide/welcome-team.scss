@@ -1,14 +1,12 @@
 @import '../colors';
 @import '../typography';
+@import './elements';
 
 .slide--welcome-team {
+  @include headers;
   @include typography-sans;
   color: $color-black;
   background-color: $color-lightgray;
-
-  h2 {
-    padding: 0.3rem 3.75rem 0.3rem 1.25rem;
-  }
 
   .body {
     display: grid;

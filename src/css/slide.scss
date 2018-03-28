@@ -26,73 +26,18 @@
   font-size: $font-size-medium;
   line-height: 1.1;
 
-  h1 {
-    @include typography-sans;
-    margin-top: 1.75rem;
-    margin-bottom: 2rem;
-    font-size: $font-size-large;
-  }
+  a {
+    color: $color-black;
+    text-decoration: none;
 
-  h2 {
-    @include typography-sans;
-    display: table; // To get both collapsing margins and block layout
-    margin-top: 0.5rem;
-    padding: 0.3rem 3.75rem 0.3rem 1.25rem;
-    color: $color-white;
-    background-color: $color-black;
-    font-size: $font-size-medium;
+    &:visited, &:link {
+      border-bottom: 2px solid $color-orange;
 
-    &:first-child {
-      margin-top: 0
+      &:hover {
+        color: $color-white;
+        background-color: $color-orange;
+      }
     }
-  }
-
-  h3 {
-    @include typography-sans;
-    display: table; // To get both collapsing margins and block layout
-    padding: 0.3rem 0.5rem;
-    color: $color-white;
-    background-color: $color-black;
-    font-size: $font-size-medium;
-    // margin-bottom: 1em;
-  }
-
-  h1 + h2 {
-    margin-top: 0;
-  }
-
-  p {
-    margin: 0.75em 0;
-
-    &:first-child {
-      margin-top: 0
-    }
-
-    &:last-child {
-      margin-bottom: 0
-    }
-
-    > span:first-child:last-child {
-      display: table; // To get both collapsing margins and block layout
-      margin: 0.75em 0;
-    }
-  }
-
-  ul, ol {
-    @include block-margin;
-    padding-left: 2rem;
-
-    > li + li {
-      margin-top: 0.5em;
-    }
-  }
-
-  ul > li {
-    list-style-type: disc;
-  }
-
-  ol > li {
-    list-style-type: decimal;
   }
 
   strong {
@@ -111,17 +56,30 @@
     width: 100%;
   }
 
-  a {
-    color: $color-black;
-    text-decoration: none;
+  summary {
+    margin-bottom: 0.5rem;
 
-    &:visited, &:link {
-      border-bottom: 2px solid $color-orange;
+    &:focus {
+      outline: none;
+    }
+  }
 
-      &:hover {
-        color: $color-white;
-        background-color: $color-orange;
-      }
+  &.in-progress {
+    &:after {
+      content: 'In Progress';
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      width: 8rem;
+      height: 8rem;
+      border-radius: 8rem;
+      color: white;
+      background-color: $color-orange;
+      font-family: $font-family-sans;
     }
   }
 
@@ -133,6 +91,11 @@
   &--darkgray {
     color: $color-white;
     background-color: $color-darkgray;
+  }
+
+  &--yellow {
+    color: $color-black;
+    background-color: $color-yellow;
   }
 
   &--black {

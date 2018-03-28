@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=family=Roboto:400,700|Roboto+Mono');
 
 @function strip-unit($number) {
   @if type-of($number) == 'number' and not unitless($number) {
@@ -16,7 +16,8 @@ $font-family-serif: 'Georgia', serif;
 $font-family-mono: 'Roboto Mono', sans-serif;
 
 // Font sizes
-$font-size-x-large: rem(48px);
+$font-size-xx-large: rem(48px);
+$font-size-x-large: rem(45px);
 $font-size-large: rem(36px);
 $font-size-x-medium: rem(30px);
 $font-size-medium: rem(20px);
@@ -25,8 +26,7 @@ $font-size-x-small: rem(13px);
 $font-size-xx-small: rem(12px);
 
 // Named font sizes
-$font-size-heading: rem(45px);
-$font-size-tiny: rem(9px);
+$font-size-xxx-small: rem(9.6px);
 
 @mixin typography-sans() {
   font-family: $font-family-sans;
@@ -57,6 +57,10 @@ $font-size-tiny: rem(9px);
   @include typography-mono;
 }
 
+.xx-large {
+  @include typography-size($font-size-xx-large);
+}
+
 .x-large {
   @include typography-size($font-size-x-large);
 }
@@ -85,7 +89,15 @@ $font-size-tiny: rem(9px);
   @include typography-size($font-size-xx-small);
 }
 
-.tiny {
-  @include typography-size($font-size-tiny);
+.xxx-small {
+  @include typography-size($font-size-xxx-small);
   line-height: 1.2;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }

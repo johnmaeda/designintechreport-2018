@@ -5,10 +5,80 @@
   margin: 1rem 0;
 
   &:first-child {
-    margin-top: 0
+    margin-top: 0;
   }
 
   &:last-child {
-    margin-bottom: 0
+    margin-bottom: 0;
+  }
+}
+
+@mixin reset-block-margin {
+  margin: unset;
+
+  &:first-child {
+    margin-top: unset;
+  }
+
+  &:last-child {
+    margin-bottom: unset;
+  }
+}
+
+@mixin remove-edge-margins {
+  > *:first-child {
+    margin-top: 0;
+
+    > *:first-child {
+      margin-top: 0;
+
+      > *:first-child {
+        margin-top: 0;
+
+        > *:first-child {
+          margin-top: 0;
+
+          > *:first-child {
+            margin-top: 0;
+
+            > *:first-child {
+              margin-top: 0;
+
+              > *:first-child {
+                margin-top: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  > *:last-child {
+    margin-bottom: 0;
+
+    > *:last-child {
+      margin-bottom: 0;
+
+      > *:last-child {
+        margin-bottom: 0;
+
+        > *:last-child {
+          margin-bottom: 0;
+
+          > *:last-child {
+            margin-bottom: 0;
+
+            > *:last-child {
+              margin-bottom: 0;
+
+              > *:last-child {
+                margin-bottom: 0;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }

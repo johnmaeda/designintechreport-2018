@@ -7,11 +7,11 @@
 
   h1 {
     @include typography-serif;
-    font-size: $font-size-heading;
+    font-size: $font-size-x-large;
   }
 
   .body {
     @include typography-sans;
-    font-size: $font-size-heading;
+    font-size: $font-size-x-large;
   }
 }

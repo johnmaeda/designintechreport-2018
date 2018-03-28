@@ -20,7 +20,7 @@ module.exports = mode => ({
   },
   resolve: {
     alias: {
-      '../macros': path.resolve(__dirname, 'lib/macros.js'),
+      '../macros': path.resolve(__dirname, 'lib/macros.jsx'),
       'marked': path.resolve(__dirname, 'lib/marked.js'),
       'remarked': path.resolve(__dirname, 'node_modules/marked'),
     },
@@ -33,7 +33,7 @@ module.exports = mode => ({
         use: 'raw-loader',
       },
       {
-        test: /\.js$/,
+        test: /\.jsx?$/,
         exclude: /node_modules/,
         use: [
           {
@@ -44,6 +44,9 @@ module.exports = mode => ({
                 'es2017',
                 'stage-3',
                 'stage-2',
+              ],
+              plugins: [
+                'transform-react-jsx',
               ],
             },
           },
