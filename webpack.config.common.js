@@ -20,6 +20,7 @@ module.exports = mode => ({
   },
   resolve: {
     alias: {
+      '../macros': path.resolve(__dirname, 'lib/macros.js'),
       'marked': path.resolve(__dirname, 'lib/marked.js'),
       'remarked': path.resolve(__dirname, 'node_modules/marked'),
     },
