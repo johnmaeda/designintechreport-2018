@@ -18,16 +18,19 @@ module.exports = mode => ({
   performance: {
     hints: false,
   },
+  resolve: {
+    alias: {
+      'marked': path.resolve(__dirname, 'lib/marked.js'),
+      'remarked': path.resolve(__dirname, 'node_modules/marked'),
+    },
+  },
   module: {
     rules: [
-      // For markdown sources, use raw-loader to retrieve it as a string.
       {
         test: /\.md$/,
         exclude: /node_modules/,
         use: 'raw-loader',
       },
-      // Transpile JavaScript sources via Babel up from Stage 2 Candidate of
-      // ECMAScript down to ES2016.
       {
         test: /\.js$/,
         exclude: /node_modules/,
@@ -45,21 +48,6 @@ module.exports = mode => ({
           },
         ],
       },
-      // Just use css-loader for CSS. This includes files in node_modules.
-      {
-        test: /\.css$/,
-        use: [
-          mode === 'production' ? MiniCssExtractPlugin.loader : 'style-loader',
-          {
-            loader: 'css-loader',
-            options: { sourceMap: true },
-          },
-        ],
-      },
-      // SASS transpilation pipe. Loaders are piped from the last to the first
-      // loader. Sass-loader first transpiles SASS sources and then pipe it
-      // to postcss-loader. Postcss-loader manipulates the piped CSS according
-      // to postcss.config.js.
       {
         test: /\.scss$/,
         use: [
@@ -86,20 +74,13 @@ module.exports = mode => ({
     ],
   },
   plugins: [
-    // Clean the build directory first.
-    // https://github.com/johnagan/clean-webpack-plugin
     new CleanWebpackPlugin(['build/**/*'], {
       root: path.resolve(__dirname),
     }),
-    // This plugin collects all of the CSS sources imported by the entry point,
-    // and merges them into a single CSS file.
-    // https://github.com/webpack-contrib/mini-css-extract-plugin
     new MiniCssExtractPlugin({
       filename: 'css/[name].css',
       chunkFilename: 'css/[id].css',
     }),
-    // Provides just for observing changes in HTML.
-    // https://github.com/jantimon/html-webpack-plugin
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'src', 'index.html'),
     }),
