@@ -67,7 +67,7 @@ This makes a new commit, and sends the commit data and refs to the remote tracki
 git checkout -b <local ref> <remote ref>
 ```
 
-This create and checkout a new local branch with a remote tracking info to the remote branch. 
+This create and checkout a new local branch with a remote tracking info to the remote branch.
 
 The order of arguments and its notation is confusing.
 
@@ -88,4 +88,59 @@ Runing the following command outputs compiled files in the `build` directory.
 
 ```sh
 npm run build
+```
+
+
+## Components
+
+### Global
+
+#### Font Family
+
+- `.sans`
+- `.serif`
+- `mono`
+
+#### Font Size
+
+- `.xx-large`
+- `.x-large`
+- `.large`
+- `.x-medium`
+- `.medium`
+- `.small`
+- `.x-small`
+- `.xx-small`
+- `.xxx-small`
+
+
+#### Text Transform
+
+- `.lowercase`
+- `.uppercase`
+
+### Timeline Title
+
+```
+.timeline-title[Title]
+```
+
+### Timeline List
+
+```
+.timeline-list[
+* Item
+* Item
+* Item
+]
+```
+
+### Quote List
+
+```
+.quote-list[
+* Item
+* Item
+* Item
+]
 ```

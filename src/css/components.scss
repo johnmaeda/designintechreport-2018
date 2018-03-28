@@ -2,40 +2,14 @@
 @import './typography';
 @import './mixins';
 
-.horizontal-layout {
-  margin-top: 8rem;
-  display: grid;
-  grid-template-columns: 1fr 2.5fr;
-  grid-gap: 2rem;
-
-  h1 {
-    margin-top: 0;
-    font-size: $font-size-x-large;
-  }
-}
-
-.definition-list {
-  > ul {
-    margin: 0;
-    padding: 0;
-
-    > li {
-      list-style-type: none;
-    }
-  }
-
-  > ul > li > ul {
-    padding-left: 1rem;
-
-    > li {
-      list-style-type: none;
-      font-size: $font-size-small;
-    }
-  }
-}
-
-.group {
-  @include remove-edge-margins;
+.timeline-title {
+  @include typography-sans;
+  @include typography-size($font-size-xxx-small);
+  color: $color-purple;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
 .timeline-list {
@@ -65,102 +39,13 @@
   }
 }
 
-.timeline-title {
-  @include typography-sans;
-  @include typography-size($font-size-xxx-small);
-  color: $color-purple;
-  font-weight: bold;
-  line-height: 1.2;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
-.timeline {
-  > ul {
-    display: flex;
-    flex-direction: row;
-
-    > li {
-      flex-grow: 1;
-      flex-shrink: 1;
-      flex-basis: 0;
-    }
-
-    > li + li {
-      margin-left: 2rem;
-    }
-  }
-
-  h2 {
-    @include typography-mono;
-    font-size: $font-size-large;
-    padding: 0.5rem 0.5rem;
-  }
-
-  > ul ul {
-    @include typography-serif;
-    margin-top: 1rem;
-
-    > li {
-      margin-top: 0.5rem;
-    }
-  }
-
-  em {
-    @include typography-sans;
-    color: $color-purple;
-  }
-
-  strong {
-    font-weight: bold;
-  }
-
-  blockquote {
-    padding-left: 0.3rem;
-    border-style: solid;
-    border-color: #dddddd;
-    border-left-width: 2px;
-    font-size: $font-size-x-small;
-  }
-}
-
-.dl {
-  display: block;
-  margin: 1rem 0;
-
-  &:first-child {
-    margin-top: 0
-  }
-
-  &:last-child {
-    margin-bottom: 0
-  }
-
-  .dt, .dd {
-    display: block;
-  }
-
-  .dd {
-    padding: 0.5rem 0 1rem 1rem;
-  }
-
-  .dt + .dt,
-  .dt + .dd,
-  .dd + .dd,
-  .dd + .dt {
-    margin-top: 0.25rem;
-  }
-}
-
 .quote-list {
   @include block-margin;
+  @include reset-lists;
   color: $color-darkgray;
 
   > ul {
-    padding-left: 0;
-
     > li {
-      list-style-type: none;
       padding-left: 0.3rem;
       border-style: solid;
       border-color: #dddddd;
@@ -171,6 +56,47 @@
       margin-top: 0.75rem;
     }
   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.horizontal-layout {
+  margin-top: 8rem;
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  grid-gap: 2rem;
+
+  h1 {
+    margin-top: 0;
+    font-size: $font-size-x-large;
+  }
+}
+
+.group {
+  @include remove-edge-margins;
 }
 
 .refresh {
@@ -446,5 +372,33 @@
 
   &.yellow {
     background-color: $color-yellow;
+  }
+}
+
+.dl {
+  display: block;
+  margin: 1rem 0;
+
+  &:first-child {
+    margin-top: 0
+  }
+
+  &:last-child {
+    margin-bottom: 0
+  }
+
+  .dt, .dd {
+    display: block;
+  }
+
+  .dd {
+    padding: 0.5rem 0 1rem 1rem;
+  }
+
+  .dt + .dt,
+  .dt + .dd,
+  .dd + .dd,
+  .dd + .dt {
+    margin-top: 0.25rem;
   }
 }
