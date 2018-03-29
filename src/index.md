@@ -2861,7 +2861,7 @@ class: chapter-slide lightgray-slide
 
 # Inclusive Design
 
-.body[
+.group[
 ### Inclusion = INCLU$ION
 
 * Changing perception around the idea of "helping those who are less fortunate than ourselves" into "learning how ignorant we are as privileged people" is a useful daily exercise.
