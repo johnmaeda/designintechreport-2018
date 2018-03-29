@@ -3,7 +3,7 @@ layout: true
 
 ---
 
-class: slide--document small
+class: document-slide small
 
 # Basic Styles
 
@@ -71,7 +71,7 @@ https://example.com/automatic-link
 
 ---
 
-class: slide--document small
+class: document-slide small
 
 # Paragraphs
 
@@ -109,7 +109,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ---
 
-class: slide--document
+class: document-slide
 
 # Quotes
 
@@ -149,7 +149,7 @@ class: slide--document
 
 ---
 
-class: slide--document small
+class: document-slide small
 
 # Stack
 
@@ -202,7 +202,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ---
 
-class: slide--document small
+class: document-slide small
 
 # Columns
 
@@ -225,7 +225,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ---
 
-class: slide--document x-small
+class: document-slide x-small
 
 # Grids
 
@@ -288,7 +288,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 ---
 
-class: slide--document slide--lightgray layout-chapter
+class: document-slide lightgray-slide layout-chapter
 
 # Chapter Layout
 
@@ -300,7 +300,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ---
 
-class: slide--document slide--lightgray layout-chapter layout-chapter--even
+class: document-slide lightgray-slide layout-chapter layout-chapter--even
 
 # .large[Evenly-spaced <br> Chapter Layout]
 

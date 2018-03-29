@@ -3,7 +3,7 @@ layout: true
 
 ---
 
-class: slide--coverpage
+class: cover-slide
 
 .byline[John Maeda]
 .heading[
@@ -13,7 +13,7 @@ class: slide--coverpage
 
 ---
 
-class: slide--welcome-team
+class: team-slide
 
 # Team
 
@@ -62,7 +62,7 @@ class: slide--welcome-team
 
 ---
 
-class: slide--document slide--yellow
+class: document-slide yellow-slide
 
 # .xx-large.serif[Desktop-First / Beta Release Notes]
 
@@ -72,7 +72,7 @@ class: slide--document slide--yellow
 
 ---
 
-class: slide--overview slide--darkgray sans
+class: overview-slide darkgray-slide sans
 
 # Welcome
 
@@ -92,7 +92,7 @@ Expect a video version on my new YouTube channel "John Maeda is Learning" by thi
 
 ---
 
-class: slide--overview slide--lightgray in-progress
+class: overview-slide lightgray-slide in-progress
 
 # .x-large[Sections Overview]
 
@@ -100,7 +100,7 @@ class: slide--overview slide--lightgray in-progress
 
 ---
 
-class: slide--document x-small
+class: document-slide x-small
 
 # Key takeaways from the Design In Tech Reports
 
@@ -152,7 +152,7 @@ class: slide--document x-small
 
 ---
 
-class: slide--document
+class: document-slide
 
 # Design in Tech Reports simplified
 
@@ -185,7 +185,7 @@ _Inclusion is good business. And new proof points are emerging. More will start 
 
 ---
 
-class: slide--document
+class: document-slide
 
 # About the 2017 #DesignInTech Report
 
@@ -230,7 +230,7 @@ class: slide--document
 
 ---
 
-class: slide--document
+class: document-slide
 
 # Useful feedback on the 2017 #DesignInTech Report
 
@@ -254,7 +254,7 @@ class: slide--document
 
 ---
 
-class: slide--chapter slide--lightgray
+class: chapter-slide lightgray-slide
 
 # .mono[TBD<br>=<br>Tech &times;<br>Business &times;<br>Design]
 
@@ -275,7 +275,7 @@ class: slide--chapter slide--lightgray
 
 ---
 
-class: slide--document slide--kinds-of-design
+class: document-slide kinds-of-design-slide
 
 # There Are Three Kinds of Design
 
@@ -330,7 +330,7 @@ Driver/ the impact of Moore’s Law, mobile computing, and the latest tech parad
 
 ---
 
-class: slide--document
+class: document-slide
 
 # What's a Computational Designer?
 
@@ -384,7 +384,7 @@ Considers intersectionality as a source of creativity and a driver of change. Em
 
 ---
 
-class: slide--document
+class: document-slide
 
 # Does computational design play a material role in a company?
 
@@ -403,7 +403,7 @@ By contrast, one low-impact respondent answered, "We are moving so fast there ha
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # Computational Designer vs Classical Designer
 
@@ -411,7 +411,7 @@ class: slide--document in-progress
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # What's a Design Thinker?
 
@@ -459,7 +459,7 @@ Top 10 B-schools all have student-led design clubs.
 
 ---
 
-class: slide--document
+class: document-slide
 
 # The large consulting firms are the major M&A driver
 
@@ -529,7 +529,7 @@ class: slide--document
 
 ---
 
-class: slide--document
+class: document-slide
 
 # Classical Designers Tend to Look Down on Design Thinking
 
@@ -544,7 +544,7 @@ class: slide--document
 
 ---
 
-class: slide--document
+class: document-slide
 
 # Medical schools are using design thinking
 
@@ -588,7 +588,7 @@ I do not believe that DT is a step by step recipe. We teach our medical students
 
 ---
 
-class: slide--document
+class: document-slide
 
 # Consulting companies are going beyond just design thinking
 
@@ -631,7 +631,7 @@ As designers are now working on problems relevant to the c-suite they need to bu
 
 ---
 
-class: slide--document
+class: document-slide
 
 # Which companies are being perceived as improving in design?
 
@@ -654,13 +654,13 @@ class: slide--document
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # The perception of design and its impact to business is cyclic
 
 ---
 
-class: slide--document
+class: document-slide
 
 # Classical Designers are slowly beginning to evolve
 
@@ -708,13 +708,13 @@ class: slide--document
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # People Moves and Milestones
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # Think Beyond Silicon Valley: India and Design
 
@@ -789,7 +789,7 @@ Multi-ethnic Art & Craft tradition with local idioms marking design sensibilitie
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # Think Beyond Silicon Valley: Latin America and Design
 
@@ -851,19 +851,19 @@ Latin America has the fastest rate of smartphone adoption in the world. —[Fast
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # Think Beyond Silicon Valley: China and Design
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # Think Again Beyond Silicon Valley: China and Design
 
 ---
 
-class: slide--document
+class: document-slide
 
 # You're not getting any younger. You're getting B(older).
 
@@ -878,13 +878,13 @@ class: slide--document
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # Think Beyond GenZ + Millennials: Think Gen B(older)
 
 ---
 
-class: slide--chapter slide--lightgray
+class: chapter-slide lightgray-slide
 
 # .xx-large.mono[Scaling<br>Design]
 
@@ -903,25 +903,25 @@ class: slide--chapter slide--lightgray
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # Is a college degree necessary to succeed as a designer in tech?
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # Is the culture of your company set up for design to succeed?
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # At what stage is design typically involved?
 
 ---
 
-class: slide--document
+class: document-slide
 
 # Whatever you do, don't F up the culture
 
@@ -936,13 +936,13 @@ class: slide--document
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # Creating an inclusive culture for designers is where to start
 
 ---
 
-class: slide--document
+class: document-slide
 
 # Unconscious bias is promoted by stereotypes that exclude others
 
@@ -955,13 +955,13 @@ class: slide--document
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # How do you create an inclusively managed culture for designers?
 
 ---
 
-class: slide--document
+class: document-slide
 
 # Every boss of designers can stand to hear feedback every day
 
@@ -974,7 +974,7 @@ class: slide--document
 
 ---
 
-class: slide--document
+class: document-slide
 
 # Tools that ground the visual language of the computer
 
@@ -1027,7 +1027,7 @@ class: slide--document
 
 ---
 
-class: slide--document
+class: document-slide
 
 # Prototyping tools started in code and got more visual
 
@@ -1079,7 +1079,7 @@ class: slide--document
 
 ---
 
-class: slide--document
+class: document-slide
 
 # Design tools and systems are ch-ch-changing these days
 
@@ -1114,7 +1114,7 @@ class: slide--document
 
 ---
 
-class: slide--document
+class: document-slide
 
 # Erondu’s Playbook has the Qs&As for designers amidst scaling
 
@@ -1143,7 +1143,7 @@ class: slide--document
 
 ---
 
-class: slide--document
+class: document-slide
 
 # We're in a new age of data visualization &times; quant-qual science
 
@@ -1198,7 +1198,7 @@ And open source ones exist too:
 
 ---
 
-class: slide--document
+class: document-slide
 
 # Learn user researcher skills and principles to grow
 
@@ -1239,7 +1239,7 @@ class: slide--document
 
 ---
 
-class: slide--document
+class: document-slide
 
 # Learn product management skills and principles to grow
 
@@ -1295,7 +1295,7 @@ class: slide--document
 
 ---
 
-class: slide--document
+class: document-slide
 
 # The best way to scale design? Listen to what Bill used to say.
 
@@ -1329,7 +1329,7 @@ class: slide--document
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # Scaling Design Case Study: [Automattic.Design](https://automattic.design)
 
@@ -1429,7 +1429,7 @@ class: slide--document in-progress
 
 ---
 
-class: slide--chapter slide--lightgray
+class: chapter-slide lightgray-slide
 
 # .mono[Computational Design:<br> First Steps]
 
@@ -1448,7 +1448,7 @@ class: slide--chapter slide--lightgray
 
 ---
 
-class: slide--document
+class: document-slide
 
 # Atoms &times; Bits are getting cheaper to work (and experiment) with
 
@@ -1480,7 +1480,7 @@ The Line US and Mayku devices are excellent examples of low-cost, sophisticated 
 
 ---
 
-class: slide--document
+class: document-slide
 
 # Mobile (Atoms &times; Bits) is how everyone (will) get things done
 
@@ -1526,7 +1526,7 @@ Starbucks is challenged by mobile order-ahead [fulfillment](http://www.businessi
 
 ---
 
-class: slide--document
+class: document-slide
 
 # Mobile adds time to our digital lives, and data usage to our plans
 
@@ -1561,7 +1561,7 @@ class: slide--document
 
 ---
 
-class: slide--document
+class: document-slide
 
 # Mobile demands higher performance standards in experience
 
@@ -1609,13 +1609,13 @@ class: slide--document
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # Mobile phones have more sensors than a microphone these days
 
 ---
 
-class: slide--document
+class: document-slide
 
 # Towards conversational design
 
@@ -1630,25 +1630,25 @@ class: slide--document
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # Conversational experience design is worth talking about
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # The Web’s become much better at listening and speaking up
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # Should you care about augmented/virtual reality? Sure!
 
 ---
 
-class: slide--chapter slide--lightgray
+class: chapter-slide lightgray-slide
 
 # Computational Design:<br>Artificial Intelligence
 
@@ -1665,49 +1665,49 @@ class: slide--chapter slide--lightgray
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # When do you expect AI to replace most visual designers?
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # AI has gone to art school and its grades are improving
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # Hey AI-designer. Can you go and __ for me?
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # AI can make more than just images
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # Learn AI and don't be afraid — stay awake. Don't freeze.
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # It's only human that we will work to thwart AI with all our might
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # Because what we make in now has unintended consequences
 
 ---
 
-class: slide--document
+class: document-slide
 
 # Design has long been asking questions about social responsibility
 
@@ -1722,7 +1722,7 @@ class: slide--document
 
 ---
 
-class: slide--chapter slide--lightgray
+class: chapter-slide lightgray-slide
 
 .large[
 # Inequality
@@ -1742,7 +1742,7 @@ class: slide--chapter slide--lightgray
 
 ---
 
-class: slide--document
+class: document-slide
 
 # We're seeking a freedom that's being eroded on the Internet
 
@@ -1770,7 +1770,7 @@ class: slide--document
 
 ---
 
-class: slide--document
+class: document-slide
 
 # We're fully connected but algorithmically divided
 
@@ -1805,7 +1805,7 @@ _Note that similar posts are being made on most major social networks these days
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # #DesignInTech is a global phenomenon and beyond Silicon Valley
 
@@ -1816,7 +1816,7 @@ class: slide--document in-progress
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # The US map for #DesignInTech is unsurprising
 
@@ -1827,7 +1827,7 @@ class: slide--document in-progress
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # But if you look closely or broadly, inequality sits in the shadow
 
@@ -1842,25 +1842,25 @@ class: slide--document in-progress
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # Congrats! You're in the 5% of the most-skilled computer users.
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # Is the digital divide related somehow to poverty and inequality?
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # Do you need to care at all? No. But you need to feel the imbalance
 
 ---
 
-class: slide--document
+class: document-slide
 
 # Inequality impacts innovation, and we need all minds to beat AI
 
@@ -1893,7 +1893,7 @@ class: slide--document
 
 ---
 
-class: slide--document
+class: document-slide
 
 # A solution to inequality? Possibly, distributed or "remote" work.
 
@@ -1915,7 +1915,7 @@ Bench, 100Starlings, 2600Hz, 33 Sticks, 3DprinterOS, 3nder, 3SMobile, 4 Ventos, 
 
 ---
 
-class: slide--document
+class: document-slide
 
 # What's "remote work" and where is it heading today?
 
@@ -1955,19 +1955,19 @@ class: slide--document
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # Where do people work? On premise, remotely, or both?
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # Automattic Design is working with students in Paintsville, KY
 
 ---
 
-class: slide--chapter slide--lightgray
+class: chapter-slide lightgray-slide
 
 # Inclusive Design
 
@@ -1983,7 +1983,7 @@ class: slide--chapter slide--lightgray
 
 ---
 
-class: slide--document
+class: document-slide
 
 # A simple definition of diversity and inclusion says it all
 
@@ -1998,13 +1998,13 @@ class: slide--document
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # Inclusive design takes center stage after many decades
 
 ---
 
-class: slide--document slide--black
+class: document-slide black-slide
 
 # A solution for inequality by design? Inclusive design re-awakens.
 
@@ -2019,19 +2019,19 @@ class: slide--document slide--black
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # Bias in AI and who's auto-complete?
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # So recognize exclusion, and take action
 
 ---
 
-class: slide--document in-progress
+class: document-slide in-progress
 
 # Be sure to include others unlike yourself, and bring your friends
 
@@ -2056,7 +2056,7 @@ David Gibson, the superintendent of the Paintsville school district, had this id
 
 ---
 
-class: slide--document
+class: document-slide
 
 # Design inclusively to expands your total addressable market
 
@@ -2083,7 +2083,7 @@ class: slide--document
 
 ---
 
-class: slide--document slide--black
+class: document-slide black-slide
 
 background-image: URL(https://www.newstatesman.com/sites/default/files/styles/nodeimage/public/blogs_2018/02/black-panther-quad-poster.jpg)
 
@@ -2095,7 +2095,7 @@ background-image: URL(https://www.newstatesman.com/sites/default/files/styles/no
 
 ---
 
-class: slide--document slide--lightgray sans
+class: document-slide lightgray-slide sans
 
 # 2018 #DesignInTech Open Survey Credits
 
@@ -2107,7 +2107,7 @@ Pedro Sanoja, Alejo Romano, Victor Fernandez, Yawen Jang, Cam Rogers, Chi Ryan, 
 
 ---
 
-class: slide--overview slide--lightgray sans
+class: overview-slide lightgray-slide sans
 
 # Disclosure
 

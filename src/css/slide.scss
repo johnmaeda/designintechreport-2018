@@ -100,30 +100,6 @@
     }
   }
 
-  &--lightgray {
-    color: $color-black;
-    background-color: $color-lightgray;
-  }
-
-  &--darkgray {
-    color: $color-white;
-    background-color: $color-darkgray;
-  }
-
-  &--yellow {
-    color: $color-black;
-    background-color: $color-yellow;
-  }
-
-  &--black {
-    color: $color-white;
-    background-color: $color-black;
-
-    a {
-      color: $color-white;
-    }
-  }
-
   .source {
     @include typography-sans;
     display: block;
@@ -151,5 +127,29 @@
     &:before {
       content: '2018 Design In Tech Report | ';
     }
+  }
+}
+
+.lightgray-slide {
+  color: $color-black;
+  background-color: $color-lightgray;
+}
+
+.darkgray-slide {
+  color: $color-white;
+  background-color: $color-darkgray;
+}
+
+.yellow-slide {
+  color: $color-black;
+  background-color: $color-yellow;
+}
+
+.black-slide {
+  color: $color-white;
+  background-color: $color-black;
+
+  a {
+    color: $color-white;
   }
 }

@@ -4,7 +4,7 @@
 
 @import './overview';
 
-.slide--chapter {
+.chapter-slide {
   @include headers;
   @include paragraphs;
   @include lists;

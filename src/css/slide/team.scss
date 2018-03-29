@@ -2,7 +2,7 @@
 @import '../elements';
 @import '../typography';
 
-.slide--welcome-team {
+.team-slide {
   @include headers;
   @include typography-sans;
   color: $color-black;

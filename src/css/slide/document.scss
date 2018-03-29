@@ -2,7 +2,7 @@
 @import '../elements';
 @import '../typography';
 
-.slide--document {
+.document-slide {
   @include headers;
   @include paragraphs;
   @include lists;
