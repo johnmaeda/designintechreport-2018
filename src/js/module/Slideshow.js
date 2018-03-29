@@ -4,8 +4,6 @@ import 'remark/src/remark'
 
 import Slide from './Slide'
 
-console.log(remark)
-
 export default class Slideshow {
   constructor() {
     this.slides = new WeakMap()

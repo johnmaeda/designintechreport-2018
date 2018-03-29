@@ -1,3 +1,12 @@
+/* global twttr */
+
+import MutationObserver from 'mutation-observer'
+
+import {
+  drawWordTree,
+  drawBarChart,
+} from '../charts'
+
 export default class Slide {
   constructor(element) {
     this.element = element
@@ -58,6 +67,7 @@ export default class Slide {
   slideDidMount() {}
 
   slideDidAppear() {
+    // A link to an external URL should open in a new window.
     Array.from(this.element.querySelectorAll('a'))
       .forEach(element => {
         const href = element.getAttribute('href')
@@ -65,14 +75,35 @@ export default class Slide {
           element.setAttribute('target', '_blank')
         }
       })
-    Array.from(this.element.querySelectorAll('img'))
+
+    // Start loading resources when the containing slide first appears.
+    Array.from(this.element.querySelectorAll('img, iframe'))
       .forEach(element => {
         const src = element.getAttribute('data-src')
         element.setAttribute('src', src)
         element.removeAttribute('data-src')
       })
 
-    twttr.widgets.load(this.element)
+    Array.from(this.element.querySelectorAll('.chart'))
+      .forEach(element => {
+        const type = element.getAttribute('data-type')
+        const src = element.getAttribute('data-src')
+        fetch(src).then(response => {
+          return response.json()
+        }).then(({ data, options }) => {
+          switch (type) {
+            case 'bar':
+              drawBarChart(element, data, options)
+              break
+            case 'wordtree':
+              drawWordTree(element, data, options)
+              break
+          }
+        })
+      })
+
+    // Tell twitter widgets to load
+    // twttr.widgets.load(this.element)
   }
 
   slideDidUnmount() {}

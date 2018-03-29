@@ -23,12 +23,18 @@ export function block(className, children = null) {
 
 export function image(height, src) {
   return render(
-    <img style={{ height }} data-src={src} />
+    <img data-src={src} style={{ height }} />
   )
 }
 
 export function iframe(height, src) {
   return render(
-    <iframe style={{ height }} src={src} />
+    <iframe data-src={src} style={{ height }} />
+  )
+}
+
+export function chart(height, type, src) {
+  return render(
+    <div className="chart" data-type={type} data-src={src} style={{ height }} />
   )
 }
