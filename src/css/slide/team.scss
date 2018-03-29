@@ -5,8 +5,8 @@
 .team-slide {
   @include headers;
   @include typography-sans;
-  color: $color-black;
   background-color: $color-lightgray;
+  color: $color-black;
 
   .body {
     display: grid;
@@ -19,9 +19,9 @@
 
     > ul {
       display: grid;
+      margin-top: 2.5rem;
       grid-template-columns: 1fr 1fr 1fr;
       grid-gap: 1.5rem;
-      margin-top: 2.5rem;
 
       > li {
         display: block;

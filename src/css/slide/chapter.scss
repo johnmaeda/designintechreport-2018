@@ -9,8 +9,8 @@
   @include paragraphs;
   @include lists;
 
-  padding-top: 6rem;
   display: grid;
+  padding-top: 6rem;
   grid-template-columns: 1fr 1fr;
   grid-gap: 2rem;
 
