@@ -20,13 +20,24 @@
   height: 100%;
 }
 
+.remark-slide-number {
+  @include typography-sans;
+  display: block;
+  position: absolute;
+  right: 40px;
+  bottom: 15px;
+  margin: 0 !important;
+  color: $color-darkgray;
+  font-size: $font-size-xx-small;
+  opacity: 1;
+}
+
 .slide {
   @include typography-serif;
   padding: 1.25rem 5rem;
   font-size: $font-size-medium;
   line-height: 1.2;
 
-  // Just cosmetic
   *::selection {
     color: $color-white;
     background: $color-gray;
@@ -56,8 +67,6 @@
     }
   }
 
-  // We're using the same anchor appearance across different types of slides,
-  // except base colors.
   a {
     color: $color-black;
     text-decoration: none;
@@ -74,6 +83,7 @@
 
   &.in-progress {
     &:after {
+      @include typography-sans;
       content: 'In Progress';
       display: flex;
       flex-direction: row;
@@ -87,7 +97,6 @@
       border-radius: 8rem;
       color: white;
       background-color: $color-orange;
-      font-family: $font-family-sans;
     }
   }
 
@@ -121,7 +130,7 @@
     position: absolute;
     left: 5rem;
     bottom: 15px;
-    color: $color-gray;
+    color: $color-darkgray;
     font-size: $font-size-xx-small;
 
     &:before {
@@ -142,17 +151,5 @@
     &:before {
       content: '2018 Design In Tech Report | ';
     }
-  }
-
-  .remark-slide-number {
-    @include typography-sans;
-    display: block;
-    position: absolute;
-    right: 40px;
-    bottom: 15px;
-    margin: 0 !important;
-    color: $color-gray;
-    font-size: $font-size-xx-small;
-    opacity: 1;
   }
 }

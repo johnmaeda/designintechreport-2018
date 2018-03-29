@@ -1,6 +1,6 @@
 @import '../colors';
+@import '../elements';
 @import '../typography';
-@import './elements';
 
 .slide--welcome-team {
   @include headers;

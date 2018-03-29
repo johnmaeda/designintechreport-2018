@@ -1,102 +1,14 @@
 @import './colors';
-@import './typography';
+@import './elements';
 @import './mixins';
+@import './typography';
 
-.timeline-title {
-  @include typography-sans;
-  @include typography-size($font-size-xxx-small);
-  color: $color-purple;
-  font-weight: bold;
-  line-height: 1.2;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+.block {
+  display: block
 }
 
-.timeline-list {
+.chart {
   @include block-margin;
-  @include reset-lists;
-  @include typography-size($font-size-xxx-small)
-
-  > ul {
-    display: flex;
-    flex-direction: row;
-
-    > li {
-      flex-grow: 1;
-      flex-shrink: 1;
-      flex-basis: 0;
-      padding: 0.5rem;
-      border: solid 1px black;
-    }
-
-    > li + li {
-      margin-left: 0.5rem;
-    }
-  }
-
-  > ul > li > ul > li + li {
-    margin-top: 1em;
-  }
-}
-
-.quote-list {
-  @include block-margin;
-  @include reset-lists;
-  color: $color-darkgray;
-
-  > ul {
-    > li {
-      padding-left: 0.3rem;
-      border-style: solid;
-      border-color: #dddddd;
-      border-left-width: 2px;
-    }
-
-    > li + li {
-      margin-top: 0.75rem;
-    }
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.horizontal-layout {
-  margin-top: 8rem;
-  display: grid;
-  grid-template-columns: 1fr 2.5fr;
-  grid-gap: 2rem;
-
-  h1 {
-    margin-top: 0;
-    font-size: $font-size-x-large;
-  }
-}
-
-.group {
-  @include remove-edge-margins;
 }
 
 .refresh {
@@ -116,13 +28,107 @@
   border-radius: 0.6rem;
 }
 
+.subhead {
+  @include typography-sans;
+  display: inline-block;
+  padding: 0.2em; // Intentionally em
+  color: $color-white;
+  background-color: $color-black;
+  font-size: $font-size-large;
+  line-height: 1;
+
+  &.numeral {
+    @include typography-mono;
+  }
+
+  &.darkgray {
+    background-color: $color-darkgray;
+  }
+
+  &.gray {
+    background-color: $color-gray;
+  }
+
+  &.lightgray {
+    background-color: $color-lightgray;
+  }
+
+  &.orange {
+    background-color: $color-orange;
+  }
+
+  &.purple {
+    background-color: $color-purple;
+  }
+
+  &.yellow {
+    background-color: $color-yellow;
+  }
+}
+
+.header-group {
+  @include reset-paragraphs;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  > * {
+    margin-left: 0.75em; // Intentionally em
+  }
+}
+
+.dl {
+  @include block-margin;
+  display: block;
+
+  > .dt, > .dd {
+    display: block;
+  }
+
+  > .dd {
+    padding: 0.5rem 0 1rem 1rem;
+  }
+
+  > .dt + .dt,
+  > .dt + .dd,
+  > .dd + .dd,
+  > .dd + .dt {
+    margin-top: 0.25rem;
+  }
+}
+
+.group {
+  @include remove-edge-margins;
+  display: block;
+}
+
+.stack {
+  @include block-margin;
+  display: flex;
+  flex-direction: row;
+
+  > .group {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+  }
+
+  > .group + .group {
+    margin-left: 2rem;
+  }
+}
+
 .grid {
+  @include block-margin;
   display: grid;
   grid-gap: 2rem;
-  margin: 1rem 0 1.5rem;
 
   > * {
     margin-top: 0;
+  }
+
+  > .grid:not(:first-child) {
+    margin-left: 1rem;
   }
 
   &.ratio-1-1 {
@@ -146,116 +152,22 @@
   }
 }
 
-.stack {
-  @include block-margin;
-  display: flex;
-  flex-direction: row;
-
-  > ul {
-    display: flex;
-    flex-direction: row;
-    flex-grow: 1;
-    margin: 0;
-    padding: 0;
-  }
-
-  > ul > li,
-  > .group {
-    display: block;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0;
-    margin: 0;
-  }
-
-  > ul > li + li,
-  > .group + .group {
-    margin-left: 2rem;
-  }
-}
-
 .columns {
   @include block-margin;
   @include remove-edge-margins;
   display: block;
   column-gap: 2rem;
-}
 
-.columns-2 {
-  @extend .columns;
-  column-count: 2;
-}
-
-.columns-3 {
-  @extend .columns;
-  column-count: 3;
-}
-
-.columns-4 {
-  @extend .columns;
-  column-count: 4;
-}
-
-.header-group {
-  @include reset-paragraphs;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
-  > * {
-    margin-left: 0.75em; // Intentionally em
-  }
-}
-
-.block {
-  display: block
-}
-
-.quote {
-  @include remove-edge-margins;
-  margin: 1em 0;
-  color: $color-darkgray;
-
-  blockquote {
-    @include remove-edge-margins;
-    margin-bottom: 0.75em;
-  }
-}
-
-.box-list {
-  @include block-margin;
-  @include reset-lists;
-
-  > ul {
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-
-    > li {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      flex-grow: 1;
-      flex-shrink: 1;
-      flex-basis: 0;
-      display: block;
-      padding: 2rem;
-      color: $color-white;
-      background-color: $color-purple;
-      text-align: center;
-    }
-
-    > li + li {
-      margin-left: 0.5rem;
-    }
+  &.across-2 {
+    column-count: 2;
   }
 
-  &.gray {
-    > ul > li {
-      color: $color-black;
-      background-color: $color-lightgray;
-    }
+  &.across-3 {
+    column-count: 3;
+  }
+
+  &.across-4 {
+    column-count: 4;
   }
 }
 
@@ -288,16 +200,66 @@
   display: grid;
   grid-gap: 0.5rem;
 
+  &.across-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  &.across-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
   &.across-4 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 
+.box-list {
+  @include block-margin;
+  @include reset-lists;
+
+  > ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+
+    > li {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      flex-grow: 1;
+      flex-shrink: 1;
+      flex-basis: 0;
+      display: block;
+      padding: 2rem 0;
+      text-align: center;
+    }
+
+    > li + li {
+      margin-left: 0.5rem;
+    }
+  }
+
+  &.purple {
+    > ul > li {
+      color: $color-white;
+      background-color: $color-purple;
+    }
+  }
+
+  &.gray {
+    > ul > li {
+      color: $color-black;
+      background-color: $color-lightgray;
+    }
+  }
+}
+
 .figure {
   @include block-margin;
+  @include typography-sans;
   display: block;
   position: relative;
-  font-family: $font-family-sans;
   font-size: $font-size-x-small;
   line-height: 1;
 
@@ -319,87 +281,86 @@
     }
   }
 
+  &.tinted {
+    img {
+      filter: brightness(0.9);
+    }
+  }
+
   .caption {
     display: inline;
     position: absolute;
     left: 0.3rem;
     bottom: 0.3rem;
-    padding: 0.2em 0.5em;
+    padding: 0.2em 0.5em; // Intentionally em
     color: $color-white;
     background-color: rgba($color-black, 0.5);
   }
 }
 
-.subhead {
-  @include typography-sans;
-  display: inline-block;
-  padding: 0.2em;
-  color: $color-white;
-  background-color: $color-black;
-  font-size: $font-size-large;
-  line-height: 1;
+.quote {
+  @include block-margin;
+  @include remove-edge-margins;
+  color: $color-darkgray;
 
-  &.numeral {
-    @include typography-mono;
-  }
-
-  &.black {
-    background-color: $color-black;
-  }
-
-  &.darkgray {
-    background-color: $color-darkgray;
-  }
-
-  &.gray {
-    background-color: $color-gray;
-  }
-
-  &.lightgray {
-    background-color: $color-lightgray;
-  }
-
-  &.orange {
-    background-color: $color-orange;
-  }
-
-  &.purple {
-    background-color: $color-purple;
-  }
-
-  &.white {
-    background-color: $color-white;
-  }
-
-  &.yellow {
-    background-color: $color-yellow;
+  blockquote {
+    @include remove-edge-margins;
+    margin-bottom: 0.75em; // Intentionally em
   }
 }
 
-.dl {
-  display: block;
-  margin: 1rem 0;
+.quote-list {
+  @include block-margin;
+  @include reset-lists;
+  color: $color-darkgray;
 
-  &:first-child {
-    margin-top: 0
+  > ul {
+    > li {
+      padding-left: 0.3rem;
+      border-style: solid;
+      border-color: #dddddd;
+      border-left-width: 2px;
+    }
+
+    > li + li {
+      margin-top: 0.75rem;
+    }
+  }
+}
+
+.timeline-list {
+  @include block-margin;
+  @include reset-lists;
+  @include typography-size($font-size-xxx-small)
+
+  > ul {
+    display: flex;
+    flex-direction: row;
+
+    > li {
+      flex-grow: 1;
+      flex-shrink: 1;
+      flex-basis: 0;
+      padding: 0.5rem;
+      border: solid 1px black;
+    }
+
+    > li + li {
+      margin-left: 0.5rem;
+    }
   }
 
-  &:last-child {
-    margin-bottom: 0
+  > ul > li > ul > li + li {
+    margin-top: 1em; // Intentionally em
   }
+}
 
-  .dt, .dd {
-    display: block;
-  }
-
-  .dd {
-    padding: 0.5rem 0 1rem 1rem;
-  }
-
-  .dt + .dt,
-  .dt + .dd,
-  .dd + .dd,
-  .dd + .dt {
-    margin-top: 0.25rem;
-  }
+.timeline-title {
+  @include typography-sans;
+  @include typography-size($font-size-xxx-small);
+  color: $color-purple;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: 0.1em; // Intentionally em
+  text-transform: uppercase;
 }

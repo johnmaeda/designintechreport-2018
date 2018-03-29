@@ -1,6 +1,6 @@
-@import './colors';
-@import './typography';
-@import './elements';
+@import '../colors';
+@import '../elements';
+@import '../typography';
 
 .slide--document {
   @include headers;

@@ -1,15 +1,16 @@
-@import './colors';
-@import './typography';
+@import '../colors';
+@import '../elements';
+@import '../typography';
 
-.layout-chapter {
+.slide--overview {
+  @include headers;
+  @include paragraphs;
+  @include lists;
+
   padding-top: 8rem;
   display: grid;
   grid-template-columns: 1fr 2.5fr;
   grid-gap: 2rem;
-
-  &--even {
-    grid-template-columns: 1fr 1fr;
-  }
 
   h1 {
     margin-top: 0;

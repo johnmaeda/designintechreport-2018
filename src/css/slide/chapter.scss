@@ -1,0 +1,21 @@
+@import '../colors';
+@import '../elements';
+@import '../typography';
+
+@import './overview';
+
+.slide--chapter {
+  @include headers;
+  @include paragraphs;
+  @include lists;
+
+  padding-top: 6rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+
+  h1 {
+    margin-top: 0;
+    font-size: $font-size-x-large;
+  }
+}
