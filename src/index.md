@@ -2037,7 +2037,7 @@ class: document-slide in-progress
 
 .grid.ratio-1-1[
 .group[
-![:tweet michaelbierut, 941705482884001792]
+![:tweet 941705482884001792]
 ]
 .group[
 .figure[
@@ -2089,7 +2089,7 @@ background-image: URL(https://www.newstatesman.com/sites/default/files/styles/no
 
 # .x-large[Recent movie review SMS from my 82-year old moms]
 
-![:tweet johnmaeda, 966462025781170176]
+![:tweet 966462025781170176]
 
 .source[Marvel]
 

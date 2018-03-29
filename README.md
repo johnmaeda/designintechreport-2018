@@ -19,6 +19,20 @@ Design In Tech Report 2018 Japanese Translation
     npm start
     ```
 
+## Building
+
+Runing the following command outputs compiled files in the `build` directory.
+
+```sh
+npm run build
+```
+
+## Editing Markdown
+
+`src/index.md` is the markdown source file for [remark.js](https://github.com/gnab/remark).
+
+Github Flavoured Markdown [explicitly states](https://github.github.com/gfm/#list-items) that 4 spaces are needed to indent list items, which is a bit wider, personally. It may make you better to configure the tab width of your editor to 2 spaces or whatever you prefer and use tabs in Markdown files.
+
 ## Working with Git
 
 Here're some useful resources:
@@ -74,73 +88,4 @@ The order of arguments and its notation is confusing.
 ```sh
 git checkout -b master origin/master # Checkout remote `master` branch
 git checkout -b feature/fix origin/feature/fix # Checkout remote `feature/fix` branch
-```
-
-## Editing Markdown
-
-`src/index.md` is the markdown source file for [remark.js](https://github.com/gnab/remark).
-
-Github Flavoured Markdown [explicitly states](https://github.github.com/gfm/#list-items) that 4 spaces are needed to indent list items, which is a bit wider, personally. It may make you better to configure the tab width of your editor to 2 spaces or whatever you prefer and use tabs in Markdown files.
-
-## Building
-
-Runing the following command outputs compiled files in the `build` directory.
-
-```sh
-npm run build
-```
-
-
-## Components
-
-### Global
-
-#### Font Family
-
-- `.sans`
-- `.serif`
-- `mono`
-
-#### Font Size
-
-- `.xx-large`
-- `.x-large`
-- `.large`
-- `.x-medium`
-- `.medium`
-- `.small`
-- `.x-small`
-- `.xx-small`
-- `.xxx-small`
-
-
-#### Text Transform
-
-- `.lowercase`
-- `.uppercase`
-
-### Timeline Title
-
-```
-.timeline-title[Title]
-```
-
-### Timeline List
-
-```
-.timeline-list[
-* Item
-* Item
-* Item
-]
-```
-
-### Quote List
-
-```
-.quote-list[
-* Item
-* Item
-* Item
-]
 ```

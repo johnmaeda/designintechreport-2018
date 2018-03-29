@@ -5,7 +5,7 @@ function render(element) {
   return ReactDOMServer.renderToStaticMarkup(element)
 }
 
-export function tweet(username, tweetId) {
+export function tweet(tweetId) {
   return render(
     <div className="tweet" data-tweet-id={tweetId} />
   )
