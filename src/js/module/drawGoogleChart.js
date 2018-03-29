@@ -2,15 +2,6 @@
 
 import loadScript from './loadScript'
 
-function loadLibraries({ version, packages }) {
-  return new Promise((resolve, reject) => {
-    google.charts.load(version, {
-      packages,
-      callback: resolve,
-    })
-  })
-}
-
 const libraries = loadScript('https://www.gstatic.com/charts/loader.js')
   .then(() => {
     return new Promise((resolve, reject) => {
