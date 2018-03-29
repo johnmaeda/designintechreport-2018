@@ -1636,7 +1636,7 @@ And open source ones exist too:
 .group[
 ## Have I given up on design?
 
-<img style="width:100%;height:300px;object-position:0 5%;" data-src="https://designintech.report/wp-content/uploads/2018/03/maedadotpm.png">
+![:image 0 5%,, 300px, https://designintech.report/wp-content/uploads/2018/03/maedadotpm.png]
 
 .small.darkgray[_**Nope.** I'm just collecting all the parts I've been learning/doing for my whole life before — I get uploaded to the big cloud in the sky one day. To design amazing experiences for people, I've always chosen to think/work inclusively and broadly._]
 ]
@@ -1751,7 +1751,7 @@ class: document-slide
 .grid.ratio-1-2[
 .group[
 .grayscale.figure[
-<img style="height:400px;object-position:30% 0" data-src="https://img.youtube.com/vi/Atsmy_oMLaI/maxresdefault.jpg">
+![:image 30% 0,, 400px, https://img.youtube.com/vi/Atsmy_oMLaI/maxresdefault.jpg]
 .caption[via Cooper Hewitt]
 ]
 
@@ -1942,7 +1942,7 @@ class: document-slide
 ]
 
 .figure[
-<img style="height:230px;object-position: 0 10%;" data-src="https://www.thinkwithgoogle.com/_qs/images/T_YTfVgBw6V5ec8xryQjWtfCS7c=/113/width-2000/how-needs-were-addressed-chart.png">
+![:image 0 10%,, 230px, https://www.thinkwithgoogle.com/_qs/images/T_YTfVgBw6V5ec8xryQjWtfCS7c=/113/width-2000/how-needs-were-addressed-chart.png]
 .caption[via Google]
 ]
 ]
@@ -2101,14 +2101,14 @@ For context, a BMW 5-series car has a 100 or more sensors.
 The Nintendo Switch represents a different kind of form-factor in design, which gives rise to a different kind of experience.
 
 .figure[
-<img style="width:auto;height:150px;object-position:0 50%;" data-src="https://www.nintendo.com/switch/etRgxnAu0zRX4bmWnt9K628wG7YQUI6t/images/switch/buy-now/bundle_gray_console.jpg">
+![:image 0 50%, auto, 150px, https://www.nintendo.com/switch/etRgxnAu0zRX4bmWnt9K628wG7YQUI6t/images/switch/buy-now/bundle_gray_console.jpg]
 .caption[via Nintendo]
 ]
 
 Snapchat Spectacles received a lot of attention for how it failed to capture attention, but it remains a clever design experiment.
 
 .figure[
-<img style="width:auto;height:150px;object-position: 0% 60%;" data-src="https://images-na.ssl-images-amazon.com/images/I/71ob6XrmubL._SL1500_.jpg">
+![:image 0 60%, auto, 150px, https://images-na.ssl-images-amazon.com/images/I/71ob6XrmubL._SL1500_.jpg]
 .caption[via Amazon]
 ]
 

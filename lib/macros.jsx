@@ -5,6 +5,18 @@ function render(element) {
   return ReactDOMServer.renderToStaticMarkup(element)
 }
 
+function expandInverseOptionalArgs(args, names) {
+  const padding = Array(names.length - args.length).fill(null)
+  return [...padding, ...args]
+    .map(arg => arg === '' ? null : arg)
+    .reduce((result, arg, index) => {
+      return {
+        ...result,
+        [names[index]]: arg,
+      }
+    }, {})
+}
+
 export function tweet(tweetId) {
   return render(
     <div className="tweet" data-tweet-id={tweetId} />
@@ -20,31 +32,21 @@ export function block(className, children = null) {
 }
 
 export function image(...args) {
-  let src
-  let width = null
-  let height = null
-  switch (args.length) {
-    case 1:
-      [src] = args
-      break
-    case 2:
-      [height, src] = args
-      break
-    case 3:
-      [width, height, src] = args
-      break
-    default:
-      throw new Error('Invalid number of parameters')
-  }
-  const style = {}
-  if (width != null) {
-    style.width = width
-  }
-  if (height != null) {
-    style.height = height
-  }
+  const {
+    position,
+    width,
+    height,
+    src,
+  } = expandInverseOptionalArgs(args, ['position', 'width', 'height', 'src'])
   return render(
-    <img data-src={src} style={style} />
+    <img
+      data-src={src}
+      style={{
+        width,
+        height,
+        objectPosition: position,
+      }}
+    />
   )
 }
 
