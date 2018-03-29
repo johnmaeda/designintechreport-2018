@@ -288,7 +288,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 ---
 
-class: document-slide lightgray-slide layout-chapter
+class: chapter-slide lightgray-slide layout-chapter
 
 # Chapter Layout
 
@@ -300,7 +300,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ---
 
-class: document-slide lightgray-slide layout-chapter layout-chapter--even
+class: chapter-slide lightgray-slide
 
 # .large[Evenly-spaced <br> Chapter Layout]
 

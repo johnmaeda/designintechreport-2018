@@ -1,6 +1,6 @@
 import Slideshow from './module/Slideshow'
 
-import source from '../example.md'
+import source from '../index.md'
 
 import '../css/main.scss'
 
