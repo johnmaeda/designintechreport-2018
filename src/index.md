@@ -590,9 +590,11 @@ I do not believe that DT is a step by step recipe. We teach our medical students
 
 class: document-slide
 
+.header[
 # Consulting companies are going beyond just design thinking
 
 .yellow[This complex discipline does itself a disservice to just call itself "design," which signals only surface-level solutions. Perhaps we’ll start to see new ways of describing these multifaceted and interconnected capabilities. —[Hugo Sarrazin](https://www.mckinsey.com/business-functions/organization/our-insights/good-design-is-good-business)]
+]
 
 .stack[
 .group[
@@ -825,9 +827,11 @@ class: document-slide
 
 class: document-slide work-in-progress
 
+.header[
 # Think Beyond Silicon Valley: India and Design
 
 By 2050, India’s economy is projected to be the world’s second largest, behind only China. —[WEF](https://www.weforum.org/agenda/2017/10/eight-key-facts-about-indias-economy-in-2017/)
+]
 
 .stack[
 .group[
@@ -898,9 +902,11 @@ Multi-ethnic Art & Craft tradition with local idioms marking design sensibilitie
 
 class: document-slide work-in-progress
 
+.header[
 # Think Beyond Silicon Valley: Latin America and Design
 
 Latin America has the fastest rate of smartphone adoption in the world. —[Fast Company](https://www.fastcompany.com/3044662/what-latin-america-will-look-like-in-2020)
+]
 
 .stack[
 .group[
@@ -1666,7 +1672,11 @@ class: document-slide
 9. .highlight[Psychology and human behavior]
 10. Managing complexity
 
-.small.sans[Note that many of .highlight[these skills] are exercised with expertise by User Researchers. To learn more about User Research [see Erika Hall's work](https://www.linkedin.com/pulse/9-rules-design-research-erika-hall/)]
+.small.sans[
+<br>
+
+Note that many of .highlight[these skills] are exercised with expertise by User Researchers. To learn more about User Research [see Erika Hall's work](https://www.linkedin.com/pulse/9-rules-design-research-erika-hall/)
+]
 ]
 .group[
 .large.quote[
