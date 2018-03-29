@@ -5,11 +5,11 @@ import 'remark/src/remark'
 import Slide from './Slide'
 
 export default class Slideshow {
-  constructor() {
+  constructor () {
     this.slides = new WeakMap()
   }
 
-  async init(source, options = {}) {
+  async init (source, options = {}) {
     if (document.readyState !== 'complete') {
       await new Promise((resolve, reject) => {
         const callback = event => {
@@ -25,14 +25,14 @@ export default class Slideshow {
       navigation: {
         scroll: false,
         touch: true,
-        click: false,
+        click: false
       },
-      ...options,
+      ...options
     })
     this.updateSlides()
   }
 
-  load(source) {
+  load (source) {
     if (!this.remark) {
       throw new Error('Attempt to load before init')
     }
@@ -40,7 +40,7 @@ export default class Slideshow {
     this.updateSlides()
   }
 
-  updateSlides() {
+  updateSlides () {
     const elements = document.querySelectorAll('.remark-slide-container')
     for (let i = 0; i < elements.length; ++i) {
       const element = elements[i]

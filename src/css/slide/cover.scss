@@ -5,19 +5,19 @@
 .cover-slide {
   @include typography-mono;
 
-  color: $color-white;
   background-color: $color-orange;
   background-image: url('https://designintech.report/wp-content/uploads/2018/03/orangepointssm.png');
   background-size: cover;
+  color: $color-white;
 
   .byline {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
     position: absolute;
     top: 95px;
     left: 132px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     width: 133px;
     height: 26px;
   }
@@ -25,12 +25,12 @@
   .heading {
     display: block;
     position: absolute;
-    box-sizing: border-box;
     top: 425px;
     left: 708px;
     width: 336px;
     height: 104px;
     padding: 0 30px;
+    box-sizing: border-box;
 
     h1 {
       @include typography-mono;

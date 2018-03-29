@@ -9,29 +9,29 @@ module.exports = mode => ({
   entry: {
     main: [
       'babel-polyfill',
-      path.resolve(__dirname, 'src', 'js', 'main.js'),
-    ],
+      path.resolve(__dirname, 'src', 'js', 'main.js')
+    ]
   },
   output: {
     path: path.resolve(__dirname, 'build'),
-    filename: '[name].js',
+    filename: '[name].js'
   },
   performance: {
-    hints: false,
+    hints: false
   },
   resolve: {
     alias: {
       '../macros': path.resolve(__dirname, 'lib/macros.jsx'),
       'marked': path.resolve(__dirname, 'lib/marked.js'),
-      'remarked': path.resolve(__dirname, 'node_modules/marked'),
-    },
+      'remarked': path.resolve(__dirname, 'node_modules/marked')
+    }
   },
   module: {
     rules: [
       {
         test: /\.md$/,
         exclude: /node_modules/,
-        use: 'raw-loader',
+        use: 'raw-loader'
       },
       {
         test: /\.jsx?$/,
@@ -44,14 +44,14 @@ module.exports = mode => ({
                 'es2016',
                 'es2017',
                 'stage-3',
-                'stage-2',
+                'stage-2'
               ],
               plugins: [
-                'transform-react-jsx',
-              ],
-            },
-          },
-        ],
+                'transform-react-jsx'
+              ]
+            }
+          }
+        ]
       },
       {
         test: /\.scss$/,
@@ -59,42 +59,42 @@ module.exports = mode => ({
           mode === 'production' ? MiniCssExtractPlugin.loader : 'style-loader',
           {
             loader: 'css-loader',
-            options: { sourceMap: true },
+            options: { sourceMap: true }
           },
           {
             loader: 'postcss-loader',
-            options: { sourceMap: true },
+            options: { sourceMap: true }
           },
           {
             loader: 'sass-loader',
             options: {
               sourceMap: true,
               includePaths: [
-                path.resolve(__dirname, 'node_modules', 'compass-mixins', 'lib'),
-              ],
-            },
-          },
-        ],
-      },
-    ],
+                path.resolve(__dirname, 'node_modules', 'compass-mixins', 'lib')
+              ]
+            }
+          }
+        ]
+      }
+    ]
   },
   plugins: [
     new CleanWebpackPlugin(['build/**/*'], {
-      root: path.resolve(__dirname),
+      root: path.resolve(__dirname)
     }),
     new CopyWebpackPlugin([
       {
         context: path.resolve(__dirname),
         from: 'data',
-        to: 'data',
-      },
+        to: 'data'
+      }
     ]),
     new MiniCssExtractPlugin({
       filename: '[name].css',
-      chunkFilename: '[id].css',
+      chunkFilename: '[id].css'
     }),
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, 'src', 'index.html'),
-    }),
-  ],
+      template: path.resolve(__dirname, 'src', 'index.html')
+    })
+  ]
 })

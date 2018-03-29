@@ -2,7 +2,7 @@ module.exports = {
   map: {
     inline: false,
     annotation: true,
-    sourcesContent: true,
+    sourcesContent: true
   },
   plugins: {
     autoprefixer: {
@@ -15,8 +15,8 @@ module.exports = {
         'Safari >= 8',
         'Android 2.3',
         'Android >= 4',
-        'Opera >= 12',
-      ],
-    },
-  },
+        'Opera >= 12'
+      ]
+    }
+  }
 }
