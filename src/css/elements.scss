@@ -33,16 +33,16 @@
     font-size: $font-size-medium;
   }
 
+  h1 + h2 {
+    margin-top: 0;
+  }
+
   .header {
     margin-bottom: 2rem;
 
     h1 {
       margin-bottom: 0.5rem;
     }
-  }
-
-  h1 + h2 {
-    margin-top: 0;
   }
 
   .black {
@@ -127,6 +127,14 @@
 
   h1 + h2 {
     margin-top: unset;
+  }
+
+  .header {
+    margin-bottom: unset;
+
+    h1 {
+      margin-bottom: unset;
+    }
   }
 }
 
