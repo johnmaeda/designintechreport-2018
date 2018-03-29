@@ -36,7 +36,7 @@
   @include typography-serif;
   padding: 1.25rem 5rem;
   font-size: $font-size-medium;
-  line-height: 1.2;
+  line-height: 1.1;
 
   *::selection {
     color: $color-white;
@@ -65,6 +65,10 @@
     &:focus {
       outline: none;
     }
+  }
+
+  iframe {
+    width: 100%;
   }
 
   a {

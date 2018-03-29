@@ -85,13 +85,49 @@
   }
 }
 
+@mixin unset-headers() {
+  h1 {
+    @include unset-typography;
+    margin-top: unset;
+    margin-bottom: unset;
+    font-size: unset;
+  }
+
+  h2 {
+    @include unset-typography;
+    display: unset;
+    margin-top: unset;
+    padding: unset;
+    color: unset;
+    background-color: unset;
+    font-size: unset;
+
+    &:first-child {
+      margin-top: unset
+    }
+  }
+
+  h3 {
+    @include unset-typography;
+    display: unset;
+    padding: unset;
+    color: unset;
+    background-color: unset;
+    font-size: unset;
+  }
+
+  h1 + h2 {
+    margin-top: unset;
+  }
+}
+
 @mixin paragraphs() {
   p {
     margin: 0.75em 0; // Intentionally em
   }
 }
 
-@mixin reset-paragraphs() {
+@mixin unset-paragraphs() {
   p {
     margin: unset;
   }
@@ -116,9 +152,9 @@
   }
 }
 
-@mixin reset-lists() {
+@mixin unset-lists() {
   ul, ol {
-    @include reset-block-margin;
+    @include unset-block-margin;
     padding-left: unset;
 
     > li + li {

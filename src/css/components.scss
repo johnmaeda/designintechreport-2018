@@ -67,7 +67,7 @@
 }
 
 .header-group {
-  @include reset-paragraphs;
+  @include unset-paragraphs;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -100,6 +100,7 @@
 .group {
   @include remove-edge-margins;
   display: block;
+  position: relative;
 }
 
 .stack {
@@ -150,6 +151,20 @@
   &.ratio-3-1 {
     grid-template-columns: 3fr 1fr;
   }
+
+  &.ratio-1-4 {
+    grid-template-columns: 1fr 4fr;
+  }
+
+  &.ratio-4-1 {
+    grid-template-columns: 4fr 1fr;
+  }
+
+  @for $count from 2 through 8 {
+    &.across-#{$count} {
+      grid-template-columns: repeat($count, 1fr);
+    }
+  }
 }
 
 .columns {
@@ -158,16 +173,10 @@
   display: block;
   column-gap: 2rem;
 
-  &.across-2 {
-    column-count: 2;
-  }
-
-  &.across-3 {
-    column-count: 3;
-  }
-
-  &.across-4 {
-    column-count: 4;
+  @each $count in 2, 3, 4 {
+    &.across-#{$count} {
+      column-count: $count;
+    }
   }
 }
 
@@ -181,8 +190,6 @@
   flex-basis: 0;
   display: block;
   padding: 0.8em; // Intentionally em
-  color: $color-white;
-  background-color: $color-purple;
 
   &.gray {
     color: $color-black;
@@ -193,6 +200,11 @@
     color: $color-white;
     background-color: $color-orange;
   }
+
+  &.purple {
+    color: $color-white;
+    background-color: $color-purple;
+  }
 }
 
 .box-grid {
@@ -200,22 +212,16 @@
   display: grid;
   grid-gap: 0.5rem;
 
-  &.across-2 {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  &.across-3 {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  &.across-4 {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+  @for $count from 2 through 4 {
+    &.across-#{$count} {
+      grid-template-columns: repeat($count, 1fr);
+    }
   }
 }
 
 .box-list {
   @include block-margin;
-  @include reset-lists;
+  @include unset-lists;
 
   > ul {
     display: flex;
@@ -311,7 +317,7 @@
 
 .quote-list {
   @include block-margin;
-  @include reset-lists;
+  @include unset-lists;
   color: $color-darkgray;
 
   > ul {
@@ -328,9 +334,44 @@
   }
 }
 
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: dotted 1px black;
+}
+
+.tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  font-size: 12px;
+  background-color: #fe4040;
+  color: #fff;
+  text-align: center;
+  padding: 15px 15px;
+  border-radius: 3px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+}
+
+.timeline-title {
+  @include typography-sans;
+  @include typography-size($font-size-xxx-small);
+  color: $color-purple;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: 0.1em; // Intentionally em
+  text-transform: uppercase;
+}
+
 .timeline-list {
   @include block-margin;
-  @include reset-lists;
+  @include unset-lists;
   @include typography-size($font-size-xxx-small)
 
   > ul {
@@ -355,12 +396,64 @@
   }
 }
 
-.timeline-title {
-  @include typography-sans;
-  @include typography-size($font-size-xxx-small);
-  color: $color-purple;
-  font-weight: bold;
-  line-height: 1.2;
-  letter-spacing: 0.1em; // Intentionally em
-  text-transform: uppercase;
+.timeline-grid {
+  @include block-margin;
+  @include unset-headers;
+  @include unset-lists;
+  font-size: 11px; // TODO
+
+  > ul {
+    display: grid;
+    grid-gap: 0.5rem;
+
+    > li {
+      @include remove-edge-margins;
+      position: relative;
+      padding: 0.5rem;
+    }
+  }
+
+  > ul > li > ul > li + li {
+    margin-top: 1em; // Intentionally em
+  }
+
+  h3 {
+    @include typography-size($font-size-x-medium);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0.5rem;
+    color: white;
+    background-color: gray;
+  }
+
+  &.across-6 {
+    > ul {
+      grid-template-columns: repeat(6, 1fr);
+    }
+  }
+
+  &.across-8 {
+    > ul {
+      grid-template-columns: repeat(8, 1fr);
+    }
+  }
+
+  .timeline-title {
+    display: inline;
+
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      border: solid 1px black;
+      pointer-events: none;
+    }
+  }
 }
