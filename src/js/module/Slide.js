@@ -63,7 +63,6 @@ export default class Slide {
   slideDidMount() {}
 
   slideDidAppear() {
-    // A link to an external URL should open in a new window.
     Array.from(this.element.querySelectorAll('a'))
       .forEach(element => {
         const href = element.getAttribute('href')
@@ -72,12 +71,20 @@ export default class Slide {
         }
       })
 
-    // Start loading resources when the containing slide first appears.
     Array.from(this.element.querySelectorAll('img, iframe'))
       .forEach(element => {
         const src = element.getAttribute('data-src')
         element.setAttribute('src', src)
         element.removeAttribute('data-src')
+      })
+
+    Array.from(this.element.querySelectorAll('video, audio'))
+      .forEach(element => {
+        const source = element.firstElementChild;
+        const src = source.getAttribute('data-src')
+        source.setAttribute('src', src)
+        source.removeAttribute('data-src')
+        element.load()
       })
 
     Array.from(this.element.querySelectorAll('.chart'))

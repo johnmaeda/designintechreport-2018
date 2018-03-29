@@ -19,15 +19,60 @@ export function block(className, children = null) {
   )
 }
 
-export function image(height, src) {
+export function image(...args) {
+  let src
+  let width = null
+  let height = null
+  switch (args.length) {
+    case 1:
+      [src] = args
+      break
+    case 2:
+      [height, src] = args
+      break
+    case 3:
+      [width, height, src] = args
+      break
+    default:
+      throw new Error('Invalid number of parameters')
+  }
+  const style = {}
+  if (width != null) {
+    style.width = width
+  }
+  if (height != null) {
+    style.height = height
+  }
   return render(
-    <img data-src={src} style={{ height }} />
+    <img data-src={src} style={style} />
+  )
+}
+
+export function video(type, src) {
+  return render(
+    <div className="video">
+      <video controls>
+        <source type={type} data-src={src} />
+      </video>
+    </div>
+  )
+}
+
+export function audio(type, src) {
+  return render(
+    <div className="audio">
+      <audio controls>
+        <source type={type} data-src={src} />
+      </audio>
+    </div>
   )
 }
 
 export function iframe(height, src) {
   return render(
-    <iframe data-src={src} style={{ height }} />
+    <div className="iframe">
+      <iframe data-src={src} style={{ height }} />
+    </div>
   )
 }
 

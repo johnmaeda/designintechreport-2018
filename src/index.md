@@ -92,7 +92,7 @@ Expect a video version on my new YouTube channel "John Maeda is Learning" by thi
 
 ---
 
-class: overview-slide lightgray-slide in-progress
+class: overview-slide lightgray-slide work-in-progress
 
 # .x-large[Sections Overview]
 
@@ -403,7 +403,7 @@ By contrast, one low-impact respondent answered, "We are moving so fast there ha
 
 ---
 
-class: document-slide in-progress
+class: document-slide work-in-progress
 
 # Computational Designer vs Classical Designer
 
@@ -654,7 +654,7 @@ class: document-slide
 
 ---
 
-class: document-slide in-progress
+class: document-slide work-in-progress
 
 # The perception of design and its impact to business is cyclic
 
@@ -732,7 +732,7 @@ class: document-slide
 ]
 .group[
 .darkgray[
-### The top 10 emerging trends to have the biggest impact on design
+### The top 10 emerging trends to have<br>the biggest impact on design
 ]
 
 1. .highlight[AI and machine learning]
@@ -823,13 +823,11 @@ class: document-slide
 
 ---
 
-class: document-slide in-progress
+class: document-slide work-in-progress
 
 # Think Beyond Silicon Valley: India and Design
 
 By 2050, India’s economy is projected to be the world’s second largest, behind only China. —[WEF](https://www.weforum.org/agenda/2017/10/eight-key-facts-about-indias-economy-in-2017/)
-
-<br>
 
 .stack[
 .group[
@@ -837,7 +835,7 @@ By 2050, India’s economy is projected to be the world’s second largest, behi
 
 .darkgray.sans[**English Speaking**]
 
-.darkgray.x-small.quote-list[
+.darkgray.small.quote-list[
 * 125 million English speakers, second only to the United States.
 * Oral tradition where narrative is the primary mode of culture propagation.
 * India is a pluralistic society, secular and incredibly diverse.
@@ -850,7 +848,7 @@ Multi-ethnic Art & Craft tradition with local idioms marking design sensibilitie
 
 .darkgray.sans[**Mobile Culture**]
 
-.darkgray.x-small.quote-list[
+.darkgray.small.quote-list[
 * India has the second largest installed base of smartphones in the world behind China of ~300 million.
 * Basic smartphone handsets are available at below $50
 * Monthly data plan for under $2
@@ -864,7 +862,7 @@ Multi-ethnic Art & Craft tradition with local idioms marking design sensibilitie
 
 .darkgray.sans[**China with (not vs) India**]
 
-.darkgray.x-small.quote-list[
+.darkgray.small.quote-list[
 * China and India make a complementary combination of machine power and human power: China - Products / India - Services.
 * They're giant neighbors.
 * Each has a population of over a billion (they collectively account for 36.3% of the world's people).
@@ -877,7 +875,7 @@ Multi-ethnic Art & Craft tradition with local idioms marking design sensibilitie
 
 .darkgray.sans[**JUGAAD**]
 
-.darkgray.x-small.quote-list[
+.darkgray.small.quote-list[
 * In Hindi,
 
 	_“overcoming harsh constraints by improvising an effective solution using limited resources”._
@@ -898,13 +896,11 @@ Multi-ethnic Art & Craft tradition with local idioms marking design sensibilitie
 
 ---
 
-class: document-slide in-progress
+class: document-slide work-in-progress
 
 # Think Beyond Silicon Valley: Latin America and Design
 
 Latin America has the fastest rate of smartphone adoption in the world. —[Fast Company](https://www.fastcompany.com/3044662/what-latin-america-will-look-like-in-2020)
-
-<br>
 
 .stack[
 .group[
@@ -912,7 +908,7 @@ Latin America has the fastest rate of smartphone adoption in the world. —[Fast
 
 .darkgray.sans[**Design Rush**]
 
-.darkgray.x-small.quote-list[
+.darkgray.small.quote-list[
 * Latin America (LATAM) has a long history with design that started out in the 1950s.
 * .purple.sans[1950s] - Mexico, Argentina and Brazil led the movement in LATAM of formal design schools.
 * .purple.sans[Today] - Vibrant startup ecosystem. [Insitum](https://www.fastcompany.com/3041655/the-worlds-top-10-most-innovative-companies-of-2015-in-latin-), "IDEO of emerging markets" has 5 offices in LATAM and 140+ consultants.
@@ -924,7 +920,7 @@ Latin America has the fastest rate of smartphone adoption in the world. —[Fast
 
 .darkgray.sans[**With the Wall or Without It**]
 
-.darkgray.x-small.quote-list[
+.darkgray.small.quote-list[
 * LATAM region, with 650 million people, is exploring opportunities to be less dependent on the US economy.
 * The [Trans Pacific Partnership](https://www.nytimes.com/2018/03/08/world/asia/us-trump-tpp-signed.html) has been signed between 11 countries, and China is solidifying its ties with the region [via startups](https://www.bloomberg.com/news/articles/2018-03-04/chinese-startups-export-playbook-to-latin-america-for-new-riches).
 * Ex: China's Didi [acquires 99](https://techcrunch.com/2018/01/03/didi-confirms-it-has-acquired-99-in-brazil-to-expand-in-latin-america/), a ridesharing company in Brazil 99.
@@ -935,7 +931,7 @@ Latin America has the fastest rate of smartphone adoption in the world. —[Fast
 
 .darkgray.sans[**Copy, Adapt and Improve**]
 
-.darkgray.x-small.quote-list[
+.darkgray.small.quote-list[
 * Increased activity in the startup ecosystem in LATAM.
 * Many of the startups are adaptations of successful models elsewhere customized to LATAM environment, while often finding opportunities to improve beyond the original.
 * Ex: [Kubo Financiero](https://www.kubofinanciero.com) is the Mexican LendingClub, and it's introduced a social responsibility component to investing - which resonates with users in a nationalistic country like Mexico.
@@ -946,7 +942,7 @@ Latin America has the fastest rate of smartphone adoption in the world. —[Fast
 
 .darkgray.sans[**Design for Trust**]
 
-.darkgray.x-small.quote-list[
+.darkgray.small.quote-list[
 * Corruption is everywhere.
 * There is a generalized lack of trust between people, companies and governments.
 * Startups are disrupting traditional industries by designing to inspire trust and prevent fraud while providing a good user experience.
@@ -960,15 +956,81 @@ Latin America has the fastest rate of smartphone adoption in the world. —[Fast
 
 ---
 
-class: document-slide in-progress
+class: document-slide
 
 # Think Beyond Silicon Valley: China and Design
 
+.darkgray.small.stack[
+.group[
+.numeral.subhead[01]
+
+.medium.sans[**Car Experiences**]
+
+.figure[
+![:image 220px, https://www.nio.io/prod/s3fs-public/styles/scale_width_1920_desktop_1x_/public/hero/home-es8-banner-bg.jpg]
+.caption[via NIO]
+]
+
+New driving and transportation experiences via [NIO](https://www.nio.com/) [Weima](http://www.wm-motor.com/) [Xiaopeng](https://www.xiaopeng.com/en/) [FF](https://www.ff.com/us/)
+
+.small.subhead[Check out two New Designer-Founded Startups]
+
+1. [ShanZhai City](http://www.shanzhaicity.com/) A social impact assessment big-data company.
+2. [Youzan](http://www.tmogroup.asia/sell-on-wechat-top-3rd-party-wechat-ecommerce-platforms-in-china-now/) SaaS company to help anyone open an online shop on WeChat.
+]
+.group[
+.numeral.subhead[02]
+
+.medium.sans[**Retail Experiences**]
+
+![:video video/mp4, https://bcsecure04-a.akamaihd.net/36/5392214352001/201712/6/5392214352001_5668800512001_5668789168001.mp4?pubId=5392214352001&videoId=5668789168001]
+
+Alibaba Hema and the Starbucks Roastery represent a new vertical integration between online and offline experiences.
+
+Related: Employee-less [BingoBox](http://www.scmp.com/tech/china-tech/article/2123348/unmanned-stores-china-still-working-seamless-shopper-experience) convenience stores are unlocked with a mobile phone by scanning a QR code and with no cashier.
+]
+]
+
+.source[@ling_fan_tezign Ling Fan, CEO/Founder Tezign [The Information](https://go.theinformation.com/d34d5f937e89c84d) [Alizila](http://www.alizila.com/alibaba-tech-underpins-launch-worlds-interactive-starbucks/) [South China Morning Post](http://www.scmp.com/tech/china-tech/article/2123348/unmanned-stores-china-still-working-seamless-shopper-experience)]
+.footer[Technology &times; Business &times; Design]
+
 ---
 
-class: document-slide in-progress
+class: document-slide
 
 # Think Again Beyond Silicon Valley: China and Design
+
+.darkgray.small.stack[
+.group[
+.numeral.subhead[03]
+
+.medium.sans[**Alibaba Luban: E-commerce Design Robot**]
+
+.figure[
+![:image auto, 220px, http://image.uisdc.com/wp-content/uploads/2017/04/uisdc-ali-20170420-7.gif]
+.caption[via UISDC]
+]
+
+* Alibaba Luban produced 400 million banners during the 2017 singles day, resulting in a 100% increase in conversion rate.
+* 1 million banner / e-commerce designers in Alibaba's ecosystem (70% face the challenge from Luban).
+* More automated marketing design tools are emerging like [Arkie](https://Arkie.cn) and [Kuaizi](https://Kuaizi.co).
+]
+.group[
+.numeral.subhead[04]
+
+.medium.sans[**Design & AI report**]
+
+.figure[
+![:image auto, 220px, http://image.uisdc.com/wp-content/uploads/2017/04/uisdc-ali-20170420-2.jpg]
+.caption[via UISDC]
+]
+
+Visit the [Design & AI Report](https://www.sheji.ai) produced by **Ling Fan** in collaboration with Tongji University, Tezign, and Alibaba AI Design Lab
+]
+]
+
+.source[Ling Fan, CEO/Founder Tezign / [The Information](https://go.theinformation.com/d34d5f937e89c84d) [UISDC](http://www.uisdc.com/alibaba-luban-ai-banner) [Gale Partners](https://medium.com/@rexrothX/ai-visual-design-is-already-here-and-it-wont-hesitate-to-take-over-your-petty-design-job-934d756db82e)]
+.footer[China and Design]
 
 ---
 
@@ -987,9 +1049,61 @@ class: document-slide
 
 ---
 
-class: document-slide in-progress
+class: document-slide
 
 # Think Beyond GenZ + Millennials: Think Gen B(older)
+
+.stack[
+.group[
+.numeral.subhead[01]
+
+.darkgray.sans[**A B(older) EU Median Age**]
+
+.figure[
+![:image 280px, https://assets.weforum.org/editor/2KdV59nkmwGn68gOJ5NGuiH91Z16wz35OglbqRZuTLE.gif]
+.caption[via WEF/@aronstrandberg]
+]
+
+.small.quote[
+> U.N. projects some European countries to start hitting a median age of 50 or higher. This includes countries like Spain, Italy, Portugal, and Greece, and then later Germany, Poland, Bosnia, and Croatia.
+
+—[WEF](https://www.weforum.org/agenda/2017/11/these-animations-show-the-western-world-is-rapidly-ageing)
+]
+]
+.group[
+.numeral.subhead[02]
+
+.darkgray.sans[**A B(older) US Too**]
+
+.figure[
+![:image 280px, http://assets.pewresearch.org/wp-content/uploads/sites/12/2014/04/847889448.gif]
+.caption[via Pew Research]
+]
+
+.small.quote[
+> From 1960 to 2060, our pyramid will turn into a rectangle. We'll have almost as many Americans over age 85 as under age 5.
+
+—[PEW](http://www.pewresearch.org/next-america/#Two-Dramas-in-Slow-Motion)
+]
+]
+.group[
+.numeral.subhead[03]
+
+.darkgray.sans[**Startup CEOs Get B(older)**]
+
+.quote[
+> The aging of the U.S. population, combined with
+the increasing rate of new entrepreneurs among individuals aged fifty-five to sixty-four, have shifted this group from making up 14.8 percent of new entrepreneurs in the 1997 Index to 25.8 percent of all new entrepreneurs in the 2015 Index.
+
+—[Kauffman Foundation](http://www.kauffman.org/~/media/kauffman_org/research%20reports%20and%20covers/2015/05/kauffman_index _startup_activity_national_trends_2015.pdf)
+]
+
+.small.darkgray[_Younger entrepreneurs (ages twenty to thirty-four) made up 24.7 percent of all new entrepreneurs in the 2015 index_]
+]
+]
+
+.source[@aronstrandberg @kauffmanfdn [Monocle: Aging in Cities](https://monocle.com/magazine/the-forecast/2017/ageing-gracefully/) [1514 - 2015](https://ourworldindata.org/life-expectancy-how-is-it-calculated-and-how-should-it-be-interpreted) [PEW Research: Immigrants](http://www.pewresearch.org/fact-tank/2015/10/07/a-shift-from-germany-to-mexico-for-americas-immigrants/?utm_content=buffer3fc31&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)]
+.footer[Technology &times; Business &times; Design]
 
 ---
 
@@ -1012,21 +1126,189 @@ class: chapter-slide lightgray-slide
 
 ---
 
-class: document-slide in-progress
+class: document-slide
 
 # Is a college degree necessary to succeed as a designer in tech?
 
+.grid.ratio-4-1[
+.group[
+![:iframe 500px, https://datastudio.google.com/embed/reporting/1Eq443pLdY5weCpM40dyLIG_1BY2loCyn/page/79ZN]
+]
+.group[
+.numeral.subhead[86%]
+
+.quote[
+> .fg-dkgray[of current design students surveyed said that they learned their digital skills from resources outside their coursework.
+
+—[2016](https://designintechreport.wordpress.com/2016/03/13/design-in-tech-report-2016/)
+]
+]
+]
+]
+
+.source[#DesignInTech 2018 Open Survey | 1219 samples]
+.footer[Scaling Design]
+
 ---
 
-class: document-slide in-progress
+class: document-slide culture-of-company-slide
 
 # Is the culture of your company set up for design to succeed?
 
+## Which kind of design-oriented company are you?
+
+.small.grid.across-5[
+.group[
+.sans[How is your design function organized?]
+
+.xxx-small[
+1. We have a single central design department
+1. We have multiple design teams
+1. Design is a distributed expertise, not a department
+]
+]
+.group[
+.sans[How do you manage the physical/digital divide?]
+
+.xxx-small[
+1. We have discrete physical and digital design teams
+1. Our different design functions sit and operate together
+1. We train our teams so they can integrate more effectively
+]
+]
+.group[
+.sans[Where do your design teams work?]
+
+.xxx-small[
+1. Design works out of a central office
+1. Our designers sit in all of our offices
+1. We have cross-functional product/service studios
+]
+]
+.group[
+.sans[Does design fit into your development process?]
+
+.xxx-small[
+1. We have a clear design phase
+1. Design is involved in several stages of the development process
+1. Design is involved throughout life cycle (cradle to grave)
+]
+]
+.group[
+.sans[When do you undertake user research?]
+
+.xxx-small[
+1. Early qualitative research
+1. Early qualitative and quantitative research
+1. Qualitative and quantitative research throughout
+]
+]
+.group[
+.sans[What do you do with research findings?]
+
+.xxx-small[
+1. We report what the customers tell us
+1. We assess what the customers want
+1. We interpret what the customer actually needs
+]
+]
+.group[
+.sans[When do you prototype?]
+
+.xxx-small[
+1. We have a prototyping phase
+1. We may have more than one prototyping phase
+1. We iterate end-to-end and prototype as needed
+]
+]
+.group[
+.sans[Why do you prototype?]
+
+.xxx-small[
+1. To check production/launch feasibility only
+1. To fail "fast" -- kill under-performing ideas
+1. To "refine fast" -- build on solutions and address our failings
+]
+]
+.group[
+.sans[Who leads design in your company?]
+
+.xxx-small[
+1. A head of department, e.g. marketing
+1. A chief design officer
+1. A chief design officer who is a peer to other board members
+]
+]
+.group[
+.sans[How do you make design decisions?]
+
+.xxx-small[
+1. Based on leader opinions
+1. Using semi-subjective metrics
+1. Objectively (using design metrics)
+]
+]
+.group[
+.sans[How do you track design performance?]
+
+.xxx-small[
+1. We do not track design performance
+1. We review customer feedback post-launch
+1. We track pre- and post-launch as rigorously as we measure quality, cost, and delivery
+]
+]
+.group[
+.sans[How do you incentivize good design?]
+
+.xxx-small[
+1. We have no incentives tied to customers or design
+1. Design shares company-level performance bonuses
+1. We track and reward customer satisfaction, even at board level
+]
+]
+.group[
+.sans[How brave is your organization when it comes to making design decisions?]
+
+.xxx-small[
+1. We suffer from bloated and incremental product portfolio
+1. We have become better at killing incremental products during project development
+1. We strive to create bold new products to meet unmet needs, and accept that not all will
+]
+]
+.group[]
+.medium.sans.bordered.box[
+Take the [McKosmo Quiz](https://johnmaeda.typeform.com/to/PL8Esd) to find out your type! It's easy.
+]
+]
+
+.source[@hugosarrazin [More than a feeling: Ten design practices to deliver business value](https://www.mckinsey.com/business-functions/mckinsey-design/our-insights/more-than-a-feeling-ten-design-practices-to-deliver-business-value)]
+.footer[Scaling Design]
+
 ---
 
-class: document-slide in-progress
+class: document-slide
 
 # At what stage is design typically involved?
+
+.grid.ratio-4-1[
+.group[
+![:iframe 500px, https://datastudio.google.com/embed/reporting/1PunZraW_b46c-weLYoUQSGG44z60rIdm/page/rZjO]
+]
+.group[
+.numeral.subhead[2.98]
+
+overall average on a 1-to-10 point progression from a product's conception (1) to just before it ships (10). Last year it was 2.89.
+
+.numeral.subhead[64%]
+
+are 3 and below, which means the majority use design early.
+
+.small.darkgray[By far the largest number of samples are from the US, so the variance by country will be less reliable, but good to note.]
+]
+]
+
+.footer[Scaling Design]
+.source[#DesignInTech 2018 Open Survey | 1219 samples]
 
 ---
 
@@ -1045,9 +1327,38 @@ class: document-slide
 
 ---
 
-class: document-slide in-progress
+class: document-slide
 
 # Creating an inclusive culture for designers is where to start
+
+<br>
+
+.stack[
+.group[
+.grid.ratio-2-1[
+.xx-large.darkgray.mono[Do any of these designer stereotypes sound familiar?]
+]
+]
+.large.sans.group[
+.box-grid.across-2[
+.purple.box[
+Designers make it pretty.
+]
+.purple.box[
+Designers can't lead teams.
+]
+.purple.box[
+Designers don't understand business.
+]
+.purple.box[
+Designers only care how it looks.
+]
+]
+]
+]
+
+.footer[Scaling Design]
+.source[#DesignInTech 2018 Open Survey | 1219 samples]
 
 ---
 
@@ -1064,9 +1375,38 @@ class: document-slide
 
 ---
 
-class: document-slide in-progress
+class: document-slide
 
 # How do you create an inclusively managed culture for designers?
+
+<br>
+
+.stack[
+.group[
+.grid.ratio-2-1[
+.xx-large.darkgray.mono[Hey, Boss! Can you please ...]
+]
+]
+.large.sans.group[
+.box-grid.across-2[
+.purple.box[
+Be clear about the business problem.
+]
+.purple.box[
+Advocate for the user.
+]
+.purple.box[
+Allow for failure.
+]
+.purple.box[
+Ask questions to build empathy.
+]
+]
+]
+]
+
+.footer[Scaling Design]
+.source[#DesignInTech 2018 Open Survey | 1219 samples]
 
 ---
 
@@ -1296,7 +1636,7 @@ And open source ones exist too:
 .group[
 ## Have I given up on design?
 
-<img style="width:100%;height:300px;object-fit:cover;object-position:0 5%;" data-src="https://designintech.report/wp-content/uploads/2018/03/maedadotpm.png">
+<img style="width:100%;height:300px;object-position:0 5%;" data-src="https://designintech.report/wp-content/uploads/2018/03/maedadotpm.png">
 
 .small.darkgray[_**Nope.** I'm just collecting all the parts I've been learning/doing for my whole life before — I get uploaded to the big cloud in the sky one day. To design amazing experiences for people, I've always chosen to think/work inclusively and broadly._]
 ]
@@ -1411,7 +1751,7 @@ class: document-slide
 .stack[
 .group[
 .grayscale.figure[
-<img style="height:400px;object-fit:cover;object-position:30% 0" data-src="https://img.youtube.com/vi/Atsmy_oMLaI/maxresdefault.jpg">
+<img style="height:400px;object-position:30% 0" data-src="https://img.youtube.com/vi/Atsmy_oMLaI/maxresdefault.jpg">
 .caption[via Cooper Hewitt]
 ]
 
@@ -1438,7 +1778,7 @@ class: document-slide
 
 ---
 
-class: document-slide in-progress
+class: document-slide work-in-progress
 
 # Scaling Design Case Study: [Automattic.Design](https://automattic.design)
 
@@ -1604,7 +1944,7 @@ class: document-slide
 ]
 
 .figure[
-<img style="height:230px;object-fit:cover;object-position: 0 10%;" data-src="https://www.thinkwithgoogle.com/_qs/images/T_YTfVgBw6V5ec8xryQjWtfCS7c=/113/width-2000/how-needs-were-addressed-chart.png">
+<img style="height:230px;object-position: 0 10%;" data-src="https://www.thinkwithgoogle.com/_qs/images/T_YTfVgBw6V5ec8xryQjWtfCS7c=/113/width-2000/how-needs-were-addressed-chart.png">
 .caption[via Google]
 ]
 ]
@@ -1718,9 +2058,67 @@ class: document-slide
 
 ---
 
-class: document-slide in-progress
+class: document-slide
 
 # Mobile phones have more sensors than a microphone these days
+
+.stack[
+.group[
+In 2018, currently [Android Docs](https://source.android.com/devices/sensors/sensor-types) lists Android Sensor Types as having 9 base sensors. And there are 5 other "composite sensor" types that are created out of the base sensor systems. Two sensors not listed there are the microphone and visible light camera — of which smartphones today now sport two each, at least.
+
+For context, a BMW 5-series car has a 100 or more sensors.
+
+.quote[
+> Sensors provide data,<br>software provides experiences.
+
+—[Qualcomm](https://www.qualcomm.com/news/onq/2014/04/24/behind-sixth-sense-smartphones-snapdragon-processor-sensor-engine) (2014)
+]
+]
+.small.group[
+### Android base sensors
+
+* Accelerometer
+* Ambient temperature
+* Magnetic field sensor
+* Gyroscope
+* Heart Rate
+* Light
+* Proximity
+* Pressure
+* Relative humidity
+
+### Android composite sensor types
+
+* Linear acceleration
+* Significant motion
+* Step detector
+* Step counter
+* Tilt detector
+
+### Other sensors on devices
+
+* Range camera, IR camera, Heart rate, Fingerprint
+]
+.small.darkgray.group[
+The Nintendo Switch represents a different kind of form-factor in design, which gives rise to a different kind of experience.
+
+.figure[
+<img style="width:auto;height:150px;object-position:0 50%;" data-src="https://www.nintendo.com/switch/etRgxnAu0zRX4bmWnt9K628wG7YQUI6t/images/switch/buy-now/bundle_gray_console.jpg">
+.caption[via Nintendo]
+]
+
+Snapchat Spectacles received a lot of attention for how it failed to capture attention, but it remains a clever design experiment.
+
+.figure[
+<img style="width:auto;height:150px;object-position: 0% 60%;" data-src="https://images-na.ssl-images-amazon.com/images/I/71ob6XrmubL._SL1500_.jpg">
+.caption[via Amazon]
+]
+
+.fab.fa-youtube[] Relevant SNL sketches: [Alexa](https://www.youtube.com/watch?v=YvT_gqs5ETk) [Glasses](https://youtu.be/huIPadEfD3E?t=24s)]
+]
+
+.source[[Quora](https://www.quora.com/How-many-sensors-are-in-a-new-BMW) [Android Privacy Issues](https://www.theverge.com/2018/3/7/17091104/android-p-prevents-apps-using-mic-camera-idle-background) [iOS Privacy Issues](https://www.wired.com/story/ios-11-privacy-security-settings/)]
+.footer[Computational Design]
 
 ---
 
@@ -1739,21 +2137,77 @@ class: document-slide
 
 ---
 
-class: document-slide in-progress
+class: document-slide work-in-progress
 
 # Conversational experience design is worth talking about
 
 ---
 
-class: document-slide in-progress
+class: document-slide
 
 # The Web’s become much better at listening and speaking up
 
+.stack[
+.group[
+.numeral.subhead[2012]
+
+.quote[
+> This specification defines a JavaScript API to enable web developers to incorporate speech recognition and synthesis into their web pages. It enables developers to use scripting to generate text-to-speech output and to use speech recognition as an input for forms, continuous dictation and control. The JavaScript API allows web pages to control activation and timing and to handle results and alternatives.
+
+—[W3C](https://w3c.github.io/speech-api/speechapi.html)
+]
+]
+.group[
+.numeral.subhead[2018]
+
+```
+var recognition = new SpeechRecognition();
+```
+
+.quote[
+> The Web Speech API provides two distinct areas of functionality — speech recognition, and speech synthesis (also know as text to speech, or tts) — which open up interesting new possibilities for accessibility, and control mechanisms.
+
+—Mozilla [Using the Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API)
+]
+
+.lightgray.subhead[.fab.fa-codepen[]]
+
+[Listen](https://codepen.io/jakemhiller/pen/ECAcz) [Talk](https://codepen.io/matt-west/pen/wGzuJ) [Colors](https://codepen.io/rodriguesmarcos/pen/BFwCa) [Map States](https://codepen.io/nickforddesign/project/full/XVkvqe/)
+
+.lightgray.subhead[.fab.fa-random[]]
+
+[Google Experiments](https://experiments.withgoogle.com/voice) with [ Mystery Animal](https://mysteryanimal.withgoogle.com/) [Meme Buddy](https://memebuddy.chat/)
+]
+]
+
+.source[@codepen @jakemhiller @matt-west @rodriguesmarcos @nickfordesign @michaelarestad ]
+.footer[Computational Design]
+
 ---
 
-class: document-slide in-progress
+class: document-slide
 
 # Should you care about augmented/virtual reality? Sure!
+
+.quote[
+> We believe that AR technologies will be instrumental in closing the skill gap that is responsible for the shortage of skilled manufacturing workers. Because AR will allow more workers to do high-skill jobs, and improve their performance in this work, we are optimistic that industrial productivity will grow and that this will ultimately translate into higher wages. —[HBR](https://hbr.org/2017/03/augmented-reality-is-already-improving-worker-performance)
+]
+
+.stack[
+.group[
+![:iframe 315px, https://www.youtube.com/embed/ET2CKUqdPCo]
+
+[Zach Lieberman](http://thesystemis.com) and collaborators
+]
+.group[
+![:iframe 315px, https://www.youtube.com/embed/_jJxuWSVme8?start=16]
+
+[Project iCan](https://project-ican.com) ドラえもん どこでもドア
+]
+]
+
+.source[@zachlieberman @zappyzappy7 @google [Mobile AR Design](https://www.blog.google/products/google-vr/best-practices-mobile-ar-design/) [ARtists at Work](http://www.bbc.com/news/technology-41524550)]
+.footer[Computational Design]
 
 ---
 
@@ -1774,43 +2228,225 @@ class: chapter-slide lightgray-slide
 
 ---
 
-class: document-slide in-progress
+class: document-slide
 
 # When do you expect AI to replace most visual designers?
 
+.grid.ratio-4-1[
+.group[
+![:iframe 500px, https://datastudio.google.com/embed/reporting/12-32pCFgiUYURfdw3rQeBRLcnPw0k8M_/page/rZjO]
+]
+.darkgray.group[
+.numeral.subhead[5]
+
+years or more before AI replaces most visual designers believed by 88% of designers surveyed
+
+.numeral.subhead[35%]
+
+of designers surveyed believe it will be ten years or more
+]
+]
+
+.source[#DesignInTech 2018 Open Survey | 1219 samples]
+.footer[Computational Design: **AI**]
+
 ---
 
-class: document-slide in-progress
+class: document-slide work-in-progress
 
 # AI has gone to art school and its grades are improving
 
 ---
 
-class: document-slide in-progress
+class: document-slide
 
-# Hey AI-designer. Can you go and __ for me?
+# “Hey AI-designer. Can you go and __ for me?”
+
+.stack[
+.group[
+<details>
+<summary>Remove watermark <a href="https://research.googleblog.com/2017/08/making-visible-watermarks-more-effective.html">*</a></summary>
+.figure[
+![](https://4.bp.blogspot.com/-XPKnwJ-x9Y0/WZTJtk9VMYI/AAAAAAAAB9U/p4xomyw24C8T9oFRG68Osbix18Wt59zFACLcBGAs/s640/f7.png)
+.caption[via Google]
+]
+</details>
+<details>
+<summary>Resynthesize style <a href="https://github.com/nvidia/fastphotostyle">*</a></summary>
+.figure[
+![](https://github.com/NVIDIA/FastPhotoStyle/raw/master/teaser.png)
+.caption[via NVIDIA]
+]
+</details>
+<details>
+<summary>Change expression <a href="https://research.fb.com/bringing-still-photos-to-life-and-3d-photography-to-your-phone/">*</a></summary>
+.figure[
+![](https://research.fb.com/wp-content/uploads/2017/11/siggrapha11.png?w=1024)
+.caption[via Facebook]
+]
+</details>
+]
+.group[
+<details>
+<summary>Perfect contrast <a href="http://news.mit.edu/2017/automatic-image-retouching-phone-0802">*</a></summary>
+.figure[
+![](https://media.wired.com/photos/5984b64c2181bc3f8bcacd7a/master/w_1598,c_limit/MIT-Instant-Retouch-TA.jpg)
+.caption[via MIT]
+]
+</details>
+<details>
+<summary>Generate variations <a href="https://junyanz.github.io/BicycleGAN/">*</a></summary>
+.figure[
+![](https://junyanz.github.io/BicycleGAN/index_files/results_matrix.jpg)
+.caption[via UC Berkeley / Adobe]
+]
+</details>
+<details>
+<summary>Fix drawing <a href="https://www.blog.google/topics/machine-learning/fast-drawing-everyone/">*</a></summary>
+.figure[
+![](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/AutoDraw_1.gif)
+.caption[via Google]
+]
+</details>
+]
+]
+
+<br>
+
+## via Facebook: 10 Tips to Spot False News
+
+.large.quote[
+> **Consider the photos.** False news stories often contain manipulated images or videos. Sometimes the photo may be authentic, but taken out of context. You can search for the photo or image to verify where it came from.
+
+—[Facebook Help Center](https://www.facebook.com/help/188118808357379)
+]
+
+.source[@facebook @google @nvidia @MIT ]
+.footer[Computational Design: **AI**]
 
 ---
 
-class: document-slide in-progress
+class: document-slide
 
 # AI can make more than just images
 
+.grid.ratio-1-2[
+.group[
+### Designing by AI
+
+.small.quote-list[
+* Design an advertising spot by AI
+
+	—[AdAge](http://adage.com/article/creativity/check-commercial-mccann-japan-ai-creative-director/304320/)
+
+* Fits you into a garment perfectly by AI.
+
+	—[Quartz](https://qz.com/1090267/artificial-intelligence-can-now-show-you-how-those-pants-will-fit/)
+
+* Design a game engine by watching another one being played by AI
+
+	—[Georgia Tech](http://gvu.gatech.edu/index.php?q=ai-uses-less-two-minutes-videogame-footage-recreate-game-engine)
+
+* Design websites by AI
+
+	—[WIRED](https://www.wired.com/story/when-websites-design-themselves/)
+
+* Design a Stitchfix blouse by AI
+
+	—[WSJ](https://www.wsj.com/articles/next-top-fashion-designer-a-computer-1489323600)
+
+* Design complex machinery parts by AI
+
+	—[Technology Review](https://www.technologyreview.com/the-download/610193/this-ai-software-dreams-up-new-designs-for-3-d-printed-parts-before-your-eyes/)
+]
+]
+.group[
+.figure[
+![](http://www.kramweisshaar.com/media/.versions/projects/breeding_tables/KRAM_WEISSHAAR_BREEDINGTABLES_MANUFACTURING_ASSEMBLY.w2710.jpg)
+.caption[Kram / Weisshaar]
+]
+
+.darkgray[Design a table by AI [Kram / Weisshaar](http://www.kramweisshaar.com/projects/breeding-tables) (2003)]
+]
+]
+
+.source[@weisshaar]
+.footer[Computational Design: **AI**]
+
 ---
 
-class: document-slide in-progress
+class: document-slide
 
 # Learn AI and don't be afraid — stay awake. Don't freeze.
 
+.grid.ratio-4-1[
+.group[
+![:iframe 475px, https://www.youtube.com/embed/wvsE8jm1GzE?start=4]
+]
+.group[
+.numeral.subhead[80]
+
+[createwith.ai](http://createwith.ai) examples curated by Nao Tokui.
+
+Open source [deeplearn.js](https://deeplearnjs.org) is a library lets you experiment with machine learning via the Web
+]
+]
+
+.small.darkgray[Martin Wattenberg, Daniel Smilkov, Fernanda Viegas [Teachable Machine](https://teachablemachine.withgoogle.com)]
+
+.source[@google @naotokui]
+.footer[Computational Design: **AI**]
+
 ---
 
-class: document-slide in-progress
+class: document-slide
 
 # It's only human that we will work to thwart AI with all our might
 
+.stack[
+.group[
+.figure[
+![](https://cdn.technologyreview.com/i/images/aifooling2.jpg)
+.caption[via Technology Review]
+]
+
+.quote[
+> How do you turn a dog into a car? Change a single pixel.
+
+—[Technology Review](https://www.technologyreview.com/the-download/609263/how-do-you-turn-a-dog-into-a-car-change-a-single-pixel/)
+]
+]
+.group[
+.quote[
+> On March 28th, 2017 congress passed a law that makes it legal for your Internet Service Providers (ISP) to track and sell your personal activity online. This means that things you search for, buy, read, and say can be collected by corporations and used against you.
+
+> Click .button[[this button](http://makeinternetnoise.com/index.html)], and your browser will start passively loading random sites in browser tabs. Leave it running to fill their databases with noise. Just quit your browser when you're done.
+
+—[makeinternetnoise.com](http://makeinternetnoise.com/index.html)
+]
+
+.grid.ratio-1-1[
+![](https://res.cloudinary.com/made-com/image/upload/c_fill,h_723,w_965/v1/images/talentlab/competitions/2181/5c7baaef-60d4-4331-8aa6-43980be93797.jpg)
+
+.group[
+<br>
+
+.small.quote[
+> How to hide from machines? How to become invisible in an increasingly visual age.
+
+—[ANTFC version alpha*](https://www.made.com/talentlab/entry/antfc-version-alpha/)
+]
+]
+]
+]
+]
+
+.source[@techreview @wired @madedotcom]
+.footer[Computational Design: **AI**]
+
 ---
 
-class: document-slide in-progress
+class: document-slide work-in-progress
 
 # Because what we make in now has unintended consequences
 
@@ -1914,29 +2550,29 @@ _Note that similar posts are being made on most major social networks these days
 
 ---
 
-class: document-slide in-progress
+class: document-slide
 
 # #DesignInTech is a global phenomenon and beyond Silicon Valley
 
-![](https://designintech.report/wp-content/uploads/2018/03/ditsurveymap.jpg)
+![:image 480px, https://designintech.report/wp-content/uploads/2018/03/ditsurveymap.jpg]
 
 .source[#DesignInTech 2018 Open Survey | 1219 samples]
 .footer[Inequality & Skills Gap]
 
 ---
 
-class: document-slide in-progress
+class: document-slide
 
 # The US map for #DesignInTech is unsurprising
 
-![](https://designintech.report/wp-content/uploads/2018/03/usmap_designintech_new.jpg)
+![:image 480px, https://designintech.report/wp-content/uploads/2018/03/usmap_designintech_new.jpg]
 
 .source[#DesignInTech 2018 Open Survey | 1219 samples]
 .footer[Inequality & Skills Gap]
 
 ---
 
-class: document-slide in-progress
+class: document-slide work-in-progress
 
 # But if you look closely or broadly, inequality sits in the shadow
 
@@ -1951,21 +2587,94 @@ class: document-slide in-progress
 
 ---
 
-class: document-slide in-progress
+class: document-slide
 
 # Congrats! You're in the 5% of the most-skilled computer users.
 
+.grid.ratio-1-2[
+.group[
+
+<br>
+<br>
+
+.quote[
+> Across 33 rich countries, only 5% of the population has high computer-related abilities, and only a third of people can complete medium-complexity tasks. What does this simple fact tell us? You are not the user, unless you’re designing for an elite audience.
+
+—Jakob Nielsen [NNG](https://www.nngroup.com/articles/computer-skill-levels/)
+]
+]
+.group[
+.figure[
+![](https://media.nngroup.com/media/editor/2016/10/20/computer-skill-levels-by-country.png)
+.caption[Nielsen-Norman Group]
+]
+]
+]
+
+.source[The Distribution of Users’ Computer Skills: Worse Than You Think  [NNG](https://www.nngroup.com/articles/computer-skill-levels/)]
+.footer[Inequality & Skills Gap]
+
 ---
 
-class: document-slide in-progress
+class: document-slide
 
 # Is the digital divide related somehow to poverty and inequality?
 
+.subhead[.fas.fa-quote-left[]]
+
+.stack[
+.group[
+.quote[
+> While urban poverty is a unique challenge, rates of poverty have historically been higher in rural than urban areas. In fact, levels of rural poverty were often double those in urban areas throughout the 1950s and 1960s.
+
+> 1. Poverty is higher in rural areas
+> 2. Most new jobs aren’t in rural areas
+
+> It’s easy to see why many rural Americans believe the recession never ended: For them, it hasn’t.
+
+—[PBS](https://www.pbs.org/newshour/nation/six-charts-illustrate-divide-rural-urban-america)
+]
+]
+.group[
+![:iframe 400px, https://datawrapper.dwcdn.net/If6Qe/4/]
+]
+.group[
+![:iframe 400px, https://datawrapper.dwcdn.net/YFJz6/3/]
+]
+]
+
+.source[@TechJobsTour @smithmegan @lepitts]
+.footer[Inequality & Skills Gap]
+
 ---
 
-class: document-slide in-progress
+class: document-slide
 
 # Do you need to care at all? No. But you need to feel the imbalance
+
+.grid.ratio-1-2[
+.group[
+.subhead[.fas.fa-quote-left[]]
+
+.x-medium.quote[
+> I was a child refugee. I know how it feels to live in a camp, robbed of my humanity.
+
+—[Ai Weiwei](https://www.theguardian.com/film/2017/dec/07/human-flow-review-ai-weiwei-migration-documentary)
+]
+]
+.group[
+![:iframe 380px, https://www.youtube-nocookie.com/embed/DVZGyTdk_BY?rel=0&amp;showinfo=0&amp;start=5]
+
+.small.quote[
+> The exiled Chinese conceptual artist Ai Weiwei has here created an ambitious, humane and often shocking cine-essay on the subject of migrants and the 21st century migrant condition.
+
+—[The Guardian](https://www.theguardian.com/film/2017/dec/07/human-flow-review-ai-weiwei-migration-documentary)
+]
+]
+]
+
+.source[@aiww]
+.footer[Inequality & Skills Gap]
 
 ---
 
@@ -2052,7 +2761,7 @@ class: document-slide
 ]
 .group[
 .large.quote[
-> Facebook is never going to work like this. Google is never going to work like this. But whatever replaces them will look more like a distributed company** than a centralized one
+> Facebook is never going to work like this. Google is never going to work like this. But whatever replaces them will look more like a distributed company** than a centralized one.
 
 —[Matt Mullenweg](https://go.theinformation.com/679dfd8ccfa47caa)
 ]
@@ -2222,19 +2931,103 @@ class: document-slide black-slide
 
 ---
 
-class: document-slide in-progress
+class: document-slide
 
 # Bias in AI and who's auto-complete?
 
+.stack[
+.group[
+.quote[
+> Turkish uses the gender-neutral pronoun, "o." Yet, when the Turkish sentences "o bir doktor" (top) and "o bir hemşire" (bottom) are entered into Google Translate, they translate into English as "he is a doctor" and "she is a nurse."
+
+—[Princeton](https://www.princeton.edu/news/2017/04/18/biased-bots-artificial-intelligence-systems-echo-human-prejudices)
+]
+
+![:tweet 921778200287629313]
+]
+.group[
+.figure[
+![:image 500px, https://www.princeton.edu/sites/default/files/styles/scale_1440/public/images/2017/04/doctor-search-1150.jpg?itok=mlmoqrYu]
+.caption[via Princeton]
+]
+]
+]
+
+.source[@princeton @daynagrayson @kmlake @google [Fair Not Default](https://design.google/library/fair-not-default/)]
+.footer[Inclusive Design]
+
 ---
 
-class: document-slide in-progress
+class: document-slide
 
 # So recognize exclusion, and take action
 
+.stack[
+.group[
+### To start, recognize exclusion
+
+.large.quote[
+> Recognize exclusion.
+
+—[Kat Holmes](https://twitter.com/katholmes?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)
+]
+
+<br>
+
+.darkgray[If you don't believe it, visit [Congrats, you have an all male panel!](http://allmalepanels.tumblr.com)]
+
+.small.darkgray[Also check out the [4-hour podcast](https://beta.techcrunch.com/2017/05/13/does-design-have-an-exclusion-problem/) Automattic Design leader **Ashleigh Axios** created with **Amy Choi** (Mashup Americans) **Ethan Zuckerman** (MIT Media Lab) on [Design and Exclusion](https://x.design.blog) with **Aarron Walter** (InVision), **Maria Giudice** (Autodesk), **Paco Viñoly** (NextDoor), **Aminatou Sow** (TechLadymafia), **Anne Diaz** (Airbnb), **Andrew Sinkov** (Etsy)]
+]
+.group[
+### And be curious about biased tech
+
+.quote[
+> Sorry, Alexa Is Not A Feminist
+
+—[The Atlantic](https://www.theatlantic.com/technology/archive/2018/01/sorry-alexa-is-not-a-feminist/551291/)
+]
+
+.quote[
+> Amazon's Alexa Now Stands Up for Herself If You Use Sexist Language
+
+—[Glamour](https://www.glamour.com/story/amazon-alexa-stands-up-for-herself-if-you-use-sexist-language)
+]
+
+.quote[
+> Your company's Slack is probably sexist
+
+—[Quartz](https://work.qz.com/1128150/your-companys-slack-is-probably-sexist/)
+]
+
+.quote[
+> How to Fight Sexism on Your Company's Slack
+
+—[Life Hacker](https://lifehacker.com/how-to-fight-sexism-on-your-companys-slack-1821302639)
+]
+]
+.group[
+### Change your avatar to an URM
+
+And you'll want to change it to a cat thereafter once you experience the difference.
+
+.quote[
+> Enthoven began the experiment by swapping out her photo for an image of her cofounder, Eric Lu. She was surprised to see harassment drop to nearly zero.
+
+—[Wired](https://www.wired.com/story/this-startups-test-shows-how-harassment-targets-women-online/)
+]
+
+.grid.ratio-1-1[
+![](https://media.wired.com/photos/5a8de3bfb2b92b689be91201/master/w_1164,c_limit/ChatBot-FINAL.jpg)
+]
+]
+]
+
+.source[@katholmes @wired @theatlantic @glamour @quartz @lifehacker]
+.footer[Inclusive Design]
+
 ---
 
-class: document-slide in-progress
+class: document-slide work-in-progress
 
 # Be sure to include others unlike yourself, and bring your friends
 

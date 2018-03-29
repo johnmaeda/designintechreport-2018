@@ -136,7 +136,7 @@
 @mixin lists() {
   ul, ol {
     @include block-margin;
-    padding-left: 2rem;
+    padding-left: 2em; // Intentionally em
 
     > li + li {
       margin-top: 0.25em; // Intentionally em

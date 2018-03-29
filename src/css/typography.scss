@@ -88,5 +88,4 @@ $font-size-xxx-small: rem(9.6px);
 
 .xxx-small {
   @include typography-size($font-size-xxx-small);
-  line-height: 1.2;
 }

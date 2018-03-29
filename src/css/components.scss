@@ -11,6 +11,37 @@
   @include block-margin;
 }
 
+.tweet {
+  @include block-margin;
+}
+
+.iframe {
+  display: block;
+
+  > iframe {
+    display: block;
+    width: 100%;
+  }
+}
+
+.video {
+  display: block;
+
+  > video {
+    display: block;
+    width: 100%;
+  }
+}
+
+.audio {
+  display: block;
+
+  > video {
+    display: block;
+    width: 100%;
+  }
+}
+
 .refresh {
   padding: 0 0.25rem;
   color: $color-white;
@@ -39,6 +70,11 @@
 
   &.numeral {
     @include typography-mono;
+  }
+
+  &.small {
+    font-size: $font-size-small;
+    text-transform: uppercase;
   }
 
   &.darkgray {
@@ -205,10 +241,15 @@
     color: $color-white;
     background-color: $color-purple;
   }
+
+  &.bordered {
+    border: solid 4px $color-yellow;
+  }
 }
 
 .box-grid {
   @include block-margin;
+  @include unset-paragraphs;
   display: grid;
   grid-gap: 0.5rem;
 
@@ -266,8 +307,6 @@
   @include typography-sans;
   display: block;
   position: relative;
-  font-size: $font-size-x-small;
-  line-height: 1;
 
   p {
     margin: 0;
@@ -301,6 +340,8 @@
     padding: 0.2em 0.5em; // Intentionally em
     color: $color-white;
     background-color: rgba($color-black, 0.5);
+    font-size: $font-size-xx-small;
+    line-height: 1;
   }
 }
 
