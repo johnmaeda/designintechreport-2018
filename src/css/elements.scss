@@ -5,14 +5,14 @@
   h1 {
     @include typography-sans;
     margin-top: 1.75rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     font-size: $font-size-large;
   }
 
   h2 {
     @include typography-sans;
     display: table; // To get both collapsing margins and block layout
-    margin-top: 0.5rem;
+    margin-top: 2rem;
     padding: 0.3rem 3.75rem 0.3rem 1.25rem;
     color: $color-white;
     background-color: $color-black;
@@ -25,7 +25,8 @@
 
   h3 {
     @include typography-sans;
-    display: inline-block;
+    display: table; // To get both collapsing margins and block layout
+    margin-top: 2rem;
     padding: 0.3rem 0.5rem;
     color: $color-white;
     background-color: $color-black;

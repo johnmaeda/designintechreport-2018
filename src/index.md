@@ -106,7 +106,7 @@ class: document-slide x-small
 
 .stack[
 .group[
-.numeric.subhead[2015]
+.numeral.subhead[2015]
 
 .quote-list[
 * 14 creative firms were atypically acquired between 2004 and 2015 by tech companies like Facebook, Flextronics, Google; also Accenture, Capital One, BBVA, McKinsey & Co.
@@ -118,7 +118,7 @@ class: document-slide x-small
 ]
 ]
 .group[
-.numeric.subhead[2016]
+.numeral.subhead[2016]
 
 .quote-list[
 * Design firm acquisitions continue: 42 design firms since 2004, and ~50% of them in the last year alone. Accenture, Deloitte, IBM take the lead.
@@ -132,7 +132,7 @@ class: document-slide x-small
 ]
 ]
 .group[
-.numeric.subhead[2017]
+.numeral.subhead[2017]
 
 .quote-list[
 * Demand for designers is up with Facebook, Google, and Amazon collectively growing designer headcount by 65% in a year according to LinkedIn.
@@ -158,21 +158,21 @@ class: document-slide
 
 .stack[
 .group[
-.numeric.subhead[2015]
+.numeral.subhead[2015]
 
 .purple[Design isn't just about beauty; it’s about market relevance and meaningful results.]
 
 _DESIGN is about DE$IGN — and it's traditionally been that case since the era of the Bauhaus, and even way before._
 ]
 .group[
-.numeric.subhead[2016]
+.numeral.subhead[2016]
 
 .purple[There are 3 kinds of design: Classical Design, Design Thinking, and Computational Design.]
 
 _There are 3 kinds of design: Classical Design, Design Thinking, and Computational Design._
 ]
 .group[
-.numeric.subhead[2017]
+.numeral.subhead[2017]
 
 .purple[Adopting an inclusive design approach expands a tech product’s total addressable market.]
 
@@ -196,11 +196,11 @@ class: document-slide
 .caption[Design in Tech Report 2017]
 ]
 <details>
+<summary>.fas.fa-football-ball[]</summary>
 .grayscale.figure[
 ![](https://media.giphy.com/media/atYyKKGkdjaUg/giphy.gif)
 .caption[via Giphy]
 ]
-<summary>.fas.fa-football-ball[]</summary>
 </details>
 ]
 .group[
@@ -212,6 +212,7 @@ class: document-slide
 * SEO for the new home **designintechreport.wordpress.com** has stuck solidly. Thanks for your help and for your encouragement to continue!
 
 <details>
+<summary></summary>
 .darkgray[
 ## And Luckily There's Freedom of Speech
 
@@ -220,7 +221,6 @@ class: document-slide
 * **Statler:** "Embarrassing as a representation of design."
 * **Waldorf:** "Agreed."
 ]
-<summary></summary>
 </details>
 ]
 ]
@@ -282,7 +282,7 @@ class: document-slide kinds-of-design-slide
 .stack[
 .group[
 .header-group[
-.numeric.subhead[01]
+.numeral.subhead[01]
 .small[
 There’s a right way to make what is perfect, crafted, and complete.
 ]
@@ -296,7 +296,7 @@ Driver/ the Industrial Revolution, and prior to that at least a few millennia of
 ]
 .group[
 .header-group[
-.numeric.subhead[02]
+.numeral.subhead[02]
 .small[
 Because execution has outpaced innovation, and experience matters.
 ]
@@ -310,7 +310,7 @@ Driver/ the need to innovate in relation to individual customer needs requires e
 ]
 .group[
 .header-group[
-.numeric.subhead[03]
+.numeral.subhead[03]
 .small[
 Design for billions of individual people and in real time, is at scale and TBD.
 ]
@@ -516,7 +516,7 @@ class: document-slide
 	- **Rothco** acquired by Accenture
 ]
 
-.orange.numeric.subhead[2018]
+.orange.numeral.subhead[2018]
 
 .quote[
 > We’re excited to join Verizon in their quest to put customers in control of their connectivity and create breakthrough live and digital experiences.
@@ -550,7 +550,7 @@ class: document-slide
 
 .grid.ratio-1-3[
 .group[
-.subhead[.far.fa-hospital[] .fas.fa-graduation-cap[]]
+.subhead[.far.fa-hospital[]&nbsp;.fas.fa-graduation-cap[]]
 
 .small.darkgray[
 This list does not include universities where medical students took design thinking classes in schools outside of the medical school. It also does not include health care professional schools. Example: Stanford medical students who might take design thinking classes at the d.school or Penn medical students taking design classes in the architecture school.
@@ -831,7 +831,7 @@ By 2050, India’s economy is projected to be the world’s second largest, behi
 
 .stack[
 .group[
-.numeric.subhead[01]
+.numeral.subhead[01]
 
 .darkgray.sans[**English Speaking**]
 
@@ -844,7 +844,7 @@ Multi-ethnic Art & Craft tradition with local idioms marking design sensibilitie
 ]
 ]
 .group[
-.numeric.subhead[02]
+.numeral.subhead[02]
 
 .darkgray.sans[**Mobile Culture**]
 
@@ -858,7 +858,7 @@ Multi-ethnic Art & Craft tradition with local idioms marking design sensibilitie
 ]
 ]
 .group[
-.numeric.subhead[03]
+.numeral.subhead[03]
 
 .darkgray.sans[**China with (not vs) India**]
 
@@ -871,7 +871,7 @@ Multi-ethnic Art & Craft tradition with local idioms marking design sensibilitie
 ]
 ]
 .group[
-.numeric.subhead[04]
+.numeral.subhead[04]
 
 .darkgray.sans[**JUGAAD**]
 
@@ -904,7 +904,7 @@ Latin America has the fastest rate of smartphone adoption in the world. —[Fast
 
 .stack[
 .group[
-.numeric.subhead[01]
+.numeral.subhead[01]
 
 .darkgray.sans[**Design Rush**]
 
@@ -916,7 +916,7 @@ Latin America has the fastest rate of smartphone adoption in the world. —[Fast
 ]
 ]
 .group[
-.numeric.subhead[02]
+.numeral.subhead[02]
 
 .darkgray.sans[**With the Wall or Without It**]
 
@@ -927,7 +927,7 @@ Latin America has the fastest rate of smartphone adoption in the world. —[Fast
 ]
 ]
 .group[
-.numeric.subhead[03]
+.numeral.subhead[03]
 
 .darkgray.sans[**Copy, Adapt and Improve**]
 
@@ -938,7 +938,7 @@ Latin America has the fastest rate of smartphone adoption in the world. —[Fast
 ]
 ]
 .group[
-.numeric.subhead[04]
+.numeral.subhead[04]
 
 .darkgray.sans[**Design for Trust**]
 
@@ -1653,7 +1653,7 @@ class: document-slide
 
 .stack[
 .group[
-### The top 10 most valuable design skills for the future
+### The top 10 most valuable design<br>skills for the future
 
 1. Adaptability to tech and social change
 2. Empathy
@@ -1748,7 +1748,7 @@ class: document-slide
 
 # The best way to scale design? Listen to what Bill used to say.
 
-.stack[
+.grid.ratio-1-2[
 .group[
 .grayscale.figure[
 <img style="height:400px;object-position:30% 0" data-src="https://img.youtube.com/vi/Atsmy_oMLaI/maxresdefault.jpg">
@@ -1760,16 +1760,14 @@ class: document-slide
 .group[
 <br><br>
 
+.grid.across-2[
 .large.quote[
 > If there's a simple, easy design principle that binds everything together, it's probably about starting with the people.
 
 —Bill Moggridge
 ]
-]
-.group[
-<br><br>
-
 .darkgray[_Bill Moggridge, co-founder of IDEO and director of the Smithsonian’s Cooper-Hewitt National Design Museum, died September 8th, 2012, following a battle with cancer. An outspoken advocate for the value of design in everyday life, Bill pioneered interaction design and integrated human factors into the design of computer software and hardware._]
+]
 ]
 ]
 
@@ -2174,7 +2172,7 @@ var recognition = new SpeechRecognition();
 
 [Listen](https://codepen.io/jakemhiller/pen/ECAcz) [Talk](https://codepen.io/matt-west/pen/wGzuJ) [Colors](https://codepen.io/rodriguesmarcos/pen/BFwCa) [Map States](https://codepen.io/nickforddesign/project/full/XVkvqe/)
 
-.lightgray.subhead[.fab.fa-random[]]
+.lightgray.subhead[.fas.fa-random[]]
 
 [Google Experiments](https://experiments.withgoogle.com/voice) with [ Mystery Animal](https://mysteryanimal.withgoogle.com/) [Meme Buddy](https://memebuddy.chat/)
 ]
@@ -2656,7 +2654,7 @@ class: document-slide
 .group[
 .subhead[.fas.fa-quote-left[]]
 
-.x-medium.quote[
+.large.quote[
 > I was a child refugee. I know how it feels to live in a camp, robbed of my humanity.
 
 —[Ai Weiwei](https://www.theguardian.com/film/2017/dec/07/human-flow-review-ai-weiwei-migration-documentary)
@@ -2717,9 +2715,11 @@ class: document-slide
 
 .grid.ratio-1-2[
 .group[
-.numeric.subhead[638]
+.numeral.subhead[638]
 
-.large.darkgray[There are currently companies with remote work opportunities]
+.large.darkgray[
+There are currently companies with remote work opportunities
+]
 
 From the Remotive.io [list of companies](https://docs.google.com/spreadsheets/u/1/d/1TLJSlNxCbwRNxy14Toe1PYwbCTY7h0CNHeer9J0VRzE/htmlview?sle=true) hiring remote workers.
 ]
@@ -2739,7 +2739,7 @@ class: document-slide
 
 .grid.ratio-2-1[
 .group[
-.numeric.subhead[2012]
+.numeral.subhead[2012]
 
 .quote[
 > Telecommuting, working from home, working remotely: they all essentially mean the same thing (working somewhere other than in an office). And this form of work is growing.
@@ -2747,7 +2747,7 @@ class: document-slide
 —[TIME](http://business.time.com/2012/03/13/the-rise-of-the-remote-worker-or-how-to-work-from-home-without-getting-fired/)
 ]
 
-.numeric.subhead[2018]
+.numeral.subhead[2018]
 
 .quote[
 > A growing number of startups are operating without a physical office for some or all of their workforce. It makes hiring people around the world easier, keeping costs down. But it can make employees feel disconnected.
@@ -2971,8 +2971,6 @@ class: document-slide
 
 —[Kat Holmes](https://twitter.com/katholmes?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)
 ]
-
-<br>
 
 .darkgray[If you don't believe it, visit [Congrats, you have an all male panel!](http://allmalepanels.tumblr.com)]
 

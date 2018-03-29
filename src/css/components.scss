@@ -61,8 +61,9 @@
 
 .subhead {
   @include typography-sans;
-  display: inline-block;
-  padding: 0.2em; // Intentionally em
+  display: table; // To get both collapsing margins and block layout
+  margin-top: 2rem;
+  padding: 0.3em 0.2em 0.2em; // Intentionally em
   color: $color-white;
   background-color: $color-black;
   font-size: $font-size-large;
@@ -70,11 +71,14 @@
 
   &.numeral {
     @include typography-mono;
+    padding: 0.3em 0.2em; // Intentionally em
   }
 
   &.small {
-    font-size: $font-size-small;
+    padding: 0.3em; // Intentionally em
+    font-size: $font-size-x-small;
     text-transform: uppercase;
+    letter-spacing: 0.1em; // Intentionally em
   }
 
   &.darkgray {
@@ -346,7 +350,7 @@
 }
 
 .quote {
-  @include block-margin;
+  @include relative-block-margin;
   @include remove-edge-margins;
   color: $color-darkgray;
 

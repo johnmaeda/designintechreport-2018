@@ -21,6 +21,18 @@
   }
 }
 
+@mixin relative-block-margin {
+  margin: 1em 0; // Intentionally em
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
 @mixin unset-block-margin {
   margin: unset;
 
