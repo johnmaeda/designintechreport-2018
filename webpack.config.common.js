@@ -1,4 +1,5 @@
 const CleanWebpackPlugin = require('clean-webpack-plugin')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const path = require('path')
@@ -81,6 +82,13 @@ module.exports = mode => ({
     new CleanWebpackPlugin(['build/**/*'], {
       root: path.resolve(__dirname),
     }),
+    new CopyWebpackPlugin([
+      {
+        context: path.resolve(__dirname),
+        from: 'data',
+        to: 'data',
+      },
+    ]),
     new MiniCssExtractPlugin({
       filename: 'css/[name].css',
       chunkFilename: 'css/[id].css',
