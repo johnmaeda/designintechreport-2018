@@ -22,38 +22,38 @@ class: team-slide
 .section[
 ## Founding Team
 * ![](https://designintech.report/wp-content/uploads/2018/03/jackie.jpg)
-	* Jackie Xu
+	Jackie Xu
 * ![](https://designintech.report/wp-content/uploads/2018/03/aviv.jpg)
-	* Aviv Gilboa
+	Aviv Gilboa
 * ![](https://designintech.report/wp-content/uploads/2018/03/fatimah2.jpg)
-	* Fatimah Kabba
+	Fatimah Kabba
 * ![](https://designintech.report/wp-content/uploads/2018/03/justin.jpg)
-	* Justin Sayarath
+	Justin Sayarath
 * ![](https://designintech.report/wp-content/uploads/2018/03/maeda.jpg)
-	* John Maeda
+	John Maeda
 ]
 
 .section[
 ## Report Contributors
 * ![](https://designintech.report/wp-content/uploads/2018/03/bon.jpg)
-	* Bon Ku
-	* Medicine
+	Bon Ku<br>
+	Medicine
 * ![](https://designintech.report/wp-content/uploads/2018/03/ling.jpg)
-	* Ling Fan
-	* China
+	Ling Fan<br>
+	China
 * ![](https://designintech.report/wp-content/uploads/2018/03/sunil2.jpg)
-	* Sunil Malhotra
-	* India
+	Sunil Malhotra<br>
+	India
 * ![](https://designintech.report/wp-content/uploads/2018/03/luis.jpg)
-	* Luis Arnal
-	* Latin America
+	Luis Arnal<br>
+	Latin America
 ]
 
 .section[
 ## Report Translators
-* ![](https://designintech.report/wp-content/uploads/2018/03/takram.jpg)
-	* Takram
-	* Japanese
+* ![](https://pbs.twimg.com/profile_images/776403293123731456/vRapDC6h_400x400.jpg)
+	Takram<br>
+	Japanese
 ]
 
 ]
