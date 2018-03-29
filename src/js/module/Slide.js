@@ -74,17 +74,21 @@ export default class Slide {
     Array.from(this.element.querySelectorAll('img, iframe'))
       .forEach(element => {
         const src = element.getAttribute('data-src')
-        element.setAttribute('src', src)
-        element.removeAttribute('data-src')
+        if (src) {
+          element.setAttribute('src', src)
+          element.removeAttribute('data-src')
+        }
       })
 
     Array.from(this.element.querySelectorAll('video, audio'))
       .forEach(element => {
         const source = element.firstElementChild;
         const src = source.getAttribute('data-src')
-        source.setAttribute('src', src)
-        source.removeAttribute('data-src')
-        element.load()
+        if (src) {
+          source.setAttribute('src', src)
+          source.removeAttribute('data-src')
+          element.load()
+        }
       })
 
     Array.from(this.element.querySelectorAll('.chart'))
@@ -95,13 +99,17 @@ export default class Slide {
           return response.json()
         }).then(({ data, options }) => {
           drawGoogleChart(element, type, data, options)
+        }).catch(error => {
+          throw error
         })
       })
 
     Array.from(this.element.querySelectorAll('.tweet'))
       .forEach(element => {
         const tweetId = element.getAttribute('data-tweet-id')
-        createTwitterWidget(tweetId, element)
+        if (tweetId) {
+          createTwitterWidget(tweetId, element)
+        }
       })
   }
 
