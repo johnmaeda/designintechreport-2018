@@ -1,5 +1,36 @@
 @import './colors';
 @import './typography';
+@import './mixins';
+
+.remark-slide-scaler {
+  position: relative;
+}
+
+.remark-slide {
+  display: block;
+  overflow: hidden;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.remark-slide-content {
+  display: block;
+  overflow: hidden;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.remark-slide-number {
+  @include typography-sans;
+  display: block;
+  position: absolute;
+  right: 40px;
+  bottom: 15px;
+  margin: 0 !important;
+  color: $color-darkgray;
+  font-size: $font-size-xx-small;
+  opacity: 1;
+}
 
 .slide {
   @include typography-serif;
@@ -7,39 +38,89 @@
   font-size: $font-size-medium;
   line-height: 1.2;
 
-  h1 {
-    @include typography-sans;
-    margin-top: 1.75rem;
-    margin-bottom: 2rem;
-    font-size: $font-size-large;
-    line-height: 1.2;
-  }
-
-  h2 {
-    @include typography-sans;
-    display: inline-block;
-    padding: 0.3rem 0.5rem;
+  *::selection {
     color: $color-white;
-    background-color: $color-black;
-    font-size: $font-size-medium;
-    line-height: 1;
+    background: $color-gray;
   }
 
-  p + p {
-    margin-top: 1rem;
+  strong {
+    font-weight: bold;
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  code {
+    @include typography-mono;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  summary {
+    margin-bottom: 0.5rem;
+
+    &:focus {
+      outline: none;
+    }
   }
 
   a {
-    color: black;
+    color: $color-black;
     text-decoration: none;
 
     &:visited, &:link {
       border-bottom: 2px solid $color-orange;
 
       &:hover {
-        color: white;
+        color: $color-white;
         background-color: $color-orange;
       }
+    }
+  }
+
+  &.in-progress {
+    &:after {
+      @include typography-sans;
+      content: 'In Progress';
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      width: 8rem;
+      height: 8rem;
+      border-radius: 8rem;
+      color: white;
+      background-color: $color-orange;
+    }
+  }
+
+  &--lightgray {
+    color: $color-black;
+    background-color: $color-lightgray;
+  }
+
+  &--darkgray {
+    color: $color-white;
+    background-color: $color-darkgray;
+  }
+
+  &--yellow {
+    color: $color-black;
+    background-color: $color-yellow;
+  }
+
+  &--black {
+    color: $color-white;
+    background-color: $color-black;
+
+    a {
+      color: $color-white;
     }
   }
 
@@ -49,9 +130,8 @@
     position: absolute;
     left: 5rem;
     bottom: 15px;
-    color: $color-gray;
+    color: $color-darkgray;
     font-size: $font-size-xx-small;
-    line-height: 1.2;
 
     &:before {
       content: 'Source: ';
@@ -64,34 +144,12 @@
     position: absolute;
     left: 60%;
     bottom: 15px;
+    margin: 0 !important;
     color: $color-orange;
     font-size: $font-size-xx-small;
-    line-height: 1.2;
 
     &:before {
       content: '2018 Design In Tech Report | ';
     }
-  }
-
-  .remark-slide-number {
-    @include typography-sans;
-    display: block;
-    position: absolute;
-    right: 40px;
-    bottom: 15px;
-    color: $color-gray;
-    font-size: $font-size-xx-small;
-    line-height: 1.2;
-    opacity: 1;
-  }
-
-  &--lightgray {
-    color: $color-black;
-    background-color: $color-lightgray;
-  }
-
-  &--darkgray {
-    color: $color-white;
-    background-color: $color-darkgray;
   }
 }

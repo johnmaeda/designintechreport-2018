@@ -1,0 +1,136 @@
+@import './colors';
+@import './typography';
+
+@mixin headers() {
+  h1 {
+    @include typography-sans;
+    margin-top: 1.75rem;
+    margin-bottom: 2rem;
+    font-size: $font-size-large;
+  }
+
+  h2 {
+    @include typography-sans;
+    display: table; // To get both collapsing margins and block layout
+    margin-top: 0.5rem;
+    padding: 0.3rem 3.75rem 0.3rem 1.25rem;
+    color: $color-white;
+    background-color: $color-black;
+    font-size: $font-size-medium;
+
+    &:first-child {
+      margin-top: 0
+    }
+  }
+
+  h3 {
+    @include typography-sans;
+    display: inline-block;
+    padding: 0.3rem 0.5rem;
+    color: $color-white;
+    background-color: $color-black;
+    font-size: $font-size-medium;
+  }
+
+  h1 + h2 {
+    margin-top: 0;
+  }
+
+  .black {
+    > h1, > h2, > h3 {
+      background-color: $color-black;
+    }
+  }
+
+  .darkgray {
+    > h1, > h2, > h3 {
+      background-color: $color-darkgray;
+    }
+  }
+
+  .lightgray {
+    > h1, > h2, > h3 {
+      background-color: $color-lightgray;
+    }
+  }
+
+  .gray {
+    > h1, > h2, > h3 {
+      background-color: $color-gray;
+    }
+  }
+
+  .orange {
+    > h1, > h2, > h3 {
+      background-color: $color-orange;
+    }
+  }
+
+  .purple {
+    > h1, > h2, > h3 {
+      background-color: $color-purple;
+    }
+  }
+
+  .white {
+    > h1, > h2, > h3 {
+      background-color: $color-white;
+    }
+  }
+
+  .yellow {
+    > h1, > h2, > h3 {
+      background-color: $color-yellow;
+    }
+  }
+}
+
+@mixin paragraphs() {
+  p {
+    margin: 0.75em 0; // Intentionally em
+  }
+}
+
+@mixin reset-paragraphs() {
+  p {
+    margin: unset;
+  }
+}
+
+@mixin lists() {
+  ul, ol {
+    @include block-margin;
+    padding-left: 2rem;
+
+    > li + li {
+      margin-top: 0.25em; // Intentionally em
+    }
+  }
+
+  ul > li {
+    list-style-type: disc;
+  }
+
+  ol > li {
+    list-style-type: decimal;
+  }
+}
+
+@mixin reset-lists() {
+  ul, ol {
+    @include reset-block-margin;
+    padding-left: unset;
+
+    > li + li {
+      margin-top: unset;
+    }
+  }
+
+  ul > li {
+    list-style-type: unset;
+  }
+
+  ol > li {
+    list-style-type: unset;
+  }
+}

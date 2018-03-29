@@ -1,8 +1,40 @@
 $color-black: #000000;
 $color-darkgray: #6f7489;
-$color-gray: #808080;
 $color-lightgray: #dddee0;
+$color-gray: mix($color-darkgray, $color-lightgray, 50%);
 $color-orange: #fe4d30;
 $color-purple: #6918f9;
 $color-white: #ffffff;
 $color-yellow: #ffc808;
+
+.black {
+  color: $color-black;
+}
+
+.darkgray {
+  color: $color-darkgray;
+}
+
+.lightgray {
+  color: $color-lightgray;
+}
+
+.gray {
+  color: $color-gray;
+}
+
+.orange {
+  color: $color-orange;
+}
+
+.purple {
+  color: $color-purple;
+}
+
+.white {
+  color: $color-white;
+}
+
+.yellow {
+  color: $color-yellow;
+}

@@ -1,0 +1,22 @@
+{
+  "options": {
+    "legend": {
+      "position": "bottom",
+      "alignment": "start"
+    },
+    "colors": ["#dddee0", "#6918f9"],
+    "chart": {
+      "title": "Leah Buley Co. State of UX 2016 Survey",
+      "subtitle": "To what extent has your organization found UX to be a driver of the following measures?"
+    }
+  },
+  "data": [
+    ["Measures of value to a company", "Low impact", "High impact                ++|"],
+    ["Happier customers", 13, 61],
+    ["Customer behaviors", 22, 48],
+    ["Internal pride", 33, 42],
+    ["Increased earnings", 28, 39],
+    ["External recognition", 36, 36],
+    ["Lower costs", 47, 20]
+  ]
+}

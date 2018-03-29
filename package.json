@@ -10,18 +10,23 @@
   "dependencies": {
     "babel-polyfill": "^6.26.0",
     "compass-mixins": "^0.12.10",
-    "normalize.css": "^8.0.0",
-    "remark": "github:gnab/remark#develop"
+    "marked": "^0.3.19",
+    "mutation-observer": "^1.0.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "remark": "github:gnab/remark#7ac03f2955d949128f3bf5be23f1aea1fc497f04"
   },
   "devDependencies": {
     "autoprefixer": "^8.0.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-es2016": "^6.24.1",
     "babel-preset-es2017": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "babel-preset-stage-3": "^6.24.1",
     "clean-webpack-plugin": "^0.1.18",
+    "copy-webpack-plugin": "^4.5.1",
     "css-loader": "^0.28.9",
     "html-webpack-plugin": "^3.0.7",
     "mini-css-extract-plugin": "^0.2.0",

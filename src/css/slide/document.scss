@@ -1,0 +1,9 @@
+@import '../colors';
+@import '../elements';
+@import '../typography';
+
+.slide--document {
+  @include headers;
+  @include paragraphs;
+  @include lists;
+}

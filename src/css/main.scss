@@ -1,11 +1,16 @@
 @import 'compass/reset';
 
 @import './colors';
-@import './typography';
 @import './slide';
+@import './slide/chapter';
 @import './slide/coverpage';
+@import './slide/document';
+@import './slide/kinds-of-design';
+@import './slide/large-quote';
+@import './slide/overview';
 @import './slide/welcome-note';
 @import './slide/welcome-team';
+@import './typography';
 
 // Import after slides to override them in the same cascading priority
 @import './components';

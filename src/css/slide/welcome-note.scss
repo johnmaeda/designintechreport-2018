@@ -1,4 +1,5 @@
 @import '../colors';
+@import '../elements';
 @import '../typography';
 
 .slide--welcome-note {
@@ -7,13 +8,11 @@
 
   h1 {
     @include typography-serif;
-    font-size: $font-size-heading;
-    line-height: 1.2;
+    font-size: $font-size-x-large;
   }
 
   .body {
     @include typography-sans;
-    font-size: $font-size-heading;
-    line-height: 1.2;
+    font-size: $font-size-x-large;
   }
 }

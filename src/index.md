@@ -1,4 +1,9 @@
-class: slide slide--coverpage
+class: slide
+layout: true
+
+---
+
+class: slide--coverpage
 
 .byline[John Maeda]
 .heading[
@@ -8,7 +13,7 @@ class: slide slide--coverpage
 
 ---
 
-class: slide slide--welcome-team
+class: slide--welcome-team
 
 # Team
 
@@ -57,31 +62,25 @@ class: slide slide--welcome-team
 
 ---
 
-class: slide slide--welcome-note
+class: slide--document slide--yellow
 
-# Desktop-First / Beta Release Notes
+# .xx-large.serif[Desktop-First / Beta Release Notes]
 
-.body[
-
-I had originally intended to design this report in some clever way that was mobile-first and responsive ... but I got lost in all the code along the way. Weekend hacking projects will do that to you (wink). If you're visiting by mobile -- which is super likely -- please turn around. Next week I'll release a mobile-only version for fun. I'm learning! —JM
-
-]
+.x-large.sans[I had originally intended to design this report in some clever way that was mobile-first and responsive ... but I got lost in all the code along the way. Weekend hacking projects will do that to you (wink). If you're visiting by mobile -- which is super likely -- please turn around. Next week I'll release a mobile-only version for fun. I'm learning! —JM]
 
 .footer[Welcome]
 
 ---
 
-class: slide slide--darkgray
-
-.horizontal-layout[
+class: slide--overview slide--darkgray sans
 
 # Welcome
 
-.body.text-sans[
+.group[
 
 Welcome to a new format for the Design in Tech Report. For this year's report, I took a stab at learning all the CSS/JS that I've always wanted to know, and then went after the task of making a fully responsive report. I've partially succeeded on my road there with this letterbox-only version — which is better than a PDF, but it's a little buggy. Sorry!
 
-When you see .refresh-label[Refresh Screen If Needed] please refresh your window and a dynamic diagram is likely to reappear. Chrome seems to work best with this report. If you don't like an interactive version like this, please visit the one[**](https://www.slideshare.net/johnmaeda/design-in-tech-report-2018) on Slideshare.
+When you see .refresh[Refresh Screen If Needed] please refresh your window and a dynamic diagram is likely to reappear. Chrome seems to work best with this report. If you don't like an interactive version like this, please visit the one[**](https://www.slideshare.net/johnmaeda/design-in-tech-report-2018) on Slideshare.
 
 Expect a video version on my new YouTube channel "John Maeda is Learning" by this weekend that walks you through all these findings.
 
@@ -89,79 +88,63 @@ Expect a video version on my new YouTube channel "John Maeda is Learning" by thi
 
 ]
 
-]
+.footer[Welcome]
+
+---
+
+class: slide--overview slide--lightgray in-progress
+
+# .x-large[Sections Overview]
 
 .footer[Welcome]
 
 ---
 
-class: slide slide--lightgray
-
-.horizontal-layout[
-
-# Sections Overview
-
-.definition-list[
-
-* ## 1) TBD = Tech × Business × Design
-	* How do technology, business, and design interrelate in the startup and corporate ecosystems?
-* ## 2) Scaling Design
-	* How do you scale the design function in a company to impact business at the speed of Moore's Law?
-
-* ## 3) Computational Design: 1st Steps
-	* What is "computational design" and why does it matter to business + tech?
-
-* ## 4) Computational Design &times; A.I.
-	* How does artificial intelligence change the future of design and what do designers need to know?
-
-* ## 5) Inequality
-	* What does technology have to do with rising inequalities and should I care as a designer?
-
-* ## 6) Why Inclusive Design
-	* Do I need to care about inclusive design more when considering TBD? What can I do about it?
-
-]
-
-]
-
-.footer[Welcome]
-
----
-
-class: slide
+class: slide--document x-small
 
 # Key takeaways from the Design In Tech Reports
 
-.timeline[
+.stack[
+.group[
+.numeric.subhead[2015]
 
-*	## 2015
-	* > 14 creative firms were atypically acquired between 2004 and 2015 by tech companies like Facebook, Flextronics, Google; also Accenture, Capital One, BBVA, McKinsey & Co.
-	* > As the marginal return on computing power (a la Moore’s law) diminishes and technology is less of a differentiating factor, the value of design has entered the foreground.
-	* > 27 startups that were co-founded by designers were acquired since 2010 by companies like Intuit, Google, Facebook, Adobe, LinkedIn, and Yahoo.
-	* > Five (20%) of the top cumulative-funded VC-backed ventures that have raised additional capital since 2013 are noted to have designer co-founders.
-	* > There were no designers on Silicon Valley's fabled “Sand Hill Road” until January of 2014 when Kleiner Perkins appointed their first Design Partner **John Maeda**. Shortly afterwards six more VC firms acquired new Design Partners.
-	* > _ .fas.fa-chart-line[] **DESIGN DE$IGN** Designing for mobile brought new experience constraints compared with the desktop, and made designers' skills invaluable as the pathway to non-techy consumers. _
+.quote-list[
+* 14 creative firms were atypically acquired between 2004 and 2015 by tech companies like Facebook, Flextronics, Google; also Accenture, Capital One, BBVA, McKinsey & Co.
+* As the marginal return on computing power (a la Moore’s law) diminishes and technology is less of a differentiating factor, the value of design has entered the foreground.
+* 27 startups that were co-founded by designers were acquired since 2010 by companies like Intuit, Google, Facebook, Adobe, LinkedIn, and Yahoo.
+* Five (20%) of the top cumulative-funded VC-backed ventures that have raised additional capital since 2013 are noted to have designer co-founders.
+* There were no designers on Silicon Valley's fabled “Sand Hill Road” until January of 2014 when Kleiner Perkins appointed their first Design Partner **John Maeda**. Shortly afterwards six more VC firms acquired new Design Partners.
+* .purple.sans[.fas.fa-chart-line[] **DESIGN DE$IGN** Designing for mobile brought new experience constraints compared with the desktop, and made designers' skills invaluable as the pathway to non-techy consumers.]
+]
+]
+.group[
+.numeric.subhead[2016]
 
-* ## 2016
-	* > Design firm acquisitions continue: 42 design firms since 2004, and ~50% of them in the last year alone. Accenture, Deloitte, IBM take the lead.
-	* > Designers in venture capital have increased: More designers entered VC in the last two years than the previous 4 years combined. Its history is revealed.
-	* > 93.5% of 370 designers surveyed believe that coding and data-oriented skills are table stakes knowledge for designers in tech.
-	<!-- * 86% of design students surveyed say that they learned their digital skills from resources outside their coursework. Design education lags the technology industry’s needs for data-oriented, coding-enabled graduates with business acumen.) -->
-	* > 100% of the top 10 business schools have student-led design/innovation clubs. 6-7% of the 2015 class of HBS take product management jobs.
-	* > Designing Systems and Designer Culture emerge as key methods for design to achieve scale — building on agency practices and Karl Gerstner's pioneering work on Designing Programmes.
-	* > Instead of seeing diversity as a problem that needs solving, designing for inclusion becomes an economic opportunity and cultural responsibility.
-	* > _ .fas.fa-chart-line[] **The 3 Kinds of Design** There are 3 kinds of design: Classical Design, Design Thinking, and Computational Design. The most business value is being driven by the latter two kinds of design. _
+.quote-list[
+* Design firm acquisitions continue: 42 design firms since 2004, and ~50% of them in the last year alone. Accenture, Deloitte, IBM take the lead.
+* Designers in venture capital have increased: More designers entered VC in the last two years than the previous 4 years combined. Its history is revealed.
+* 93.5% of 370 designers surveyed believe that coding and data-oriented skills are table stakes knowledge for designers in tech.
+<!-- * 86% of design students surveyed say that they learned their digital skills from resources outside their coursework. Design education lags the technology industry’s needs for data-oriented, coding-enabled graduates with business acumen.) -->
+* 100% of the top 10 business schools have student-led design/innovation clubs. 6-7% of the 2015 class of HBS take product management jobs.
+* Designing Systems and Designer Culture emerge as key methods for design to achieve scale — building on agency practices and Karl Gerstner's pioneering work on Designing Programmes.
+* Instead of seeing diversity as a problem that needs solving, designing for inclusion becomes an economic opportunity and cultural responsibility.
+* .purple.sans[.fas.fa-chart-line[] **The 3 Kinds of Design** There are 3 kinds of design: Classical Design, Design Thinking, and Computational Design. The most business value is being driven by the latter two kinds of design.]
+]
+]
+.group[
+.numeric.subhead[2017]
 
-* ## 2017
-	* > Demand for designers is up with Facebook, Google, and Amazon collectively growing designer headcount by 65% in a year according to LinkedIn.
-	* > McKinsey & Co and Salesforce make significant bets on design with more acquisitions. Design tool startup InVision acquires 5 smaller startups.
-	<!-- * 4 Design Partners are elected at McKinsey & Co and IBM appoints 3 Distinguished Designers — to the highest senior levels of a corporate hierarchy. -->
-	* > Design tools begin to evolve out of print and early web design paradigms from the Photoshop era to encompass prototyping, project management, version control, inline coding, and automation.
-	* > Voice- and chat-based interfaces are grounded in mental models that don't require a visual representation. Related and unrelated artificial intelligence advancements are accelerating.
-	* > Coverage of tech design trends in China begins. Chinese design in tech principles and practices are leading the world, and are often overlooked.
-	* > 90% of designers surveyed say that having a more diverse design team is personally important to them. The number one request inside their companies is to: "Talk about it more internally."
-	* > _ .fas.fa-chart-line[] **Inclusive Design Takes Off** Adopting an inclusive design approach expands a tech product’s total addressable market. The tipping point for inclusive design begins to tip. _
-
+.quote-list[
+* Demand for designers is up with Facebook, Google, and Amazon collectively growing designer headcount by 65% in a year according to LinkedIn.
+* McKinsey & Co and Salesforce make significant bets on design with more acquisitions. Design tool startup InVision acquires 5 smaller startups.
+<!-- * 4 Design Partners are elected at McKinsey & Co and IBM appoints 3 Distinguished Designers — to the highest senior levels of a corporate hierarchy. -->
+* Design tools begin to evolve out of print and early web design paradigms from the Photoshop era to encompass prototyping, project management, version control, inline coding, and automation.
+* Voice- and chat-based interfaces are grounded in mental models that don't require a visual representation. Related and unrelated artificial intelligence advancements are accelerating.
+* Coverage of tech design trends in China begins. Chinese design in tech principles and practices are leading the world, and are often overlooked.
+* 90% of designers surveyed say that having a more diverse design team is personally important to them. The number one request inside their companies is to: "Talk about it more internally."
+* .purple.sans[.fas.fa-chart-line[] **Inclusive Design Takes Off** Adopting an inclusive design approach expands a tech product’s total addressable market. The tipping point for inclusive design begins to tip.]
+]
+]
 ]
 
 .source[[Design in Tech Reports](https://designintechreport.wordpress.com)]
@@ -169,25 +152,1973 @@ class: slide
 
 ---
 
-class: slide
+class: slide--document
 
 # Design in Tech Reports simplified
 
-.timeline[
+.stack[
+.group[
+.numeric.subhead[2015]
 
-*	## 2015
-	* _Design isn't just about beauty; it’s about market relevance and meaningful results._
-	* DESIGN is about DE$IGN — and it's traditionally been that case since the era of the Bauhaus, and even way before.
+.purple[Design isn't just about beauty; it’s about market relevance and meaningful results.]
 
-* ## 2016
-	* _There are 3 kinds of design: Classical Design, Design Thinking, and Computational Design._
-	* There are 3 kinds of design: Classical Design, Design Thinking, and Computational Design.
+_DESIGN is about DE$IGN — and it's traditionally been that case since the era of the Bauhaus, and even way before._
+]
+.group[
+.numeric.subhead[2016]
 
-* ## 2017
-	* _Adopting an inclusive design approach expands a tech product’s total addressable market._
-	* Inclusion is good business. And new proof points are emerging. More will start to emerge as inclusive design takes hold.
+.purple[There are 3 kinds of design: Classical Design, Design Thinking, and Computational Design.]
 
+_There are 3 kinds of design: Classical Design, Design Thinking, and Computational Design._
+]
+.group[
+.numeric.subhead[2017]
+
+.purple[Adopting an inclusive design approach expands a tech product’s total addressable market.]
+
+_Inclusion is good business. And new proof points are emerging. More will start to emerge as inclusive design takes hold._
+]
 ]
 
 .source[Past [Design in Tech Reports](https://designintechreport.wordpress.com)]
 .footer[Welcome]
+
+---
+
+class: slide--document
+
+# About the 2017 #DesignInTech Report
+
+.grid.ratio-1-3[
+.group[
+.grayscale.figure[
+![](https://designintechreport.files.wordpress.com/2017/03/screen-shot-2017-03-07-at-5-34-13-pm.png)
+.caption[Design in Tech Report 2017]
+]
+<details>
+.grayscale.figure[
+![](https://media.giphy.com/media/atYyKKGkdjaUg/giphy.gif)
+.caption[via Giphy]
+]
+<summary>.fas.fa-football-ball[]</summary>
+</details>
+]
+.group[
+## Quick info about the 2017 Report
+
+* On Slideshare there were 800K+ views.
+* With new video and audio versions there were 30K+ accesses.
+* *Writing and its critical importance to design* — an insight by **Fatimah Kabba** — was by far the most popular perspective in last year's report.
+* SEO for the new home **designintechreport.wordpress.com** has stuck solidly. Thanks for your help and for your encouragement to continue!
+
+<details>
+.darkgray[
+## And Luckily There's Freedom of Speech
+
+* **Statler:** "The #DesignInTech Report is not a well designed artifact."
+* **Waldorf:** "I remember seeing one and thinking the graphic design was terrible :-)."
+* **Statler:** "Embarrassing as a representation of design."
+* **Waldorf:** "Agreed."
+]
+<summary></summary>
+</details>
+]
+]
+
+.source[Twitter and Giphy]
+.footer[Welcome]
+
+---
+
+class: slide--document
+
+# Useful feedback on the 2017 #DesignInTech Report
+
+## Positive Sentiments Shared
+
+* "I've been calling myself a designer-developer—now changed, thanks 2017 #DesignInTech report."
+* "I'm putting your oral #designintech preso on @SoundCloud on repeat."
+* "Congrats @simplysecureorg for the #designintech shoutout. Great work in privacy & security."
+* "Designers Who Code & Write: opportune time to digest the #DesignInTech report."
+* "#DesignInTech 'reframes computational design as driver of accelerated growth.'"
+* "'Design isn't just about beauty; it's about relevance and meaningful results.'"
+
+## Constructive Criticism Shared
+* "Adding useless adjectives in front of the word 'designer' isn't doing anything positive for the industry."
+* "Using small gray text in the DesignInTech Report excludes anyone with visual difficulties."
+* "Appalled in 2017 to see platitude of 'Design is not about beauty.'"
+* "When computational design dominates, will we have a Universal Design Income?"
+
+.source[via Twitter]
+.footer[Welcome]
+
+---
+
+class: slide--chapter slide--lightgray
+
+# .mono[TBD<br>=<br>Tech &times;<br>Business &times;<br>Design]
+
+.group[
+### Design in tech is evolving rapidly and globally
+
+* Design isn't just about beauty; it’s about market relevance and meaningful results.
+* There are three kinds of design. Classical Design, Design Thinking, and Computational Design.
+* In 2017 there were 21 acquisitions of creative agencies or designer-founded startups.
+* Medical schools in the US are using design thinking in their curricula.
+* Consulting companies are going beyond just design thinking — they're changing how business is done.
+* China continues to lead in designing experiences at a scale and level of sophistication that astounds.
+* Indian and Latin markets are advancing design thinking and computational design. And we have a lot to learn from them.
+* **Gen B(older)** is becoming a market opportunity for new products and services that can't be ignored.
+]
+
+.footer[Technology &times; Business &times; Design]
+
+---
+
+class: slide--document slide--kinds-of-design
+
+# There Are Three Kinds of Design
+
+.stack[
+.group[
+.header-group[
+.numeric.subhead[01]
+.small[
+There’s a right way to make what is perfect, crafted, and complete.
+]
+]
+
+.x-medium.sans[Classical Design]
+
+![:block classical-design]
+
+Driver/ the Industrial Revolution, and prior to that at least a few millennia of ferment.
+]
+.group[
+.header-group[
+.numeric.subhead[02]
+.small[
+Because execution has outpaced innovation, and experience matters.
+]
+]
+
+.x-medium.sans[Design Thinking]
+
+![:block design-thinking]
+
+Driver/ the need to innovate in relation to individual customer needs requires empathy.
+]
+.group[
+.header-group[
+.numeric.subhead[03]
+.small[
+Design for billions of individual people and in real time, is at scale and TBD.
+]
+]
+
+.x-medium.sans[Computational Design]
+
+![:block computational-design]
+
+Driver/ the impact of Moore’s Law, mobile computing, and the latest tech paradigms.
+]
+
+]
+
+.footer[Technology &times; Business &times; Design]
+.source[2017 Design In Tech Report]
+
+---
+
+class: slide--document
+
+# What's a Computational Designer?
+
+.grid.ratio-1-3[
+.group[
+.tinted.figure[
+![](https://designintech.report/wp-content/uploads/2018/03/nike_jd.png)
+.caption[via Nike]
+]
+
+.small.quote[
+> At NIKE Digital, we embrace open source, contributing to the community by building – and sharing – digital solutions that work on a global scale. We invest in cutting-edge technologies and work with a network of open source libraries and tools, like React.js, Node.js and GraphQL. These investments and tools help us advance web and native UI development, evolve our data science and eCommerce capabilities, refine our DevOps and retool our services infrastructure.
+
+—2017 Nike job board [archived listing](https://web.archive.org/web/20180125124622/https://jobs.nike.com/job/united-states/product-director-computational-design/824/4344159)
+]
+]
+.grid.ratio-1-1[
+.group[
+.x-medium.sans[
+Understands Computation
+]
+
+Has facility with representational codes and maybe programming codes. Knows what is easy and possible, hard and possible, difficult and impossible for now.
+]
+.group[
+.x-medium.sans[
+Thinks Critically About Technology
+]
+
+Practices being a humanist technologist who asks questions about what's being made, who's making it, and why.
+]
+.group[
+.x-medium.sans[
+Uses All Three Kinds of Designs
+]
+
+Taps into the rich history of classical design (form _and_ content) while leading and teaming inclusively _via design thinking_ within their org, or across orgs, for profit or not-for-profit.
+]
+.group[
+.x-medium.sans[
+Actively Learning AI And The New
+]
+
+Considers intersectionality as a source of creativity and a driver of change. Embraces new paradigms and learns them deeply. Lives Apollinaire's words from the Bauhaus era, .purple["New (hu)man must have the courage to be new."]
+]
+]
+]
+
+.source[Nike jobs.nike.com via Wayback Machine]
+.footer[Technology &times; Business &times; Design]
+
+---
+
+class: slide--document
+
+# Does computational design play a material role in a company?
+
+.orange.sans[As reported in Leah Buley's widely reviewed 2016 State of UX essay:]
+
+.darkgray.columns.across-2[
+When asked, "What measurable outcomes resulting from user experience are you most proud of?" high-impact respondents gave responses like: "Multimillion dollar increases in conversion and customer lifetime value."
+
+By contrast, one low-impact respondent answered, "We are moving so fast there has been no time or resources for testing/outcomes – even for small usability improvements."
+]
+
+![:chart 300px, bar, data/state-of-ux-2016-survey.json]
+
+.source[@leahbuley / Leah Buley Co. [The State of UX in 2016](https://www.creativebloq.com/features/the-state-of-ux-in-2016)]
+.footer[Technology &times; Business &times; Design]
+
+---
+
+class: slide--document in-progress
+
+# Computational Designer vs Classical Designer
+
+.darkgray[When people in the tech industry talk about “design,” they often make the mistake of not differentiating between classical designers and computational designers. The former kind of designer might craft a wooden chair for a home which is used by a few people; the latter kind of designer might craft an app for a smartphone which is used by hundreds of millions of people.]
+
+---
+
+class: slide--document in-progress
+
+# What's a Design Thinker?
+
+## The Evolution of Design in the Enterprise
+
+.stack[
+.group[
+.timeline-title[Birth of Traditional Design for Large Corporations / Corporate Identity+Image and Product Styling]
+
+.sans[**1950s**] GM’s CEO makes the first executive position in design with Harley Earl elevated to VP.
+
+.sans[**1966**] IBM Memo to IBM employees by CEO TJ Watson Jr. about the emerging importance of design to the company.
+]
+.group[
+.timeline-title[Birth of Modern Product Design Firms / From Traditional Design, to Design of Systems+Services]
+
+.sans[**1982**] From 1982 Apple’s design language begins to form with frog and Hartmut Esslinger’s direction.
+
+.sans[**1991**] David Kelley, Bill Moggridge, Mike Nutall join forces and change the course of design by co-founding IDEO.
+]
+.group[
+.timeline-title[Birth of "Design Thinking" and Design Strategy / Harnessing the Creative Problem Solving Skills of Designers]
+
+.sans[**2005**] Hasso Plattner Institute of Design at Stanford starts.
+
+IDEO's Jane Fulton Suri publishes [Thoughtless Acts?](https://www.ideo.com/post/thoughtless-acts) and brings design research to the foreground.
+
+.sans[**2008-09**] Roger L. Martin describes design thinking at the CEO level with P&G’s AG Laffley and his book on The Design of Business. (SAP and P&G were a few of the early executive adopters of Design Thinking.)
+]
+.group[
+.timeline-title[Design Thinking" Mainstreams as Whole Business Strategy / Re-contextualizing Design, Making B-Schools into D-Schools]
+
+.sans[**2015-16**] Phil Gilbert leads IBM’s $100M bet to bring design back to IBM.
+
+Tim Brown and Roger L. Martin open the introductory issue for HBR on “The Evolution of Design Thinking.”
+
+Top 10 B-schools all have student-led design clubs.
+
+.sans[**2018**] IBM Design open sources their [Enterprise Design Thinking](https://www.ibm.com/design/thinking/) framework for all.
+]
+]
+
+.source[@librariobabel [Good definition of design thinking](https://twitter.com/librariofbabel/status/970373045348130817)]
+.footer[Technology &times; Business &times; Design]
+
+---
+
+class: slide--document
+
+# The large consulting firms are the major M&A driver
+
+.darkgray[
+## 21 new acquisitions of creative agencies or designer-founded startups noted in 2017.
+]
+
+.timeline-list[
+* .timeline-title[2017 Jan - Feb]
+
+	- **Idean** acquired by Capgemini
+	- **Unity&Variety** acquired by Salesforce
+	- **Sequence** acquired by Salesforce
+	- **Dribbble** acquired by Tiny
+	- **DeviantArt** acquired by Wix
+	- **Altitude** acquired by Accenture
+
+* .timeline-title[March]
+
+	- **JWalk** acquired by Shiseido
+
+* .timeline-title[May]
+
+	- **The Monkeys and Maud** acquired by Accenture
+
+* .timeline-title[June]
+
+	- **Market Gravity** acquired by Deloitte
+	- **Intrepid** acquired by Accenture
+
+* .timeline-title[July]
+
+	- **Maya** acquired by BCG
+	- **Clearhead** acquired by Accenture
+
+* .timeline-title[August]
+
+	- **Wire Stone** acquired by Accenture
+	- **Acne** acquired by Deloitte
+
+* .timeline-title[September]
+
+	- **Matter** acquired by Accenture
+	- **VLT Labs** acquired by McKinsey & Co
+	- **TandemSeven** acquired by Genpact.
+
+* .timeline-title[October]
+	- **Cooper** acquired by Designit/Wipro
+	- **Telepathy** acquired by ServiceNow (CEO: **John Donahoe**)
+	- **Brand.ai** acquired by InVision
+	- **YARD** acquired by Kyu Collective.
+
+* .timeline-title[December]
+	- **Rothco** acquired by Accenture
+]
+
+.orange.numeric.subhead[2018]
+
+.quote[
+> We’re excited to join Verizon in their quest to put customers in control of their connectivity and create breakthrough live and digital experiences.
+
+—**Moment** acquired by Verizon [March 2018](http://www.momentdesign.com/what-lies-ahead-moment-joins-verizon/)
+]
+
+.source[@tberno @jcoronado1 @leahbuley @hugosarrazin @randyjhunt @scootermcdoog<br>@ezyjules @shatzygoespro @keithinstone]
+.footer[Technology &times; Business &times; Design]
+
+---
+
+class: slide--document
+
+# Classical Designers Tend to Look Down on Design Thinking
+
+.large.quote[
+> The reduction of a complex creative problem-solving mindset into five steps makes design seem easy when it’s not. A certificate for the completion of a design thinking course is not enough to transform a business into the next Apple. So don’t be deceived by the demystification of the design process or the chance to workshop out million-dollar ideas over post-its. There’s more to design than what design thinking dealers are preaching.
+
+—[Natasha Jen](https://www.itsnicethat.com/articles/natasha-jen-pentagram-graphicdesign-230218) on "Why Design Thinking is bullshit"
+]
+
+.source[[It's Nice That](https://www.itsnicethat.com/articles/natasha-jen-pentagram-graphicdesign-230218) [Fortune](http://fortune.com/2018/03/06/design-leadership-ceo-thinking-business-strategy/)]
+.footer[Technology &times; Business &times; Design]
+
+---
+
+class: slide--document
+
+# Medical schools are using design thinking
+
+.grid.ratio-1-3[
+.group[
+.subhead[.far.fa-hospital[] .fas.fa-graduation-cap[]]
+
+.small.darkgray[
+This list does not include universities where medical students took design thinking classes in schools outside of the medical school. It also does not include health care professional schools. Example: Stanford medical students who might take design thinking classes at the d.school or Penn medical students taking design classes in the architecture school.
+
+Also, this is not an inventory of academic medical centers or hospitals that have a design group or team. Many of these teams employ human centered design but do not necessarily teach medical students.
+]
+]
+
+.group[
+.sans[Medical schools in the US that offer a formal program or classes that teach design thinking to medical students]
+
+1. Dell Medical School at The University of Texas at Austin
+2. Kaiser Permanente School of Medicine (not yet opened)
+3. Mayo Clinic School of Medicine
+4. The College of Osteopathic Medicine at Oklahoma State University
+5. The Sidney Kimmel Medical College at Thomas Jefferson University
+6. The Warren Alpert Medical School of Brown University
+7. University of Michigan Medical School
+8. University of Virginia School of Medicine
+9. Zucker School of Medicine at Hofstra/Northwell
+
+.x-small.quote[
+[Bon Ku](https://twitter.com/BonKu/), MD, MPP /
+
+In my experience, Design Thinking provides a platform for non-designers (myself included) - doctors, nurses and medical students - to work with designers.
+DT is a primer that provides us a shared language. Many of us who are in health care have already been practicing elements of DT (empathizing, prototyping, testing, etc.) but we just didn't know what to call it.
+
+I do not believe that DT is a step by step recipe. We teach our medical students to develop a design mindset and build their creative muscles. Design thinking helps us to reimagine a better future state of health care and give us some more tools in how to get there.
+]
+]
+]
+
+.source[@bonku]
+.footer[Technology &times; Business &times; Design]
+
+---
+
+class: slide--document
+
+# Consulting companies are going beyond just design thinking
+
+.yellow[This complex discipline does itself a disservice to just call itself "design," which signals only surface-level solutions. Perhaps we’ll start to see new ways of describing these multifaceted and interconnected capabilities. —[Hugo Sarrazin](https://www.mckinsey.com/business-functions/organization/our-insights/good-design-is-good-business)]
+
+.stack[
+.group[
+.numeral.subhead[01]
+
+.sans[**Journey<br>Design**]
+
+Infusing traditional customer (or employee) experience work with design thinking to help create spaces and experiences that drive consumer (or employee) satisfaction, operational efficiency, and revenue growth.
+]
+.group[
+.numeral.subhead[02]
+
+.sans[**Advanced<br>Analytics**]
+
+The convergence of Advanced Analytics (including AI) and Design is driving the confluence of insights (both quantitative and qualitative) informing the discovery and design of a solution – where data and creativity work together, not against
+one-another.
+]
+.group[
+.numeral.subhead[03]
+
+.sans[**New Design<br> Paradigm**]
+
+For design to inform new growth opportunities for clients, the need to quantify the value it can achieve by having great DNA as a company becomes critical.
+]
+.group[
+.numeral.subhead[04]
+
+.sans[**Designer<br>Hybrids**]
+
+As designers are now working on problems relevant to the c-suite they need to build core analytical skills that allow them to equate their design beliefs into quantifiable impact that can deliver business value have been identified.
+]
+]
+
+.source[@hugosarrazin [Good Design Is Good Business](https://www.mckinsey.com/business-functions/organization/our-insights/good-design-is-good-business)]
+.footer[Technology &times; Business &times; Design]
+
+---
+
+class: slide--document
+
+# Which companies are being perceived as improving in design?
+
+.x-large.darkgray[
+.orange[In the 1200+ survey responses, these companies appeared to be improving in design:] Google, Microsoft, Atlassian, Airbnb, Dropbox, Amazon
+]
+
+## 5 dominant words to explain why a company is perceived to be improving in design
+
+.large.gray.sans.box-list[
+* Innovation
+* Consistency
+* Scale
+* Simplicity
+* Diversity
+]
+
+.source[#DesignInTech 2018 Open Survey | 1219 samples]
+.footer[Technology &times; Business &times; Design]
+
+---
+
+class: slide--document in-progress
+
+# The perception of design and its impact to business is cyclic
+
+---
+
+class: slide--document
+
+# Classical Designers are slowly beginning to evolve
+
+.stack[
+.group[
+.darkgray[
+### The top 10 most critical issues<br>and challenges currently facing design
+]
+
+1. .orange[(Classical)] Design not having a "seat at the table"
+2. .highlight[Diversity in design and tech]
+3. Ethics in design
+4. Education cost and equity of access
+5. Consumer vs. social impact focus
+6. Generational differences in the workforce
+7. Environmental impacts of design
+8. .highlight[Algorithm bias]
+9. .highlight[Advertising supported content model]
+10. .highlight[Dark UX patterns]
+]
+.group[
+.darkgray[
+### The top 10 emerging trends to have the biggest impact on design
+]
+
+1. .highlight[AI and machine learning]
+2. .highlight[Augmented Reality]
+3. .highlight[Virtual Reality]
+4. .highlight[Behavior tracking and modeling]
+5. .highlight[3D printing]
+6. .highlight[Distributed teams and virtual workplace]
+7. .highlight[Democratization of design]
+8. .highlight[Algorithmic design]
+9. .highlight[Crowdsourcing and open source]
+10. .highlight[Facial and voice recognition]
+]
+]
+
+<br>
+
+.small.sans[.highlight[Highlight] corresponds to computational design.]
+
+.source[@aiga [Design Census](https://designcensus.org)]
+.footer[Technology &times; Business &times; Design]
+
+---
+
+class: slide--document in-progress
+
+# People Moves and Milestones
+
+---
+
+class: slide--document in-progress
+
+# Think Beyond Silicon Valley: India and Design
+
+By 2050, India’s economy is projected to be the world’s second largest, behind only China. —[WEF](https://www.weforum.org/agenda/2017/10/eight-key-facts-about-indias-economy-in-2017/)
+
+<br>
+
+.stack[
+.group[
+.numeric.subhead[01]
+
+.darkgray.sans[**English Speaking**]
+
+.darkgray.x-small.quote-list[
+* 125 million English speakers, second only to the United States.
+* Oral tradition where narrative is the primary mode of culture propagation.
+* India is a pluralistic society, secular and incredibly diverse.
+Multi-ethnic Art & Craft tradition with local idioms marking design sensibilities. * Strictly speaking, there is no such thing as a unified "Indian" culture-it's identified by region / state.
+* Differing in Cuisine, Language, Performing arts, Apparel, Customs, Music, Literature, Architecture, …
+]
+]
+.group[
+.numeric.subhead[02]
+
+.darkgray.sans[**Mobile Culture**]
+
+.darkgray.x-small.quote-list[
+* India has the second largest installed base of smartphones in the world behind China of ~300 million.
+* Basic smartphone handsets are available at below $50
+* Monthly data plan for under $2
+* People in India spent ~150 billion hours on Android devices in 2016
+* 70% of Indians consider local language (22 official local languages) digital content more reliable than content in English
+* 9 out of 10 users coming online are not proficient in English, but adapt anyways. Many use the English keyboard -- not bothering to switch to the script of their native language
+]
+]
+.group[
+.numeric.subhead[03]
+
+.darkgray.sans[**China with (not vs) India**]
+
+.darkgray.x-small.quote-list[
+* China and India make a complementary combination of machine power and human power: China - Products / India - Services.
+* They're giant neighbors.
+* Each has a population of over a billion (they collectively account for 36.3% of the world's people).
+* They anchor the "rise of the rest."
+* Each touts its style of governance as opposed to that of the other: China, with its authoritarian efficiency; India, with its democratic vibrancy.
+]
+]
+.group[
+.numeric.subhead[04]
+
+.darkgray.sans[**JUGAAD**]
+
+.darkgray.x-small.quote-list[
+* In Hindi,
+
+	_“overcoming harsh constraints by improvising an effective solution using limited resources”._
+
+	(a.k.a. "the MVP")
+* Thrift not waste.
+* Inclusion, not exclusion.
+* Bottom-up participation, not top-down command and control.
+* Flexible thinking and action, not linear planning.
+]
+
+.darkgray.x-small[[HBR](https://hbr.org/2010/01/jugaad-a-new-growth-formula-fo) (2010) / Ravi Radjou, Jaideep Prabhu, and Simone Ahuja]
+]
+]
+
+.source[@sunilmalhotra [Indian Express](http://indianexpress.com/article/technology/india-set-to-have-530-million-smartphone-users-in-2018-study-4893159/) [Quartz](https://qz.com/972844/indias-internet-users-have-more-faith-in-content-thats-not-in-english-study-says/) [Recode](https://www.recode.net/2017/5/31/15720378/mary-meeker-india-annual-internet-trends-report-code-2017) [HBR](https://hbr.org/2010/01/jugaad-a-new-growth-formula-fo)]
+.footer[Technology &times; Business &times; Design]
+
+---
+
+class: slide--document in-progress
+
+# Think Beyond Silicon Valley: Latin America and Design
+
+Latin America has the fastest rate of smartphone adoption in the world. —[Fast Company](https://www.fastcompany.com/3044662/what-latin-america-will-look-like-in-2020)
+
+<br>
+
+.stack[
+.group[
+.numeric.subhead[01]
+
+.darkgray.sans[**Design Rush**]
+
+.darkgray.x-small.quote-list[
+* Latin America (LATAM) has a long history with design that started out in the 1950s.
+* .purple.sans[1950s] - Mexico, Argentina and Brazil led the movement in LATAM of formal design schools.
+* .purple.sans[Today] - Vibrant startup ecosystem. [Insitum](https://www.fastcompany.com/3041655/the-worlds-top-10-most-innovative-companies-of-2015-in-latin-), "IDEO of emerging markets" has 5 offices in LATAM and 140+ consultants.
+* .purple.sans[Future] - A new generation of mobile users could create an ideal environment for a new digital currency.
+]
+]
+.group[
+.numeric.subhead[02]
+
+.darkgray.sans[**With the Wall or Without It**]
+
+.darkgray.x-small.quote-list[
+* LATAM region, with 650 million people, is exploring opportunities to be less dependent on the US economy.
+* The [Trans Pacific Partnership](https://www.nytimes.com/2018/03/08/world/asia/us-trump-tpp-signed.html) has been signed between 11 countries, and China is solidifying its ties with the region [via startups](https://www.bloomberg.com/news/articles/2018-03-04/chinese-startups-export-playbook-to-latin-america-for-new-riches).
+* Ex: China's Didi [acquires 99](https://techcrunch.com/2018/01/03/didi-confirms-it-has-acquired-99-in-brazil-to-expand-in-latin-america/), a ridesharing company in Brazil 99.
+]
+]
+.group[
+.numeric.subhead[03]
+
+.darkgray.sans[**Copy, Adapt and Improve**]
+
+.darkgray.x-small.quote-list[
+* Increased activity in the startup ecosystem in LATAM.
+* Many of the startups are adaptations of successful models elsewhere customized to LATAM environment, while often finding opportunities to improve beyond the original.
+* Ex: [Kubo Financiero](https://www.kubofinanciero.com) is the Mexican LendingClub, and it's introduced a social responsibility component to investing - which resonates with users in a nationalistic country like Mexico.
+]
+]
+.group[
+.numeric.subhead[04]
+
+.darkgray.sans[**Design for Trust**]
+
+.darkgray.x-small.quote-list[
+* Corruption is everywhere.
+* There is a generalized lack of trust between people, companies and governments.
+* Startups are disrupting traditional industries by designing to inspire trust and prevent fraud while providing a good user experience.
+* Ex: [Nubank](https://www.crunchbase.com/organization/nubank). - online credit card company, and [Enlight](https://www.crunchbase.com/organization/enlight-mexico) - Mexico's solar-energy startup.
+]
+]
+]
+
+.source[@luisarnal [@insitum](https://www.fastcompany.com/3041655/the-worlds-top-10-most-innovative-companies-of-2015-in-latin-) @fastcompany @bloomberg @kubofinanciero <br> @nubankbrasil @enlightmx @techcrunch @bloomberg]
+.footer[Technology &times; Business &times; Design]
+
+---
+
+class: slide--document in-progress
+
+# Think Beyond Silicon Valley: China and Design
+
+---
+
+class: slide--document in-progress
+
+# Think Again Beyond Silicon Valley: China and Design
+
+---
+
+class: slide--document
+
+# You're not getting any younger. You're getting B(older).
+
+.large.tight.quote[
+> Restricting its estimate to those aged 60 and up, market research firm Euromonitor predicts that by 2020, worldwide older-adult spending will reach $15 trillion—and that's still well before global aging will fully hit its stride. By 2030, the Boston Consulting Group estimates that the 55-plus population will have been responsible for 50 percent of the US consumer spending growth since 2008, 67 percent of that of Japan, and 86 percent for that of Germany. It's no exaggeration to say that the world's most advanced economies will soon revolve around the needs, wants, and whims of grandparents.
+
+—[Joseph Coughlin](http://agelab.mit.edu/longevity-economy)
+]
+
+.source[[The Longetivity Economy](http://agelab.mit.edu/longevity-economy)]
+.footer[Technology &times; Business &times; Design]
+
+---
+
+class: slide--document in-progress
+
+# Think Beyond GenZ + Millennials: Think Gen B(older)
+
+---
+
+class: slide--chapter slide--lightgray
+
+# .xx-large.mono[Scaling<br>Design]
+
+.group[
+### Design capabilities don't scale like Moore's Law
+
+* Design is generally used early in the product development process instead of applied at the very end before it is shipped.
+* Creating an inclusive culture for designers is how to start building better products. Listening to what they value is how to start.
+* Unconscious bias is promoted by stereotypes that exclude others. Recognizing exclusion is a way to take immediate action.
+* Design tools and systems are ch-ch-changing these days. Among many new capabilities, machine intelligence looks to change everything.
+* We're in a golden age of data visualization and quant-qual science. The tools that are available today enable understanding -- for those who want it.
+* User research skills and product management skills are vital for designers to understand to work more inclusively with customers and product colleagues.
+]
+
+.footer[Scaling Design]
+
+---
+
+class: slide--document in-progress
+
+# Is a college degree necessary to succeed as a designer in tech?
+
+---
+
+class: slide--document in-progress
+
+# Is the culture of your company set up for design to succeed?
+
+---
+
+class: slide--document in-progress
+
+# At what stage is design typically involved?
+
+---
+
+class: slide--document
+
+# Whatever you do, don't F up the culture
+
+.large.quote[
+> Why is culture so important to a business? Here is a simple way to frame it. The stronger the culture, the less corporate process a company needs. When the culture is strong, you can trust everyone to do the right thing. People can be independent and autonomous. They can be entrepreneurial. And if we have a company that is entrepreneurial in spirit, we will be able to take our next "(wo)man on the moon" leap. In organizations (or even in a society) where culture is weak, you need an abundance of heavy, precise rules and processes.
+
+—[Brian Chesky](https://medium.com/@bchesky/dont-fuck-up-the-culture-597cde9ee9d4)
+]
+
+.source[@bchesky]
+.footer[Scaling Design]
+
+---
+
+class: slide--document in-progress
+
+# Creating an inclusive culture for designers is where to start
+
+---
+
+class: slide--document
+
+# Unconscious bias is promoted by stereotypes that exclude others
+
+.small.purple[_What false stereotype would you like to break when it comes to how designers are perceived?_]
+
+![:chart 450px, wordtree, data/stereotype.json]
+
+.footer[Scaling Design]
+.source[#DesignInTech 2018 Open Survey | 1219 samples [Darya Zabelina et al on creative mindsets](https://link.springer.com/article/10.3758/s13421-015-0569-4)]
+
+---
+
+class: slide--document in-progress
+
+# How do you create an inclusively managed culture for designers?
+
+---
+
+class: slide--document
+
+# Every boss of designers can stand to hear feedback every day
+
+.small.purple[_What would you tell your boss if you could be "radically candid"?* B*ut how do you give it back? Katie Dill has good tips for [Criticism](http://firstround.com/review/Give-Criticism-that-Makes-a-Difference-With-These-Tips-from-Airbnbs-Head-of-Experience-Design/) and [Recognition](https://medium.com/@katiemdill/to-show-recognition-try-speaking-a-different-language-2f5b0682820c)._]
+
+![:chart 450px, wordtree, data/hey-boss.json]
+
+.footer[Scaling Design]
+.source[@kimballscott @lil_dill #DesignInTech 2018 Open Survey | 1219 samples]
+
+---
+
+class: slide--document
+
+# Tools that ground the visual language of the computer
+
+.stack[
+.group[
+.numeral.subhead[1981]
+
+.figure[
+![](https://cdn.mos.cms.futurecdn.net/d3cc904e153a5b3cc1008d057fd25a0f-650-80.jpg)
+.caption[via Quantel]
+]
+
+.small.quote[
+> The Paintbox package came together complete with its own disc store and library management. At that time a big hard drive held 70 megabytes on 14-inch platters that occupied about 4RU, took loads of power and cost about £5000.
+
+—[Quantel](https://www.creativebloq.com/video-production/remembering-quantel-paintbox-712401)
+]
+]
+.group[
+.numeral.subhead[1984]
+
+.figure[
+![](http://archive.computerhistory.org/resources/still-image/Apple/Macintosh/apple.1984.102626977.lg.jpg)
+.caption[via Computer History Museum]
+]
+
+.small.quote[
+> MacPaint was written by Bill Atkinson, who was a member of the original Macintosh development team. He based it on his earlier LisaSketch (also called SketchPad) for the unsuccessful Apple Lisa computer, so he originally called it MacSketch. He started work on the Mac version in early 1983.
+
+—[The Computer History Museum](http://www.computerhistory.org/atchm/macpaint-and-quickdraw-source-code/)]
+]
+.group[
+.numeral.subhead[1989]
+
+.figure[
+![](https://winworldpc.com/res/img/screenshots/10-249b5bcef9e7cfb96dc65d245a016963-Adobe%20Photoshop%201.0.7%20-%20About.png)
+.caption[via Computer History Museum]
+]
+
+.small.quote[
+> Adobe Photoshop 1.0 minimum system requirements are hard disk and 2 megabytes RAM. A gray-scale or color monitor is recommended, and a Macintosh compatible scanner is optional.
+
+—[First Versions](http://www.firstversions.com/2015/07/adobe-photoshop.html)
+]
+]
+]
+
+.source[[A. Michael Noll](https://en.wikipedia.org/wiki/A._Michael_Noll) [Using Photoshop 1.0 in 2015](https://youtu.be/TtA46JT2q_0) [Source Code for Photoshop](http://www.computerhistory.org/atchm/photoshop-software-license-agreement/) @winworldpc ]
+.footer[Scaling Design]
+
+---
+
+class: slide--document
+
+# Prototyping tools started in code and got more visual
+
+.stack[
+.group[
+.numeral.subhead[1987]
+
+.small.tight.quote[
+> Apple Computer Inc. will introduce an unusual database and management information program Tuesday that the company hopes will help it maintain its lead in technology for making computers easy to use.
+
+> The new software, known as Hypercard, will enable users of Apple's Macintosh computers to organize information on computerized file cards that can be linked to other file cards in intricate ways. The program will be included for no charge with each Macintosh sold, starting this month.
+
+—[NYT](http://www.nytimes.com/1987/08/11/business/company-news-apple-to-introduce-unusual-software.html)
+]
+
+.figure[
+![](http://basalgangster.macgui.com/RetroMacComputing/The_Long_View/Entries/2010/10/23_HyperCard_files/shapeimage_2.png)
+.caption[via MacGUI]
+]
+]
+.group[
+.numeral.subhead[1990]
+
+.figure[
+![](http://lingoworkshop.com/assets/images/Director2.gif)
+.caption[via Lingo Workshop]
+]
+
+.small.quote[
+> VideoWorks (1985 predecessor to Director) required a "Macintosh with at least 128k" and "although VideoWorks will work satisfactorily with just the Macintosh's internal drive, a second (external) drive will help avoid a lot of disc swapping."
+
+—[Lingo Workshop](http://lingoworkshop.com/articles/history)
+]
+]
+.group[
+.numeral.subhead[2013]
+
+[Emily Schwartzman](http://www.emilyschwartzman.com/prototyping-tool-resource/) road tests many of the then available prototyping tools and provides a useful study and chart — which grows into a general resource on [Cooper](https://www.cooper.com/prototyping-tools).
+
+.figure[
+![](https://www.cooper.com/wp-content/uploads/2013/07/summaryChart.png)
+.caption[via Cooper]
+]
+]
+]
+
+.source[@oddowl macgui.com lingoworkshop.com]
+.footer[Scaling Design]
+
+---
+
+class: slide--document
+
+# Design tools and systems are ch-ch-changing these days
+
+.large.sans.box-grid.across-4[
+![:block gray box, Integrated cloud]
+![:block gray box, Responsive built-in]
+![:block gray box, Project management]
+![:block gray box, Flexible annotation]
+![:block gray box, Version control]
+![:block gray box, Convert to actual code]
+![:block gray box, Realtime collaboration]
+![:block orange box, Machine intelligence]
+]
+
+### Future design tools with further developments in AI will possibly ...
+
+.columns.across-2[
+1. Construct models of our customers
+1. Generate design directions on their own
+1. Sort and prioritize competing constraints
+1. Identify best potential ROI and more
+1. Enable savings in time for designers
+1. Run experiments for us and reduce risks
+1. Create many variations to test
+1. Scan the entire experience for inconsistencies
+1. Prevent re-invention of past solutions
+1. Have potential to remove apprentice-level jobs
+]
+
+.source[[Leah Buley: Thoughts on the Future of Design Tools](https://www.linkedin.com/pulse/thoughts-future-design-tools-from-adobe-max-leah-buley/) + @johnmaeda's un-scientific observations]
+.footer[Scaling Design]
+
+---
+
+class: slide--document
+
+# Erondu’s Playbook has the Qs&As for designers amidst scaling
+
+## The top 15 questions designers are asking today
+
+.columns.across-2[
+1. How do you elevate the perception of design at a company? [.far.fa-question-circle[]](https://askplaybook.com/as-a-manager-how-do-you-elevate-the-perception-of-design-at-a-company/answers)
+1. How do you show the value of design to justify hiring more designers? [.far.fa-question-circle[]](https://askplaybook.com/how-do-you-show-the-value-of-design-to-justify-hiring-more-designers/answers)
+1. How do you establish more transparency for design within a company? [.far.fa-question-circle[]](https://askplaybook.com/how-do-you-establish-more-transparency-for-design-within-a-company/answers)
+1. How do you know when it's time to leave a company? [.far.fa-question-circle[]](https://askplaybook.com/how-do-i-know-when-it-s-time-to-leave-my-company/answers)
+1. As a team grows, how do you maintain the quality and consistency of its design work? [.far.fa-question-circle[]](https://askplaybook.com/as-a-team-grows-how-do-you-maintain-the-quality-and-consistency-of-its-design-work/answers)
+1. What’s the best way to present work during a design critique? [.far.fa-question-circle[]](https://askplaybook.com/what-s-the-best-way-to-present-work-during-a-design-critique/answers)
+1. How can a team keep track of past work and learnings as a living repository? [.far.fa-question-circle[]](https://askplaybook.com/how-can-a-team-keep-track-of-past-work-and-learnings-as-a-living-repository/answers)
+1. When working with remote teams, how do you effectively collaborate with each other? [.far.fa-question-circle[]](https://askplaybook.com/when-working-with-remote-teams-how-do-you-effectively-collaborate-with-each-other/answer/taramann)
+1. How do you know when a design is 'done'/right? [.far.fa-question-circle[]](https://askplaybook.com/how-do-you-know-when-a-design-is-done-or-right/answers)
+1. What are commonly used design KPIs? [.far.fa-question-circle[]](https://askplaybook.com/what-are-commonly-used-design-kpis/answer/alison-rand)
+1. What are things to do to avoid burnout? [.far.fa-question-circle[]](https://askplaybook.com/what-are-the-signs-that-you-re-about-to-burnout/answers) / [.far.fa-question-circle[]](https://askplaybook.com/what-can-you-do-after-you-burnout/answers)
+1. When interviewing, what are some questions to ask about a company's culture and design team? [.far.fa-question-circle[]](https://askplaybook.com/when-interviewing-what-are-some-questions-to-ask-to-understand-the-culture-of-a-company-and-design-team/answers)
+1. Is going to college worth it? ([college](#college))
+1. How should I structure my design portfolio to best communicate my skillsets? [.far.fa-question-circle[]](https://askplaybook.com/how-should-i-structure-my-design-portfolio-to-best-communicate-my-skillsets/answers)
+1. Should I start my career at an agency, startup, or big company? [.far.fa-question-circle[]](https://askplaybook.com/how-do-i-be-a-confident-designer/answers)
+]
+
+.source[@erondu @askplaybook]
+.footer[Scaling Design]
+
+---
+
+class: slide--document
+
+# We're in a new age of data visualization &times; quant-qual science
+
+.stack[
+.group[
+## What's a Data Scientist?
+
+The [core](https://blog.udacity.com/2014/11/data-science-job-skills.html) set of skills:
+
+* Programming Skills
+* Statistics
+* Machine Learning
+* Multivariable Calculus & Linear Algebra
+* Data Wrangling
+* Data Intuition
+* Data Visualization & Communication
+
+## OSDSM
+
+The Open Source Data Science Master's Degree is a cool set of resources gathered by [Clare Corthell](http://datasciencemasters.org/).
+]
+.group[
+## Talk data to me
+
+Data visualization and journalism teams at [The Guardian](https://www.theguardian.com/data) [NYT](https://www.informationisbeautifulawards.com/news/118-the-nyt-s-best-data-visualizations-of-the-year) [WSJ](http://graphics.wsj.com/wsj-interactives-2015/) have been at the forefront.
+
+.lightgray.subhead[.fas.fa-wrench[]]
+
+These tools show a new direction:
+
+* [Observable](https://beta.observablehq.com/) by Mike Bostock
+* [Data Studio](https://www.google.com/analytics/data-studio/capabilities/) by Google
+* [Colaboratory](https://research.google.com/colaboratory/faq.html) by Google
+
+And open source ones exist too:
+* [D3.js](https://d3js.org) by Mike Bostock
+* [Processing](https://processing.org/) by Processing Team
+* [Zeppelin](https://opensource.com/business/16/7/3-open-source-data-visualization-tools-hadoop) by Apache
+* [DrawBot](http://www.drawbot.com/) by DrawBot Team
+]
+.group[
+## Have I given up on design?
+
+<img style="width:100%;height:300px;object-fit:cover;object-position:0 5%;" data-src="https://designintech.report/wp-content/uploads/2018/03/maedadotpm.png">
+
+.small.darkgray[_**Nope.** I'm just collecting all the parts I've been learning/doing for my whole life before — I get uploaded to the big cloud in the sky one day. To design amazing experiences for people, I've always chosen to think/work inclusively and broadly._]
+]
+]
+
+.source[@udacity @clarecorthell]
+.footer[Scaling Design]
+
+---
+
+class: slide--document
+
+# Learn user researcher skills and principles to grow
+
+.stack[
+.group[
+### The top 10 most valuable design skills for the future
+
+1. Adaptability to tech and social change
+2. Empathy
+3. .highlight[Communication skills]
+4. .highlight[Asking good questions]
+5. Cross-functional skills
+6. .highlight[Storytelling]
+7. .highlight[Cross-cultural skills]
+8. .highlight[Observation and listening]
+9. .highlight[Psychology and human behavior]
+10. Managing complexity
+
+.small.sans[Note that many of .highlight[these skills] are exercised with expertise by User Researchers. To learn more about User Research [see Erika Hall's work](https://www.linkedin.com/pulse/9-rules-design-research-erika-hall/)]
+]
+.group[
+.large.quote[
+<br>
+
+> Surprisingly very few companies conduct qualitative user research.
+
+> .black.medium[Early-stage start-ups surveyed by Albert Lee/Dayna Grayson that use qualitative research: 12%, Mid-stage: 32%, Late-stage: 46%]
+
+.medium[
+– [NEA Future of Design in Start-ups 2017](http://www.futureof.design)
+]
+]
+]
+]
+
+<div class="source">@aiga <a target="_blank" href="https://designcensus.org">Design Census 2017</i></a> @neavc @tweetalbert @daynagrayson</div>
+.footer[Scaling Design]
+
+---
+
+class: slide--document
+
+# Learn product management skills and principles to grow
+
+.stack[
+.group[
+### The top 8 skills that designers need to understand in business
+
+1. .highlight[Product Roadmap Strategy]
+2. .highlight[Company Strategy]
+3. .highlight[Retention/ Engagement Metrics]
+4. .highlight[Conversion Metrics]
+5. .highlight[Funnel Acquisition Metrics]
+6. .highlight[Revenue Model]
+7. .highlight[Financial Metrics (i.e. Revenue, Margin etc.)]
+8. .highlight[Resource Allocation]
+]
+.group[
+### The top 10 skills needed near-term for designers in start-ups
+
+1. .highlight[Business]
+2. .highlight[Communication]
+3. .highlight[People Skills / Emotional Intelligence]
+4. Writing - Copywriting
+5. AR Design
+6. .highlight[Data Science]
+7. .highlight[Empathy for End User]
+8. .highlight[Facilitation Skills]
+9. .highlight[Management Skills]
+10. .highlight[Service Design]
+]
+.group[
+### The top 10 skills needed further out for designers in start-ups
+
+1. Writing
+2. AI / ML
+3. Data Science
+4. .highlight[Empathy for End User]
+5. .highlight[Storytelling]
+6. Sound Design
+7. .highlight[Scenario Design / Service Design]
+8. .bg-yellow[Ethics / Bias]
+9. .highlight[Psychology]
+10. .highlight[Systems Design]
+]
+]
+
+<br>
+
+.small.sans[.highlight[Highlight] corresponds to product manager and design leader/manager skills. .highlight[Highlight] is a classical design competency that is needed today.]
+
+.source[@neavc @tweetalbert @daynagrayson [Future of Design in Start-ups 2017](http://www.futureof.design)]
+.footer[Scaling Design]
+
+---
+
+class: slide--document
+
+# The best way to scale design? Listen to what Bill used to say.
+
+.stack[
+.group[
+.grayscale.figure[
+<img style="height:400px;object-fit:cover;object-position:30% 0" data-src="https://img.youtube.com/vi/Atsmy_oMLaI/maxresdefault.jpg">
+.caption[via Cooper Hewitt]
+]
+
+.darkgray.sans[1943-2012]
+]
+.group[
+<br><br>
+
+.large.quote[
+> If there's a simple, easy design principle that binds everything together, it's probably about starting with the people.
+
+—Bill Moggridge
+]
+]
+.group[
+<br><br>
+
+.darkgray[_Bill Moggridge, co-founder of IDEO and director of the Smithsonian’s Cooper-Hewitt National Design Museum, died September 8th, 2012, following a battle with cancer. An outspoken advocate for the value of design in everyday life, Bill pioneered interaction design and integrated human factors into the design of computer software and hardware._]
+]
+]
+
+.source[@ideo @cooperhewitt [IDEO](https://www.ideo.com/people/bill-moggridge)]
+.footer[Scaling Design]
+
+---
+
+class: slide--document in-progress
+
+# Scaling Design Case Study: [Automattic.Design](https://automattic.design)
+
+.stack[
+.group[
+.numeral.subhead[01]
+
+.x-large.darkgray.sans[Design Culture]
+
+.small[
+.darkgray[<br>You need a CEO who cares about design, and recognizes that good design is good business. It's because the customer wants it. .fas.fa-check-square[]]
+
+.orange[_Resources_]
+
+.quote-list[
+* [Stanford GSB Case Study](https://www.gsb.stanford.edu/faculty-research/case-studies/ebay-designing-culture-change-innovation-playbook)
+* [Design in Tech Reports](https://designintechreport.wordpress.com)
+* [IBM Design](https://medium.com/design-ibm/creating-a-culture-of-design-dfb9a36623b3)
+]
+]
+]
+.group[
+.numeral.subhead[02]
+
+.x-large.darkgray.sans[Design Talent]
+
+.small[
+.darkgray[<br>You need a strong designer hiring leader. They will be, "Someone who you wish was designing instead and loves talent, too." .fas.fa-check-square[]]
+
+.orange[_Resources_]
+
+.quote-list[
+* [Brie Anne Demkiw's tips](https://automattic.design/2018/03/09/tips-for-hiring-designers-for-remote-teams/)
+* [Automattic.Design blog](https://automattic.design)
+* [Jared Spool's Master Class](https://centercentre.learnsocially.com)
+]
+]
+]
+.group[
+.numeral.subhead[03]
+
+.x-large.darkgray.sans[Design Leaders]
+
+.small[
+.darkgray[<br>You need a primary design lead who cares about leadership and enjoys fostering new leaders. .fas.fa-check-square[]]
+
+.orange[_Resources_]
+
+.quote-list[
+* [Redesigning Leadership](https://mitpress.mit.edu/books/redesigning-leadership)
+* [InVision Design Leadership](https://www.designbetter.co/design-leadership-handbook)
+* [Within Leadership Retreat](https://gowithin.co/)
+* [Designer Fund](https://designerfund.com/design-leadership-insights-source-summit-2017)
+]
+]
+]
+.group[
+.numeral.subhead[04]
+
+.x-large.darkgray.sans[Design Systems]
+
+.small[
+.darkgray[<br>You need a few [computational designers](https://automattic.design/2018/02/09/react-components-design-and-wordpress-com-2015/) who work inclusively. Plus  listen to [Nathan Curtis](https://medium.com/eightshapes-llc/defining-design-systems-6dd4b03e0ff6). .fas.fa-check-square[]]
+
+.purple[Our design system offers *[kit scope]* released as *[kit outputs]* and documented at *[kit doc site]* produced by *[people]* in order to serve *[products]* products and experiences.] [&dagger;](https://medium.com/eightshapes-llc/defining-design-systems-6dd4b03e0ff6) [&dagger;&dagger;](https://medium.com/eightshapes-llc/design-systems-intermediaries-955ef18c9409)
+
+.orange[_Resources_]
+
+.quote-list[
+* [Awesome Design Systems](https://github.com/alexpate/awesome-design-systems)
+* [Adele](https://github.com/marcintreder/adele) | [DesignSystems.com](https://www.designsystems.com/)
+* [Some Needed Levity](https://twitter.com/_dte/status/966475058750173184)
+]
+]
+]
+.group[
+.numeral.subhead[05]
+
+.x-large.darkgray.sans[Design Ops]
+
+.small[
+.darkgray[<br>You want to product- and project- manage design as a service inside the org. And we've recently hired for Design Ops. .fas.fa-check-square[]]
+
+.orange[_Resources_]
+
+.quote-list[
+* [What is Design Ops?](https://www.linkedin.com/pulse/what-design-operations-why-should-you-care-dave-malouf)
+* [Design Ops Lenses](https://medium.com/amplify-design/the-different-lenses-of-design-operations-c29086cf907f)
+* [Holly Burroughs Cole](https://twitter.com/hollyface1975/status/971585555157934080)
+]
+]
+]
+]
+
+.source[[Karl Gerstner](https://www.lars-mueller-publishers.com/designing-programmes)  @mialoira @nathanacurtis @marcintreder @alexjpate @daveixd @_dte @figma @hollyface1975]
+.footer[Scaling Design]
+
+---
+
+class: slide--chapter slide--lightgray
+
+# .mono[Computational Design:<br> First Steps]
+
+.group[
+### Atoms &times; Bits &times; People has happened at scale
+
+* Custom fabrication technology that leverages computation while using less tech, traditional manufacturing ideas is becoming more accessible.
+* Speech recognition has advanced to the point where the experiences provided by this technology are becoming just as important as how computer graphics technology brought GUIs to the screen.
+* Augmented reality (and VR) experiments and ideas abound as the technology becomes more accessible via smartphones and inexpensive peripherals.
+* The majority of Americans now own a cellphone and are rapidly upgrading to smartphones, but the US lags in 13th place in average mobile data used per person across countries.
+* Speed is a key design attribute of a mobile experience with sessions averaging on the order of 30 seconds and over half of site visitors abandoning a site visit if takes longer than 3 seconds to load.
+]
+
+.footer[Computational Design]
+<div class="source"></div>
+
+---
+
+class: slide--document
+
+# Atoms &times; Bits are getting cheaper to work (and experiment) with
+
+.stack[
+.group[
+.figure[
+![:image 300px, https://www.line-us.com/uploads/1/1/7/2/117239281/creative-ideas_orig.jpg]
+.caption[via Line US]
+]
+[Line US](https://Line-us.com) .darkgray[_via the UK_]
+]
+.group[
+.figure[
+![:image 300px, https://uploads-ssl.webflow.com/59d78963a7327a00016b071a/59dac0f7bcf399000193a32c_img_402x.jpg]
+.caption[via Mayku]
+]
+[Mayku](https://www.mayku.me/) .darkgray[_via the UK_]
+]
+]
+
+The Line US and Mayku devices are excellent examples of low-cost, sophisticated computational design tools to work (and experiment) in the physical world. Line US is genius, and Mayku uses old-school vacuum forming methods.
+
+.small.quote[
+> Design milestones to note are a 4d-printed dress by [Nervous Systems](https://www.moma.org/explore/inside_out/2015/03/26/future-couture-nervous-systems-kinematics-dress/) accessioned to MoMA and the ever-expanding work of MIT Media Lab's [Neri Oxman](http://www.materialecology.com/news). Manufacturing machinery advances to note in 3d-printing are materials scientist Jennifer Lewis' work on footwear with [Voxel8](https://www.voxel8.com/) and advanced 3d-printing capability in metal achieved by [Desktop Metal](https://www.desktopmetal.com)
+]
+
+.source[@johnmaeda @Line_us_machine @teammayku]
+.footer[Computational Design]
+
+---
+
+class: slide--document
+
+# Mobile (Atoms &times; Bits) is how everyone (will) get things done
+
+.stack[
+.group[
+.quote[
+> When a question or need arises, our phones are by far our most trusted resource, with 96% of people using a smartphone to get things done.
+
+> To meet these needs, people are at least twice as likely to use search than other online or offline sources such as store visits or social media
+
+—Lisa Gevelber [Google](https://www.thinkwithgoogle.com/consumer-insights/mobile-search-consumer-behavior-data/)
+]
+
+.figure[
+<img style="height:230px;object-fit:cover;object-position: 0 10%;" data-src="https://www.thinkwithgoogle.com/_qs/images/T_YTfVgBw6V5ec8xryQjWtfCS7c=/113/width-2000/how-needs-were-addressed-chart.png">
+.caption[via Google]
+]
+]
+.group[
+![:iframe 450px, http://www.pewinternet.org/chart/mobile-phone-ownership/iframe/]
+
+.small.darkgray[—[PEW](http://www.pewinternet.org/chart/mobile-phone-ownership/) *This graphic wouldn't embed*]
+]
+.group[
+.quote[
+The vast majority of Americans – 95% – now own a cellphone of some kind. The share of Americans that own smartphones is now 77%, up from just 35% in Pew Research Center’s first survey of smartphone ownership conducted in 2011.
+
+—[PEW Research Center](http://www.pewinternet.org/fact-sheet/mobile/) (2018)
+
+.subhead[.fas.fa-random[]]
+
+.small.quote[
+The Open Source typeface [Inter UI](https://rsms.me/inter/) claims to be better for reading text on a mobile device.
+
+Starbucks is challenged by mobile order-ahead [fulfillment](http://www.businessinsider.com/starbucks-attempts-to-fix-mobile-ordering-review-2017-8) but will likely design good fixes.
+]
+]
+]
+]
+
+.source[@google @pewresearch @rsms]
+.footer[Computational Design]
+
+---
+
+class: slide--document
+
+# Mobile adds time to our digital lives, and data usage to our plans
+
+.grid.ratio-1-2[
+.group[
+.quote[
+> Mobile’s mostly additive — it added more screen time in the US than it took from other media.
+
+> Time spent on mobile has surged, while time spent on other media has only slowly declined.
+
+—[Luke Wroblewski](https://twitter.com/lukew/status/956940234901544960)
+]
+
+.quote[
+> Finland's average mobile data usage per person per month is 10.95Gb, followed by Latvia 8.21Gb, Austria 6.28, Sweden 4.38, Denmark 4.37.
+
+> The US is #13 at 2.67Gb.
+
+—[OECD](http://www.oecd.org/sti/broadband/broadband-statistics/)
+]
+]
+.group[
+.bordered.figure[
+![](https://pbs.twimg.com/media/DUe8EgfU0AAmsYJ.jpg:large)
+.caption[via @lukew]
+]
+]
+]
+
+.source[@lukew @emarketer @OECD]
+.footer[Computational Design]
+
+---
+
+class: slide--document
+
+# Mobile demands higher performance standards in experience
+
+.grid.ratio-1-1[
+.group[
+.subhead.numeral[19 seconds]
+
+.quote[
+> .large[average mobile web page load time on a 3G connection]
+
+—[Google](https://www.thinkwithgoogle.com/intl/en-154/insights-inspiration/research-data/need-mobile-speed-how-mobile-latency-impacts-publisher-revenue/)
+]
+]
+.group[
+.subhead.numeral[53% of users]
+
+.quote[
+> .large[abandon site that takes longer than 3 seconds to load on mobile]
+
+—[Google](https://www.thinkwithgoogle.com/data-gallery/detail/mobile-site-abandonment-three-second-load/)
+]
+]
+.group[
+.subhead.numeral[35% smaller]
+
+.quote[
+> .large[JPEGs using a new open source encoder called Guetzli]
+
+—[The Verge](https://www.theverge.com/2017/3/17/14957272/google-jpeg-encoder-new-guetzli-smaller-faster)
+]
+]
+.group[
+.subhead.numeral[30 seconds]
+
+.quote[
+> .large[or less constitute more than half of all smartphone sessions]
+
+—[@lukew](https://twitter.com/lukew/status/938095211619655680?lang=en)
+]
+]
+]
+
+.source[@lukew [Marissa Mayers' early contribution to design was key](https://maeda.pm/2018/01/13/speed-is-a-key-design-attribute/) [Pinterest](https://medium.com/@Pinterest_Engineering/driving-user-growth-with-performance-improvements-cfc50dafadd7)]
+.footer[Computational Design]
+
+---
+
+class: slide--document in-progress
+
+# Mobile phones have more sensors than a microphone these days
+
+---
+
+class: slide--document
+
+# Towards conversational design
+
+.large.quote[
+> Conversation is not a new interface. It's the oldest interface. Conversation is how humans interact with one another, and have for millennia. We should be able to use the same principles to make our digital systems easy and intuitive to use by finally getting the machines to play by our rules.
+
+—[Erika Hall](https://abookapart.com/products/conversational-design)
+]
+
+.source[@mulegirl [Conversational Interfaces](https://abookapart.com/products/conversational-design)]
+.footer[Computational Design]
+
+---
+
+class: slide--document in-progress
+
+# Conversational experience design is worth talking about
+
+---
+
+class: slide--document in-progress
+
+# The Web’s become much better at listening and speaking up
+
+---
+
+class: slide--document in-progress
+
+# Should you care about augmented/virtual reality? Sure!
+
+---
+
+class: slide--chapter slide--lightgray
+
+# Computational Design:<br>Artificial Intelligence
+
+.group[
+### AI isn't good at inclusive design because we aren't, too
+
+* 88% of designers surveyed believe that it will be at least 5 years or more until visual designers are replaced by AI. AI can already do a lot right now.
+* The history of AI and generating visual art goes back to the 1960s with A. Michael Noll and other artists at Bell Labs, and stretches back to Marcel Duchamp.
+* AI is extremely proficient at tedious tasks that no human should really have to do, like: adjust image contrast, correct messy lines, and re-style images.
+* Google is by far the leader in mixing AI with design experimentation due to the amazing talent they've acquired like Martin Wattenberg and Fernanda Viegas — who at IBM first advanced data visualization with their landmark [Many Eyes](http://www.bewitched.com/manyeyes.html).
+* AI is showing us the unintended consequences of running what appear to be "fair" algorithms that feed off of past activity and practices that are converted into training data. But embedded in that training data is our long history of exclusion.
+]
+.footer[Computational Design: **AI**]
+
+---
+
+class: slide--document in-progress
+
+# When do you expect AI to replace most visual designers?
+
+---
+
+class: slide--document in-progress
+
+# AI has gone to art school and its grades are improving
+
+---
+
+class: slide--document in-progress
+
+# Hey AI-designer. Can you go and __ for me?
+
+---
+
+class: slide--document in-progress
+
+# AI can make more than just images
+
+---
+
+class: slide--document in-progress
+
+# Learn AI and don't be afraid — stay awake. Don't freeze.
+
+---
+
+class: slide--document in-progress
+
+# It's only human that we will work to thwart AI with all our might
+
+---
+
+class: slide--document in-progress
+
+# Because what we make in now has unintended consequences
+
+---
+
+class: slide--document
+
+# Design has long been asking questions about social responsibility
+
+.xx-large.quote[
+> Design for All is design for human diversity, social inclusion and equality.
+
+—[EIDD Stockholm Declaration](http://dfaeurope.eu/what-is-dfa/dfa-documents/the-eidd-stockholm-declaration-2004/) (2004)
+]
+
+.source[@alicerawsthorn Victor Papanek [Design for the Real World (1971)](http://www.nytimes.com/2011/05/16/arts/16iht-design16.html)]
+.footer[Computational Design: **AI**]
+
+---
+
+class: slide--chapter slide--lightgray
+
+.large[
+# Inequality
+]
+
+.group[
+### We can expect AI to only widen the digital divide
+
+* It's easy in the technology world to look away from inequality becaus the privileges that come with tech life are pleasurable and self-fulfilling.
+* But designers in tech can easily forget that they're in a tiny minority of the population that doesn't really match their much broader consumer market.
+* So getting out of the tech bubble can be a simple yet powerful way to better connect with "real" people who don't really need what is being created today. Ultimately, it becomes a way to design and make better products for all people.
+* A majority of designers in tech find themselves not working solely on premise. This means that we are entering an era where work can be more evenly distributed outside of hubs like Silicon Valley.
+* Our design imperative at Automattic is to imagine a world where WordPress is good design for all. And we're currently exploring how remote work can achieve a new level of inclusive design.
+]
+
+.footer[Inequality & Skills Gap]
+
+---
+
+class: slide--document
+
+# We're seeking a freedom that's being eroded on the Internet
+
+.grid.ratio-2-1[
+.group[
+.large.quote[
+> We are in the "Internet Two" phase as Steven Johnson called it. Internet One was an open network, open protocols, open systems. Internet Two is closed platforms that increasingly dominate the market and own and control our content and us. We need to get to Internet Three where we take back control of ourselves. It is high time for that to happen.
+
+—[Fred Wilson](http://avc.com/2018/01/owning-yourself/)
+]
+]
+.group[
+### FCC votes to remove net neutrality
+
+.quote[
+> The FCC's net neutrality vote has finally been published in the Federal Register, the government's official record of all administrative actions. The moment is key, because it kicks off the next phase of the fight over the future of the Internet.
+
+—[Washington Post](https://www.washingtonpost.com/news/the-switch/wp/2018/02/22/the-fccs-net-neutrality-rules-will-die-on-april-23-heres-what-happens-now/?utm_term=.ccec9d04532b)
+]
+]
+]
+
+.source[@swissmiss]
+.footer[Inequality & Skills Gap]
+
+---
+
+class: slide--document
+
+# We're fully connected but algorithmically divided
+
+.grid.ratio-1-1[
+.group[
+.xx-large.quote[
+> Blue Feed, Red Feed: See Liberal Facebook and Conservative Facebook, Side by Side
+
+—[WSJ](http://graphics.wsj.com/blue-feed-red-feed/)
+]
+]
+.group[
+.large.quote[
+### Noted blog posts in 2017
+
+F Facebook<br>
+–[John Gruber](https://daringfireball.net/2017/06/fuck_facebook)<br>
+
+Quitting Facebook<br>
+–[Heinrich Hartmann](http://heinrichhartmann.com/blog/2017/12/31/Quitting-Facebook.html)<br>
+
+Facebook you *(bleep)*<br>
+–[Brad Frost](http://bradfrost.com/blog/post/facebook-you-needy-sonofabitch/)
+]
+
+_Note that similar posts are being made on most major social networks these days of "I'm giving up XYZ"_
+]
+]
+
+.source[@heinrichhartman @daringfireball @brad_frost]
+.footer[Inequality & Skills Gap]
+
+---
+
+class: slide--document in-progress
+
+# #DesignInTech is a global phenomenon and beyond Silicon Valley
+
+![](https://designintech.report/wp-content/uploads/2018/03/ditsurveymap.jpg)
+
+.source[#DesignInTech 2018 Open Survey | 1219 samples]
+.footer[Inequality & Skills Gap]
+
+---
+
+class: slide--document in-progress
+
+# The US map for #DesignInTech is unsurprising
+
+![](https://designintech.report/wp-content/uploads/2018/03/usmap_designintech_new.jpg)
+
+.source[#DesignInTech 2018 Open Survey | 1219 samples]
+.footer[Inequality & Skills Gap]
+
+---
+
+class: slide--document in-progress
+
+# But if you look closely or broadly, inequality sits in the shadow
+
+![:iframe 450px, http://eig.org?embedEIG2017=1&eigmap2017=nationalzipsEIG2017]
+
+.small.quote[
+—[EIG](http://eig.org?embedEIG2017=1&eigmap2017=nationalzipsEIG2017) _This Mapbox wouldn't embed_
+]
+
+.source[@NewsHour @albertocairo / Janitors at Two Top Companies, Then and Now [NYT](https://www.nytimes.com/2017/09/03/upshot/to-understand-rising-inequality-consider-the-janitors-at-two-top-companies-then-and-now.html)]
+.footer[Inequality & Skills Gap]
+
+---
+
+class: slide--document in-progress
+
+# Congrats! You're in the 5% of the most-skilled computer users.
+
+---
+
+class: slide--document in-progress
+
+# Is the digital divide related somehow to poverty and inequality?
+
+---
+
+class: slide--document in-progress
+
+# Do you need to care at all? No. But you need to feel the imbalance
+
+---
+
+class: slide--document
+
+# Inequality impacts innovation, and we need all minds to beat AI
+
+.stack[
+.group[
+.large.quote[
+> The more segregated a place becomes, the less innovative it is likely to be.
+
+—[Richard Florida](https://www.citylab.com/equity/2017/08/the-complex-relationship-between-innovation-and-economic-segregation-in-cities/537270/)
+]
+]
+.group[
+.large.quote[
+> A.I. is presenting us with an opportunity to rethink economic inequality on a global scale.
+
+—Kai-Fu Lee [NYT](https://www.nytimes.com/2017/06/24/opinion/sunday/artificial-intelligence-economic-inequality.html)
+]
+]
+.group[
+.large.quote[
+> Systemic inequality can haunt machine intelligence.
+
+—Kate Crawford [NYT](https://www.nytimes.com/2016/06/26/opinion/sunday/artificial-intelligences-white-guy-problem.html)
+]
+]
+]
+
+.source[@richard_florida David Byrne [TR](https://www.technologyreview.com/s/608580/eliminating-the-human/) [NESTA](https://www.nesta.org.uk/sites/default/files/the_future_of_skills_employment_in_2030_0.pdf)]
+.footer[Inequality & Skills Gap]
+
+---
+
+class: slide--document
+
+# A solution to inequality? Possibly, distributed or "remote" work.
+
+.grid.ratio-1-2[
+.group[
+.numeric.subhead[638]
+
+.large.darkgray[There are currently companies with remote work opportunities]
+
+From the Remotive.io [list of companies](https://docs.google.com/spreadsheets/u/1/d/1TLJSlNxCbwRNxy14Toe1PYwbCTY7h0CNHeer9J0VRzE/htmlview?sle=true) hiring remote workers.
+]
+
+.orange.xxx-small.tight.sans[
+Bench, 100Starlings, 2600Hz, 33 Sticks, 3DprinterOS, 3nder, 3SMobile, 4 Ventos, 42Floors, 45royale, Acceleration Partners, Accella, Accounto Technology, Action Verb, Actionable.co, ActiveProspect, Actyx, AddStructure, AdEspresso, AgentFire, AgileBits, Aha!, AirTreks, Alaris Prime, AlchemyTec, Alegion, AltSchool, AmaZix, Ameego, Antavo, AppendTo, Araize, Arkency, Art & Logic, Articulate, Artisanal Code, Inc., AsmallOrange, Assemble, Assembled Brands, Attentiv, Aurity, Auth0, Automattic, Avaaz, Axelerant, Azumio, BacklotCars, Balsamiq, Band Industries, Baremetrics, Barrel, Basecamp, Basho, Basho Technologies, Batchbook, BeBanjo, BetterDoctor, Beutler Ink, Big Universe, Big Wheel Brigade, BioTrust Nutrition, Bithive, Bitnami, Bitovi, Black Pixel, BloodHub, Blossom, Bluespark Labs, Bonfire, BookingSync, BrainCheck, BrandBastion, Brave-software, BriteCore, Buffer, Bugcrowd, Bugfender, BuySellAds, Cadasta, CafeMedia, Camplight, Canonical, Carbon Black, Cargobase, CarriersEdge, Cartstack, Casumo, Catalyze, Cesanta, ChartMogul, Chaser, Chef, Chess.com, Ciao Bambino!, CircleCI, Citrusbyte, Civic Actions, Clerky, Clevertech, Close.io, Cloudpeeps, Cloudstitch, Clustree, Codeable, Codebusters, CodeControl, CodePicnic, Codeship, Cohesive Networks, Coinbase, Collab. Drug Discovery, CollabNet, Collabora, Collage.com, Compose, CompuCorp, Conferize, Continu, ConvertKit LLC, Conveyal, Copass, Copyblogger (source), CoreData, Corgibytes, Countly, Covenant Eyes, Cozy Cloud, Crew, Crive, CROmetrics, Crossover, Crowd Valley, Crowdstrke, Cubspot, Cucumber, Cuddli, Curoverse, Cyanna Education, DataCite e.V., Datadog, Dataquest, DataStax, DealDash, Dealer Inspire, Deekit, Deeson, Demio, DesignLab, Dgraph, Diacode, Digital Ocean, Dimanex, Dito, Divio, Divshot, DNSimple, Docker, doctorSIM, DoInbound, Doist, DojoMadness, Domino Data Lab, doopoll, Dotsub, Doximity, DramaFever, DRONAMICS, DroneDeploy, Duck Duck Go, Eaternity, Edify, Edison Nation, Eet.nu, Eezy, ElasticSearch, ElevenYellow, EngageTech, Enjin, Envato, Erply, Estately, Etsy, EveryoneSocial, Exposure Ninja, Eyeo, Fastly, Fatura Simples, Findify, Fire Engine RED, Five Q, Fleep, Fleetio, Flight Vector, Flockler, Flood IO, Flow, Focus Asia, Fog Creek Software, Folarium Technomedia, Follow Up Boss, Fonoma, Forest Admin, FormAssembly, Formstack, Fortumo, Forward Financing, Founder Centric, Foundersuite.com, Foundr Magazine, Four Kitchens, fournova, FoxAndSheep, Foxio, FRSH, Fuel Made, FullStack, Funding Gates, Funnely, Futurelytics, G2i, GatherContent, General Assembly, Genuitec, GetFileCloud, GetIncredibles, Ghost, Giant Swarm, GigaOM, GigSalad, Gigster, Gistia, Gitbook, GitHub, GitLab, GitPrime, Gitter, GlueNetworks, GMB Fitness, Go Fish Digita, GOFAR, GoHiring, Goodway Group, GrabCAD, Gradle, GrantStreet, Grape.io, GrapheneDB, Grasswire, Graylog, Greenback Tax Services, Gridium, Groove, GuardTime, Hanno, Harvest, hashi Corp, Hasura, Haystack, Hazelcast, HE:labs, Health Leads\xe2\x80\x99, Healthfinch, Heap, Heetch, Help Scout, Helpjuice, Inc., Heroku, Herox, Hexbridge, Highland Solutions, Hippo Education, HireGamePros, Hireology, HiringThing, Hitlist, Holstee, Honeybadger, Hotjar, Hubstaff, Hudl, Hugo, Hugging Face, Human, Human Made, Iambnb, ICUC, iDoneThis, Igalia, iMedicare, Import2, Incsub, Indie Localizers, Influx, InfluxData, Inpsyde GmbH, Inspired HR, Instructure, Intellum, Interactive Intelligence, Intercom, Intridea/Mobomo, INTUO, InVision, IOpipe, iwantmyname, Jackson River, Jim's Mowing, Jitbit, Jolly Good Code, Kalypso LP, Kanopi Studios, Kantree, KBMax, Keen IO, Kellerkinder, KeyCDN, Khan Academy, Kiprosh, KissMetrics, Knack, Knock Homes, KnownFour, Koding, Konveen, Kuali, Later, LaterPay, Launch Potato, layer, Lazy Eight, Leadfeeder, LearnZillion, Let's Encrypt, Librato, Librato, Lightbend, Linaro, Lincoln Loop, LitCharts, Litmus, LiveMentor, Living Social, Localistico, loco2, log, Logikcull, Logmein, Loom, LoveToKnow, Loyal, Lullabot, Lumiserv, Lynx Technology Partners, Machinio, mailparser.io, Make Works, Manage Social, Mapbox, MariaDB, MarkIT.eu, MarsBased, Mattermost, Mavens, Mcbeard Media, MCF Technology Solutions, Mediacurrent, Medko, Meet Edgar, Member Up, MetaLab, Metaluxo IT Security, Metamaterial Technologies, Meteor, Midokura, Mightycast, Mixcloud, Mixmax, Mobile Jazz, Mobility Labs, Inc., Mobomo, Modern Tribe, Modus-create, Mokriya, Moltin, Moment, Moo.do, Moondo, Moraware, MotorLot, Moz, Mozilla, Much Better Adventures, MyOnlineSchool, mySociety, MySQL, myTips, NationBuilder, nClouds, Nearform, Netguru, Netsparker, Network Ninja, New Context, Next Big Sound, NIFTIT, Niteoweb, NodePing, NodeSource, NodeSWAT, NoRedInk, Novoda, Nugg, Numbrs, nVisium, O'Reilly Media, Octopus Deploy, Oh My George, OK GROW!, Olark, Olo, OnTheGoSystems, Onyo, Open Knowledge, OpenCraft, openredis, Optimal, Optimile NV, Origin Eight, Outbank, Overl.ai, owl power, Owsy, PageFreezer Software, Pagely, Paktor, ParcelBright, Parse.ly, Particular Software, Pasilobus, Inc, Patients Know Best, Paylocity, Paylock, Peak Games, Peerfit, Peergust, PeopleDoc, PeopleG2, Percona, PersistIQ, PhishMe, Pindrop, Pipedrive, Pivotal Labs, Pixel2HTML, Planet OS, Platform.sh, Plex, Postlight, Precision Nutrition, Pressable, Pressed.net, PreviousNext, Prezly, Product Hunt, Productive Power, Proemion, Protocol Labs, Puppet Labs, Purple Voice, Quantum Mob, Quartzy, Rackspace, railroad19, Railsformers, RainforestQA, RaRe Technologies, Reaction Commerce, Real HQ, Receiptful, ReCharge, Recruiterbox, Recurly, Red Hat, Redox, Reinteractive, Relayto, RepeaterStore, Replay Gaming, resin.io, retail-zipline, RetailNext, RightScale, rmotr.com, Roadtrippers, Rocana, sailteam.io, Salesforce, Sapien, Savvy Apps, ScheduleOnce, ScienceLogic, Scrapinghub, Screenly, Security Roots, Semaphore CI, Sencha Inc, SenorCoders, Server Density, ServiceNow, ShakaCode, Sherpany AG, Shopify, Shortfundly, Simbiose Ventures, Simple, Simplecast, SiteGround, SketchTogether.com, Skillshare, Skore, Skycrapers, SmileDirectClub, SOASTA, Sococo, SoftwareMill, Songspace, Sourcefabric, SparkLabs, Spatial Key, Speedchecker, Spotify, Spreaker, Stack Exchange, Stack Overflow, Staff Squared, Starcoders, Statement, SteepRock, Stripe, Student Loan Hero, Sucuri, Inc, SugarCRM, Sulvo, Surevine, Superble, SurveyMonkey, Swappa, Sysdig Cloud, Taiga.io, TailorDev, Task Analytics, Taxjar, TeachBoost, Team App, Teamed.io, Teamily, TeamSnap, TechnologyAdvice, TED, Teleport, Tenable, TEONITE, Tesera, Tessitura Network, TestDome, Testlio, The Cheat Sheet, The Sensible Code C'y, The Wirecutter, Thinkbox.io, Third Iron, ThirdPath Institute, tidelift, Time Doctor, Timely, TNTP, Toggl, TopDevz, Toptal, Tortuga Backpacks, Tractionboard, Traity, Transloadit, TraveDoc, Treehouse, Trello, Triposo, Twilio, Twin Technologies, Tyk, Uberspace, Unbounce, UniversalMind, Upwork, UpWorthy, Urbansitter, Urgently, Userbin, UserTesting, Ustream, Vaamo, Valutac, Velaro, Inc., Venafi, Inc, Vervoe, Vidian, Vinted, Virtual Law Partners, Waldo Photos, Water Lily Pond, Watsi, Waybetter, Waygo, WeaveUp, Webikon, WebPunch, WebRTC Ventures, WebSharks, Inc., When I Work, Whitebox, Whitesmith, Whitespectre, Wikimedia, Wildbit, WizeHire, Wordfence, X-Team, Xapo, Yammer, Yoko Co, YouNeedABudget, YourSports, Zapier, Zemanta, ZenCash, Zest, ZeroTurnAround.
+]
+]
+
+.source[[Remotive.io](https://remotive.io) [Zapier](https://zapier.com/blog/companies-hiring-remote-workers/)]
+
+---
+
+class: slide--document
+
+# What's "remote work" and where is it heading today?
+
+.grid.ratio-2-1[
+.group[
+.numeric.subhead[2012]
+
+.quote[
+> Telecommuting, working from home, working remotely: they all essentially mean the same thing (working somewhere other than in an office). And this form of work is growing.
+
+—[TIME](http://business.time.com/2012/03/13/the-rise-of-the-remote-worker-or-how-to-work-from-home-without-getting-fired/)
+]
+
+.numeric.subhead[2018]
+
+.quote[
+> A growing number of startups are operating without a physical office for some or all of their workforce. It makes hiring people around the world easier, keeping costs down. But it can make employees feel disconnected.
+
+—[The Information](https://go.theinformation.com/679dfd8ccfa47caa)
+]
+
+<br>
+
+**[Remote work × design](https://automattic.design/2018/03/07/remote-work-and-remote-designers/) tips are available via Automattic Design.
+]
+.group[
+.large.tight.quote[
+> Facebook is never going to work like this. Google is never going to work like this. But whatever replaces them will look more like a distributed company** than a centralized one
+
+—[Matt Mullenweg](https://go.theinformation.com/679dfd8ccfa47caa)
+]
+]
+]
+
+.source[@photomatt [Quartz](https://qz.com/694410/automattic-has-figured-out-the-right-tools-for-remote-working/) [The Information](https://go.theinformation.com/679dfd8ccfa47caa) [Stanford GSB](https://www.gsb.stanford.edu/insights/why-working-home-future-looking-technology) [The Cut](https://www.thecut.com/2017/08/working-from-home-isnt-ruining-your-social-skills.html)]
+.footer[Inequality & Skills Gap]
+
+---
+
+class: slide--document in-progress
+
+# Where do people work? On premise, remotely, or both?
+
+---
+
+class: slide--document in-progress
+
+# Automattic Design is working with students in Paintsville, KY
+
+---
+
+class: slide--chapter slide--lightgray
+
+# Inclusive Design
+
+.body[
+### Inclusion = INCLU$ION
+
+* Changing perception around the idea of "helping those who are less fortunate than ourselves" into "learning how ignorant we are as privileged people" is a useful daily exercise.
+* Using that energy to design and make better products is a certain kind of passion and practice that we'll see more often in technology companies. Because inclusive design is becoming commonsense.
+* Choose action over wondering about what you can do about the world you see and don't agree with. It's easy today due to all the technologies we have available to us.
+]
+
+.footer[Inequality & Skills Gap]
+
+---
+
+class: slide--document
+
+# A simple definition of diversity and inclusion says it all
+
+.xx-large.quote[
+> Diversity is being invited to the party;<br> inclusion is being asked to dance.
+
+—[Vernā Myers](https://www.americanbar.org/groups/gpsolo/publications/gpsolo_ereport/2012/june_2012/diversity_invited_party_inclusion_asked_dance.html), Esq.
+]
+
+.source[[American Bar Association, Vol. 1. No. 11 (2012)](https://www.americanbar.org/groups/gpsolo/publications/gpsolo_ereport/2012/june_2012/diversity_invited_party_inclusion_asked_dance.html)]
+.footer[Inclusive Design]
+
+---
+
+class: slide--document in-progress
+
+# Inclusive design takes center stage after many decades
+
+---
+
+class: slide--document slide--black
+
+# A solution for inequality by design? Inclusive design re-awakens.
+
+![](https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/REYaAc?ver=f2a3)
+
+.center[
+[Microsoft Inclusive Design](https://www.microsoft.com/en-us/design/) has fantastic resources for you to get started.
+]
+
+.source[https://twitter.com/MicrosoftDesign]
+.footer[Inclusive Design]
+
+---
+
+class: slide--document in-progress
+
+# Bias in AI and who's auto-complete?
+
+---
+
+class: slide--document in-progress
+
+# So recognize exclusion, and take action
+
+---
+
+class: slide--document in-progress
+
+# Be sure to include others unlike yourself, and bring your friends
+
+.grid.ratio-1-1[
+.group[
+![:twitter michaelbierut, 941705482884001792]
+]
+.group[
+.figure[
+![](https://projecta3private.files.wordpress.com/2017/11/img_20170816_1340111.jpg)
+.caption[via TechJobsTour in Paintsville, KY]
+]
+
+.quote.x-small[
+David Gibson, the superintendent of the Paintsville school district, had this idea that the company I'm at, Automattic, which is all remote, that people could be in Paintsville and get a full-time job without leaving the area. A lightbulb went off, that David's kids could do that, and live where their families have lived for generations, and still have an income and benefits. —[Fast Company](https://www.fastcodesign.com/90154530/tech-has-a-diversity-problem-so-this-designer-went-to-kentucky)
+]
+]
+]
+
+.footer[Inclusive Design]
+.source[@michaelbierut @fastcompany]
+
+---
+
+class: slide--document
+
+# Design inclusively to expands your total addressable market
+
+## As Hollywood starts to reflect society’s diversity, it’s also making the highest grossing movies of all time.
+
+.large.purple.sans.box-list[
+* Black Panther
+* Wonder Woman
+* Star Wars
+* The Foreigner
+* The Big Sick
+]
+
+.large.tight.quote[
+> There's so many movies from different points of view that are making a ton of money. Don't do it because it's better for society and representation, even though it is. Do it because you'll get rich. You'll get that promotion, right?
+
+–[Kumail Nanjiani](http://www.upworthy.com/kumail-nanjiani-hilariously-reassures-anyone-fearing-change-in-hollywood) at the Oscars
+]
+
+'Black Panther' Should Become Marvel's Latest Billion-Dollar Movie This Weekend —[Fortune](http://fortune.com/2018/03/09/black-panther-box-office-weekend-billion-china/)
+
+.source[@upworthy #wakanda @fortunemagazine and consider the Star Trek economy too]
+.footer[Inclusive Design]
+
+---
+
+class: slide--document slide--black
+
+background-image: URL(https://www.newstatesman.com/sites/default/files/styles/nodeimage/public/blogs_2018/02/black-panther-quad-poster.jpg)
+
+# .x-large[Recent movie review SMS from my 82-year old moms]
+
+![:twitter johnmaeda, 966462025781170176v]
+
+.source[Marvel]
+
+---
+
+class: slide--document slide--lightgray sans
+
+# 2018 #DesignInTech Open Survey Credits
+
+.xxx-small.tight[
+Pedro Sanoja, Alejo Romano, Victor Fernandez, Yawen Jang, Cam Rogers, Chi Ryan, mel, CATHERINE HILLS, Paul Strike, Chris McLay, Hayden Dobson, Benson Low, Hass, CAJ, Joyce Seitzinger, Ben Hamley, RS, Glen Barry, Tom Key, SJD, M.Y., ZT, Drew P A Smith, Jessica Tong, Sam Hancock, VT, Christian Baker, Laura van Doore, Jake Deakin, notrevol, valentijn destoop, Mark Graham Dunn, Glauco Cardoso, Pedro Belleza, Romeu Biscaia Machado, Bubu, Paula Fehper, Cristian Mazzeo, Thiago Barcelos, Lucas Terra Cardial, Bruno Fischer, Duda Rodrigues, Andreia Bersot, LionelC, Tiago P. Taveira, Fabrício Astua, LMSM, FNazario, Melissa Ribeiro, Rafael Brandão, Dani Tavares, bani torrico, G0ntz, Rafael Fernandes, Georgi Kamov, Kevin Morris, Johnny Chauvet, Allyna Sagun, Ryan Neufeld, Adam Leon, Lenny Laurier, Aloke Pillai, Suds, Nuff, Matt Nish-Lapidus, Tyler Benning, Heidi McCulloch, Yabo, Kimberley Peter, Filippo Di Trapani, Myriam Picovschi, Julia Guimaraes, mCorby, Francis Gagnon, Marc-Oliver Gern, Jonas Altman, pak, Jacqueline P. Ashby, Kirill Vechtomov, ic, Justin Lim, Lynne Polischuik, Travis Gertz, Craig Cullimore, cs, Emily, Jenna B, Akshay Chauhan, Sim.S, Noman Sid, José Concha, Ariel Contreras @acontrerasv, Alejandro Urrutia, timworks.net, Misterymotion, Nicolas Ochoa, Koncarovski, Ivana Preiss, Antonin Pospisil, Carsten Nguyen Henriksen, JPT, Jesper Philip Sølvbjørke, Daniel Gjøde, Stupid Studio, Thomas Madsen-Mygdal, Bo Madsen, Niels, Morten Lundholm, Troels Nørlem, Pärtel Vurma, Velvet, Monika Zych, PPoi, Niko Laitinen, Vesa Ahtiainen, John T, armansansd, Alexandre Crenn, Charlie Coucou, Charles Bail, Pierre-Denis Autric, Thomas Nicot, Frederique PAIN, Nicolas Marescaux, Chaker Bejaoui, Lise Kemen, David Duhamel, kliger, Matthieu Bousendorfer, j03£, Rachel Ilan, MASC, Helmut Ramsauer, Evgeny, A. Ribotta, Dawn Ahukanna, Florian Lohse, Philipp Schaefer, MSM, Michael, hiep, Fernando Galdino, Jochen Denzinger, Jenica Lewis, Dragomir Ralchev, Marc from Heimatdesign, Guergana, Markus Nowak, Marianne Guillen, Carolina, Yasmina Haryono, Jannes, Kilometer, Lew Freyholtz, CJC, KN, Axel Baumann, Daniel Echeverri, Michael. N, Agoston Nagy, David Udvardy, Saneef Ansari, Amal Tiwari, Saikat dutta, Anoop Chandra, Nandha, Mohit Sharma, Prateek Parijat, Pallavi Naik, Aradhana, Baskar Ganesan, PointBlank, Prob G, Sandheep, Sweta, Murthy Gollapudi, Prafull, Aadesh Mistry, Vispat, Gavin remedios, Arwin Brahma, Tanuja P., Kumar Murthy, NS, Guillermo Acevedo, Soo Basu, Anand, Nipun K. Garodia, Somyeah, Abhishek Jayaprakash, Arganka, Red Lemonade Creative, Lara Hanlon, Hilary Kenna, Ivan Frantar, Eilis Boyle, Mark Swaine, mm, Eoin Smith, John Buckley, Almudena Blanch, Aidan Doré, Craig Phillips, Rui Eduardo, LH, Kostya Gorskiy, Chanan Greenblatt, Eric Hinz, Eyal Fendell, rainwiz, Antonio Civita, Alessandro Pollini BSD design, Luigi, Niccolò Magnani, Andrea Gaiardo, Luca Troisi, Carlo Cavedon, Lorenzo Ruggieri, Manuela Ciancilla, Giovanni Caruso, aldo fontana, Francesca Monti, Annalisa Angelini, Daniele Vitali, ka2, M. Tanaka, Kenji Mori, Itsumi Matsukawa, Yasuhiro Sasaki, Bert Brautigam, Nathan Paterson, Toshiki Wada, Hajime Kuge, Hans Kurihara, Koichiro Eto, Fady Rostom, AnissaL, samcy, Sylvain Vanderhaegen, Justin Farrugia, LA, Joram Patiño, H. McNamara, Polo Garcia, Wendy Johansson, Iliana Moreno Guzman, Oscar Zavala Hernandez, Jeroen Frumau, Zuzanna Skalska, 360Inspiration, Jos van Roosmalen, Patrick de Jong, Murat Akyol, Hielkje Zijlstra, Wilbert Baan, Bob van Luijt, Dylan Evans, Jenny Shen, Linda Mertens, David Linssen, Peter Boersma, AL, Anon, Brian Lucid, Georg, tristam sparks, Steph Creasy, Rildwan Olayemi Bello, Leif Knutsen, Tom gabriel johansen, Eric Haidara, CS, Eder Rengifo, Hope Joanne Dag-um, Eric Agoncillo Ambata, Maciej Mlynek, Ines Bravo, Sara Gago, Hugo Froes, JPR, Francisco Bordallo, Luis Madureira, Peter Anthony Martins, samuel rosario medina, Dan Baciu, Ovidiu Berdila, IR, Archie, Edison Chee, Amanda Arielle Lu, Lwjon, Anuradha Jain, Ben, Maik Lutze, Kimverlyn Lim, SL, LM, Jon Edwards, Francois Brill, Tefo Mohapi, Ali Ndlovu, J.M, J Y, Antonio Molin, Andres Lopez Josenge, @serrodsan, Claudio Lobos, M Lop, miscalzoncillos, Luis Eduardo Dejo, atriz, Pilar Saura, Marco Righetto, Manu Ageitos, Jesús Miguel Gimeno, @abrahamnavas, JCG, Carlos García Maganto, Dragon, AICS, Team PowerHorse, May O. Caballero, Martina Gobec, Andrea Picchi, Patrik Beskow, Allen Smith, Martin Willers, Vincent Garcia, Supermarjo, Zelia sakhi, Jared Fossey, Nirvana Soltani, Hannes Johansson, Diana Africano Clark, Serena Cangiano, Raphael Schaad, Dominic Wuffli, Sylvestre Lucia, Philipp Maul, Raimund Erdmann, Jules Skopp, Marie-France Bojanowski, Mihaly Keserü, Olivier Heitz, jj, Emre Girgin, Twikirize Switzin Tibz, Denys Kulyk, Alex Debkaliuk, Maksym Tkachuk, Ram Prakash Palaparty, TP, Riccie Audrey Janus, Robin Howie, Roland Whitehead, Jordan Harper, barry ainslie, Ryan Burke, JC, Marcela O, eebster, Brendan Kearns, John Williams Taylor, Adam Williams, Thai.H, Jon Rowlandson, Niklas Hagemann, Mr Nick James Turner, Jonathan Conway, Sergei Golubev, Christina Li, Sevil Rahimova, Stephen Wood xLab, Eli Symeon, Sophie Allcock, Alex Menczykowski, Sandor Gyuris, IP, Jiri Jerabek, Kartik Poria, Christopher Gameson, bup, J Meijer, Giovanni Luperti, MC, QS, Alessio Cuccu, Mariana Morris, Tammie Lister, I Chhat, Aden Davies, Michelle Gerrard-Doyle, Konrad Pitala, Gfag8!, Les Hughes, Liam Hutchinson, Gabrielle Micheletti, MP, Luis Salinas, Shimbug, G Knowles Topham, Jeff Salanco, Matthew Gallagher, Dan Abelow, AV, Jared Stephens, Mark Loomis, David Wen, Chad Ostroff, Nick Cochran, Duncan Robertson, James Dow, Jodi Cutler, Peter Eckert, chris hammond, Erin Hauber, Hayley Hughes, KEM, Nick Tilden, TS, Meriah Garrett, Kara Miekina, Anthony Armendariz, Randomood, Dennis Eusebio, Shaun Bhargav, J. Dustin, Vogthorstar, Remote queen, Lance Willett, Kara DeFrias, Brent Summers, Ali Sarwat Hussain, Kelsey Lancaster, Flo Kat, Sara V, Jonathan Kies, Darin Marshall, Igor, Jim C-L, Alessandra B., Chris Wallace, Joshua smith, Visual Communicator, Florian Schommertz, Scott McManigal, seb, Bri, @shelton, Veronica Kovachi, Justin Ruckman, Jon Bell, Rutiger Poopinstalk, Kevin Bethune, Mark Uraine, Carlo Paolo Espiritu, Nicole Thayer, sylvia, Q.O.T.U. Design, inc., ANON, MH, Michael Sueoka, Matthew E. May, Shawn Johnson, Neil LaVigne, Michelle Wong, Alexa Roman, Patrick Fredrickson, Arturo Perez, RC, goodwinux, claudia bardales, Bryan Cheung, Paul Hanaoka, Marissa, Masako Ikegami, b zepeda, Michelle Chin, irene hoffman, BadGenius, Reed Reibstein, CMAINA, Joe Schram, Leslie Luo, Michael J. Morgan, Che Douglas, Ben Bausili, Joe Payne, Floyd Sanchez, Paul-Felix Montez, Tania Lili, Brian RS Ward, Creative Juggernaut, Russell Ong, Mercury Murphy, Lauren Hancock, Alex Yra, Evan Verdoia, Aaron, Houshang, Jay F, Jonathan Shariat, Neeharika gupta, Prithika, Laura Martini, Dddd, Jeff Z., Diego Rodriguez, Vinita Israni, Leigh Anne Miller, R. Mangrobang, musho, Ozzy Urrutia, Christiana, Tara, Yuki Alzona, Daniel Castro, Alex Kim, Tom Illmensee, Michelle Koh, NB, Holly Marie Gibbs, JY, Darren Farrugia, George Chen, Maria Giudice, Ramya, Peter Cho, n/a, Gareth Kay, Dirk Cleveland, James Murnane, Jeff Zwerner, Florentin Hortopan, Julie Stanescu, Maria M Fabbroni, NBL, Melinda, Gretared, Tyler Miller, Teddy Zmrhal, Meekal Bajaj, James Song, Alessandro Sabatelli, mo, Christian Talmage, Ann-Caryn Cleveland, Christine Park, bebe buckner, Ryan Fariñas, Michele Mizejewski, Steffan Schlarb, Vikram, Luan Chen, Vandy Meares, Andrew S, Todd Zaki Warfel, Arianna Orland, Mary Lukanuski, Vineeth Nair, Israel Nevarez, Brian Beaver, Sharon Cardinal, Diana Tobey, Kyle Bennett, Jsp, Daniela Steinsapir, Kasia Wyser-Pratte, Michael Polivka, Akira Motomura, Eric Fain, Kurt Varner, Genevieve Conaty, Laura Mattis, Siyuan Tu, Glenn Rawlinson, Tommy K, Benjamin Schwartz, Bruno Marinho, PKP, Hamza El-Falah, Jake Mac, Dan Harrelson, Stu Griffiths, AmeliaW, Caio, Joanna Ellis, Len, Alex Dixon, C. A. Stavridis, S. Jones, Vel Prakhantree, Marcelo G., DP Venkatesh, Ashleigh Axios, Jaymes Cloninger, Kit Oliynyk, Katherine M. Zhou, XF, Natalie Buda Smith, Jen Strickland, WTB, Sharif Elshinnawi, MH, Kendell Warner, Kyle Johnston, John Resman, Josh Kubicki, Jason Hargis, Ruzanna Rozman, Adam Rotmil, Michael Ellis, Stacy Kvernmo, Daniel R Farrell, Graphex, Jason P Belaire, Scot Przybylski, GRID Impact, Pete Kinser, J.H., Swan5280, David O'Connell, Peter Lloyd, MWK, Brad Baer, Robert T. Whyte, Jason Prunty, mm, Ryan, Devon Burgoyne, James Williams, Pete Fleming, Troy Lachance, Kate Clayton, Tom McQuaid, jfm, David, Al Logiodice, Layne Jackson Hubbard, Rafael Guevara, Bri Piccari!, Nasty Gold Woman, Dipti Siddamsettiwar, Bryan Howell, Rich Hauck, Yoda, Jordan Jackson, Michelle Leonette, Jason Rincker, Catherine Shen, Sean Oakes, Danny Salvatori, Samantha Clark, Jose Coronado, Chino Wong, Dasami Moodley, Karyn Campbell, Michelle Knoernschild, Judy Wert, MT, Torry Colichio, Randy J. Hunt, Ilya Startsev, Syed Lagoon, B Reichler, Van Rais, Sean Ro, NXD, David Fisher, Mattias Wikman, SL, L. Batista, Juan Daniel Herrera, Gloria Kim, im good., JHMOTIVF, Ryan Haigh, Sandra Barron, Rochelle King, Jessica He, MP, Clay Wiedemann, Sumin Chou, Stephen Gates, Bumhan Yu, Daniel Gomez Seidel, Jayne Lee, Jerlyn, SHANI SANDY, flomerboy, Richard Ting, Andrew (Ande) La Monica, Sandy Chen, Vincent Bahk, Adam, Isa Gouverneur, Stephanie Liu, Cheryl L. Oppenheim, Michael Keany, pnts, Anna Fine, wwl, Kathryn Simon, Jason Brady, Sarah Doody, Laura Simpson, M. Dulin, Kevin Smith, Gunther Chanange, Melanie O'Donnell, TJK, Karl van Turk, CDG, GG, Randy J. Hunt, Albert P, Jay Fichialos, Haijing Liu, Dennis Wong, Cathi Bosco, S.A. Meier, Jeff Golenski, Keith Instone, Milan Kocic, Stephen Szermer, Andy Davies, John Fitch, Not Sure, John Horstman, @jeremydwill, Melody Roberts, Nathan Lagacy, Katherine Luby, Steve Finikiotis, Jase Miller, CWR, David A. Townsend, Mark Rattin, Bill Bernahl, MG, mkbrooks, Chris Coffin, Karen Nickerson, Jeff Steffgen, Daniel Orbach, MultiBiomech, Vanya Prokopovich, Chacko Poothicote, Daniel Marano, Isaac Girard, Jay Liu, jenniwon, CRH, Michelle Curtis, EthanLP, Tristan Harward, Leslie Bondaryk, Lisa deBettencourt, David Abbet, Meeta Mathur, Mel Choyce, Maria Matveeva, Miracle Tonic, Fahad Punjwani, Churu Yun, Luke Jones, Chris Blocher, Patrick Miller, Dale Prentiss, Mirekulous, Jared Fanning, Amy Huang, Kimberly C. Wolting, Sarah Brockett, Chris Chiles, Drew Lettner, Shane Ernest, Thomas Y., Michael Laviolette, Kevin Meyer, Andy Vitale, Alan Smithee, Bob Marchant, Roel Uleners, Ashish Rao, Dylan Wilbanks, Jared R Davis, James Holt, Paola Reyes, Tim Whalin, Wolo, FARRUKH RAZA, EAL, Nico Nuzzaci, Blank, Lucas Colusso, Julie Larson-Green, Jenny Lam, Jerrod Larson, J. Lucero, Manali Gortekar, Savage Ewok, Andi Rusu, Omar Elfanek, Toots MacAfee.
+]
+
+.footer[Credits]
+
+---
+
+class: slide--overview slide--lightgray sans
+
+# Disclosure
+
+.group[
+This presentation has been compiled for informational purposes only and should not be construed as a solicitation or an offer to buy or sell securities in any entity.
+
+The presentation relies on data and insights from a wide range of sources, including public and private companies, market research firms, and industry professionals. We cite specific sources where data are public; the presentation is also informed by non-public information and insights.
+
+This is the third publication of the Design In Tech report. We will post any updates revisions or clarifications at
+https://designintechreport.wordpress.com
+
+Please report any errors to @johnmaeda on Twitter. Thank you!
+John Maeda has minor equity positions as an investor in certain companies referenced in the presentation maedastudio.com/startups.
+]
