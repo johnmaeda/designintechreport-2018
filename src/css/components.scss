@@ -4,7 +4,7 @@
 @import './typography';
 
 .block {
-  display: block
+  display: block;
 }
 
 .chart {
@@ -383,25 +383,23 @@
   position: relative;
   display: inline-block;
   border-bottom: dotted 1px black;
-}
 
-.tooltip .tooltip-text {
-  visibility: hidden;
-  width: 200px;
-  font-size: 12px;
-  background-color: #fe4040;
-  color: #fff;
-  text-align: center;
-  padding: 15px 15px;
-  border-radius: 3px;
+  .tooltip-text {
+    visibility: hidden;
+    z-index: 1;
+    position: absolute;
+    width: 12.5rem;
+    padding: 1rem;
+    border-radius: 3px;
+    color: $color-white;
+    background-color: $color-orange;
+    font-size: $font-size-x-small;
+    text-align: center;
+  }
 
-  /* Position the tooltip text - see examples below! */
-  position: absolute;
-  z-index: 1;
-}
-
-.tooltip:hover .tooltip-text {
-  visibility: visible;
+  &:hover .tooltip-text {
+    visibility: visible;
+  }
 }
 
 .timeline-title {

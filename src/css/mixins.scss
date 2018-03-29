@@ -1,14 +1,3 @@
-@function strip-unit($number) {
-  @if type-of($number) == 'number' and not unitless($number) {
-    @return $number / ($number * 0 + 1);
-  }
-  @return $number;
-}
-
-@function rem($size) {
-  @return (strip-unit($size) / 16) + rem;
-}
-
 @mixin block-margin {
   margin: 1rem 0;
 
@@ -45,7 +34,7 @@
   }
 }
 
-// Messy but works...
+// Is there any better way for recursive repeats?
 @mixin remove-edge-margins {
   > *:first-child {
     margin-top: 0;
