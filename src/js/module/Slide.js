@@ -1,11 +1,7 @@
-/* global twttr */
-
 import MutationObserver from 'mutation-observer'
 
-import {
-  drawWordTree,
-  drawBarChart,
-} from '../charts'
+import createTwitterWidget from './createTwitterWidget'
+import drawGoogleChart from './drawGoogleChart'
 
 export default class Slide {
   constructor(element) {
@@ -91,19 +87,15 @@ export default class Slide {
         fetch(src).then(response => {
           return response.json()
         }).then(({ data, options }) => {
-          switch (type) {
-            case 'bar':
-              drawBarChart(element, data, options)
-              break
-            case 'wordtree':
-              drawWordTree(element, data, options)
-              break
-          }
+          drawGoogleChart(element, type, data, options)
         })
       })
 
-    // Tell twitter widgets to load
-    // twttr.widgets.load(this.element)
+    Array.from(this.element.querySelectorAll('.tweet'))
+      .forEach(element => {
+        const tweetId = element.getAttribute('data-tweet-id')
+        createTwitterWidget(tweetId, element)
+      })
   }
 
   slideDidUnmount() {}

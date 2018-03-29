@@ -5,11 +5,9 @@ function render(element) {
   return ReactDOMServer.renderToStaticMarkup(element)
 }
 
-export function twitter(username, id) {
+export function tweet(username, tweetId) {
   return render(
-    <blockquote className="twitter-tweet" data-lang="en">
-      <a href={`https://twitter.com/${username}/status/${id}`} />
-    </blockquote>
+    <div className="tweet" data-tweet-id={tweetId} />
   )
 }
 
