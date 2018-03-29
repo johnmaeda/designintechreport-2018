@@ -1,0 +1,13 @@
+@import '../colors';
+@import '../elements';
+@import '../typography';
+
+.culture-of-company-slide {
+  ol {
+    padding-left: 1.25em; // Intentionally em
+
+    > li {
+      list-style-type: upper-alpha;
+    }
+  }
+}

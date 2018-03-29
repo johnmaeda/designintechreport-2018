@@ -1,6 +1,3 @@
-@import './colors';
-@import './typography';
-
 @mixin block-margin {
   margin: 1rem 0;
 
@@ -13,7 +10,19 @@
   }
 }
 
-@mixin reset-block-margin {
+@mixin relative-block-margin {
+  margin: 1em 0; // Intentionally em
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@mixin unset-block-margin {
   margin: unset;
 
   &:first-child {
@@ -25,7 +34,7 @@
   }
 }
 
-// Messy but works...
+// Is there any better way for recursive repeats?
 @mixin remove-edge-margins {
   > *:first-child {
     margin-top: 0;

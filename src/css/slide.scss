@@ -25,18 +25,22 @@
   display: block;
   position: absolute;
   right: 40px;
-  bottom: 15px;
+  bottom: 1rem;
   margin: 0 !important;
   color: $color-darkgray;
   font-size: $font-size-xx-small;
   opacity: 1;
 }
 
+.twitter-tweet {
+  margin: 0 !important;
+}
+
 .slide {
   @include typography-serif;
   padding: 1.25rem 5rem;
   font-size: $font-size-medium;
-  line-height: 1.2;
+  line-height: 1.1;
 
   *::selection {
     color: $color-white;
@@ -57,10 +61,12 @@
 
   img {
     width: 100%;
+    object-fit: cover;
   }
 
   summary {
     margin-bottom: 0.5rem;
+    cursor: pointer;
 
     &:focus {
       outline: none;
@@ -81,14 +87,13 @@
     }
   }
 
-  &.in-progress {
+  &.work-in-progress {
     &:after {
       @include typography-sans;
-      content: 'In Progress';
+      content: 'Work In Progress';
       display: flex;
       flex-direction: row;
       align-items: center;
-      justify-content: center;
       position: absolute;
       top: 1rem;
       right: 1rem;
@@ -96,7 +101,8 @@
       height: 8rem;
       border-radius: 8rem;
       color: white;
-      background-color: $color-orange;
+      background-color: $color-purple;
+      text-align: center;
     }
   }
 
@@ -105,7 +111,7 @@
     display: block;
     position: absolute;
     left: 5rem;
-    bottom: 15px;
+    bottom: 1rem;
     color: $color-darkgray;
     font-size: $font-size-xx-small;
 
@@ -118,8 +124,8 @@
     @include typography-sans;
     display: block;
     position: absolute;
-    left: 60%;
-    bottom: 15px;
+    left: 60%; // Not sure
+    bottom: 1rem;
     margin: 0 !important;
     color: $color-orange;
     font-size: $font-size-xx-small;

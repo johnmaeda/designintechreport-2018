@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=family=Roboto:400,700|Roboto+Mono');
 
-@function strip-unit($number) {
-  @if type-of($number) == 'number' and not unitless($number) {
-    @return $number / ($number * 0 + 1);
-  }
-  @return $number;
-}
-
-@function rem($size) {
-  @return (strip-unit($size) / 16) + rem;
-}
+@import './functions';
 
 $font-family-sans: 'Roboto', sans-serif;
 $font-family-serif: 'Georgia', serif;
@@ -37,9 +28,18 @@ $font-size-xxx-small: rem(9.6px);
   font-family: $font-family-mono;
 }
 
+@mixin unset-typography() {
+  font-family: unset;
+}
+
 @mixin typography-size($size) {
   display: block;
   font-size: $size;
+}
+
+@mixin unset-typography-size() {
+  display: unset;
+  font-size: unset;
 }
 
 .sans {
@@ -88,10 +88,4 @@ $font-size-xxx-small: rem(9.6px);
 
 .xxx-small {
   @include typography-size($font-size-xxx-small);
-  line-height: 1.2;
-}
-
-// Not sure
-.tight {
-  line-height: 1.1;
 }

@@ -14,7 +14,7 @@ module.exports = mode => ({
   },
   output: {
     path: path.resolve(__dirname, 'build'),
-    filename: 'js/[name].js',
+    filename: '[name].js',
   },
   performance: {
     hints: false,
@@ -90,8 +90,8 @@ module.exports = mode => ({
       },
     ]),
     new MiniCssExtractPlugin({
-      filename: 'css/[name].css',
-      chunkFilename: 'css/[id].css',
+      filename: '[name].css',
+      chunkFilename: '[id].css',
     }),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'src', 'index.html'),

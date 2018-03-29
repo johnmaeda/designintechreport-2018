@@ -5,14 +5,14 @@
   h1 {
     @include typography-sans;
     margin-top: 1.75rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.75rem;
     font-size: $font-size-large;
   }
 
   h2 {
     @include typography-sans;
     display: table; // To get both collapsing margins and block layout
-    margin-top: 0.5rem;
+    margin-top: 2rem;
     padding: 0.3rem 3.75rem 0.3rem 1.25rem;
     color: $color-white;
     background-color: $color-black;
@@ -25,7 +25,8 @@
 
   h3 {
     @include typography-sans;
-    display: inline-block;
+    display: table; // To get both collapsing margins and block layout
+    margin-top: 2rem;
     padding: 0.3rem 0.5rem;
     color: $color-white;
     background-color: $color-black;
@@ -34,6 +35,14 @@
 
   h1 + h2 {
     margin-top: 0;
+  }
+
+  .header {
+    margin-bottom: 2rem;
+
+    h1 {
+      margin-bottom: 0.5rem;
+    }
   }
 
   .black {
@@ -85,13 +94,57 @@
   }
 }
 
+@mixin unset-headers() {
+  h1 {
+    @include unset-typography;
+    margin-top: unset;
+    margin-bottom: unset;
+    font-size: unset;
+  }
+
+  h2 {
+    @include unset-typography;
+    display: unset;
+    margin-top: unset;
+    padding: unset;
+    color: unset;
+    background-color: unset;
+    font-size: unset;
+
+    &:first-child {
+      margin-top: unset
+    }
+  }
+
+  h3 {
+    @include unset-typography;
+    display: unset;
+    padding: unset;
+    color: unset;
+    background-color: unset;
+    font-size: unset;
+  }
+
+  h1 + h2 {
+    margin-top: unset;
+  }
+
+  .header {
+    margin-bottom: unset;
+
+    h1 {
+      margin-bottom: unset;
+    }
+  }
+}
+
 @mixin paragraphs() {
   p {
     margin: 0.75em 0; // Intentionally em
   }
 }
 
-@mixin reset-paragraphs() {
+@mixin unset-paragraphs() {
   p {
     margin: unset;
   }
@@ -100,7 +153,7 @@
 @mixin lists() {
   ul, ol {
     @include block-margin;
-    padding-left: 2rem;
+    padding-left: 2em; // Intentionally em
 
     > li + li {
       margin-top: 0.25em; // Intentionally em
@@ -116,9 +169,9 @@
   }
 }
 
-@mixin reset-lists() {
+@mixin unset-lists() {
   ul, ol {
-    @include reset-block-margin;
+    @include unset-block-margin;
     padding-left: unset;
 
     > li + li {
