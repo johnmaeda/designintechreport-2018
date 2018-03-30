@@ -19,17 +19,20 @@ export default class Slideshow {
         window.addEventListener('load', callback, false)
       })
     }
-    this.remark = remark.create({
-      source,
-      ratio: '16:9',
-      navigation: {
-        scroll: false,
-        touch: true,
-        click: false
-      },
-      ...options
+    // Chrome seems to need a noop frame to regard the document as fully loaded.
+    requestAnimationFrame(() => {
+      this.remark = remark.create({
+        source,
+        ratio: '16:9',
+        navigation: {
+          scroll: false,
+          touch: true,
+          click: false
+        },
+        ...options
+      })
+      this.updateSlides()
     })
-    this.updateSlides()
   }
 
   load (source) {
