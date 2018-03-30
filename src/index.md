@@ -593,7 +593,9 @@ class: document-slide
 .header[
 # Consulting companies are going beyond just design thinking
 
-.yellow[This complex discipline does itself a disservice to just call itself "design," which signals only surface-level solutions. Perhaps we’ll start to see new ways of describing these multifaceted and interconnected capabilities. —[Hugo Sarrazin](https://www.mckinsey.com/business-functions/organization/our-insights/good-design-is-good-business)]
+.quote[
+This complex discipline does itself a disservice to just call itself "design," which signals only surface-level solutions. Perhaps we’ll start to see new ways of describing these multifaceted and interconnected capabilities. —[Hugo Sarrazin](https://www.mckinsey.com/business-functions/organization/our-insights/good-design-is-good-business)
+]
 ]
 
 .stack[
