@@ -8,7 +8,7 @@
 }
 
 .chart {
-  @include block-margin;
+  @include block-margin(2rem);
 }
 
 .tweet {

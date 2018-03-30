@@ -1376,7 +1376,7 @@ class: document-slide
 
 .small.purple[_What false stereotype would you like to break when it comes to how designers are perceived?_]
 
-![:chart 450px, wordtree, data/stereotype.json]
+![:chart 410px, wordtree, data/stereotype.json]
 
 .footer[Scaling Design]
 .source[#DesignInTech 2018 Open Survey | 1219 samples [Darya Zabelina et al on creative mindsets](https://link.springer.com/article/10.3758/s13421-015-0569-4)]
