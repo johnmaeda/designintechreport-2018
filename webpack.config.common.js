@@ -34,7 +34,7 @@ module.exports = mode => ({
         use: 'raw-loader'
       },
       {
-        test: /\.jsx?$/,
+        test: /\.js$/,
         exclude: /node_modules\/(?!remark)/,
         use: [
           {
@@ -46,9 +46,6 @@ module.exports = mode => ({
                 'stage-3',
                 'stage-2'
               ],
-              plugins: [
-                'transform-react-jsx'
-              ]
             }
           }
         ]
@@ -81,7 +78,7 @@ module.exports = mode => ({
   plugins: [
     new webpack.NormalModuleReplacementPlugin(
       /node_modules\/remark\/src\/remark\/macros.js/,
-      path.resolve(__dirname, 'lib/macros.jsx'),
+      path.resolve(__dirname, 'lib/macros.js'),
     ),
     new webpack.NormalModuleReplacementPlugin(
       /node_modules\/remark\/src\/remark\/highlighter.js/,

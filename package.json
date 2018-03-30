@@ -8,7 +8,7 @@
     "build": "webpack --config webpack.config.production.js",
     "lint": "npm-run-all lint:js lint:css",
     "lint:js": "standard src/js/**/* lib/**/* *.js",
-    "lint:css": "sass-lint  --config .sass-lint.yml src/css/**/*  -v -q",
+    "lint:css": "sass-lint --config .sass-lint.yml src/css/**/* -v -q",
     "fix": "standard --fix src/js/**/* lib/**/* *.js"
   },
   "dependencies": {
@@ -18,15 +18,12 @@
     "load-script": "^1.0.0",
     "marked": "^0.3.19",
     "mutation-observer": "^1.0.3",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
     "remark": "github:gnab/remark#7ac03f2955d949128f3bf5be23f1aea1fc497f04"
   },
   "devDependencies": {
     "autoprefixer": "^8.0.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
-    "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-es2016": "^6.24.1",
     "babel-preset-es2017": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
