@@ -124,6 +124,16 @@
   }
 }
 
+.listicle {
+  @include block-margin;
+  @include unset-lists;
+  font-size: $font-size-x-small;
+
+  > ul > li + li {
+    margin-top: 0.25em; // Intentionally em
+  }
+}
+
 .group {
   @include remove-edge-margins;
   display: block;
