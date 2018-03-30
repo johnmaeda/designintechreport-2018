@@ -20,7 +20,7 @@ export default class Slideshow {
       })
     }
     // Chrome seems to need a noop frame to regard the document as fully loaded.
-    requestAnimationFrame(() => {
+    window.requestAnimationFrame(() => {
       this.remark = remark.create({
         source,
         ratio: '16:9',
