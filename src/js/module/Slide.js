@@ -68,24 +68,24 @@ export default class Slide {
     this.querySelectorAll('.tweet').forEach(this.processTweet)
   }
 
-  querySelectorAll(...args) {
+  querySelectorAll (...args) {
     return Array.from(this.element.querySelectorAll(...args))
   }
 
-  processAnchor(element) {
+  processAnchor (element) {
     const href = element.getAttribute('href')
     if (/^https?:/.test(href)) {
       element.setAttribute('target', '_blank')
     }
   }
 
-  processImage(element) {
+  processImage (element) {
     const src = element.getAttribute('data-src')
     element.setAttribute('src', src)
     element.removeAttribute('data-src')
   }
 
-  processFrame(element) {
+  processFrame (element) {
     const iframe = element.firstElementChild
     const src = iframe.getAttribute('data-src')
     iframe.setAttribute('src', src)
@@ -97,7 +97,7 @@ export default class Slide {
     iframe.addEventListener('load', callback, false)
   }
 
-  processAudioVideo(element) {
+  processAudioVideo (element) {
     const source = element.firstElementChild
     const src = source.getAttribute('data-src')
     source.setAttribute('src', src)
@@ -105,7 +105,7 @@ export default class Slide {
     element.load()
   }
 
-  processChart(element) {
+  processChart (element) {
     const type = element.getAttribute('data-type')
     const src = element.getAttribute('data-src')
     window.fetch(src).then(response => {
@@ -117,7 +117,7 @@ export default class Slide {
     })
   }
 
-  processTweet(element) {
+  processTweet (element) {
     const tweetId = element.getAttribute('data-tweet-id')
     createTwitterWidget(tweetId, element)
   }
