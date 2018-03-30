@@ -27,10 +27,10 @@
     position: absolute;
     top: 425px;
     left: 708px;
+    box-sizing: border-box;
     width: 336px;
     height: 104px;
     padding: 0 30px;
-    box-sizing: border-box;
 
     h1 {
       @include typography-mono;

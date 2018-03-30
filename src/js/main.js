@@ -1,13 +1,17 @@
 import Slideshow from './module/Slideshow'
 
-import source from '../index.md'
-
 import '../css/main.scss'
 
-let slideshow = new Slideshow()
+const slideshow = new Slideshow()
 
 async function main() {
-  await slideshow.init(source)
+  let source
+  if (process.env.NODE_ENV !== 'production') {
+    ({ default: source } = await import('../index.md'))
+  } else {
+    source = await window.fetch('index.md').then(response => response.text())
+  }
+  slideshow.init(source)
 }
 
 main().catch(error => {
@@ -15,7 +19,7 @@ main().catch(error => {
 })
 
 if (module.hot) {
-  module.hot.accept('../index.md', async () => {
+  module.hot.accept('../index.md', () => {
     slideshow.load(source)
   })
 }
