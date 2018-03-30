@@ -99,7 +99,7 @@
   flex-direction: row;
   align-items: center;
 
-  > * {
+  > *:not(:first-child) {
     margin-left: 0.75em; // Intentionally em
   }
 }
