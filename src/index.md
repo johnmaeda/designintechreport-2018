@@ -770,26 +770,20 @@ class: document-slide
 
 ---
 
-class: document-slide work-in-progress
+class: document-slide perception-of-design-slide
 
 # The perception of design and its impact to business is cyclic
 
 .grid.ratio-1-3[
-.small.darkgray.group[
+.irregular-small.darkgray.group[
 
-.grid.ratio-1-1[
+.book-grid[
 .group[
 Design for Action [HBR, September 2015](https://hbr.org/2015/09/design-for-action) Tim Brown and Roger L. Martin
 ]
-.group[
 ![](https://hbr.org/resources/images/covers/BR1509_500.png)
-]
-.group[
 ![](https://images-na.ssl-images-amazon.com/images/I/51U8vWR6XsL._SX373_BO1,204,203,200_.jpg)
-]
-.group[
 ![](https://store.fastcompany.com/custom/assets/images/product/default/cache/FC1010_212w_263h.jpg)
-]
 ]
 
 The Empathy Economy [BusinessWeek, March 2005 ](https://www.bloomberg.com/news/articles/2005-03-07/the-empathy-economy) / Bruce Nussbaum .tooltip[some info.tooltip-text[Design thinking can create rewarding experiences for consumers -- the key to earnings growth and an edge that outsourcing can't beat.]]
@@ -805,14 +799,14 @@ Design Thinking Is A Failed Experiment. So What’s Next? [BusinessWeek 2011](ht
 —Clay Chandler [TIME](http://time.com/5180711/the-meaning-of-design-is-up-for-debate/)
 ]
 
-.grid.ratio-3-1[
+.grid.ratio-2-1[
 .group[
-![](https://designintech.report/wp-content/uploads/2018/03/dit_timemag.jpg)
+![:image 260px, https://designintech.report/wp-content/uploads/2018/03/dit_timemag.jpg]
 ]
 .group[
-![](https://timedotcom.files.wordpress.com/2018/02/greta-cover-final.jpg)
+![:image 100px,, https://timedotcom.files.wordpress.com/2018/02/greta-cover-final.jpg]
 
-.small[The Meaning of Design Is up for Debate.<br>
+.xx-small[The Meaning of Design Is up for Debate.<br>
 And That’s a Good Thing <br>
 [TIME, March 12, 2018](http://time.com/5180711/the-meaning-of-design-is-up-for-debate/) / Clay Chandler]
 ]
@@ -939,7 +933,7 @@ class: document-slide
 
 ---
 
-class: document-slide work-in-progress
+class: document-slide
 
 .header[
 # Think Beyond Silicon Valley: India and Design
@@ -1016,7 +1010,7 @@ Multi-ethnic Art & Craft tradition with local idioms marking design sensibilitie
 
 ---
 
-class: document-slide work-in-progress
+class: document-slide
 
 .header[
 # Think Beyond Silicon Valley: Latin America and Design
@@ -1971,7 +1965,7 @@ class: document-slide
 .x-large.darkgray.sans[Design Systems]
 
 .irregular-small[
-.darkgray[<br>You need a few [computational designers](https://automattic.design/2018/02/09/react-components-design-and-wordpress-com-2015/) who work inclusively. Plus  listen to [Nathan Curtis](https://medium.com/eightshapes-llc/defining-design-systems-6dd4b03e0ff6). .fas.fa-check-square[]]
+.darkgray[<br>You need a few [computational designers](https://automattic.design/2018/02/09/react-components-design-and-wordpress-com-2015/) who work inclusively. Plus listen to [Nathan Curtis](https://medium.com/eightshapes-llc/defining-design-systems-6dd4b03e0ff6). .fas.fa-check-square[]]
 
 .purple[Our design system offers *[kit scope]* released as *[kit outputs]* and documented at *[kit doc site]* produced by *[people]* in order to serve *[products]* products and experiences.] [&dagger;](https://medium.com/eightshapes-llc/defining-design-systems-6dd4b03e0ff6) [&dagger;&dagger;](https://medium.com/eightshapes-llc/design-systems-intermediaries-955ef18c9409)
 
@@ -2003,7 +1997,7 @@ class: document-slide
 ]
 ]
 
-.source[[Karl Gerstner](https://www.lars-mueller-publishers.com/designing-programmes)  @mialoira @nathanacurtis @marcintreder @alexjpate @daveixd @_dte @figma @hollyface1975]
+.source[[Karl Gerstner](https://www.lars-mueller-publishers.com/designing-programmes) @mialoira @nathanacurtis @marcintreder @alexjpate @daveixd @_dte @figma @hollyface1975]
 .footer[Scaling Design]
 
 ---
@@ -2275,9 +2269,81 @@ class: document-slide
 
 ---
 
-class: document-slide work-in-progress
+class: document-slide
 
 # Conversational experience design is worth talking about
+
+.stack[
+.group[
+.quote[
+> Voice promises to deliver interactions closer to how we all communicate as human beings. Applications have to adapt to people now, instead of the other way around.
+
+—[Khoi Vinh](https://www.subtraction.com/2017/08/29/finding-a-voice-for-design-in-voice-uis/)
+]
+]
+.group[
+.quote[
+> Siri saying, _"One liter is 33.81 fluid ounces."_ in iOS 9, iOS 10, iOS11.
+
+![:audio audio/mpeg, http://machinelearning.apple.com/images/journals/siri-voices/ios9-005.mp3]
+![:audio audio/mpeg, http://machinelearning.apple.com/images/journals/siri-voices/ios10-005.mp3]
+![:audio audio/mpeg, http://machinelearning.apple.com/images/journals/siri-voices/ios11-005.mp3]
+
+—[Apple Machine Learning](https://machinelearning.apple.com/2017/08/06/siri-voices.html)
+]
+]
+.group[
+.header-group[
+.group[
+.bordered.figure[
+![:image 60px, auto, https://cdn.shopify.com/s/files/1/0051/7692/products/aba-cover-25_100x@3x.png]
+]
+]
+.group[
+.quote[
+> [_Conversational Design_](https://abookapart.com/products/conversational-design
+) is out this month by design leader, user research guru, and author, **Erika Hall**.
+]
+]
+]
+
+.quote[
+> The experience design milestone in prose &times; chat by [Typeform](https://www.typeform.com/blog/human-experience/cui/) is worth reading/seeing/interacting.
+]
+]
+]
+
+<br>
+
+.stack[
+.group[
+.quote[
+Sonos enters the voice arena with the [Sonos One ](https://www.sonos.com/en-us/alexa-on-sonos)
+]
+
+![:image 0 0, 80%, 200px, https://www.sonos.com/on/demandware.static/-/Library-Sites-SonosLibrary/default/dwc433b879/pages/alexa-on-sonos/one-feature.png]
+]
+.group[
+.quote[
+> Voice recognition is the transcribing of audio to text and natural language processing is taking that text and working out what command might be in it. .highlight[Since 2012, error rates for these tasks have gone from perhaps a third to under 5%.]
+
+—[Benedict Evans](https://www.ben-evans.com/benedictevans/2017/2/22/voice-and-the-uncanny-valley-of-ai)
+]
+]
+.group[
+.subhead[.fab.fa-youtube[]]
+
+.listicle[
+* [ The Science of Talking with Computers](https://www.youtube.com/watch?v=yxxRAHVtafI)
+* [ DAVID Miami / BK Spot](https://vimeo.com/223731156)
+* [Infinite Looping Voice Assistants](https://www.youtube.com/watch?v=vmINGWsyWX0&feature=youtu.be)
+* [Billy Bass Alexa](https://www.youtube.com/watch?v=x4W8aKLS2zI&feature=youtu.be)
+]
+]
+]
+
+.source[@sonos @khoi @benedictevans @mulegirl @typeform @arrelid]
+.footer[Computational Design]
 
 ---
 
@@ -2390,9 +2456,72 @@ of designers surveyed believe it will be ten years or more
 
 ---
 
-class: document-slide work-in-progress
+class: document-slide
 
 # AI has gone to art school and its grades are improving
+
+.stack[
+.group[
+<details>
+<summary>
+.small.quote[Input Image —[Max-Planck Institute](http://webdav.tuebingen.mpg.de/pixel/enhancenet/)]
+</summary>
+
+.figure[
+![](http://webdav.tuebingen.mpg.de/pixel/enhancenet/files/eagle-nn.jpg)
+.top.caption[via Max-Planck Institute]
+]
+</details>
+]
+.group[
+<details>
+
+<summary>
+.small.quote[Generated Image —[Max-Planck Institute](http://webdav.tuebingen.mpg.de/pixel/enhancenet/)]
+</summary>
+
+.figure[
+![](http://webdav.tuebingen.mpg.de/pixel/enhancenet/files/eagle-pat.jpg)
+.top.caption[via Max-Planck Institute]
+]
+</details>
+]
+]
+
+.stack[
+.group[
+.figure[
+![](http://workflow.arts.ac.uk/artefact/file/download.php?file=274733&view=43511)
+.top.caption[via UAL]
+]
+
+.small.quote[
+A digital computer and microfilm plotter were used to produce a semirandom picture similar in composition to Piet Mondrian's painting "Composition With Lines" (1917). Only 28% of the Ss were able to correctly identify the computer-generated picture, while 59% of the Ss preferred the computer-generated picture. Both percentages were statistically diferent (0.05 level) from selections based upon chance according to a binomial test.
+
+—[A. Michael Noll](http://tdecamillophillips1.workflow.arts.ac.uk/mondrian-experiment-a-michael-noll) (1966)
+]
+]
+.darkgray.group[
+.purple[
+### GitHub repositories with AI-related terms
+]
+
+.numeral.subhead[94,681]
+
+.large[machine learning]
+
+.numeral.subhead[28,189]
+
+.large[deep learning]
+
+.numeral.subhead[10,544]
+
+.large[artificial intelligence]
+]
+]
+
+.source[March 9, 2018 GitHub search / Psychology Record / Max-Planck Institute @ual]
+.footer[Computational Design: **AI**]
 
 ---
 
@@ -2403,21 +2532,21 @@ class: document-slide
 .stack[
 .group[
 <details>
-<summary>Remove watermark <a href="https://research.googleblog.com/2017/08/making-visible-watermarks-more-effective.html">*</a></summary>
+<summary>Remove watermark <a href="https://research.googleblog.com/2017/08/making-visible-watermarks-more-effective.html">*</summary>
 .figure[
 ![](https://4.bp.blogspot.com/-XPKnwJ-x9Y0/WZTJtk9VMYI/AAAAAAAAB9U/p4xomyw24C8T9oFRG68Osbix18Wt59zFACLcBGAs/s640/f7.png)
 .caption[via Google]
 ]
 </details>
 <details>
-<summary>Resynthesize style <a href="https://github.com/nvidia/fastphotostyle">*</a></summary>
+<summary>Resynthesize style <a href="https://github.com/nvidia/fastphotostyle">*</summary>
 .figure[
 ![](https://github.com/NVIDIA/FastPhotoStyle/raw/master/teaser.png)
 .caption[via NVIDIA]
 ]
 </details>
 <details>
-<summary>Change expression <a href="https://research.fb.com/bringing-still-photos-to-life-and-3d-photography-to-your-phone/">*</a></summary>
+<summary>Change expression <a href="https://research.fb.com/bringing-still-photos-to-life-and-3d-photography-to-your-phone/">*</summary>
 .figure[
 ![](https://research.fb.com/wp-content/uploads/2017/11/siggrapha11.png?w=1024)
 .caption[via Facebook]
@@ -2426,21 +2555,21 @@ class: document-slide
 ]
 .group[
 <details>
-<summary>Perfect contrast <a href="http://news.mit.edu/2017/automatic-image-retouching-phone-0802">*</a></summary>
+<summary>Perfect contrast <a href="http://news.mit.edu/2017/automatic-image-retouching-phone-0802">*</summary>
 .figure[
 ![](https://media.wired.com/photos/5984b64c2181bc3f8bcacd7a/master/w_1598,c_limit/MIT-Instant-Retouch-TA.jpg)
 .caption[via MIT]
 ]
 </details>
 <details>
-<summary>Generate variations <a href="https://junyanz.github.io/BicycleGAN/">*</a></summary>
+<summary>Generate variations <a href="https://junyanz.github.io/BicycleGAN/">*</summary>
 .figure[
 ![](https://junyanz.github.io/BicycleGAN/index_files/results_matrix.jpg)
 .caption[via UC Berkeley / Adobe]
 ]
 </details>
 <details>
-<summary>Fix drawing <a href="https://www.blog.google/topics/machine-learning/fast-drawing-everyone/">*</a></summary>
+<summary>Fix drawing <a href="https://www.blog.google/topics/machine-learning/fast-drawing-everyone/">*</summary>
 .figure[
 ![](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/AutoDraw_1.gif)
 .caption[via Google]
@@ -2584,9 +2713,89 @@ class: document-slide
 
 ---
 
-class: document-slide work-in-progress
+class: document-slide unintended-consequences-slide
 
 # Because what we make in now has unintended consequences
+
+.small.stack[
+.group[
+.purple.uppercase.sans[**July 2015**]
+
+.quote[
+**Google** Mistakenly Tags Black
+people as “Gorillas” Showing Limits of Algorithms [WSJ](https://blogs.wsj.com/digits/2015/07/01/google-mistakenly-tags-black-people-as-gorillas-showing-limits-of-algorithms/)
+]
+]
+.group[
+.purple.uppercase.sans[**June 2016**]
+
+.quote[
+More **Airbnb** Customers are
+Complaining About Racism [The
+Economist](https://www.economist.com/blogs/gulliver/2016/06/unwelcome-homes)
+]
+]
+.group[
+.purple.uppercase.sans[**August 2016**]
+
+.quote[
+Clearly **Snapchat** Doesn’t Get
+What’s Wrong With Yellowface [Wired](https://www.wired.com/2016/08/snapchat-anime-filter-yellowface/)
+
+How **Nextdoor** reduced racist
+posts by 75% [Fusion](https://splinternews.com/how-nextdoor-reduced-racist-posts-by-75-1793861389/)
+]
+]
+.group[
+.purple.uppercase.sans[**September 2016**]
+
+.quote[
+**Airbnb** CEO: Bias and
+Discrimination Have No Place Here [Time](http://time.com/4484113/airbnb-ceo-brian-chesky-anti-discrimination-racism/)
+]
+]
+]
+
+## And a new and needed discourse is emerging
+
+.small.stack[
+.group[
+.purple.uppercase.sans[**April 2017**]
+
+.quote[
+**Tragic Design** by Jonathan<br>
+Shariat and Cynthia Saucier
+]
+
+![:image 60%, 150px, https://uploads-ssl.webflow.com/58ad136f39a496034da02679/59505fd4e77d092b5c336da9_lrg.jpg]
+]
+.group[
+.purple.uppercase.sans[**October 2017**]
+
+.quote[
+**Technically Wrong** by <br>
+Sara Wachter-Boettcher
+]
+
+![:image 60%, 150px, https://images-na.ssl-images-amazon.com/images/I/81Kfo6AQtzL.jpg]
+]
+.group[
+.purple.uppercase.sans[**January 2018**]
+
+.quote[
+**Automating Inequality** by <br>
+Virginia Eubanks
+]
+
+![:image 60%, 150px, https://images-na.ssl-images-amazon.com/images/I/518W3CnvqgL._SX324_BO1%2C204%2C203%2C200_.jpg]
+]
+.group[
+.orange[**Kat Holmes** new book is forthcoming on inclusive design]
+]
+]
+
+.source[From last year's Design in Tech Report]
+.footer[Computational Design: **AI**]
 
 ---
 
@@ -2751,7 +2960,7 @@ class: document-slide
 ]
 ]
 
-.source[The Distribution of Users’ Computer Skills: Worse Than You Think  [NNG](https://www.nngroup.com/articles/computer-skill-levels/)]
+.source[The Distribution of Users’ Computer Skills: Worse Than You Think [NNG](https://www.nngroup.com/articles/computer-skill-levels/)]
 .footer[Inequality & Skills Gap]
 
 ---
@@ -3167,7 +3376,7 @@ And you'll want to change it to a cat thereafter once you experience the differe
 
 ---
 
-class: document-slide work-in-progress
+class: document-slide
 
 # Be sure to include others unlike yourself, and bring your friends
 
