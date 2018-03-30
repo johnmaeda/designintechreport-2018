@@ -326,7 +326,7 @@ class: document-slide kinds-of-design-slide
 
 .stack[
 .group[
-.header-group[
+.cell-stack[
 .numeral.subhead[01]
 .small[
 There’s a right way to make what is perfect, crafted, and complete.
@@ -340,7 +340,7 @@ There’s a right way to make what is perfect, crafted, and complete.
 Driver/ the Industrial Revolution, and prior to that at least a few millennia of ferment.
 ]
 .group[
-.header-group[
+.cell-stack[
 .numeral.subhead[02]
 .small[
 Because execution has outpaced innovation, and experience matters.
@@ -354,7 +354,7 @@ Because execution has outpaced innovation, and experience matters.
 Driver/ the need to innovate in relation to individual customer needs requires empathy.
 ]
 .group[
-.header-group[
+.cell-stack[
 .numeral.subhead[03]
 .small[
 Design for billions of individual people and in real time, is at scale and TBD.
@@ -2293,7 +2293,7 @@ class: document-slide
 ]
 ]
 .group[
-.header-group[
+.cell-stack[
 .group[
 .bordered.figure[
 ![:image 60px, auto, https://cdn.shopify.com/s/files/1/0051/7692/products/aba-cover-25_100x@3x.png]

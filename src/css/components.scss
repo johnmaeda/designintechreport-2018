@@ -93,17 +93,6 @@
   }
 }
 
-.header-group {
-  @include unset-paragraphs;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
-  > *:not(:first-child) {
-    margin-left: 0.75em; // Intentionally em
-  }
-}
-
 .dl {
   @include block-margin;
   display: block;
@@ -153,6 +142,17 @@
 
   > .group + .group {
     margin-left: 2rem;
+  }
+}
+
+.cell-stack {
+  @include unset-paragraphs;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  > *:not(:first-child) {
+    margin-left: 0.75em; // Intentionally em
   }
 }
 
