@@ -86,28 +86,10 @@
     letter-spacing: 0.1em; // Intentionally em
   }
 
-  &.darkgray {
-    background-color: $color-darkgray;
-  }
-
-  &.gray {
-    background-color: $color-gray;
-  }
-
-  &.lightgray {
-    background-color: $color-lightgray;
-  }
-
-  &.orange {
-    background-color: $color-orange;
-  }
-
-  &.purple {
-    background-color: $color-purple;
-  }
-
-  &.yellow {
-    background-color: $color-yellow;
+  @each $name, $color in $colors {
+    &.#{$name} {
+      background-color: $color;
+    }
   }
 }
 
