@@ -45,7 +45,7 @@ module.exports = mode => ({
                 'es2017',
                 'stage-3',
                 'stage-2'
-              ],
+              ]
             }
           }
         ]
@@ -78,16 +78,20 @@ module.exports = mode => ({
   plugins: [
     new webpack.NormalModuleReplacementPlugin(
       /node_modules\/remark\/src\/remark\/macros.js/,
-      path.resolve(__dirname, 'lib/macros.js'),
+      path.resolve(__dirname, 'lib/macros.js')
     ),
     new webpack.NormalModuleReplacementPlugin(
       /node_modules\/remark\/src\/remark\/highlighter.js/,
-      path.resolve(__dirname, 'lib/highlighter.js'),
+      path.resolve(__dirname, 'lib/highlighter.js')
     ),
     new CleanWebpackPlugin(['build/**/*'], {
       root: path.resolve(__dirname)
     }),
     new CopyWebpackPlugin([
+      {
+        context: path.resolve(__dirname),
+        from: 'src/index.md'
+      },
       {
         context: path.resolve(__dirname),
         from: 'data',
