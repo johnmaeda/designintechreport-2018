@@ -10,8 +10,8 @@
 
   .body {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 3rem;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .section {
@@ -19,9 +19,9 @@
 
     > ul {
       display: grid;
-      margin-top: 2.5rem;
-      grid-template-columns: 1fr 1fr 1fr;
       grid-gap: 1.5rem;
+      grid-template-columns: 1fr 1fr 1fr;
+      margin-top: 2.5rem;
 
       > li {
         display: block;

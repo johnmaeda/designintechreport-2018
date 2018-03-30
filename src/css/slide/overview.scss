@@ -8,9 +8,9 @@
   @include lists;
 
   display: grid;
-  padding-top: 8rem;
-  grid-template-columns: 1fr 2.5fr;
   grid-gap: 2rem;
+  grid-template-columns: 1fr 2.5fr;
+  padding-top: 8rem;
 
   h1 {
     margin-top: 0;
