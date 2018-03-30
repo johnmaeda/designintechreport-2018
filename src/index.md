@@ -1148,7 +1148,7 @@ Visit the [Design & AI Report](https://www.sheji.ai) produced by **Ling Fan** in
 ]
 
 .source[Ling Fan, CEO/Founder Tezign / [The Information](https://go.theinformation.com/d34d5f937e89c84d) [UISDC](http://www.uisdc.com/alibaba-luban-ai-banner) [Gale Partners](https://medium.com/@rexrothX/ai-visual-design-is-already-here-and-it-wont-hesitate-to-take-over-your-petty-design-job-934d756db82e)]
-.footer[China and Design]
+.footer[Technology &times; Business &times; Design]
 
 ---
 
@@ -3093,6 +3093,7 @@ Bench, 100Starlings, 2600Hz, 33 Sticks, 3DprinterOS, 3nder, 3SMobile, 4 Ventos, 
 ]
 
 .source[[Remotive.io](https://remotive.io) [Zapier](https://zapier.com/blog/companies-hiring-remote-workers/)]
+.footer[Inequality & Skills Gap]
 
 ---
 
@@ -3222,7 +3223,7 @@ class: chapter-slide lightgray-slide
 * Choose action over wondering about what you can do about the world you see and don't agree with. It's easy today due to all the technologies we have available to us.
 ]
 
-.footer[Inequality & Skills Gap]
+.footer[Inclusive Design]
 
 ---
 
@@ -3451,6 +3452,7 @@ background-image: URL(https://www.newstatesman.com/sites/default/files/styles/no
 ![:tweet 966462025781170176]
 
 .source[Marvel]
+.footer[Inclusive Design]
 
 ---
 
