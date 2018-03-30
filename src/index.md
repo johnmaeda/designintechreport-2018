@@ -108,7 +108,7 @@ class: document-slide x-small
 .group[
 .numeral.subhead[2015]
 
-.quote-list[
+.black.quote-list[
 * 14 creative firms were atypically acquired between 2004 and 2015 by tech companies like Facebook, Flextronics, Google; also Accenture, Capital One, BBVA, McKinsey & Co.
 * As the marginal return on computing power (a la Moore’s law) diminishes and technology is less of a differentiating factor, the value of design has entered the foreground.
 * 27 startups that were co-founded by designers were acquired since 2010 by companies like Intuit, Google, Facebook, Adobe, LinkedIn, and Yahoo.
@@ -120,7 +120,7 @@ class: document-slide x-small
 .group[
 .numeral.subhead[2016]
 
-.quote-list[
+.black.quote-list[
 * Design firm acquisitions continue: 42 design firms since 2004, and ~50% of them in the last year alone. Accenture, Deloitte, IBM take the lead.
 * Designers in venture capital have increased: More designers entered VC in the last two years than the previous 4 years combined. Its history is revealed.
 * 93.5% of 370 designers surveyed believe that coding and data-oriented skills are table stakes knowledge for designers in tech.
@@ -134,7 +134,7 @@ class: document-slide x-small
 .group[
 .numeral.subhead[2017]
 
-.quote-list[
+.black.quote-list[
 * Demand for designers is up with Facebook, Google, and Amazon collectively growing designer headcount by 65% in a year according to LinkedIn.
 * McKinsey & Co and Salesforce make significant bets on design with more acquisitions. Design tool startup InVision acquires 5 smaller startups.
 <!-- * 4 Design Partners are elected at McKinsey & Co and IBM appoints 3 Distinguished Designers — to the highest senior levels of a corporate hierarchy. -->
@@ -162,21 +162,21 @@ class: document-slide
 
 .purple[Design isn't just about beauty; it’s about market relevance and meaningful results.]
 
-_DESIGN is about DE$IGN — and it's traditionally been that case since the era of the Bauhaus, and even way before._
+> .darkgray[_DESIGN is about DE$IGN — and it's traditionally been that case since the era of the Bauhaus, and even way before._]
 ]
 .group[
 .numeral.subhead[2016]
 
 .purple[There are 3 kinds of design: Classical Design, Design Thinking, and Computational Design.]
 
-_There are 3 kinds of design: Classical Design, Design Thinking, and Computational Design._
+> .darkgray[_There are 3 kinds of design: Classical Design, Design Thinking, and Computational Design._]
 ]
 .group[
 .numeral.subhead[2017]
 
 .purple[Adopting an inclusive design approach expands a tech product’s total addressable market.]
 
-_Inclusion is good business. And new proof points are emerging. More will start to emerge as inclusive design takes hold._
+> .darkgray[_Inclusion is good business. And new proof points are emerging. More will start to emerge as inclusive design takes hold._]
 ]
 ]
 
@@ -191,12 +191,31 @@ class: document-slide
 
 .grid.ratio-1-3[
 .group[
+]
+.group[
+## Quick info about the 2017 Report
+]
+]
+
+.grid.ratio-1-3[
+.group[
 .grayscale.figure[
 ![](https://designintechreport.files.wordpress.com/2017/03/screen-shot-2017-03-07-at-5-34-13-pm.png)
 .caption[Design in Tech Report 2017]
 ]
+]
+.group[
+* On Slideshare there were 800K+ views.
+* With new video and audio versions there were 30K+ accesses.
+* *Writing and its critical importance to design* — an insight by **Fatimah Kabba** — was by far the most popular perspective in last year's report.
+* SEO for the new home **designintechreport.wordpress.com** has stuck solidly. Thanks for your help and for your encouragement to continue!
+]
+]
+
+.grid.ratio-1-3[
+.group[
 <details>
-<summary>.fas.fa-football-ball[]</summary>
+<summary>.darkgray[.fas.fa-football-ball[]]</summary>
 .grayscale.figure[
 ![](https://media.giphy.com/media/atYyKKGkdjaUg/giphy.gif)
 .caption[via Giphy]
@@ -204,13 +223,6 @@ class: document-slide
 </details>
 ]
 .group[
-## Quick info about the 2017 Report
-
-* On Slideshare there were 800K+ views.
-* With new video and audio versions there were 30K+ accesses.
-* *Writing and its critical importance to design* — an insight by **Fatimah Kabba** — was by far the most popular perspective in last year's report.
-* SEO for the new home **designintechreport.wordpress.com** has stuck solidly. Thanks for your help and for your encouragement to continue!
-
 <details>
 <summary></summary>
 .darkgray[
@@ -403,11 +415,78 @@ By contrast, one low-impact respondent answered, "We are moving so fast there ha
 
 ---
 
-class: document-slide work-in-progress
+class: document-slide
 
 # Computational Designer vs Classical Designer
 
 .darkgray[When people in the tech industry talk about “design,” they often make the mistake of not differentiating between classical designers and computational designers. The former kind of designer might craft a wooden chair for a home which is used by a few people; the latter kind of designer might craft an app for a smartphone which is used by hundreds of millions of people.]
+
+.small.sans.table.across-3[
+.th[
+]
+.medium.black.th[
+Classical Design
+]
+.medium.black.th[
+Computational Design
+]
+.lightgray.th[
+Number of Active Users
+]
+.td[
+Few to Millions
+]
+.td[
+Few to Billions
+]
+.lightgray.th[
+Time Needed to Deploy Completed Product
+]
+.td[
+Weeks to Months through Distribution Channels
+]
+.td[
+Instantaneously Delivered Over the Net
+]
+.lightgray.th[
+“Perfection” is Achievable
+]
+.td[
+Yes There’s a final state.
+]
+.td[
+No It’s always evolving.
+]
+.lightgray.th[
+Designer’s Level of Confidence
+]
+.td[
+Absolute, and Self-Validating
+]
+.td[
+Generally High, but Open to Analyzing, Testing, Research
+]
+.lightgray.th[
+Production Materials
+]
+.td[
+Paper, Wood, Metal, and Anything Physical
+]
+.td[
+Data, Models, Algorithms, and Anything Virtual
+]
+.lightgray.th[
+Skills With Tools Are Generally Grounded In
+]
+.td[
+Hands and Laws of Physics
+]
+.td[
+Mind and Computer + Social Sciences
+]
+]
+
+.footer[Technology &times; Business &times; Design]
 
 ---
 
@@ -598,7 +677,7 @@ This complex discipline does itself a disservice to just call itself "design," w
 ]
 ]
 
-.stack[
+.darkgray.stack[
 .group[
 .numeral.subhead[01]
 
@@ -639,13 +718,13 @@ class: document-slide
 
 # Which companies are being perceived as improving in design?
 
-.x-large.darkgray[
+.xx-large.quote[
 .orange[In the 1200+ survey responses, these companies appeared to be improving in design:] Google, Microsoft, Atlassian, Airbnb, Dropbox, Amazon
 ]
 
 ## 5 dominant words to explain why a company is perceived to be improving in design
 
-.large.gray.sans.box-list[
+.x-medium.gray.sans.box-list[
 * Innovation
 * Consistency
 * Scale
@@ -832,16 +911,18 @@ class: document-slide work-in-progress
 .header[
 # Think Beyond Silicon Valley: India and Design
 
-By 2050, India’s economy is projected to be the world’s second largest, behind only China. —[WEF](https://www.weforum.org/agenda/2017/10/eight-key-facts-about-indias-economy-in-2017/)
+.quote[
+> By 2050, India’s economy is projected to be the world’s second largest, behind only China. —[WEF](https://www.weforum.org/agenda/2017/10/eight-key-facts-about-indias-economy-in-2017/)
+]
 ]
 
-.stack[
+.darkgray.stack[
 .group[
 .numeral.subhead[01]
 
-.darkgray.sans[**English Speaking**]
+.sans[**English Speaking**]
 
-.darkgray.small.quote-list[
+.irregular-small.quote-list[
 * 125 million English speakers, second only to the United States.
 * Oral tradition where narrative is the primary mode of culture propagation.
 * India is a pluralistic society, secular and incredibly diverse.
@@ -852,9 +933,9 @@ Multi-ethnic Art & Craft tradition with local idioms marking design sensibilitie
 .group[
 .numeral.subhead[02]
 
-.darkgray.sans[**Mobile Culture**]
+.sans[**Mobile Culture**]
 
-.darkgray.small.quote-list[
+.irregular-small.quote-list[
 * India has the second largest installed base of smartphones in the world behind China of ~300 million.
 * Basic smartphone handsets are available at below $50
 * Monthly data plan for under $2
@@ -866,9 +947,9 @@ Multi-ethnic Art & Craft tradition with local idioms marking design sensibilitie
 .group[
 .numeral.subhead[03]
 
-.darkgray.sans[**China with (not vs) India**]
+.sans[**China with (not vs) India**]
 
-.darkgray.small.quote-list[
+.irregular-small.quote-list[
 * China and India make a complementary combination of machine power and human power: China - Products / India - Services.
 * They're giant neighbors.
 * Each has a population of over a billion (they collectively account for 36.3% of the world's people).
@@ -879,9 +960,9 @@ Multi-ethnic Art & Craft tradition with local idioms marking design sensibilitie
 .group[
 .numeral.subhead[04]
 
-.darkgray.sans[**JUGAAD**]
+.sans[**JUGAAD**]
 
-.darkgray.small.quote-list[
+.irregular-small.quote-list[
 * In Hindi,
 
 	_“overcoming harsh constraints by improvising an effective solution using limited resources”._
@@ -893,7 +974,7 @@ Multi-ethnic Art & Craft tradition with local idioms marking design sensibilitie
 * Flexible thinking and action, not linear planning.
 ]
 
-.darkgray.x-small[[HBR](https://hbr.org/2010/01/jugaad-a-new-growth-formula-fo) (2010) / Ravi Radjou, Jaideep Prabhu, and Simone Ahuja]
+.x-small[[HBR](https://hbr.org/2010/01/jugaad-a-new-growth-formula-fo) (2010) / Ravi Radjou, Jaideep Prabhu, and Simone Ahuja]
 ]
 ]
 
@@ -907,7 +988,9 @@ class: document-slide work-in-progress
 .header[
 # Think Beyond Silicon Valley: Latin America and Design
 
+.quote[
 Latin America has the fastest rate of smartphone adoption in the world. —[Fast Company](https://www.fastcompany.com/3044662/what-latin-america-will-look-like-in-2020)
+]
 ]
 
 .stack[
@@ -916,7 +999,7 @@ Latin America has the fastest rate of smartphone adoption in the world. —[Fast
 
 .darkgray.sans[**Design Rush**]
 
-.darkgray.small.quote-list[
+.darkgray.irregular-small.quote-list[
 * Latin America (LATAM) has a long history with design that started out in the 1950s.
 * .purple.sans[1950s] - Mexico, Argentina and Brazil led the movement in LATAM of formal design schools.
 * .purple.sans[Today] - Vibrant startup ecosystem. [Insitum](https://www.fastcompany.com/3041655/the-worlds-top-10-most-innovative-companies-of-2015-in-latin-), "IDEO of emerging markets" has 5 offices in LATAM and 140+ consultants.
@@ -928,7 +1011,7 @@ Latin America has the fastest rate of smartphone adoption in the world. —[Fast
 
 .darkgray.sans[**With the Wall or Without It**]
 
-.darkgray.small.quote-list[
+.darkgray.irregular-small.quote-list[
 * LATAM region, with 650 million people, is exploring opportunities to be less dependent on the US economy.
 * The [Trans Pacific Partnership](https://www.nytimes.com/2018/03/08/world/asia/us-trump-tpp-signed.html) has been signed between 11 countries, and China is solidifying its ties with the region [via startups](https://www.bloomberg.com/news/articles/2018-03-04/chinese-startups-export-playbook-to-latin-america-for-new-riches).
 * Ex: China's Didi [acquires 99](https://techcrunch.com/2018/01/03/didi-confirms-it-has-acquired-99-in-brazil-to-expand-in-latin-america/), a ridesharing company in Brazil 99.
@@ -939,7 +1022,7 @@ Latin America has the fastest rate of smartphone adoption in the world. —[Fast
 
 .darkgray.sans[**Copy, Adapt and Improve**]
 
-.darkgray.small.quote-list[
+.darkgray.irregular-small.quote-list[
 * Increased activity in the startup ecosystem in LATAM.
 * Many of the startups are adaptations of successful models elsewhere customized to LATAM environment, while often finding opportunities to improve beyond the original.
 * Ex: [Kubo Financiero](https://www.kubofinanciero.com) is the Mexican LendingClub, and it's introduced a social responsibility component to investing - which resonates with users in a nationalistic country like Mexico.
@@ -950,7 +1033,7 @@ Latin America has the fastest rate of smartphone adoption in the world. —[Fast
 
 .darkgray.sans[**Design for Trust**]
 
-.darkgray.small.quote-list[
+.darkgray.irregular-small.quote-list[
 * Corruption is everywhere.
 * There is a generalized lack of trust between people, companies and governments.
 * Startups are disrupting traditional industries by designing to inspire trust and prevent fraud while providing a good user experience.
@@ -1106,7 +1189,7 @@ the increasing rate of new entrepreneurs among individuals aged fifty-five to si
 —[Kauffman Foundation](http://www.kauffman.org/~/media/kauffman_org/research%20reports%20and%20covers/2015/05/kauffman_index _startup_activity_national_trends_2015.pdf)
 ]
 
-.small.darkgray[_Younger entrepreneurs (ages twenty to thirty-four) made up 24.7 percent of all new entrepreneurs in the 2015 index_]
+.x-small.darkgray[_Younger entrepreneurs (ages twenty to thirty-four) made up 24.7 percent of all new entrepreneurs in the 2015 index_]
 ]
 ]
 
@@ -1159,7 +1242,7 @@ class: document-slide
 
 ---
 
-class: document-slide culture-of-company-slide
+class: culture-of-company-slide
 
 # Is the culture of your company set up for design to succeed?
 
@@ -1302,7 +1385,7 @@ class: document-slide
 .group[
 ![:iframe 500px, https://datastudio.google.com/embed/reporting/1PunZraW_b46c-weLYoUQSGG44z60rIdm/page/rZjO]
 ]
-.group[
+.darkgray.group[
 .numeral.subhead[2.98]
 
 overall average on a 1-to-10 point progression from a product's conception (1) to just before it ships (10). Last year it was 2.89.
@@ -1311,7 +1394,7 @@ overall average on a 1-to-10 point progression from a product's conception (1) t
 
 are 3 and below, which means the majority use design early.
 
-.small.darkgray[By far the largest number of samples are from the US, so the variance by country will be less reliable, but good to note.]
+.small[By far the largest number of samples are from the US, so the variance by country will be less reliable, but good to note.]
 ]
 ]
 
@@ -1604,7 +1687,7 @@ class: document-slide
 
 # We're in a new age of data visualization &times; quant-qual science
 
-.stack[
+.darkgray.stack[
 .group[
 ## What's a Data Scientist?
 
@@ -1646,7 +1729,7 @@ And open source ones exist too:
 
 ![:image 0 5%,, 300px, https://designintech.report/wp-content/uploads/2018/03/maedadotpm.png]
 
-.small.darkgray[_**Nope.** I'm just collecting all the parts I've been learning/doing for my whole life before — I get uploaded to the big cloud in the sky one day. To design amazing experiences for people, I've always chosen to think/work inclusively and broadly._]
+.small[_**Nope.** I'm just collecting all the parts I've been learning/doing for my whole life before — I get uploaded to the big cloud in the sky one day. To design amazing experiences for people, I've always chosen to think/work inclusively and broadly._]
 ]
 ]
 
@@ -1662,7 +1745,12 @@ class: document-slide
 .stack[
 .group[
 ### The top 10 most valuable design<br>skills for the future
+]
+.group[]
+]
 
+.stack[
+.group[
 1. Adaptability to tech and social change
 2. Empathy
 3. .highlight[Communication skills]
@@ -1682,20 +1770,18 @@ Note that many of .highlight[these skills] are exercised with expertise by User 
 ]
 .group[
 .large.quote[
-<br>
-
 > Surprisingly very few companies conduct qualitative user research.
-
-> .black.medium[Early-stage start-ups surveyed by Albert Lee/Dayna Grayson that use qualitative research: 12%, Mid-stage: 32%, Late-stage: 46%]
-
-.medium[
-– [NEA Future of Design in Start-ups 2017](http://www.futureof.design)
-]
-]
-]
 ]
 
-<div class="source">@aiga <a target="_blank" href="https://designcensus.org">Design Census 2017 @neavc @tweetalbert @daynagrayson</div>
+.medium.quote[
+> Early-stage start-ups surveyed by Albert Lee/Dayna Grayson that use qualitative research: 12%, Mid-stage: 32%, Late-stage: 46%
+
+.sans[– [NEA Future of Design in Start-ups 2017](http://www.futureof.design)]
+]
+]
+]
+
+.source[@aiga [Design Census 2017](https://designcensus.org) @neavc @tweetalbert @daynagrayson]
 .footer[Scaling Design]
 
 ---
@@ -1770,7 +1856,8 @@ class: document-slide
 .darkgray.sans[1943-2012]
 ]
 .group[
-<br><br>
+<br>
+<br>
 
 .grid.across-2[
 .large.quote[
@@ -1788,7 +1875,7 @@ class: document-slide
 
 ---
 
-class: document-slide work-in-progress
+class: document-slide
 
 # Scaling Design Case Study: [Automattic.Design](https://automattic.design)
 
@@ -1798,7 +1885,7 @@ class: document-slide work-in-progress
 
 .x-large.darkgray.sans[Design Culture]
 
-.small[
+.irregular-small[
 .darkgray[<br>You need a CEO who cares about design, and recognizes that good design is good business. It's because the customer wants it. .fas.fa-check-square[]]
 
 .orange[_Resources_]
@@ -1815,7 +1902,7 @@ class: document-slide work-in-progress
 
 .x-large.darkgray.sans[Design Talent]
 
-.small[
+.irregular-small[
 .darkgray[<br>You need a strong designer hiring leader. They will be, "Someone who you wish was designing instead and loves talent, too." .fas.fa-check-square[]]
 
 .orange[_Resources_]
@@ -1832,7 +1919,7 @@ class: document-slide work-in-progress
 
 .x-large.darkgray.sans[Design Leaders]
 
-.small[
+.irregular-small[
 .darkgray[<br>You need a primary design lead who cares about leadership and enjoys fostering new leaders. .fas.fa-check-square[]]
 
 .orange[_Resources_]
@@ -1850,7 +1937,7 @@ class: document-slide work-in-progress
 
 .x-large.darkgray.sans[Design Systems]
 
-.small[
+.irregular-small[
 .darkgray[<br>You need a few [computational designers](https://automattic.design/2018/02/09/react-components-design-and-wordpress-com-2015/) who work inclusively. Plus  listen to [Nathan Curtis](https://medium.com/eightshapes-llc/defining-design-systems-6dd4b03e0ff6). .fas.fa-check-square[]]
 
 .purple[Our design system offers *[kit scope]* released as *[kit outputs]* and documented at *[kit doc site]* produced by *[people]* in order to serve *[products]* products and experiences.] [&dagger;](https://medium.com/eightshapes-llc/defining-design-systems-6dd4b03e0ff6) [&dagger;&dagger;](https://medium.com/eightshapes-llc/design-systems-intermediaries-955ef18c9409)
@@ -1869,7 +1956,7 @@ class: document-slide work-in-progress
 
 .x-large.darkgray.sans[Design Ops]
 
-.small[
+.irregular-small[
 .darkgray[<br>You want to product- and project- manage design as a service inside the org. And we've recently hired for Design Ops. .fas.fa-check-square[]]
 
 .orange[_Resources_]
@@ -1928,7 +2015,9 @@ class: document-slide
 ]
 ]
 
-The Line US and Mayku devices are excellent examples of low-cost, sophisticated computational design tools to work (and experiment) in the physical world. Line US is genius, and Mayku uses old-school vacuum forming methods.
+.quote[
+> The Line US and Mayku devices are excellent examples of low-cost, sophisticated computational design tools to work (and experiment) in the physical world. Line US is genius, and Mayku uses old-school vacuum forming methods.
+]
 
 .small.quote[
 > Design milestones to note are a 4d-printed dress by [Nervous Systems](https://www.moma.org/explore/inside_out/2015/03/26/future-couture-nervous-systems-kinematics-dress/) accessioned to MoMA and the ever-expanding work of MIT Media Lab's [Neri Oxman](http://www.materialecology.com/news). Manufacturing machinery advances to note in 3d-printing are materials scientist Jennifer Lewis' work on footwear with [Voxel8](https://www.voxel8.com/) and advanced 3d-printing capability in metal achieved by [Desktop Metal](https://www.desktopmetal.com)
@@ -2084,9 +2173,10 @@ For context, a BMW 5-series car has a 100 or more sensors.
 —[Qualcomm](https://www.qualcomm.com/news/onq/2014/04/24/behind-sixth-sense-smartphones-snapdragon-processor-sensor-engine) (2014)
 ]
 ]
-.small.group[
+.group[
 ### Android base sensors
 
+.listicle[
 * Accelerometer
 * Ambient temperature
 * Magnetic field sensor
@@ -2096,18 +2186,23 @@ For context, a BMW 5-series car has a 100 or more sensors.
 * Proximity
 * Pressure
 * Relative humidity
+]
 
 ### Android composite sensor types
 
+.listicle[
 * Linear acceleration
 * Significant motion
 * Step detector
 * Step counter
 * Tilt detector
+]
 
 ### Other sensors on devices
 
+.listicle[
 * Range camera, IR camera, Heart rate, Fingerprint
+]
 ]
 .small.darkgray.group[
 The Nintendo Switch represents a different kind of form-factor in design, which gives rise to a different kind of experience.
@@ -2551,7 +2646,9 @@ Facebook you *(bleep)*<br>
 –[Brad Frost](http://bradfrost.com/blog/post/facebook-you-needy-sonofabitch/)
 ]
 
-_Note that similar posts are being made on most major social networks these days of "I'm giving up XYZ"_
+.x-medium.quote[
+> _Note that similar posts are being made on most major social networks these days of "I'm giving up XYZ"_
+]
 ]
 ]
 
@@ -2582,11 +2679,11 @@ class: document-slide
 
 ---
 
-class: document-slide work-in-progress
+class: document-slide
 
 # But if you look closely or broadly, inequality sits in the shadow
 
-![:iframe 450px, http://eig.org?embedEIG2017=1&eigmap2017=nationalzipsEIG2017]
+![:iframe 480px, http://eig.org?embedEIG2017=1&eigmap2017=nationalzipsEIG2017]
 
 .small.quote[
 —[EIG](http://eig.org?embedEIG2017=1&eigmap2017=nationalzipsEIG2017) _This Mapbox wouldn't embed_
@@ -2694,21 +2791,21 @@ class: document-slide
 
 .stack[
 .group[
-.large.quote[
+.x-medium.quote[
 > The more segregated a place becomes, the less innovative it is likely to be.
 
 —[Richard Florida](https://www.citylab.com/equity/2017/08/the-complex-relationship-between-innovation-and-economic-segregation-in-cities/537270/)
 ]
 ]
 .group[
-.large.quote[
+.x-medium.quote[
 > A.I. is presenting us with an opportunity to rethink economic inequality on a global scale.
 
 —Kai-Fu Lee [NYT](https://www.nytimes.com/2017/06/24/opinion/sunday/artificial-intelligence-economic-inequality.html)
 ]
 ]
 .group[
-.large.quote[
+.x-medium.quote[
 > Systemic inequality can haunt machine intelligence.
 
 —Kate Crawford [NYT](https://www.nytimes.com/2016/06/26/opinion/sunday/artificial-intelligences-white-guy-problem.html)
@@ -2729,7 +2826,7 @@ class: document-slide
 .group[
 .numeral.subhead[638]
 
-.large.darkgray[
+.x-medium.darkgray[
 There are currently companies with remote work opportunities
 ]
 
@@ -3082,7 +3179,9 @@ class: document-slide
 –[Kumail Nanjiani](http://www.upworthy.com/kumail-nanjiani-hilariously-reassures-anyone-fearing-change-in-hollywood) at the Oscars
 ]
 
+.quote[
 'Black Panther' Should Become Marvel's Latest Billion-Dollar Movie This Weekend —[Fortune](http://fortune.com/2018/03/09/black-panther-box-office-weekend-billion-china/)
+]
 
 .source[@upworthy #wakanda @fortunemagazine and consider the Star Trek economy too]
 .footer[Inclusive Design]

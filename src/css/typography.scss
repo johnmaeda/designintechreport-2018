@@ -89,3 +89,8 @@ $font-size-xxx-small: rem(9.6px);
 .xxx-small {
   @include typography-size($font-size-xxx-small);
 }
+
+// TODO
+.irregular-small {
+  @include typography-size(14px);
+}

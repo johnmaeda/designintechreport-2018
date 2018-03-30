@@ -10,7 +10,7 @@
   }
 }
 
-@mixin relative-block-margin($size: 1rem) {
+@mixin relative-block-margin($size: 1em) {
   margin: $size 0; // Intentionally em
 
   &:first-child {
