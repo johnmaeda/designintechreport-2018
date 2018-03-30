@@ -7,8 +7,8 @@
     "start": "webpack-dev-server --config webpack.config.development.js",
     "build": "webpack --config webpack.config.production.js",
     "lint": "npm-run-all lint:js lint:css",
-    "lint:js": "standard src/js/**/* lib/**/* *.js",
-    "lint:css": "sass-lint --config .sass-lint.yml src/css/**/* -v -q",
+    "lint:js": "standard -v src/js/**/* lib/**/* *.js",
+    "lint:css": "sass-lint -v -q --config sass-lint.yml src/css/**/*",
     "fix": "standard --fix src/js/**/* lib/**/* *.js"
   },
   "dependencies": {
