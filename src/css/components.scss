@@ -204,6 +204,28 @@
   }
 }
 
+.table {
+  @extend .grid;
+  grid-gap: 0.5rem;
+
+  > .th, > .td {
+    @include remove-edge-margins;
+    padding: 0.75rem;
+  }
+
+  > .th {
+    &.black {
+      color: $color-white;
+      background-color: $color-black;
+    }
+
+    &.lightgray {
+      color: $color-black;
+      background-color: $color-lightgray;
+    }
+  }
+}
+
 .columns {
   @include block-margin;
   @include remove-edge-margins;
@@ -374,6 +396,12 @@
       margin-top: 0.75rem;
     }
   }
+
+  @each $name, $color in $colors {
+    &.#{$name} {
+      color: $color;
+    }
+  }
 }
 
 .tooltip {
@@ -438,7 +466,7 @@
 }
 
 .timeline-grid {
-  @include block-margin;
+  @include block-margin(2rem);
   @include unset-headers;
   @include unset-lists;
   font-size: 11px; // TODO
