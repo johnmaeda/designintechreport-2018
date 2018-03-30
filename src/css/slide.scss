@@ -91,25 +91,6 @@
     }
   }
 
-  &.work-in-progress {
-    &:after {
-      @include typography-sans;
-      content: 'Work In Progress';
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      position: absolute;
-      top: 1rem;
-      right: 1rem;
-      width: 8rem;
-      height: 8rem;
-      border-radius: 8rem;
-      color: white;
-      background-color: $color-purple;
-      text-align: center;
-    }
-  }
-
   .source {
     @include typography-sans;
     display: block;
