@@ -7,26 +7,26 @@ const libraries = loadScript('https://www.gstatic.com/charts/loader.js')
     return new Promise((resolve, reject) => {
       google.charts.load('current', {
         packages: ['wordtree', 'bar'],
-        callback: resolve,
+        callback: resolve
       })
     })
-})
+  })
 
-async function drawWordTree(element, data, options = {}) {
+async function drawWordTree (element, data, options = {}) {
   await libraries
   const dataTable = google.visualization.arrayToDataTable(data)
   const chart = new google.visualization.WordTree(element)
   chart.draw(dataTable, options)
 }
 
-async function drawBarChart(element, data, options = {}) {
+async function drawBarChart (element, data, options = {}) {
   await libraries
   const dataTable = google.visualization.arrayToDataTable(data)
   const chart = new google.charts.Bar(element)
   chart.draw(dataTable, options)
 }
 
-export default function drawGoogleChart(element, type, data, options = {}) {
+export default function drawGoogleChart (element, type, data, options = {}) {
   if (!data) {
     throw new Error('Data must be supplied for chart.')
   }

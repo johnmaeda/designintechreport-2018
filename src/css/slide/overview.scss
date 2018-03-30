@@ -7,8 +7,8 @@
   @include paragraphs;
   @include lists;
 
-  padding-top: 8rem;
   display: grid;
+  padding-top: 8rem;
   grid-template-columns: 1fr 2.5fr;
   grid-gap: 2rem;
 

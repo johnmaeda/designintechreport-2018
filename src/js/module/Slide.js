@@ -1,15 +1,18 @@
+/* global fetch */
+
+import 'cross-fetch/polyfill'
 import MutationObserver from 'mutation-observer'
 
 import createTwitterWidget from './createTwitterWidget'
 import drawGoogleChart from './drawGoogleChart'
 
 export default class Slide {
-  constructor(element) {
+  constructor (element) {
     this.element = element
     this.init()
   }
 
-  async init() {
+  async init () {
     this.slideDidMount()
     await this.waitForElementToAppear()
     this.slideDidAppear()
@@ -17,7 +20,7 @@ export default class Slide {
     this.slideDidUnmount()
   }
 
-  waitForElementToAppear() {
+  waitForElementToAppear () {
     return new Promise((resolve, reject) => {
       if (this.element.classList.contains('remark-visible')) {
         resolve()
@@ -37,12 +40,12 @@ export default class Slide {
         })
       })
       observer.observe(this.element, {
-        attributes: true,
+        attributes: true
       })
     })
   }
 
-  waitForElementToUnmount() {
+  waitForElementToUnmount () {
     return new Promise((resolve, reject) => {
       const observer = new MutationObserver(mutations => {
         mutations.some(mutation => {
@@ -55,14 +58,14 @@ export default class Slide {
         })
       })
       observer.observe(this.element.parentElement, {
-        childList: true,
+        childList: true
       })
     })
   }
 
-  slideDidMount() {}
+  slideDidMount () {}
 
-  slideDidAppear() {
+  slideDidAppear () {
     Array.from(this.element.querySelectorAll('a'))
       .forEach(element => {
         const href = element.getAttribute('href')
@@ -82,7 +85,7 @@ export default class Slide {
 
     Array.from(this.element.querySelectorAll('video, audio'))
       .forEach(element => {
-        const source = element.firstElementChild;
+        const source = element.firstElementChild
         const src = source.getAttribute('data-src')
         if (src) {
           source.setAttribute('src', src)
@@ -113,5 +116,5 @@ export default class Slide {
       })
   }
 
-  slideDidUnmount() {}
+  slideDidUnmount () {}
 }
