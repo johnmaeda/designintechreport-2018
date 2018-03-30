@@ -2,17 +2,15 @@
 @import '../elements';
 @import '../typography';
 
-@import './overview';
-
 .chapter-slide {
   @include headers;
   @include paragraphs;
   @include lists;
 
   display: grid;
-  padding-top: 6rem;
-  grid-template-columns: 1fr 1fr;
   grid-gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 6rem;
 
   h1 {
     margin-top: 0;

@@ -8,12 +8,21 @@
   @include lists;
 
   display: grid;
-  padding-top: 8rem;
-  grid-template-columns: 1fr 2.5fr;
   grid-gap: 2rem;
+  grid-template-columns: 1fr 2.5fr;
+  padding-top: 10rem;
 
   h1 {
     margin-top: 0;
     font-size: $font-size-x-large;
+  }
+
+  .grid {
+    margin-top: 0;
+
+    p {
+      margin-left: 1rem;
+      font-size: $font-size-small;
+    }
   }
 }
