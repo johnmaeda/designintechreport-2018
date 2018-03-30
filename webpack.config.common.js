@@ -3,6 +3,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const path = require('path')
+const webpack = require('webpack')
 
 module.exports = mode => ({
   mode,
@@ -21,7 +22,6 @@ module.exports = mode => ({
   },
   resolve: {
     alias: {
-      '../macros': path.resolve(__dirname, 'lib/macros.jsx'),
       'marked': path.resolve(__dirname, 'lib/marked.js'),
       'remarked': path.resolve(__dirname, 'node_modules/marked')
     }
@@ -35,7 +35,7 @@ module.exports = mode => ({
       },
       {
         test: /\.jsx?$/,
-        exclude: /node_modules/,
+        exclude: /node_modules\/(?!remark)/,
         use: [
           {
             loader: 'babel-loader',
@@ -79,6 +79,14 @@ module.exports = mode => ({
     ]
   },
   plugins: [
+    new webpack.NormalModuleReplacementPlugin(
+      /node_modules\/remark\/src\/remark\/macros.js/,
+      path.resolve(__dirname, 'lib/macros.jsx'),
+    ),
+    new webpack.NormalModuleReplacementPlugin(
+      /node_modules\/remark\/src\/remark\/highlighter.js/,
+      path.resolve(__dirname, 'lib/highlighter.js'),
+    ),
     new CleanWebpackPlugin(['build/**/*'], {
       root: path.resolve(__dirname)
     }),
