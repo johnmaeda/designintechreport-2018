@@ -1,4 +1,3 @@
-const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
 const merge = require('webpack-merge')
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 const webpack = require('webpack')
@@ -21,7 +20,6 @@ module.exports = merge(common('production'), {
           removeAll: true
         }
       }
-    }),
-    new BundleAnalyzerPlugin()
+    })
   ]
 })
