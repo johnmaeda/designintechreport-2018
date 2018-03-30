@@ -94,3 +94,8 @@ $font-size-xxx-small: rem(9.6px);
 .irregular-small {
   @include typography-size(14px);
 }
+
+.uppercase {
+  letter-spacing: 0.1em; // Intentionally em
+  text-transform: uppercase;
+}
