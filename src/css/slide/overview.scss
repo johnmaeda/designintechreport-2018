@@ -16,4 +16,13 @@
     margin-top: 0;
     font-size: $font-size-x-large;
   }
+
+  .grid {
+    margin-top: 0;
+
+    p {
+      margin-left: 1rem;
+      font-size: $font-size-small;
+    }
+  }
 }

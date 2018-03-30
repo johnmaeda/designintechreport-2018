@@ -92,9 +92,42 @@ Expect a video version on my new YouTube channel "John Maeda is Learning" by thi
 
 ---
 
-class: overview-slide lightgray-slide work-in-progress
+class: overview-slide lightgray-slide
 
 # .x-large[Sections Overview]
+
+.grid.across-2[
+.group[
+### 1) TBD = Tech × Business × Design
+
+How do technology, business, and design interrelate in the startup and corporate ecosystems?
+]
+.group[
+### 2) Scaling Design
+
+How do you scale the design function in a company to impact business at the speed of Moore's Law?
+]
+.group[
+### 3) Computational Design: 1st Steps
+
+What is "computational design" and why does it matter to business + tech?
+]
+.group[
+### 4) Computational Design &times; A.I.
+
+How does artificial intelligence change the future of design and what do designers need to know?
+]
+.group[
+### 5) Inequality
+
+What does technology have to do with rising inequalities and should I care as a designer?
+]
+.group[
+### 6) Why Inclusive Design
+
+Do I need to care about inclusive design more when considering TBD? What can I do about it?
+]
+]
 
 .footer[Welcome]
 
