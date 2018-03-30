@@ -636,7 +636,7 @@ class: document-slide
 —**Moment** acquired by Verizon [March 2018](http://www.momentdesign.com/what-lies-ahead-moment-joins-verizon/)
 ]
 
-.source[@tberno @jcoronado1 @leahbuley @hugosarrazin @randyjhunt @scootermcdoog<br>@ezyjules @shatzygoespro @keithinstone]
+.source[@tberno @jcoronado1 @leahbuley @hugosarrazin @randyjhunt @scootermcdoog @ezyjules @shatzygoespro @keithinstone]
 .footer[Technology &times; Business &times; Design]
 
 ---
@@ -729,7 +729,7 @@ one-another.
 .group[
 .numeral.subhead[03]
 
-.sans[**New Design<br> Paradigm**]
+.sans[**New Design<br>Paradigm**]
 
 For design to inform new growth opportunities for clients, the need to quantify the value it can achieve by having great DNA as a company becomes critical.
 ]
@@ -807,7 +807,7 @@ Design Thinking Is A Failed Experiment. So What’s Next? [BusinessWeek 2011](ht
 ![:image 100px,, https://timedotcom.files.wordpress.com/2018/02/greta-cover-final.jpg]
 
 .xx-small[The Meaning of Design Is up for Debate.<br>
-And That’s a Good Thing <br>
+And That’s a Good Thing<br>
 [TIME, March 12, 2018](http://time.com/5180711/the-meaning-of-design-is-up-for-debate/) / Clay Chandler]
 ]
 ]
@@ -1069,7 +1069,7 @@ Latin America has the fastest rate of smartphone adoption in the world. —[Fast
 ]
 ]
 
-.source[@luisarnal [@insitum](https://www.fastcompany.com/3041655/the-worlds-top-10-most-innovative-companies-of-2015-in-latin-) @fastcompany @bloomberg @kubofinanciero <br> @nubankbrasil @enlightmx @techcrunch @bloomberg]
+.source[@luisarnal [@insitum](https://www.fastcompany.com/3041655/the-worlds-top-10-most-innovative-companies-of-2015-in-latin-) @fastcompany @bloomberg @kubofinanciero @nubankbrasil @enlightmx @techcrunch @bloomberg]
 .footer[Technology &times; Business &times; Design]
 
 ---
@@ -2004,7 +2004,7 @@ class: document-slide
 
 class: chapter-slide lightgray-slide
 
-# .mono[Computational Design:<br> First Steps]
+# .mono[Computational Design:<br>First Steps]
 
 .group[
 ### Atoms &times; Bits &times; People has happened at scale
@@ -2017,7 +2017,6 @@ class: chapter-slide lightgray-slide
 ]
 
 .footer[Computational Design]
-<div class="source"></div>
 
 ---
 
@@ -2786,7 +2785,7 @@ Shariat and Cynthia Saucier
 .purple.uppercase.sans[**October 2017**]
 
 .quote[
-**Technically Wrong** by <br>
+**Technically Wrong** by<br>
 Sara Wachter-Boettcher
 ]
 
@@ -2796,7 +2795,7 @@ Sara Wachter-Boettcher
 .purple.uppercase.sans[**January 2018**]
 
 .quote[
-**Automating Inequality** by <br>
+**Automating Inequality** by<br>
 Virginia Eubanks
 ]
 
@@ -3232,7 +3231,7 @@ class: document-slide
 # A simple definition of diversity and inclusion says it all
 
 .xx-large.quote[
-> Diversity is being invited to the party;<br> inclusion is being asked to dance.
+> Diversity is being invited to the party;<br>inclusion is being asked to dance.
 
 —[Vernā Myers](https://www.americanbar.org/groups/gpsolo/publications/gpsolo_ereport/2012/june_2012/diversity_invited_party_inclusion_asked_dance.html), Esq.
 ]
