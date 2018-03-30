@@ -1,0 +1,16 @@
+@import '../colors';
+@import '../elements';
+@import '../typography';
+
+.perception-of-design-slide {
+  .grid .grid {
+    grid-gap: 1rem;
+  }
+
+  .book-grid {
+    @include block-margin;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 112px 120px;
+  }
+}
