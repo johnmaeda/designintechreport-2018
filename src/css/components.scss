@@ -365,6 +365,11 @@
     background-color: rgba($color-black, 0.5);
     font-size: $font-size-xx-small;
     line-height: 1;
+
+    &.top {
+      top: 0.3rem;
+      bottom: unset;
+    }
   }
 }
 
