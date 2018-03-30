@@ -27,10 +27,15 @@ async function drawBarChart (element, data, options = {}) {
 }
 
 export default function drawGoogleChart (element, type, data, options = {}) {
+  if (!data) {
+    throw new Error('Data must be supplied for chart.')
+  }
   switch (type) {
     case 'bar':
       return drawBarChart(element, data, options)
     case 'wordtree':
       return drawWordTree(element, data, options)
+    default:
+      throw new Error(`Unknown char type: ${type}`)
   }
 }

@@ -7,6 +7,17 @@ $color-purple: #6918f9;
 $color-white: #ffffff;
 $color-yellow: #ffc808;
 
+$colors: (
+  black: $color-black,
+  darkgray: $color-darkgray,
+  lightgray: $color-lightgray,
+  gray: $color-gray,
+  orange: $color-orange,
+  purple: $color-purple,
+  white: $color-white,
+  yellow: $color-yellow,
+);
+
 .black {
   color: $color-black;
 }

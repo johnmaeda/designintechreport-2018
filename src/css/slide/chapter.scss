@@ -2,8 +2,6 @@
 @import '../elements';
 @import '../typography';
 
-@import './overview';
-
 .chapter-slide {
   @include headers;
   @include paragraphs;

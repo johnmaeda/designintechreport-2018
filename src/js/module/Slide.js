@@ -11,11 +11,9 @@ export default class Slide {
   }
 
   async init () {
-    this.slideDidMount()
     await this.waitForElementToAppear()
     this.slideDidAppear()
     await this.waitForElementToUnmount()
-    this.slideDidUnmount()
   }
 
   waitForElementToAppear () {
@@ -61,50 +59,66 @@ export default class Slide {
     })
   }
 
-  slideDidMount () {}
-
   slideDidAppear () {
-    Array.from(this.element.querySelectorAll('a'))
-      .forEach(element => {
-        const href = element.getAttribute('href')
-        if (/^https?:/.test(href)) {
-          element.setAttribute('target', '_blank')
-        }
-      })
-
-    Array.from(this.element.querySelectorAll('img, iframe'))
-      .forEach(element => {
-        const src = element.getAttribute('data-src')
-        element.setAttribute('src', src)
-        element.removeAttribute('data-src')
-      })
-
-    Array.from(this.element.querySelectorAll('video, audio'))
-      .forEach(element => {
-        const source = element.firstElementChild
-        const src = source.getAttribute('data-src')
-        source.setAttribute('src', src)
-        source.removeAttribute('data-src')
-        element.load()
-      })
-
-    Array.from(this.element.querySelectorAll('.chart'))
-      .forEach(element => {
-        const type = element.getAttribute('data-type')
-        const src = element.getAttribute('data-src')
-        window.fetch(src).then(response => {
-          return response.json()
-        }).then(({ data, options }) => {
-          drawGoogleChart(element, type, data, options)
-        })
-      })
-
-    Array.from(this.element.querySelectorAll('.tweet'))
-      .forEach(element => {
-        const tweetId = element.getAttribute('data-tweet-id')
-        createTwitterWidget(tweetId, element)
-      })
+    this.querySelectorAll('a').forEach(this.processAnchor)
+    this.querySelectorAll('img').forEach(this.processImage)
+    this.querySelectorAll('audio, video').forEach(this.processAudioVideo)
+    this.querySelectorAll('.iframe').forEach(this.processFrame)
+    this.querySelectorAll('.chart').forEach(this.processChart)
+    this.querySelectorAll('.tweet').forEach(this.processTweet)
   }
 
-  slideDidUnmount () {}
+  querySelectorAll(...args) {
+    return Array.from(this.element.querySelectorAll(...args))
+  }
+
+  processAnchor(element) {
+    const href = element.getAttribute('href')
+    if (/^https?:/.test(href)) {
+      element.setAttribute('target', '_blank')
+    }
+  }
+
+  processImage(element) {
+    const src = element.getAttribute('data-src')
+    element.setAttribute('src', src)
+    element.removeAttribute('data-src')
+  }
+
+  processFrame(element) {
+    const iframe = element.firstElementChild
+    const src = iframe.getAttribute('data-src')
+    iframe.setAttribute('src', src)
+    iframe.removeAttribute('data-src')
+    const callback = event => {
+      iframe.removeEventListener('load', callback, false)
+      element.classList.add('loaded')
+    }
+    iframe.addEventListener('load', callback, false)
+  }
+
+  processAudioVideo(element) {
+    const source = element.firstElementChild
+    const src = source.getAttribute('data-src')
+    source.setAttribute('src', src)
+    source.removeAttribute('data-src')
+    element.load()
+  }
+
+  processChart(element) {
+    const type = element.getAttribute('data-type')
+    const src = element.getAttribute('data-src')
+    window.fetch(src).then(response => {
+      return response.json()
+    }).then(({ data, options }) => {
+      drawGoogleChart(element, type, data, options)
+    }).catch(error => {
+      throw error
+    })
+  }
+
+  processTweet(element) {
+    const tweetId = element.getAttribute('data-tweet-id')
+    createTwitterWidget(tweetId, element)
+  }
 }

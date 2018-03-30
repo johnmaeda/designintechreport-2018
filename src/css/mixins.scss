@@ -1,5 +1,5 @@
-@mixin block-margin {
-  margin: 1rem 0;
+@mixin block-margin($size: 1rem) {
+  margin: $size 0;
 
   &:first-child {
     margin-top: 0;
@@ -10,8 +10,8 @@
   }
 }
 
-@mixin relative-block-margin {
-  margin: 1em 0; // Intentionally em
+@mixin relative-block-margin($size: 1em) {
+  margin: $size 0; // Intentionally em
 
   &:first-child {
     margin-top: 0;

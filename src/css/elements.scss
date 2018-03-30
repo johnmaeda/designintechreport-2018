@@ -45,51 +45,11 @@
     }
   }
 
-  .black {
-    > h1, > h2, > h3 {
-      background-color: $color-black;
-    }
-  }
-
-  .darkgray {
-    > h1, > h2, > h3 {
-      background-color: $color-darkgray;
-    }
-  }
-
-  .lightgray {
-    > h1, > h2, > h3 {
-      background-color: $color-lightgray;
-    }
-  }
-
-  .gray {
-    > h1, > h2, > h3 {
-      background-color: $color-gray;
-    }
-  }
-
-  .orange {
-    > h1, > h2, > h3 {
-      background-color: $color-orange;
-    }
-  }
-
-  .purple {
-    > h1, > h2, > h3 {
-      background-color: $color-purple;
-    }
-  }
-
-  .white {
-    > h1, > h2, > h3 {
-      background-color: $color-white;
-    }
-  }
-
-  .yellow {
-    > h1, > h2, > h3 {
-      background-color: $color-yellow;
+  @each $name, $color in $colors {
+    .#{$name} {
+      > h1, > h2, > h3 {
+        background-color: $color;
+      }
     }
   }
 }

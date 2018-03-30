@@ -8,7 +8,7 @@
 }
 
 .chart {
-  @include block-margin;
+  @include block-margin(2rem);
 }
 
 .tweet {
@@ -17,6 +17,11 @@
 
 .iframe {
   display: block;
+  background-color: mix($color-white, $color-lightgray, 50%);
+
+  &.loaded {
+    background-color: unset;
+  }
 
   > iframe {
     display: block;
@@ -75,45 +80,16 @@
   }
 
   &.small {
-    padding: 0.3em; // Intentionally em
+    padding: 0.4em 0.3em; // Intentionally em
     font-size: $font-size-x-small;
     text-transform: uppercase;
     letter-spacing: 0.1em; // Intentionally em
   }
 
-  &.darkgray {
-    background-color: $color-darkgray;
-  }
-
-  &.gray {
-    background-color: $color-gray;
-  }
-
-  &.lightgray {
-    background-color: $color-lightgray;
-  }
-
-  &.orange {
-    background-color: $color-orange;
-  }
-
-  &.purple {
-    background-color: $color-purple;
-  }
-
-  &.yellow {
-    background-color: $color-yellow;
-  }
-}
-
-.header-group {
-  @include unset-paragraphs;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
-  > * {
-    margin-left: 0.75em; // Intentionally em
+  @each $name, $color in $colors {
+    &.#{$name} {
+      background-color: $color;
+    }
   }
 }
 
@@ -134,6 +110,16 @@
   > .dd + .dd,
   > .dd + .dt {
     margin-top: 0.25rem;
+  }
+}
+
+.listicle {
+  @include block-margin;
+  @include unset-lists;
+  font-size: $font-size-x-small;
+
+  > ul > li + li {
+    margin-top: 0.25em; // Intentionally em
   }
 }
 
@@ -159,10 +145,22 @@
   }
 }
 
+.cell-stack {
+  @include unset-paragraphs;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  > *:not(:first-child) {
+    margin-left: 0.75em; // Intentionally em
+  }
+}
+
 .grid {
   @include block-margin;
   display: grid;
   grid-gap: 2rem;
+  grid-template-columns: auto auto;
 
   > * {
     margin-top: 0;
@@ -203,6 +201,28 @@
   @for $count from 2 through 8 {
     &.across-#{$count} {
       grid-template-columns: repeat($count, 1fr);
+    }
+  }
+}
+
+.table {
+  @extend .grid;
+  grid-gap: 0.5rem;
+
+  > .th, > .td {
+    @include remove-edge-margins;
+    padding: 0.75rem;
+  }
+
+  > .th {
+    &.black {
+      color: $color-white;
+      background-color: $color-black;
+    }
+
+    &.lightgray {
+      color: $color-black;
+      background-color: $color-lightgray;
     }
   }
 }
@@ -346,6 +366,11 @@
     background-color: rgba($color-black, 0.5);
     font-size: $font-size-xx-small;
     line-height: 1;
+
+    &.top {
+      top: 0.3rem;
+      bottom: unset;
+    }
   }
 }
 
@@ -375,6 +400,12 @@
 
     > li + li {
       margin-top: 0.75rem;
+    }
+  }
+
+  @each $name, $color in $colors {
+    &.#{$name} {
+      color: $color;
     }
   }
 }
@@ -441,7 +472,7 @@
 }
 
 .timeline-grid {
-  @include block-margin;
+  @include block-margin(2rem);
   @include unset-headers;
   @include unset-lists;
   font-size: 11px; // TODO

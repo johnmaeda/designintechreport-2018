@@ -26,9 +26,9 @@
   position: absolute;
   right: 40px;
   bottom: 1rem;
-  margin: 0 !important;
   color: $color-darkgray;
   font-size: $font-size-xx-small;
+  line-height: 1.2;
   opacity: 1;
 }
 
@@ -67,6 +67,10 @@
   summary {
     margin-bottom: 0.5rem;
     cursor: pointer;
+
+    > * {
+      display: inline;
+    }
 
     &:focus {
       outline: none;
@@ -110,10 +114,12 @@
     @include typography-sans;
     display: block;
     position: absolute;
-    left: 5rem;
+    right: calc(40% + 2rem); // Not sure
     bottom: 1rem;
+    left: 5rem;
     color: $color-darkgray;
     font-size: $font-size-xx-small;
+    line-height: 1.2;
 
     &:before {
       content: 'Source: ';
@@ -126,9 +132,9 @@
     position: absolute;
     left: 60%; // Not sure
     bottom: 1rem;
-    margin: 0 !important;
     color: $color-orange;
     font-size: $font-size-xx-small;
+    line-height: 1.2;
 
     &:before {
       content: '2018 Design In Tech Report | ';
