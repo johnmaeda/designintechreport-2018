@@ -2532,21 +2532,28 @@ class: document-slide
 .stack[
 .group[
 <details>
-<summary>Remove watermark <a href="https://research.googleblog.com/2017/08/making-visible-watermarks-more-effective.html">*</summary>
+<summary>
+.medium[Remove watermark [*](https://research.googleblog.com/2017/08/making-visible-watermarks-more-effective.html)]
+</summary>
+
 .figure[
 ![](https://4.bp.blogspot.com/-XPKnwJ-x9Y0/WZTJtk9VMYI/AAAAAAAAB9U/p4xomyw24C8T9oFRG68Osbix18Wt59zFACLcBGAs/s640/f7.png)
 .caption[via Google]
 ]
 </details>
 <details>
-<summary>Resynthesize style <a href="https://github.com/nvidia/fastphotostyle">*</summary>
+<summary>
+.medium[Resynthesize style [*](https://github.com/nvidia/fastphotostyle)]
+</summary>
 .figure[
 ![](https://github.com/NVIDIA/FastPhotoStyle/raw/master/teaser.png)
 .caption[via NVIDIA]
 ]
 </details>
 <details>
-<summary>Change expression <a href="https://research.fb.com/bringing-still-photos-to-life-and-3d-photography-to-your-phone/">*</summary>
+<summary>
+.medium[Change expression [*](https://research.fb.com/bringing-still-photos-to-life-and-3d-photography-to-your-phone/)]
+</summary>
 .figure[
 ![](https://research.fb.com/wp-content/uploads/2017/11/siggrapha11.png?w=1024)
 .caption[via Facebook]
@@ -2555,21 +2562,27 @@ class: document-slide
 ]
 .group[
 <details>
-<summary>Perfect contrast <a href="http://news.mit.edu/2017/automatic-image-retouching-phone-0802">*</summary>
+<summary>
+.medium[Perfect contrast [*](http://news.mit.edu/2017/automatic-image-retouching-phone-0802)]
+</summary>
 .figure[
 ![](https://media.wired.com/photos/5984b64c2181bc3f8bcacd7a/master/w_1598,c_limit/MIT-Instant-Retouch-TA.jpg)
 .caption[via MIT]
 ]
 </details>
 <details>
-<summary>Generate variations <a href="https://junyanz.github.io/BicycleGAN/">*</summary>
+<summary>
+.medium[Generate variations [*](https://junyanz.github.io/BicycleGAN/)]
+</summary>
 .figure[
 ![](https://junyanz.github.io/BicycleGAN/index_files/results_matrix.jpg)
 .caption[via UC Berkeley / Adobe]
 ]
 </details>
 <details>
-<summary>Fix drawing <a href="https://www.blog.google/topics/machine-learning/fast-drawing-everyone/">*</summary>
+<summary>
+.medium[Fix drawing [*](https://www.blog.google/topics/machine-learning/fast-drawing-everyone/)]
+</summary>
 .figure[
 ![](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/AutoDraw_1.gif)
 .caption[via Google]
@@ -2588,7 +2601,7 @@ class: document-slide
 —[Facebook Help Center](https://www.facebook.com/help/188118808357379)
 ]
 
-.source[@facebook @google @nvidia @MIT ]
+.source[@facebook @google @nvidia @MIT]
 .footer[Computational Design: **AI**]
 
 ---
