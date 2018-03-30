@@ -1,3 +1,4 @@
+import loadScript from './module/loadScript'
 import Slideshow from './module/Slideshow'
 
 import '../css/main.scss'
@@ -16,6 +17,12 @@ async function main() {
 
 main().catch(error => {
   console.log(error)
+})
+
+loadScript('https://use.typekit.net/aos0mpl.js').then(() => {
+  try {
+    Typekit.load({ async: true })
+  } catch (e) {}
 })
 
 if (module.hot) {
