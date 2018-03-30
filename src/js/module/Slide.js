@@ -1,5 +1,3 @@
-/* global fetch */
-
 import 'cross-fetch/polyfill'
 import MutationObserver from 'mutation-observer'
 
@@ -98,7 +96,7 @@ export default class Slide {
       .forEach(element => {
         const type = element.getAttribute('data-type')
         const src = element.getAttribute('data-src')
-        fetch(src).then(response => {
+        window.fetch(src).then(response => {
           return response.json()
         }).then(({ data, options }) => {
           drawGoogleChart(element, type, data, options)
