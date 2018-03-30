@@ -6,9 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.development.js",
     "build": "webpack --config webpack.config.production.js",
-    "lint": "npm-run-all lint:js lint:css",
-    "lint:js": "standard -v src/js/**/* lib/**/* *.js",
-    "lint:css": "sass-lint -v -q src/css/**/*",
+    "lint": "standard -v src/js/**/* lib/**/* *.js",
     "fix": "standard --fix src/js/**/* lib/**/* *.js"
   },
   "dependencies": {
@@ -38,7 +36,6 @@
     "optimize-css-assets-webpack-plugin": "^4.0.0",
     "postcss-loader": "^2.1.0",
     "raw-loader": "^0.5.1",
-    "sass-lint": "^1.12.1",
     "sass-loader": "^6.0.7",
     "standard": "^11.0.1",
     "style-loader": "^0.20.2",
