@@ -17,6 +17,11 @@
 
 .iframe {
   display: block;
+  background-color: mix($color-white, $color-lightgray, 50%);
+
+  &.loaded {
+    background-color: unset;
+  }
 
   > iframe {
     display: block;
