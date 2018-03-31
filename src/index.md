@@ -2076,7 +2076,7 @@ class: document-slide
 .group[
 ![:iframe 450px, http://www.pewinternet.org/chart/mobile-phone-ownership/iframe/]
 
-.small.darkgray[—[PEW](http://www.pewinternet.org/chart/mobile-phone-ownership/) *This graphic wouldn’t embed*]
+.small.darkgray[—[PEW](http://www.pewinternet.org/chart/mobile-phone-ownership/)]
 ]
 .group[
 .quote[
