@@ -12,7 +12,7 @@ This began as a project that Takram led to refactor and open source the Design i
 1. Clone and install node modules.
 
     ```sh
-    git clone git@github.com:takram-design-engineering/designintechreport-2018.git
+    git clone git@github.com:johnmaeda/designintechreport-2018.git
     cd designintechreport-2018
     npm install
     ```
