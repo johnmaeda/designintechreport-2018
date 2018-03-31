@@ -21,37 +21,37 @@ class: team-slide
 
 .section[
 ## Founding Team
-* ![](https://designintech.report/wp-content/uploads/2018/03/jackie.jpg)
+* ![](asset/image/jackie.jpg)
 	Jackie Xu
-* ![](https://designintech.report/wp-content/uploads/2018/03/aviv.jpg)
+* ![](asset/image/aviv.jpg)
 	Aviv Gilboa
-* ![](https://designintech.report/wp-content/uploads/2018/03/fatimah2.jpg)
+* ![](asset/image/fatimah.jpg)
 	Fatimah Kabba
-* ![](https://designintech.report/wp-content/uploads/2018/03/justin.jpg)
+* ![](asset/image/justin.jpg)
 	Justin Sayarath
-* ![](https://designintech.report/wp-content/uploads/2018/03/maeda.jpg)
+* ![](asset/image/maeda.jpg)
 	John Maeda
 ]
 
 .section[
 ## Report Contributors
-* ![](https://designintech.report/wp-content/uploads/2018/03/bon.jpg)
+* ![](asset/image/bon.jpg)
 	Bon Ku<br>
 	Medicine
-* ![](https://designintech.report/wp-content/uploads/2018/03/ling.jpg)
+* ![](asset/image/ling.jpg)
 	Ling Fan<br>
 	China
-* ![](https://designintech.report/wp-content/uploads/2018/03/sunil2.jpg)
+* ![](asset/image/sunil.jpg)
 	Sunil Malhotra<br>
 	India
-* ![](https://designintech.report/wp-content/uploads/2018/03/luis.jpg)
+* ![](asset/image/luis.jpg)
 	Luis Arnal<br>
 	Latin America
 ]
 
 .section[
 ## Report Translators
-* ![](https://pbs.twimg.com/profile_images/776403293123731456/vRapDC6h_400x400.jpg)
+* ![](asset/image/takram.jpg)
 	Takram<br>
 	Japanese
 ]
