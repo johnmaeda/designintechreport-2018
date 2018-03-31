@@ -1,7 +1,7 @@
 {
   "name": "designintechreport-2018",
   "version": "0.0.1",
-  "repository": "takram-design-engineering/designintechreport-2018",
+  "repository": "johnmaeda/designintechreport-2018",
   "license": "UNLICENSED",
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.development.js",
