@@ -1,5 +1,9 @@
-Design In Tech Report 2018 Japanese Translation
-===============================================
+Design In Tech Report 2018 Multi-Lingual Translation
+====================================================
+
+## Origins
+
+This began as a project that Takram led to refactor and open source the Design in Tech Report. I've been finally learning lot of things I should have learned a long time ago from @shotamatsuda and the Takram team. Thank you! —@johnmaeda
 
 ## Getting Started
 
