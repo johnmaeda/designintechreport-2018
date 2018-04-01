@@ -21,37 +21,37 @@ class: team-slide
 
 .section[
 ## Founding Team
-* ![](asset/image/jackie.jpg)
+* ![](https://github.com/johnmaeda/designintechreport-2018/blob/master/asset/image/jackie.jpg)
 	Jackie Xu
-* ![](asset/image/aviv.jpg)
+* ![](https://github.com/johnmaeda/designintechreport-2018/blob/master/asset/image/aviv.jpg)
 	Aviv Gilboa
-* ![](asset/image/fatimah.jpg)
+* ![](https://github.com/johnmaeda/designintechreport-2018/blob/master/asset/image/fatimah.jpg)
 	Fatimah Kabba
-* ![](asset/image/justin.jpg)
+* ![](https://github.com/johnmaeda/designintechreport-2018/blob/master/asset/image/justin.jpg)
 	Justin Sayarath
-* ![](asset/image/maeda.jpg)
+* ![](https://github.com/johnmaeda/designintechreport-2018/blob/master/asset/image/maeda.jpg)
 	John Maeda
 ]
 
 .section[
 ## Report Contributors
-* ![](asset/image/bon.jpg)
+* ![](https://github.com/johnmaeda/designintechreport-2018/blob/master/asset/image/bon.jpg)
 	Bon Ku<br>
 	Medicine
-* ![](asset/image/ling.jpg)
+* ![](https://github.com/johnmaeda/designintechreport-2018/blob/master/asset/image/ling.jpg)
 	Ling Fan<br>
 	China
-* ![](asset/image/sunil.jpg)
+* ![](https://github.com/johnmaeda/designintechreport-2018/blob/master/asset/image/sunil.jpg)
 	Sunil Malhotra<br>
 	India
-* ![](asset/image/luis.jpg)
+* ![](https://github.com/johnmaeda/designintechreport-2018/blob/master/asset/image/luis.jpg)
 	Luis Arnal<br>
 	Latin America
 ]
 
 .section[
 ## Report Translators
-* ![](asset/image/takram.jpg)
+* ![](https://github.com/johnmaeda/designintechreport-2018/blob/master/asset/image/takram.jpg)
 	Takram<br>
 	Japanese
 ]
