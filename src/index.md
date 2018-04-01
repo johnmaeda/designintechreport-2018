@@ -66,7 +66,7 @@ class: document-slide yellow-slide
 
 # .xx-large.serif[Desktop-First / Beta Release Notes]
 
-.x-large.sans[I had originally intended to design this report in some clever way that was mobile-first and responsive ... but I got lost in all the code along the way. Weekend hacking projects will do that to you (wink). If you’re visiting by mobile -- which is super likely -- please turn around. Next week I’ll release a mobile-only version for fun. I’m learning! —JM]
+.x-large.sans[I had originally intended to design this report in some clever way that was mobile-first and responsive ... but I got lost in all the code along the way. Weekend hacking projects will do that to you (wink). If you’re visiting by mobile -- which is super likely -- please turn around. Eventually I will make a mobile-only version available for fun. I’m learning! —JM]
 
 .footer[Welcome]
 
@@ -78,11 +78,11 @@ class: overview-slide darkgray-slide sans
 
 .group[
 
-Welcome to a new format for the Design in Tech Report. For this year’s report, I took a stab at learning all the CSS/JS that I’ve always wanted to know, and then went after the task of making a fully responsive report. I’ve partially succeeded on my road there with this letterbox-only version — which is better than a PDF, but it’s a little buggy. Sorry!
+Welcome to a new format for the Design in Tech Report. For this year’s report, I took a stab at learning all the CSS/JS that I’ve always wanted to know, and then went after the task of making a fully responsive report. I’ve partially succeeded on my road there with this letterbox-only version — which is better than a PDF. And fortunately thanks to Takram's Shota Matsuda it is greatly improved.
 
-When you see .refresh[Refresh Screen If Needed] please refresh your window and a dynamic diagram is likely to reappear. Chrome seems to work best with this report. If you don’t like an interactive version like this, please visit the one[**](https://www.slideshare.net/johnmaeda/design-in-tech-report-2018) on Slideshare.
+If you see .refresh[Refresh Screen If Needed] please refresh your window and a dynamic diagram is likely to reappear. Chrome seems to work best with this report. If you don’t like an interactive version like this, please visit the one[**](https://www.slideshare.net/johnmaeda/design-in-tech-report-2018) on Slideshare.
 
-Expect a video version on my new YouTube channel “John Maeda is Learning” by this weekend that walks you through all these findings.
+Expect a video version on my new YouTube channel “John Maeda is Learning” some day that walks you through all these findings.
 
 —@johnmaeda
 
