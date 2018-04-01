@@ -96,11 +96,6 @@ module.exports = mode => ({
         context: path.resolve(__dirname),
         from: 'data',
         to: 'data'
-      },
-      {
-        context: path.resolve(__dirname),
-        from: 'asset',
-        to: 'asset'
       }
     ]),
     new MiniCssExtractPlugin({
