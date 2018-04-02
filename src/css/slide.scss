@@ -2,8 +2,13 @@
 @import './typography';
 @import './mixins';
 
+.remark-container {
+  background-color: #999999;
+}
+
 .remark-slide-scaler {
   position: relative;
+  box-shadow: none;
 }
 
 .remark-slide {
