@@ -21,37 +21,37 @@ class: team-slide
 
 .section[
 ## Founding Team
-* ![](https://github.com/johnmaeda/designintechreport-2018/blob/master/asset/image/jackie.jpg)
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/jackie.jpg)
 	Jackie Xu
-* ![](https://github.com/johnmaeda/designintechreport-2018/blob/master/asset/image/aviv.jpg)
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/aviv.jpg)
 	Aviv Gilboa
-* ![](https://github.com/johnmaeda/designintechreport-2018/blob/master/asset/image/fatimah.jpg)
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/fatimah.jpg)
 	Fatimah Kabba
-* ![](https://github.com/johnmaeda/designintechreport-2018/blob/master/asset/image/justin.jpg)
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/justin.jpg)
 	Justin Sayarath
-* ![](https://github.com/johnmaeda/designintechreport-2018/blob/master/asset/image/maeda.jpg)
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/maeda.jpg)
 	John Maeda
 ]
 
 .section[
 ## Report Contributors
-* ![](https://github.com/johnmaeda/designintechreport-2018/blob/master/asset/image/bon.jpg)
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/bon.jpg)
 	Bon Ku<br>
 	Medicine
-* ![](https://github.com/johnmaeda/designintechreport-2018/blob/master/asset/image/ling.jpg)
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/ling.jpg)
 	Ling Fan<br>
 	China
-* ![](https://github.com/johnmaeda/designintechreport-2018/blob/master/asset/image/sunil.jpg)
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/sunil.jpg)
 	Sunil Malhotra<br>
 	India
-* ![](https://github.com/johnmaeda/designintechreport-2018/blob/master/asset/image/luis.jpg)
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/luis.jpg)
 	Luis Arnal<br>
 	Latin America
 ]
 
 .section[
 ## Report Translators
-* ![](https://github.com/johnmaeda/designintechreport-2018/blob/master/asset/image/takram.jpg)
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/takram.jpg)
 	Takram<br>
 	Japanese
 ]
