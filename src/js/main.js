@@ -19,7 +19,8 @@ main().catch(error => {
 })
 
 if (module.hot) {
-  module.hot.accept('../index.md', () => {
+  module.hot.accept('../index.md', async () => {
+    const { default: source } = await import('../index.md')
     slideshow.load(source)
   })
 }
