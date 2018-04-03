@@ -2,6 +2,18 @@
 @import './typography';
 @import './mixins';
 
+// Make slide containers hidden instead of not displaying in order for Google
+// Data Studio pages inside iframes to be able to determine their dimensions
+// when they finish loading while their containing slides are not visible.
+.remark-slide-container {
+  display: block;
+  visibility: hidden;
+}
+
+.remark-visible {
+  visibility: visible;
+}
+
 .remark-slide-scaler {
   position: relative;
 }
