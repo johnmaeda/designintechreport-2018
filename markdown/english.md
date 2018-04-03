@@ -546,7 +546,7 @@ class: document-slide
 ]
 .group[
 .timeline-title[Birth of “Design Thinking” and Design Strategy / Harnessing the Creative Problem Solving Skills of Designers]
-
+
 .sans[**2005**] Hasso Plattner Institute of Design at Stanford starts.
 
 IDEO’s Jane Fulton Suri publishes [Thoughtless Acts?](https://www.ideo.com/post/thoughtless-acts) and brings design research to the foreground.
