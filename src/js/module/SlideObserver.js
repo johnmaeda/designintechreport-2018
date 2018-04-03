@@ -22,7 +22,7 @@ export default class SlideObserver {
     }
   }
 
-  startObservingVisibility() {
+  startObservingVisibility () {
     if (this.element.classList.contains('remark-visible')) {
       this.mounted = true
       this.visible = true
@@ -55,7 +55,7 @@ export default class SlideObserver {
     this.visibilityObserver = observer
   }
 
-  stopObservingVisibility() {
+  stopObservingVisibility () {
     this.visibilityObserver.disconnect()
   }
 
@@ -77,7 +77,7 @@ export default class SlideObserver {
     })
   }
 
-  slideDidMount() {
+  slideDidMount () {
     this.querySelectorAll('a').forEach(this.processAnchor)
     this.querySelectorAll('img').forEach(this.processImage)
     this.querySelectorAll('audio, video').forEach(this.processAudioVideo)
@@ -86,11 +86,11 @@ export default class SlideObserver {
     this.querySelectorAll('.tweet').forEach(this.processTweet)
   }
 
-  slideDidUnmount() {}
+  slideDidUnmount () {}
 
-  slideDidAppear() {}
+  slideDidAppear () {}
 
-  slideDidDisappear() {}
+  slideDidDisappear () {}
 
   querySelectorAll (...args) {
     return Array.from(this.element.querySelectorAll(...args))
