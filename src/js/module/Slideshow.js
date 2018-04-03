@@ -2,7 +2,7 @@
 
 import 'remark/src/remark'
 
-import Slide from './Slide'
+import SlideObserver from './SlideObserver'
 
 export default class Slideshow {
   constructor () {
@@ -45,11 +45,11 @@ export default class Slideshow {
 
   updateSlides () {
     const elements = document.querySelectorAll('.remark-slide-container')
-    for (let i = 0; i < elements.length; ++i) {
-      const element = elements[i]
+    for (let index = 0; index < elements.length; ++index) {
+      const element = elements[index]
       const slide = this.slides.get(element)
       if (!slide) {
-        this.slides.set(element, new Slide(element))
+        this.slides.set(element, new SlideObserver(element, index + 1))
       }
     }
   }
