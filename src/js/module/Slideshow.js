@@ -5,11 +5,12 @@ import 'remark/src/remark'
 import SlideObserver from './SlideObserver'
 
 export default class Slideshow {
-  constructor () {
+  constructor (options = {}) {
+    this.options = options
     this.slides = new WeakMap()
   }
 
-  async init (source, options = {}) {
+  async load (source) {
     if (document.readyState !== 'complete') {
       await new Promise((resolve, reject) => {
         const callback = event => {
@@ -21,26 +22,22 @@ export default class Slideshow {
     }
     // Chrome seems to need a noop frame to regard the document as fully loaded.
     window.requestAnimationFrame(() => {
-      this.remark = remark.create({
-        source,
-        ratio: '16:9',
-        navigation: {
-          scroll: false,
-          touch: true,
-          click: false
-        },
-        ...options
-      })
+      if (!this.remark) {
+        this.remark = remark.create({
+          source,
+          ratio: '16:9',
+          navigation: {
+            scroll: false,
+            touch: true,
+            click: false
+          },
+          ...this.options
+        })
+      } else {
+        this.remark.loadFromString(source)
+      }
       this.updateSlides()
     })
-  }
-
-  load (source) {
-    if (!this.remark) {
-      throw new Error('Attempt to load before init')
-    }
-    this.remark.loadFromString(source)
-    this.updateSlides()
   }
 
   updateSlides () {
