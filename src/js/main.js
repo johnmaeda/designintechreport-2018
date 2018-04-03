@@ -1,23 +1,59 @@
+import Cookies from 'js-cookie'
 import loadScript from './module/loadScript'
+
 import Slideshow from './module/Slideshow'
 
 import '../css/main.scss'
 
 const slideshow = new Slideshow()
 
-async function main() {
+let selectedLanguage = null
+
+async function selectLanguage (language, force = false) {
+  if (language === selectedLanguage && !force) {
+    return
+  }
   let source
   if (process.env.NODE_ENV !== 'production') {
-    ({ default: source } = await import('../index.md'))
+    // We need to supply string literals in import() to make the hot module
+    // replacement able to track their changes.
+    switch (language) {
+      case 'english':
+        ({ default: source } = await import(`../../markdown/english.md`))
+        break
+      case 'japanese':
+        ({ default: source } = await import(`../../markdown/japanese.md`))
+        break
+      default:
+        throw new Error()
+    }
   } else {
-    source = await window.fetch('index.md').then(response => response.text())
+    source = await window.fetch(`markdown/${language}.md`).then(response => {
+      return response.text()
+    })
   }
-  slideshow.init(source)
+  slideshow.load(source)
+  Cookies.set('language', language)
+  selectedLanguage = language
 }
 
-main().catch(error => {
-  console.log(error)
-})
+function main () {
+  let language = Cookies.get('language')
+  if (!language) {
+    const [tag] = window.navigator.language.split('-')
+    switch (tag) {
+      case 'ja':
+        language = 'japanese'
+        break
+      default:
+        language = 'english'
+        break
+    }
+  }
+  selectLanguage(language)
+}
+
+main()
 
 loadScript('https://use.typekit.net/aos0mpl.js').then(() => {
   try {
@@ -26,7 +62,10 @@ loadScript('https://use.typekit.net/aos0mpl.js').then(() => {
 })
 
 if (module.hot) {
-  module.hot.accept('../index.md', () => {
-    slideshow.load(source)
-  })
+  const callback = async () => {
+    selectLanguage(selectedLanguage, true)
+  }
+  // Same discussion above.
+  module.hot.accept(`../../markdown/english.md`, callback)
+  module.hot.accept(`../../markdown/japanese.md`, callback)
 }

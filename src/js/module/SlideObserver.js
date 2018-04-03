@@ -4,41 +4,59 @@ import MutationObserver from 'mutation-observer'
 import createTwitterWidget from './createTwitterWidget'
 import drawGoogleChart from './drawGoogleChart'
 
-export default class Slide {
-  constructor (element) {
+export default class SlideObserver {
+  constructor (element, index) {
     this.element = element
+    this.index = index
+    this.mounted = false
+    this.visible = false
     this.init()
   }
 
   async init () {
-    await this.waitForElementToAppear()
-    this.slideDidAppear()
+    this.startObservingVisibility()
     await this.waitForElementToUnmount()
+    this.stopObservingVisibility()
+    if (this.mounted) {
+      this.slideDidUnmount()
+    }
   }
 
-  waitForElementToAppear () {
-    return new Promise((resolve, reject) => {
-      if (this.element.classList.contains('remark-visible')) {
-        resolve()
-        return
-      }
-      const observer = new MutationObserver(mutations => {
-        mutations.some(mutation => {
-          if (mutation.attributeName !== 'class') {
-            return
+  startObservingVisibility () {
+    if (this.element.classList.contains('remark-visible')) {
+      this.mounted = true
+      this.visible = true
+      this.slideDidMount()
+      this.slideDidAppear()
+    }
+    const observer = new MutationObserver(mutations => {
+      mutations.some(mutation => {
+        if (mutation.attributeName !== 'class') {
+          return
+        }
+        const visible = this.element.classList.contains('remark-visible')
+        if (visible !== this.visible) {
+          if (!this.mounted) {
+            this.mounted = true
+            this.slideDidMount()
           }
-          if (this.element.classList.contains('remark-visible')) {
-            resolve()
-            observer.disconnect()
-            return true
+          this.visible = visible
+          if (visible) {
+            this.slideDidAppear()
+          } else {
+            this.slideDidDisappear()
           }
-          return false
-        })
-      })
-      observer.observe(this.element, {
-        attributes: true
+        }
       })
     })
+    observer.observe(this.element, {
+      attributes: true
+    })
+    this.visibilityObserver = observer
+  }
+
+  stopObservingVisibility () {
+    this.visibilityObserver.disconnect()
   }
 
   waitForElementToUnmount () {
@@ -59,14 +77,20 @@ export default class Slide {
     })
   }
 
-  slideDidAppear () {
+  slideDidMount () {
     this.querySelectorAll('a').forEach(this.processAnchor)
     this.querySelectorAll('img').forEach(this.processImage)
     this.querySelectorAll('audio, video').forEach(this.processAudioVideo)
-    this.querySelectorAll('.iframe').forEach(this.processFrame)
+    this.querySelectorAll('.iframe').forEach(this.processIFrame)
     this.querySelectorAll('.chart').forEach(this.processChart)
     this.querySelectorAll('.tweet').forEach(this.processTweet)
   }
+
+  slideDidUnmount () {}
+
+  slideDidAppear () {}
+
+  slideDidDisappear () {}
 
   querySelectorAll (...args) {
     return Array.from(this.element.querySelectorAll(...args))
@@ -74,6 +98,9 @@ export default class Slide {
 
   processAnchor (element) {
     const href = element.getAttribute('href')
+    if (href == null) {
+      return
+    }
     if (/^https?:/.test(href)) {
       element.setAttribute('target', '_blank')
     }
@@ -81,13 +108,30 @@ export default class Slide {
 
   processImage (element) {
     const src = element.getAttribute('data-src')
+    if (src == null) {
+      return
+    }
     element.setAttribute('src', src)
     element.removeAttribute('data-src')
   }
 
-  processFrame (element) {
+  processAudioVideo (element) {
+    const source = element.firstElementChild
+    const src = source.getAttribute('data-src')
+    if (src == null) {
+      return
+    }
+    source.setAttribute('src', src)
+    source.removeAttribute('data-src')
+    element.load()
+  }
+
+  processIFrame (element) {
     const iframe = element.firstElementChild
     const src = iframe.getAttribute('data-src')
+    if (src == null) {
+      return
+    }
     iframe.setAttribute('src', src)
     iframe.removeAttribute('data-src')
     const callback = event => {
@@ -97,17 +141,12 @@ export default class Slide {
     iframe.addEventListener('load', callback, false)
   }
 
-  processAudioVideo (element) {
-    const source = element.firstElementChild
-    const src = source.getAttribute('data-src')
-    source.setAttribute('src', src)
-    source.removeAttribute('data-src')
-    element.load()
-  }
-
   processChart (element) {
     const type = element.getAttribute('data-type')
     const src = element.getAttribute('data-src')
+    if (type == null || src == null) {
+      return
+    }
     window.fetch(src).then(response => {
       return response.json()
     }).then(({ data, options }) => {
@@ -119,6 +158,9 @@ export default class Slide {
 
   processTweet (element) {
     const tweetId = element.getAttribute('data-tweet-id')
+    if (tweetId == null) {
+      return
+    }
     createTwitterWidget(tweetId, element)
   }
 }

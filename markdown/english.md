@@ -21,37 +21,37 @@ class: team-slide
 
 .section[
 ## Founding Team
-* ![](https://designintech.report/wp-content/uploads/2018/03/jackie.jpg)
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/jackie.jpg)
 	Jackie Xu
-* ![](https://designintech.report/wp-content/uploads/2018/03/aviv.jpg)
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/aviv.jpg)
 	Aviv Gilboa
-* ![](https://designintech.report/wp-content/uploads/2018/03/fatimah2.jpg)
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/fatimah.jpg)
 	Fatimah Kabba
-* ![](https://designintech.report/wp-content/uploads/2018/03/justin.jpg)
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/justin.jpg)
 	Justin Sayarath
-* ![](https://designintech.report/wp-content/uploads/2018/03/maeda.jpg)
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/maeda.jpg)
 	John Maeda
 ]
 
 .section[
 ## Report Contributors
-* ![](https://designintech.report/wp-content/uploads/2018/03/bon.jpg)
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/bon.jpg)
 	Bon Ku<br>
 	Medicine
-* ![](https://designintech.report/wp-content/uploads/2018/03/ling.jpg)
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/ling.jpg)
 	Ling Fan<br>
 	China
-* ![](https://designintech.report/wp-content/uploads/2018/03/sunil2.jpg)
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/sunil.jpg)
 	Sunil Malhotra<br>
 	India
-* ![](https://designintech.report/wp-content/uploads/2018/03/luis.jpg)
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/luis.jpg)
 	Luis Arnal<br>
 	Latin America
 ]
 
 .section[
 ## Report Translators
-* ![](https://pbs.twimg.com/profile_images/776403293123731456/vRapDC6h_400x400.jpg)
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/takram.jpg)
 	Takram<br>
 	Japanese
 ]
@@ -66,7 +66,7 @@ class: document-slide yellow-slide
 
 # .xx-large.serif[Desktop-First / Beta Release Notes]
 
-.x-large.sans[I had originally intended to design this report in some clever way that was mobile-first and responsive ... but I got lost in all the code along the way. Weekend hacking projects will do that to you (wink). If you're visiting by mobile -- which is super likely -- please turn around. Next week I'll release a mobile-only version for fun. I'm learning! —JM]
+.x-large.sans[I had originally intended to design this report in some clever way that was mobile-first and responsive ... but I got lost in all the code along the way. Weekend hacking projects will do that to you (wink). If you’re visiting by mobile -- which is super likely -- please turn around. Eventually I will make a mobile-only version available for fun. I’m learning! —JM]
 
 .footer[Welcome]
 
@@ -78,11 +78,11 @@ class: overview-slide darkgray-slide sans
 
 .group[
 
-Welcome to a new format for the Design in Tech Report. For this year's report, I took a stab at learning all the CSS/JS that I've always wanted to know, and then went after the task of making a fully responsive report. I've partially succeeded on my road there with this letterbox-only version — which is better than a PDF, but it's a little buggy. Sorry!
+Welcome to a new format for the Design in Tech Report. For this year’s report, I took a stab at learning all the CSS/JS that I’ve always wanted to know, and then went after the task of making a fully responsive report. I’ve partially succeeded on my road there with this letterbox-only version — which is better than a PDF. And fortunately thanks to Takram's Shota Matsuda it is greatly improved.
 
-When you see .refresh[Refresh Screen If Needed] please refresh your window and a dynamic diagram is likely to reappear. Chrome seems to work best with this report. If you don't like an interactive version like this, please visit the one[**](https://www.slideshare.net/johnmaeda/design-in-tech-report-2018) on Slideshare.
+If you see .refresh[Refresh Screen If Needed] please refresh your window and a dynamic diagram is likely to reappear. Chrome seems to work best with this report. If you don’t like an interactive version like this, please visit the one[**](https://www.slideshare.net/johnmaeda/design-in-tech-report-2018) on Slideshare.
 
-Expect a video version on my new YouTube channel "John Maeda is Learning" by this weekend that walks you through all these findings.
+Expect a video version on my new YouTube channel “John Maeda is Learning” some day that walks you through all these findings.
 
 —@johnmaeda
 
@@ -105,12 +105,12 @@ How do technology, business, and design interrelate in the startup and corporate
 .group[
 ### 2) Scaling Design
 
-How do you scale the design function in a company to impact business at the speed of Moore's Law?
+How do you scale the design function in a company to impact business at the speed of Moore’s Law?
 ]
 .group[
 ### 3) Computational Design: 1st Steps
 
-What is "computational design" and why does it matter to business + tech?
+What is “computational design” and why does it matter to business + tech?
 ]
 .group[
 ### 4) Computational Design &times; A.I.
@@ -146,8 +146,8 @@ class: document-slide x-small
 * As the marginal return on computing power (a la Moore’s law) diminishes and technology is less of a differentiating factor, the value of design has entered the foreground.
 * 27 startups that were co-founded by designers were acquired since 2010 by companies like Intuit, Google, Facebook, Adobe, LinkedIn, and Yahoo.
 * Five (20%) of the top cumulative-funded VC-backed ventures that have raised additional capital since 2013 are noted to have designer co-founders.
-* There were no designers on Silicon Valley's fabled “Sand Hill Road” until January of 2014 when Kleiner Perkins appointed their first Design Partner **John Maeda**. Shortly afterwards six more VC firms acquired new Design Partners.
-* .purple.sans[.fas.fa-chart-line[] **DESIGN DE$IGN** Designing for mobile brought new experience constraints compared with the desktop, and made designers' skills invaluable as the pathway to non-techy consumers.]
+* There were no designers on Silicon Valley’s fabled “Sand Hill Road” until January of 2014 when Kleiner Perkins appointed their first Design Partner **John Maeda**. Shortly afterwards six more VC firms acquired new Design Partners.
+* .purple.sans[.fas.fa-chart-line[] **DESIGN DE$IGN** Designing for mobile brought new experience constraints compared with the desktop, and made designers’ skills invaluable as the pathway to non-techy consumers.]
 ]
 ]
 .group[
@@ -159,7 +159,7 @@ class: document-slide x-small
 * 93.5% of 370 designers surveyed believe that coding and data-oriented skills are table stakes knowledge for designers in tech.
 <!-- * 86% of design students surveyed say that they learned their digital skills from resources outside their coursework. Design education lags the technology industry’s needs for data-oriented, coding-enabled graduates with business acumen.) -->
 * 100% of the top 10 business schools have student-led design/innovation clubs. 6-7% of the 2015 class of HBS take product management jobs.
-* Designing Systems and Designer Culture emerge as key methods for design to achieve scale — building on agency practices and Karl Gerstner's pioneering work on Designing Programmes.
+* Designing Systems and Designer Culture emerge as key methods for design to achieve scale — building on agency practices and Karl Gerstner’s pioneering work on Designing Programmes.
 * Instead of seeing diversity as a problem that needs solving, designing for inclusion becomes an economic opportunity and cultural responsibility.
 * .purple.sans[.fas.fa-chart-line[] **The 3 Kinds of Design** There are 3 kinds of design: Classical Design, Design Thinking, and Computational Design. The most business value is being driven by the latter two kinds of design.]
 ]
@@ -172,9 +172,9 @@ class: document-slide x-small
 * McKinsey & Co and Salesforce make significant bets on design with more acquisitions. Design tool startup InVision acquires 5 smaller startups.
 <!-- * 4 Design Partners are elected at McKinsey & Co and IBM appoints 3 Distinguished Designers — to the highest senior levels of a corporate hierarchy. -->
 * Design tools begin to evolve out of print and early web design paradigms from the Photoshop era to encompass prototyping, project management, version control, inline coding, and automation.
-* Voice- and chat-based interfaces are grounded in mental models that don't require a visual representation. Related and unrelated artificial intelligence advancements are accelerating.
+* Voice- and chat-based interfaces are grounded in mental models that don’t require a visual representation. Related and unrelated artificial intelligence advancements are accelerating.
 * Coverage of tech design trends in China begins. Chinese design in tech principles and practices are leading the world, and are often overlooked.
-* 90% of designers surveyed say that having a more diverse design team is personally important to them. The number one request inside their companies is to: "Talk about it more internally."
+* 90% of designers surveyed say that having a more diverse design team is personally important to them. The number one request inside their companies is to: “Talk about it more internally.”
 * .purple.sans[.fas.fa-chart-line[] **Inclusive Design Takes Off** Adopting an inclusive design approach expands a tech product’s total addressable market. The tipping point for inclusive design begins to tip.]
 ]
 ]
@@ -193,9 +193,9 @@ class: document-slide
 .group[
 .numeral.subhead[2015]
 
-.purple[Design isn't just about beauty; it’s about market relevance and meaningful results.]
+.purple[Design isn’t just about beauty; it’s about market relevance and meaningful results.]
 
-> .darkgray[_DESIGN is about DE$IGN — and it's traditionally been that case since the era of the Bauhaus, and even way before._]
+> .darkgray[_DESIGN is about DE$IGN — and it’s traditionally been that case since the era of the Bauhaus, and even way before._]
 ]
 .group[
 .numeral.subhead[2016]
@@ -240,7 +240,7 @@ class: document-slide
 .group[
 * On Slideshare there were 800K+ views.
 * With new video and audio versions there were 30K+ accesses.
-* *Writing and its critical importance to design* — an insight by **Fatimah Kabba** — was by far the most popular perspective in last year's report.
+* *Writing and its critical importance to design* — an insight by **Fatimah Kabba** — was by far the most popular perspective in last year’s report.
 * SEO for the new home **designintechreport.wordpress.com** has stuck solidly. Thanks for your help and for your encouragement to continue!
 ]
 ]
@@ -259,12 +259,12 @@ class: document-slide
 <details>
 <summary></summary>
 .darkgray[
-## And Luckily There's Freedom of Speech
+## And Luckily There’s Freedom of Speech
 
-* **Statler:** "The #DesignInTech Report is not a well designed artifact."
-* **Waldorf:** "I remember seeing one and thinking the graphic design was terrible :-)."
-* **Statler:** "Embarrassing as a representation of design."
-* **Waldorf:** "Agreed."
+* **Statler:** “The #DesignInTech Report is not a well designed artifact.”
+* **Waldorf:** “I remember seeing one and thinking the graphic design was terrible :-).”
+* **Statler:** “Embarrassing as a representation of design.”
+* **Waldorf:** “Agreed.”
 ]
 </details>
 ]
@@ -281,18 +281,18 @@ class: document-slide
 
 ## Positive Sentiments Shared
 
-* "I've been calling myself a designer-developer—now changed, thanks 2017 #DesignInTech report."
-* "I'm putting your oral #designintech preso on @SoundCloud on repeat."
-* "Congrats @simplysecureorg for the #designintech shoutout. Great work in privacy & security."
-* "Designers Who Code & Write: opportune time to digest the #DesignInTech report."
-* "#DesignInTech 'reframes computational design as driver of accelerated growth.'"
-* "'Design isn't just about beauty; it's about relevance and meaningful results.'"
+* “I’ve been calling myself a designer-developer—now changed, thanks 2017 #DesignInTech report.”
+* “I’m putting your oral #designintech preso on @SoundCloud on repeat.”
+* “Congrats @simplysecureorg for the #designintech shoutout. Great work in privacy & security.”
+* “Designers Who Code & Write: opportune time to digest the #DesignInTech report.”
+* “#DesignInTech ‘reframes computational design as driver of accelerated growth.’”
+* “‘Design isn’t just about beauty; it’s about relevance and meaningful results.’”
 
 ## Constructive Criticism Shared
-* "Adding useless adjectives in front of the word 'designer' isn't doing anything positive for the industry."
-* "Using small gray text in the DesignInTech Report excludes anyone with visual difficulties."
-* "Appalled in 2017 to see platitude of 'Design is not about beauty.'"
-* "When computational design dominates, will we have a Universal Design Income?"
+* “Adding useless adjectives in front of the word ‘designer’ isn’t doing anything positive for the industry.”
+* “Using small gray text in the DesignInTech Report excludes anyone with visual difficulties.”
+* “Appalled in 2017 to see platitude of ‘Design is not about beauty.’”
+* “When computational design dominates, will we have a Universal Design Income?”
 
 .source[via Twitter]
 .footer[Welcome]
@@ -306,14 +306,14 @@ class: chapter-slide lightgray-slide
 .group[
 ### Design in tech is evolving rapidly and globally
 
-* Design isn't just about beauty; it’s about market relevance and meaningful results.
+* Design isn’t just about beauty; it’s about market relevance and meaningful results.
 * There are three kinds of design. Classical Design, Design Thinking, and Computational Design.
 * In 2017 there were 21 acquisitions of creative agencies or designer-founded startups.
 * Medical schools in the US are using design thinking in their curricula.
-* Consulting companies are going beyond just design thinking — they're changing how business is done.
+* Consulting companies are going beyond just design thinking — they’re changing how business is done.
 * China continues to lead in designing experiences at a scale and level of sophistication that astounds.
 * Indian and Latin markets are advancing design thinking and computational design. And we have a lot to learn from them.
-* **Gen B(older)** is becoming a market opportunity for new products and services that can't be ignored.
+* **Gen B(older)** is becoming a market opportunity for new products and services that can’t be ignored.
 ]
 
 .footer[Technology &times; Business &times; Design]
@@ -377,7 +377,7 @@ Driver/ the impact of Moore’s Law, mobile computing, and the latest tech parad
 
 class: document-slide
 
-# What's a Computational Designer?
+# What’s a Computational Designer?
 
 .grid.ratio-1-3[
 .group[
@@ -405,7 +405,7 @@ Has facility with representational codes and maybe programming codes. Knows what
 Thinks Critically About Technology
 ]
 
-Practices being a humanist technologist who asks questions about what's being made, who's making it, and why.
+Practices being a humanist technologist who asks questions about what’s being made, who’s making it, and why.
 ]
 .group[
 .x-medium.sans[
@@ -419,7 +419,7 @@ Taps into the rich history of classical design (form _and_ content) while leadin
 Actively Learning AI And The New
 ]
 
-Considers intersectionality as a source of creativity and a driver of change. Embraces new paradigms and learns them deeply. Lives Apollinaire's words from the Bauhaus era, .purple["New (hu)man must have the courage to be new."]
+Considers intersectionality as a source of creativity and a driver of change. Embraces new paradigms and learns them deeply. Lives Apollinaire’s words from the Bauhaus era, .purple[“New (hu)man must have the courage to be new.”]
 ]
 ]
 ]
@@ -433,12 +433,12 @@ class: document-slide
 
 # Does computational design play a material role in a company?
 
-.orange.sans[As reported in Leah Buley's widely reviewed 2016 State of UX essay:]
+.orange.sans[As reported in Leah Buley’s widely reviewed 2016 State of UX essay:]
 
 .darkgray.columns.across-2[
-When asked, "What measurable outcomes resulting from user experience are you most proud of?" high-impact respondents gave responses like: "Multimillion dollar increases in conversion and customer lifetime value."
+When asked, “What measurable outcomes resulting from user experience are you most proud of?” high-impact respondents gave responses like: “Multimillion dollar increases in conversion and customer lifetime value.”
 
-By contrast, one low-impact respondent answered, "We are moving so fast there has been no time or resources for testing/outcomes – even for small usability improvements."
+By contrast, one low-impact respondent answered, “We are moving so fast there has been no time or resources for testing/outcomes – even for small usability improvements.”
 ]
 
 ![:chart 300px, bar, data/state-of-ux-2016-survey.json]
@@ -525,7 +525,7 @@ Mind and Computer + Social Sciences
 
 class: document-slide
 
-# What's a Design Thinker?
+# What’s a Design Thinker?
 
 ## The Evolution of Design in the Enterprise
 
@@ -545,16 +545,16 @@ class: document-slide
 .sans[**1991**] David Kelley, Bill Moggridge, Mike Nutall join forces and change the course of design by co-founding IDEO.
 ]
 .group[
-.timeline-title[Birth of "Design Thinking" and Design Strategy / Harnessing the Creative Problem Solving Skills of Designers]
-
+.timeline-title[Birth of “Design Thinking” and Design Strategy / Harnessing the Creative Problem Solving Skills of Designers]
+
 .sans[**2005**] Hasso Plattner Institute of Design at Stanford starts.
 
-IDEO's Jane Fulton Suri publishes [Thoughtless Acts?](https://www.ideo.com/post/thoughtless-acts) and brings design research to the foreground.
+IDEO’s Jane Fulton Suri publishes [Thoughtless Acts?](https://www.ideo.com/post/thoughtless-acts) and brings design research to the foreground.
 
 .sans[**2008-09**] Roger L. Martin describes design thinking at the CEO level with P&G’s AG Laffley and his book on The Design of Business. (SAP and P&G were a few of the early executive adopters of Design Thinking.)
 ]
 .group[
-.timeline-title[Design Thinking" Mainstreams as Whole Business Strategy / Re-contextualizing Design, Making B-Schools into D-Schools]
+.timeline-title[“Design Thinking” Mainstreams as Whole Business Strategy / Re-contextualizing Design, Making B-Schools into D-Schools]
 
 .sans[**2015-16**] Phil Gilbert leads IBM’s $100M bet to bring design back to IBM.
 
@@ -648,10 +648,10 @@ class: document-slide
 .large.quote[
 > The reduction of a complex creative problem-solving mindset into five steps makes design seem easy when it’s not. A certificate for the completion of a design thinking course is not enough to transform a business into the next Apple. So don’t be deceived by the demystification of the design process or the chance to workshop out million-dollar ideas over post-its. There’s more to design than what design thinking dealers are preaching.
 
-—[Natasha Jen](https://www.itsnicethat.com/articles/natasha-jen-pentagram-graphicdesign-230218) on "Why Design Thinking is bullshit"
+—[Natasha Jen](https://www.itsnicethat.com/articles/natasha-jen-pentagram-graphicdesign-230218) on “Why Design Thinking is bullshit”
 ]
 
-.source[[It's Nice That](https://www.itsnicethat.com/articles/natasha-jen-pentagram-graphicdesign-230218) [Fortune](http://fortune.com/2018/03/06/design-leadership-ceo-thinking-business-strategy/)]
+.source[[It’s Nice That](https://www.itsnicethat.com/articles/natasha-jen-pentagram-graphicdesign-230218) [Fortune](http://fortune.com/2018/03/06/design-leadership-ceo-thinking-business-strategy/)]
 .footer[Technology &times; Business &times; Design]
 
 ---
@@ -688,7 +688,7 @@ Also, this is not an inventory of academic medical centers or hospitals that hav
 [Bon Ku](https://twitter.com/BonKu/), MD, MPP /
 
 In my experience, Design Thinking provides a platform for non-designers (myself included) - doctors, nurses and medical students - to work with designers.
-DT is a primer that provides us a shared language. Many of us who are in health care have already been practicing elements of DT (empathizing, prototyping, testing, etc.) but we just didn't know what to call it.
+DT is a primer that provides us a shared language. Many of us who are in health care have already been practicing elements of DT (empathizing, prototyping, testing, etc.) but we just didn’t know what to call it.
 
 I do not believe that DT is a step by step recipe. We teach our medical students to develop a design mindset and build their creative muscles. Design thinking helps us to reimagine a better future state of health care and give us some more tools in how to get there.
 ]
@@ -706,7 +706,7 @@ class: document-slide
 # Consulting companies are going beyond just design thinking
 
 .quote[
-This complex discipline does itself a disservice to just call itself "design," which signals only surface-level solutions. Perhaps we’ll start to see new ways of describing these multifaceted and interconnected capabilities. —[Hugo Sarrazin](https://www.mckinsey.com/business-functions/organization/our-insights/good-design-is-good-business)
+This complex discipline does itself a disservice to just call itself “design,” which signals only surface-level solutions. Perhaps we’ll start to see new ways of describing these multifaceted and interconnected capabilities. —[Hugo Sarrazin](https://www.mckinsey.com/business-functions/organization/our-insights/good-design-is-good-business)
 ]
 ]
 
@@ -786,7 +786,7 @@ Design for Action [HBR, September 2015](https://hbr.org/2015/09/design-for-actio
 ![](https://store.fastcompany.com/custom/assets/images/product/default/cache/FC1010_212w_263h.jpg)
 ]
 
-The Empathy Economy [BusinessWeek, March 2005 ](https://www.bloomberg.com/news/articles/2005-03-07/the-empathy-economy) / Bruce Nussbaum .tooltip[some info.tooltip-text[Design thinking can create rewarding experiences for consumers -- the key to earnings growth and an edge that outsourcing can't beat.]]
+The Empathy Economy [BusinessWeek, March 2005 ](https://www.bloomberg.com/news/articles/2005-03-07/the-empathy-economy) / Bruce Nussbaum .tooltip[some info.tooltip-text[Design thinking can create rewarding experiences for consumers -- the key to earnings growth and an edge that outsourcing can’t beat.]]
 
 The Beauty of Simplicity [Fast Company 2005](https://www.fastcompany.com/56804/beauty-simplicity) / Linda Tischler .tooltip[some info.tooltip-text[Marissa Mayer, who keeps Google’s home page pure, understands that less is more. Other tech companies are starting to get it, too. Here’s why making things simple is the new competitive advantage. Google understands that simplicity is both sacred and central to its competitive advantage. Mayer is a specialist in artificial intelligence, not design, but she hits on the secret to her home page’s success: “It gives you what you want, when you want it, rather than everything you could ever want, even when you don’t.”]]
 
@@ -829,7 +829,7 @@ class: document-slide
 ### The top 10 most critical issues<br>and challenges currently facing design
 ]
 
-1. .orange[(Classical)] Design not having a "seat at the table"
+1. .orange[(Classical)] Design not having a “seat at the table”
 2. .highlight[Diversity in design and tech]
 3. Ethics in design
 4. Education cost and equity of access
@@ -878,10 +878,10 @@ class: document-slide
 
 * .timeline-title[March] **Andrew Crow** joins Strava as VP of Design.
 
-* .timeline-title[May] Google Ventures Design Partners publish NYT bestseller book *"SPRINT."*
+* .timeline-title[May] Google Ventures Design Partners publish NYT bestseller book *“SPRINT.”*
 	- **August de los Reyes** joins Pinterest as Head of Design.
 
-* .timeline-title[July] Khosla Design Partner **Irene Au** publishes *"Design in Venture Capital."*
+* .timeline-title[July] Khosla Design Partner **Irene Au** publishes *“Design in Venture Capital.”*
 
 * .timeline-title[August] Former Kleiner Perkins Design Partner **John Maeda** goes in-house to become Head of Design at Automattic.
 
@@ -953,7 +953,7 @@ class: document-slide
 * 125 million English speakers, second only to the United States.
 * Oral tradition where narrative is the primary mode of culture propagation.
 * India is a pluralistic society, secular and incredibly diverse.
-Multi-ethnic Art & Craft tradition with local idioms marking design sensibilities. * Strictly speaking, there is no such thing as a unified "Indian" culture-it's identified by region / state.
+Multi-ethnic Art & Craft tradition with local idioms marking design sensibilities. * Strictly speaking, there is no such thing as a unified “Indian” culture-it’s identified by region / state.
 * Differing in Cuisine, Language, Performing arts, Apparel, Customs, Music, Literature, Architecture, …
 ]
 ]
@@ -978,9 +978,9 @@ Multi-ethnic Art & Craft tradition with local idioms marking design sensibilitie
 
 .irregular-small.quote-list[
 * China and India make a complementary combination of machine power and human power: China - Products / India - Services.
-* They're giant neighbors.
-* Each has a population of over a billion (they collectively account for 36.3% of the world's people).
-* They anchor the "rise of the rest."
+* They’re giant neighbors.
+* Each has a population of over a billion (they collectively account for 36.3% of the world’s people).
+* They anchor the “rise of the rest.”
 * Each touts its style of governance as opposed to that of the other: China, with its authoritarian efficiency; India, with its democratic vibrancy.
 ]
 ]
@@ -994,7 +994,7 @@ Multi-ethnic Art & Craft tradition with local idioms marking design sensibilitie
 
 	_“overcoming harsh constraints by improvising an effective solution using limited resources”._
 
-	(a.k.a. "the MVP")
+	(a.k.a. “the MVP”)
 * Thrift not waste.
 * Inclusion, not exclusion.
 * Bottom-up participation, not top-down command and control.
@@ -1029,7 +1029,7 @@ Latin America has the fastest rate of smartphone adoption in the world. —[Fast
 .darkgray.irregular-small.quote-list[
 * Latin America (LATAM) has a long history with design that started out in the 1950s.
 * .purple.sans[1950s] - Mexico, Argentina and Brazil led the movement in LATAM of formal design schools.
-* .purple.sans[Today] - Vibrant startup ecosystem. [Insitum](https://www.fastcompany.com/3041655/the-worlds-top-10-most-innovative-companies-of-2015-in-latin-), "IDEO of emerging markets" has 5 offices in LATAM and 140+ consultants.
+* .purple.sans[Today] - Vibrant startup ecosystem. [Insitum](https://www.fastcompany.com/3041655/the-worlds-top-10-most-innovative-companies-of-2015-in-latin-), “IDEO of emerging markets” has 5 offices in LATAM and 140+ consultants.
 * .purple.sans[Future] - A new generation of mobile users could create an ideal environment for a new digital currency.
 ]
 ]
@@ -1041,7 +1041,7 @@ Latin America has the fastest rate of smartphone adoption in the world. —[Fast
 .darkgray.irregular-small.quote-list[
 * LATAM region, with 650 million people, is exploring opportunities to be less dependent on the US economy.
 * The [Trans Pacific Partnership](https://www.nytimes.com/2018/03/08/world/asia/us-trump-tpp-signed.html) has been signed between 11 countries, and China is solidifying its ties with the region [via startups](https://www.bloomberg.com/news/articles/2018-03-04/chinese-startups-export-playbook-to-latin-america-for-new-riches).
-* Ex: China's Didi [acquires 99](https://techcrunch.com/2018/01/03/didi-confirms-it-has-acquired-99-in-brazil-to-expand-in-latin-america/), a ridesharing company in Brazil 99.
+* Ex: China’s Didi [acquires 99](https://techcrunch.com/2018/01/03/didi-confirms-it-has-acquired-99-in-brazil-to-expand-in-latin-america/), a ridesharing company in Brazil 99.
 ]
 ]
 .group[
@@ -1052,7 +1052,7 @@ Latin America has the fastest rate of smartphone adoption in the world. —[Fast
 .darkgray.irregular-small.quote-list[
 * Increased activity in the startup ecosystem in LATAM.
 * Many of the startups are adaptations of successful models elsewhere customized to LATAM environment, while often finding opportunities to improve beyond the original.
-* Ex: [Kubo Financiero](https://www.kubofinanciero.com) is the Mexican LendingClub, and it's introduced a social responsibility component to investing - which resonates with users in a nationalistic country like Mexico.
+* Ex: [Kubo Financiero](https://www.kubofinanciero.com) is the Mexican LendingClub, and it’s introduced a social responsibility component to investing - which resonates with users in a nationalistic country like Mexico.
 ]
 ]
 .group[
@@ -1064,7 +1064,7 @@ Latin America has the fastest rate of smartphone adoption in the world. —[Fast
 * Corruption is everywhere.
 * There is a generalized lack of trust between people, companies and governments.
 * Startups are disrupting traditional industries by designing to inspire trust and prevent fraud while providing a good user experience.
-* Ex: [Nubank](https://www.crunchbase.com/organization/nubank). - online credit card company, and [Enlight](https://www.crunchbase.com/organization/enlight-mexico) - Mexico's solar-energy startup.
+* Ex: [Nubank](https://www.crunchbase.com/organization/nubank). - online credit card company, and [Enlight](https://www.crunchbase.com/organization/enlight-mexico) - Mexico’s solar-energy startup.
 ]
 ]
 ]
@@ -1130,7 +1130,7 @@ class: document-slide
 ]
 
 * Alibaba Luban produced 400 million banners during the 2017 singles day, resulting in a 100% increase in conversion rate.
-* 1 million banner / e-commerce designers in Alibaba's ecosystem (70% face the challenge from Luban).
+* 1 million banner / e-commerce designers in Alibaba’s ecosystem (70% face the challenge from Luban).
 * More automated marketing design tools are emerging like [Arkie](https://Arkie.cn) and [Kuaizi](https://Kuaizi.co).
 ]
 .group[
@@ -1154,10 +1154,10 @@ Visit the [Design & AI Report](https://www.sheji.ai) produced by **Ling Fan** in
 
 class: document-slide
 
-# You're not getting any younger. You're getting B(older).
+# You’re not getting any younger. You’re getting B(older).
 
 .large.quote[
-> Restricting its estimate to those aged 60 and up, market research firm Euromonitor predicts that by 2020, worldwide older-adult spending will reach $15 trillion—and that's still well before global aging will fully hit its stride. By 2030, the Boston Consulting Group estimates that the 55-plus population will have been responsible for 50 percent of the US consumer spending growth since 2008, 67 percent of that of Japan, and 86 percent for that of Germany. It's no exaggeration to say that the world's most advanced economies will soon revolve around the needs, wants, and whims of grandparents.
+> Restricting its estimate to those aged 60 and up, market research firm Euromonitor predicts that by 2020, worldwide older-adult spending will reach $15 trillion—and that’s still well before global aging will fully hit its stride. By 2030, the Boston Consulting Group estimates that the 55-plus population will have been responsible for 50 percent of the US consumer spending growth since 2008, 67 percent of that of Japan, and 86 percent for that of Germany. It’s no exaggeration to say that the world’s most advanced economies will soon revolve around the needs, wants, and whims of grandparents.
 
 —[Joseph Coughlin](http://agelab.mit.edu/longevity-economy)
 ]
@@ -1199,7 +1199,7 @@ class: document-slide
 ]
 
 .small.quote[
-> From 1960 to 2060, our pyramid will turn into a rectangle. We'll have almost as many Americans over age 85 as under age 5.
+> From 1960 to 2060, our pyramid will turn into a rectangle. We’ll have almost as many Americans over age 85 as under age 5.
 
 —[PEW](http://www.pewresearch.org/next-america/#Two-Dramas-in-Slow-Motion)
 ]
@@ -1230,13 +1230,13 @@ class: chapter-slide lightgray-slide
 # .xx-large.mono[Scaling<br>Design]
 
 .group[
-### Design capabilities don't scale like Moore's Law
+### Design capabilities don’t scale like Moore’s Law
 
 * Design is generally used early in the product development process instead of applied at the very end before it is shipped.
 * Creating an inclusive culture for designers is how to start building better products. Listening to what they value is how to start.
 * Unconscious bias is promoted by stereotypes that exclude others. Recognizing exclusion is a way to take immediate action.
 * Design tools and systems are ch-ch-changing these days. Among many new capabilities, machine intelligence looks to change everything.
-* We're in a golden age of data visualization and quant-qual science. The tools that are available today enable understanding -- for those who want it.
+* We’re in a golden age of data visualization and quant-qual science. The tools that are available today enable understanding -- for those who want it.
 * User research skills and product management skills are vital for designers to understand to work more inclusively with customers and product colleagues.
 ]
 
@@ -1344,8 +1344,8 @@ class: culture-of-company-slide
 
 .xxx-small[
 1. To check production/launch feasibility only
-1. To fail "fast" -- kill under-performing ideas
-1. To "refine fast" -- build on solutions and address our failings
+1. To fail “fast” -- kill under-performing ideas
+1. To “refine fast” -- build on solutions and address our failings
 ]
 ]
 .group[
@@ -1395,7 +1395,7 @@ class: culture-of-company-slide
 ]
 .group[]
 .medium.sans.bordered.box[
-Take the [McKosmo Quiz](https://johnmaeda.typeform.com/to/PL8Esd) to find out your type! It's easy.
+Take the [McKosmo Quiz](https://johnmaeda.typeform.com/to/PL8Esd) to find out your type! It’s easy.
 ]
 ]
 
@@ -1415,7 +1415,7 @@ class: document-slide
 .darkgray.group[
 .numeral.subhead[2.98]
 
-overall average on a 1-to-10 point progression from a product's conception (1) to just before it ships (10). Last year it was 2.89.
+overall average on a 1-to-10 point progression from a product’s conception (1) to just before it ships (10). Last year it was 2.89.
 
 .numeral.subhead[64%]
 
@@ -1432,10 +1432,10 @@ are 3 and below, which means the majority use design early.
 
 class: document-slide
 
-# Whatever you do, don't F up the culture
+# Whatever you do, don’t F up the culture
 
 .large.quote[
-> Why is culture so important to a business? Here is a simple way to frame it. The stronger the culture, the less corporate process a company needs. When the culture is strong, you can trust everyone to do the right thing. People can be independent and autonomous. They can be entrepreneurial. And if we have a company that is entrepreneurial in spirit, we will be able to take our next "(wo)man on the moon" leap. In organizations (or even in a society) where culture is weak, you need an abundance of heavy, precise rules and processes.
+> Why is culture so important to a business? Here is a simple way to frame it. The stronger the culture, the less corporate process a company needs. When the culture is strong, you can trust everyone to do the right thing. People can be independent and autonomous. They can be entrepreneurial. And if we have a company that is entrepreneurial in spirit, we will be able to take our next “(wo)man on the moon” leap. In organizations (or even in a society) where culture is weak, you need an abundance of heavy, precise rules and processes.
 
 —[Brian Chesky](https://medium.com/@bchesky/dont-fuck-up-the-culture-597cde9ee9d4)
 ]
@@ -1463,10 +1463,10 @@ class: document-slide
 Designers make it pretty.
 ]
 .purple.box[
-Designers can't lead teams.
+Designers can’t lead teams.
 ]
 .purple.box[
-Designers don't understand business.
+Designers don’t understand business.
 ]
 .purple.box[
 Designers only care how it looks.
@@ -1532,7 +1532,7 @@ class: document-slide
 
 # Every boss of designers can stand to hear feedback every day
 
-.small.purple[_What would you tell your boss if you could be "radically candid"?* B*ut how do you give it back? Katie Dill has good tips for [Criticism](http://firstround.com/review/Give-Criticism-that-Makes-a-Difference-With-These-Tips-from-Airbnbs-Head-of-Experience-Design/) and [Recognition](https://medium.com/@katiemdill/to-show-recognition-try-speaking-a-different-language-2f5b0682820c)._]
+.small.purple[_What would you tell your boss if you could be “radically candid”?* B*ut how do you give it back? Katie Dill has good tips for [Criticism](http://firstround.com/review/Give-Criticism-that-Makes-a-Difference-With-These-Tips-from-Airbnbs-Head-of-Experience-Design/) and [Recognition](https://medium.com/@katiemdill/to-show-recognition-try-speaking-a-different-language-2f5b0682820c)._]
 
 ![:chart 450px, wordtree, data/hey-boss.json]
 
@@ -1605,7 +1605,7 @@ class: document-slide
 .small.quote[
 > Apple Computer Inc. will introduce an unusual database and management information program Tuesday that the company hopes will help it maintain its lead in technology for making computers easy to use.
 
-> The new software, known as Hypercard, will enable users of Apple's Macintosh computers to organize information on computerized file cards that can be linked to other file cards in intricate ways. The program will be included for no charge with each Macintosh sold, starting this month.
+> The new software, known as Hypercard, will enable users of Apple’s Macintosh computers to organize information on computerized file cards that can be linked to other file cards in intricate ways. The program will be included for no charge with each Macintosh sold, starting this month.
 
 —[NYT](http://www.nytimes.com/1987/08/11/business/company-news-apple-to-introduce-unusual-software.html)
 ]
@@ -1624,7 +1624,7 @@ class: document-slide
 ]
 
 .small.quote[
-> VideoWorks (1985 predecessor to Director) required a "Macintosh with at least 128k" and "although VideoWorks will work satisfactorily with just the Macintosh's internal drive, a second (external) drive will help avoid a lot of disc swapping."
+> VideoWorks (1985 predecessor to Director) required a “Macintosh with at least 128k” and “although VideoWorks will work satisfactorily with just the Macintosh’s internal drive, a second (external) drive will help avoid a lot of disc swapping.”
 
 —[Lingo Workshop](http://lingoworkshop.com/articles/history)
 ]
@@ -1676,7 +1676,7 @@ class: document-slide
 1. Have potential to remove apprentice-level jobs
 ]
 
-.source[[Leah Buley: Thoughts on the Future of Design Tools](https://www.linkedin.com/pulse/thoughts-future-design-tools-from-adobe-max-leah-buley/) + @johnmaeda's un-scientific observations]
+.source[[Leah Buley: Thoughts on the Future of Design Tools](https://www.linkedin.com/pulse/thoughts-future-design-tools-from-adobe-max-leah-buley/) + @johnmaeda’s un-scientific observations]
 .footer[Scaling Design]
 
 ---
@@ -1691,15 +1691,15 @@ class: document-slide
 1. How do you elevate the perception of design at a company? [.far.fa-question-circle[]](https://askplaybook.com/as-a-manager-how-do-you-elevate-the-perception-of-design-at-a-company/answers)
 1. How do you show the value of design to justify hiring more designers? [.far.fa-question-circle[]](https://askplaybook.com/how-do-you-show-the-value-of-design-to-justify-hiring-more-designers/answers)
 1. How do you establish more transparency for design within a company? [.far.fa-question-circle[]](https://askplaybook.com/how-do-you-establish-more-transparency-for-design-within-a-company/answers)
-1. How do you know when it's time to leave a company? [.far.fa-question-circle[]](https://askplaybook.com/how-do-i-know-when-it-s-time-to-leave-my-company/answers)
+1. How do you know when it’s time to leave a company? [.far.fa-question-circle[]](https://askplaybook.com/how-do-i-know-when-it-s-time-to-leave-my-company/answers)
 1. As a team grows, how do you maintain the quality and consistency of its design work? [.far.fa-question-circle[]](https://askplaybook.com/as-a-team-grows-how-do-you-maintain-the-quality-and-consistency-of-its-design-work/answers)
 1. What’s the best way to present work during a design critique? [.far.fa-question-circle[]](https://askplaybook.com/what-s-the-best-way-to-present-work-during-a-design-critique/answers)
 1. How can a team keep track of past work and learnings as a living repository? [.far.fa-question-circle[]](https://askplaybook.com/how-can-a-team-keep-track-of-past-work-and-learnings-as-a-living-repository/answers)
 1. When working with remote teams, how do you effectively collaborate with each other? [.far.fa-question-circle[]](https://askplaybook.com/when-working-with-remote-teams-how-do-you-effectively-collaborate-with-each-other/answer/taramann)
-1. How do you know when a design is 'done'/right? [.far.fa-question-circle[]](https://askplaybook.com/how-do-you-know-when-a-design-is-done-or-right/answers)
+1. How do you know when a design is ‘done’/right? [.far.fa-question-circle[]](https://askplaybook.com/how-do-you-know-when-a-design-is-done-or-right/answers)
 1. What are commonly used design KPIs? [.far.fa-question-circle[]](https://askplaybook.com/what-are-commonly-used-design-kpis/answer/alison-rand)
 1. What are things to do to avoid burnout? [.far.fa-question-circle[]](https://askplaybook.com/what-are-the-signs-that-you-re-about-to-burnout/answers) / [.far.fa-question-circle[]](https://askplaybook.com/what-can-you-do-after-you-burnout/answers)
-1. When interviewing, what are some questions to ask about a company's culture and design team? [.far.fa-question-circle[]](https://askplaybook.com/when-interviewing-what-are-some-questions-to-ask-to-understand-the-culture-of-a-company-and-design-team/answers)
+1. When interviewing, what are some questions to ask about a company’s culture and design team? [.far.fa-question-circle[]](https://askplaybook.com/when-interviewing-what-are-some-questions-to-ask-to-understand-the-culture-of-a-company-and-design-team/answers)
 1. Is going to college worth it? ([college](#college))
 1. How should I structure my design portfolio to best communicate my skillsets? [.far.fa-question-circle[]](https://askplaybook.com/how-should-i-structure-my-design-portfolio-to-best-communicate-my-skillsets/answers)
 1. Should I start my career at an agency, startup, or big company? [.far.fa-question-circle[]](https://askplaybook.com/how-do-i-be-a-confident-designer/answers)
@@ -1712,11 +1712,11 @@ class: document-slide
 
 class: document-slide
 
-# We're in a new age of data visualization &times; quant-qual science
+# We’re in a new age of data visualization &times; quant-qual science
 
 .darkgray.stack[
 .group[
-## What's a Data Scientist?
+## What’s a Data Scientist?
 
 The [core](https://blog.udacity.com/2014/11/data-science-job-skills.html) set of skills:
 
@@ -1730,7 +1730,7 @@ The [core](https://blog.udacity.com/2014/11/data-science-job-skills.html) set of
 
 ## OSDSM
 
-The Open Source Data Science Master's Degree is a cool set of resources gathered by [Clare Corthell](http://datasciencemasters.org/).
+The Open Source Data Science Master’s Degree is a cool set of resources gathered by [Clare Corthell](http://datasciencemasters.org/).
 ]
 .group[
 ## Talk data to me
@@ -1756,7 +1756,7 @@ And open source ones exist too:
 
 ![:image 0 5%,, 300px, https://designintech.report/wp-content/uploads/2018/03/maedadotpm.png]
 
-.small[_**Nope.** I'm just collecting all the parts I've been learning/doing for my whole life before — I get uploaded to the big cloud in the sky one day. To design amazing experiences for people, I've always chosen to think/work inclusively and broadly._]
+.small[_**Nope.** I’m just collecting all the parts I’ve been learning/doing for my whole life before — I get uploaded to the big cloud in the sky one day. To design amazing experiences for people, I’ve always chosen to think/work inclusively and broadly._]
 ]
 ]
 
@@ -1792,7 +1792,7 @@ class: document-slide
 .small.sans[
 <br>
 
-Note that many of .highlight[these skills] are exercised with expertise by User Researchers. To learn more about User Research [see Erika Hall's work](https://www.linkedin.com/pulse/9-rules-design-research-erika-hall/)
+Note that many of .highlight[these skills] are exercised with expertise by User Researchers. To learn more about User Research [see Erika Hall’s work](https://www.linkedin.com/pulse/9-rules-design-research-erika-hall/)
 ]
 ]
 .group[
@@ -1888,7 +1888,7 @@ class: document-slide
 
 .grid.across-2[
 .large.quote[
-> If there's a simple, easy design principle that binds everything together, it's probably about starting with the people.
+> If there’s a simple, easy design principle that binds everything together, it’s probably about starting with the people.
 
 —Bill Moggridge
 ]
@@ -1913,7 +1913,7 @@ class: document-slide
 .x-large.darkgray.sans[Design Culture]
 
 .irregular-small[
-.darkgray[<br>You need a CEO who cares about design, and recognizes that good design is good business. It's because the customer wants it. .fas.fa-check-square[]]
+.darkgray[<br>You need a CEO who cares about design, and recognizes that good design is good business. It’s because the customer wants it. .fas.fa-check-square[]]
 
 .orange[_Resources_]
 
@@ -1930,14 +1930,14 @@ class: document-slide
 .x-large.darkgray.sans[Design Talent]
 
 .irregular-small[
-.darkgray[<br>You need a strong designer hiring leader. They will be, "Someone who you wish was designing instead and loves talent, too." .fas.fa-check-square[]]
+.darkgray[<br>You need a strong designer hiring leader. They will be, “Someone who you wish was designing instead and loves talent, too.” .fas.fa-check-square[]]
 
 .orange[_Resources_]
 
 .quote-list[
-* [Brie Anne Demkiw's tips](https://automattic.design/2018/03/09/tips-for-hiring-designers-for-remote-teams/)
+* [Brie Anne Demkiw’s tips](https://automattic.design/2018/03/09/tips-for-hiring-designers-for-remote-teams/)
 * [Automattic.Design blog](https://automattic.design)
-* [Jared Spool's Master Class](https://centercentre.learnsocially.com)
+* [Jared Spool’s Master Class](https://centercentre.learnsocially.com)
 ]
 ]
 ]
@@ -1984,7 +1984,7 @@ class: document-slide
 .x-large.darkgray.sans[Design Ops]
 
 .irregular-small[
-.darkgray[<br>You want to product- and project- manage design as a service inside the org. And we've recently hired for Design Ops. .fas.fa-check-square[]]
+.darkgray[<br>You want to product- and project- manage design as a service inside the org. And we’ve recently hired for Design Ops. .fas.fa-check-square[]]
 
 .orange[_Resources_]
 
@@ -2046,7 +2046,7 @@ class: document-slide
 ]
 
 .small.quote[
-> Design milestones to note are a 4d-printed dress by [Nervous Systems](https://www.moma.org/explore/inside_out/2015/03/26/future-couture-nervous-systems-kinematics-dress/) accessioned to MoMA and the ever-expanding work of MIT Media Lab's [Neri Oxman](http://www.materialecology.com/news). Manufacturing machinery advances to note in 3d-printing are materials scientist Jennifer Lewis' work on footwear with [Voxel8](https://www.voxel8.com/) and advanced 3d-printing capability in metal achieved by [Desktop Metal](https://www.desktopmetal.com)
+> Design milestones to note are a 4d-printed dress by [Nervous Systems](https://www.moma.org/explore/inside_out/2015/03/26/future-couture-nervous-systems-kinematics-dress/) accessioned to MoMA and the ever-expanding work of MIT Media Lab’s [Neri Oxman](http://www.materialecology.com/news). Manufacturing machinery advances to note in 3d-printing are materials scientist Jennifer Lewis’ work on footwear with [Voxel8](https://www.voxel8.com/) and advanced 3d-printing capability in metal achieved by [Desktop Metal](https://www.desktopmetal.com)
 ]
 
 .source[@johnmaeda @Line_us_machine @teammayku]
@@ -2076,7 +2076,7 @@ class: document-slide
 .group[
 ![:iframe 450px, http://www.pewinternet.org/chart/mobile-phone-ownership/iframe/]
 
-.small.darkgray[—[PEW](http://www.pewinternet.org/chart/mobile-phone-ownership/) *This graphic wouldn't embed*]
+.small.darkgray[—[PEW](http://www.pewinternet.org/chart/mobile-phone-ownership/)]
 ]
 .group[
 .quote[
@@ -2115,7 +2115,7 @@ class: document-slide
 ]
 
 .quote[
-> Finland's average mobile data usage per person per month is 10.95Gb, followed by Latvia 8.21Gb, Austria 6.28, Sweden 4.38, Denmark 4.37.
+> Finland’s average mobile data usage per person per month is 10.95Gb, followed by Latvia 8.21Gb, Austria 6.28, Sweden 4.38, Denmark 4.37.
 
 > The US is #13 at 2.67Gb.
 
@@ -2178,7 +2178,7 @@ class: document-slide
 ]
 ]
 
-.source[@lukew [Marissa Mayers' early contribution to design was key](https://maeda.pm/2018/01/13/speed-is-a-key-design-attribute/) [Pinterest](https://medium.com/@Pinterest_Engineering/driving-user-growth-with-performance-improvements-cfc50dafadd7)]
+.source[@lukew [Marissa Mayers’ early contribution to design was key](https://maeda.pm/2018/01/13/speed-is-a-key-design-attribute/) [Pinterest](https://medium.com/@Pinterest_Engineering/driving-user-growth-with-performance-improvements-cfc50dafadd7)]
 .footer[Computational Design]
 
 ---
@@ -2189,7 +2189,7 @@ class: document-slide
 
 .stack[
 .group[
-In 2018, currently [Android Docs](https://source.android.com/devices/sensors/sensor-types) lists Android Sensor Types as having 9 base sensors. And there are 5 other "composite sensor" types that are created out of the base sensor systems. Two sensors not listed there are the microphone and visible light camera — of which smartphones today now sport two each, at least.
+In 2018, currently [Android Docs](https://source.android.com/devices/sensors/sensor-types) lists Android Sensor Types as having 9 base sensors. And there are 5 other “composite sensor” types that are created out of the base sensor systems. Two sensors not listed there are the microphone and visible light camera — of which smartphones today now sport two each, at least.
 
 For context, a BMW 5-series car has a 100 or more sensors.
 
@@ -2258,7 +2258,7 @@ class: document-slide
 # Towards conversational design
 
 .large.quote[
-> Conversation is not a new interface. It's the oldest interface. Conversation is how humans interact with one another, and have for millennia. We should be able to use the same principles to make our digital systems easy and intuitive to use by finally getting the machines to play by our rules.
+> Conversation is not a new interface. It’s the oldest interface. Conversation is how humans interact with one another, and have for millennia. We should be able to use the same principles to make our digital systems easy and intuitive to use by finally getting the machines to play by our rules.
 
 —[Erika Hall](https://abookapart.com/products/conversational-design)
 ]
@@ -2282,7 +2282,7 @@ class: document-slide
 ]
 .group[
 .quote[
-> Siri saying, _"One liter is 33.81 fluid ounces."_ in iOS 9, iOS 10, iOS11.
+> Siri saying, _“One liter is 33.81 fluid ounces.”_ in iOS 9, iOS 10, iOS11.
 
 ![:audio audio/mpeg, http://machinelearning.apple.com/images/journals/siri-voices/ios9-005.mp3]
 ![:audio audio/mpeg, http://machinelearning.apple.com/images/journals/siri-voices/ios10-005.mp3]
@@ -2419,13 +2419,13 @@ class: chapter-slide lightgray-slide
 # Computational Design:<br>Artificial Intelligence
 
 .group[
-### AI isn't good at inclusive design because we aren't, too
+### AI isn’t good at inclusive design because we aren’t, too
 
 * 88% of designers surveyed believe that it will be at least 5 years or more until visual designers are replaced by AI. AI can already do a lot right now.
 * The history of AI and generating visual art goes back to the 1960s with A. Michael Noll and other artists at Bell Labs, and stretches back to Marcel Duchamp.
 * AI is extremely proficient at tedious tasks that no human should really have to do, like: adjust image contrast, correct messy lines, and re-style images.
-* Google is by far the leader in mixing AI with design experimentation due to the amazing talent they've acquired like Martin Wattenberg and Fernanda Viegas — who at IBM first advanced data visualization with their landmark [Many Eyes](http://www.bewitched.com/manyeyes.html).
-* AI is showing us the unintended consequences of running what appear to be "fair" algorithms that feed off of past activity and practices that are converted into training data. But embedded in that training data is our long history of exclusion.
+* Google is by far the leader in mixing AI with design experimentation due to the amazing talent they’ve acquired like Martin Wattenberg and Fernanda Viegas — who at IBM first advanced data visualization with their landmark [Many Eyes](http://www.bewitched.com/manyeyes.html).
+* AI is showing us the unintended consequences of running what appear to be “fair” algorithms that feed off of past activity and practices that are converted into training data. But embedded in that training data is our long history of exclusion.
 ]
 .footer[Computational Design: **AI**]
 
@@ -2495,7 +2495,7 @@ class: document-slide
 ]
 
 .small.quote[
-A digital computer and microfilm plotter were used to produce a semirandom picture similar in composition to Piet Mondrian's painting "Composition With Lines" (1917). Only 28% of the Ss were able to correctly identify the computer-generated picture, while 59% of the Ss preferred the computer-generated picture. Both percentages were statistically diferent (0.05 level) from selections based upon chance according to a binomial test.
+A digital computer and microfilm plotter were used to produce a semirandom picture similar in composition to Piet Mondrian’s painting “Composition With Lines” (1917). Only 28% of the Ss were able to correctly identify the computer-generated picture, while 59% of the Ss preferred the computer-generated picture. Both percentages were statistically diferent (0.05 level) from selections based upon chance according to a binomial test.
 
 —[A. Michael Noll](http://tdecamillophillips1.workflow.arts.ac.uk/mondrian-experiment-a-michael-noll) (1966)
 ]
@@ -2656,7 +2656,7 @@ class: document-slide
 
 class: document-slide
 
-# Learn AI and don't be afraid — stay awake. Don't freeze.
+# Learn AI and don’t be afraid — stay awake. Don’t freeze.
 
 .grid.ratio-4-1[
 .group[
@@ -2680,7 +2680,7 @@ Open source [deeplearn.js](https://deeplearnjs.org) is a library lets you experi
 
 class: document-slide
 
-# It's only human that we will work to thwart AI with all our might
+# It’s only human that we will work to thwart AI with all our might
 
 .stack[
 .group[
@@ -2699,7 +2699,7 @@ class: document-slide
 .quote[
 > On March 28th, 2017 congress passed a law that makes it legal for your Internet Service Providers (ISP) to track and sell your personal activity online. This means that things you search for, buy, read, and say can be collected by corporations and used against you.
 
-> Click .button[[this button](http://makeinternetnoise.com/index.html)], and your browser will start passively loading random sites in browser tabs. Leave it running to fill their databases with noise. Just quit your browser when you're done.
+> Click .button[[this button](http://makeinternetnoise.com/index.html)], and your browser will start passively loading random sites in browser tabs. Leave it running to fill their databases with noise. Just quit your browser when you’re done.
 
 —[makeinternetnoise.com](http://makeinternetnoise.com/index.html)
 ]
@@ -2806,7 +2806,7 @@ Virginia Eubanks
 ]
 ]
 
-.source[From last year's Design in Tech Report]
+.source[From last year’s Design in Tech Report]
 .footer[Computational Design: **AI**]
 
 ---
@@ -2835,11 +2835,11 @@ class: chapter-slide lightgray-slide
 .group[
 ### We can expect AI to only widen the digital divide
 
-* It's easy in the technology world to look away from inequality becaus the privileges that come with tech life are pleasurable and self-fulfilling.
-* But designers in tech can easily forget that they're in a tiny minority of the population that doesn't really match their much broader consumer market.
-* So getting out of the tech bubble can be a simple yet powerful way to better connect with "real" people who don't really need what is being created today. Ultimately, it becomes a way to design and make better products for all people.
+* It’s easy in the technology world to look away from inequality becaus the privileges that come with tech life are pleasurable and self-fulfilling.
+* But designers in tech can easily forget that they’re in a tiny minority of the population that doesn’t really match their much broader consumer market.
+* So getting out of the tech bubble can be a simple yet powerful way to better connect with “real” people who don’t really need what is being created today. Ultimately, it becomes a way to design and make better products for all people.
 * A majority of designers in tech find themselves not working solely on premise. This means that we are entering an era where work can be more evenly distributed outside of hubs like Silicon Valley.
-* Our design imperative at Automattic is to imagine a world where WordPress is good design for all. And we're currently exploring how remote work can achieve a new level of inclusive design.
+* Our design imperative at Automattic is to imagine a world where WordPress is good design for all. And we’re currently exploring how remote work can achieve a new level of inclusive design.
 ]
 
 .footer[Inequality & Skills Gap]
@@ -2848,12 +2848,12 @@ class: chapter-slide lightgray-slide
 
 class: document-slide
 
-# We're seeking a freedom that's being eroded on the Internet
+# We’re seeking a freedom that’s being eroded on the Internet
 
 .grid.ratio-2-1[
 .group[
 .large.quote[
-> We are in the "Internet Two" phase as Steven Johnson called it. Internet One was an open network, open protocols, open systems. Internet Two is closed platforms that increasingly dominate the market and own and control our content and us. We need to get to Internet Three where we take back control of ourselves. It is high time for that to happen.
+> We are in the “Internet Two” phase as Steven Johnson called it. Internet One was an open network, open protocols, open systems. Internet Two is closed platforms that increasingly dominate the market and own and control our content and us. We need to get to Internet Three where we take back control of ourselves. It is high time for that to happen.
 
 —[Fred Wilson](http://avc.com/2018/01/owning-yourself/)
 ]
@@ -2862,7 +2862,7 @@ class: document-slide
 ### FCC votes to remove net neutrality
 
 .quote[
-> The FCC's net neutrality vote has finally been published in the Federal Register, the government's official record of all administrative actions. The moment is key, because it kicks off the next phase of the fight over the future of the Internet.
+> The FCC’s net neutrality vote has finally been published in the Federal Register, the government’s official record of all administrative actions. The moment is key, because it kicks off the next phase of the fight over the future of the Internet.
 
 —[Washington Post](https://www.washingtonpost.com/news/the-switch/wp/2018/02/22/the-fccs-net-neutrality-rules-will-die-on-april-23-heres-what-happens-now/?utm_term=.ccec9d04532b)
 ]
@@ -2876,7 +2876,7 @@ class: document-slide
 
 class: document-slide
 
-# We're fully connected but algorithmically divided
+# We’re fully connected but algorithmically divided
 
 .grid.ratio-1-1[
 .group[
@@ -2901,7 +2901,7 @@ Facebook you *(bleep)*<br>
 ]
 
 .x-medium.quote[
-> _Note that similar posts are being made on most major social networks these days of "I'm giving up XYZ"_
+> _Note that similar posts are being made on most major social networks these days of “I’m giving up XYZ”_
 ]
 ]
 ]
@@ -2940,7 +2940,7 @@ class: document-slide
 ![:iframe 480px, http://eig.org?embedEIG2017=1&eigmap2017=nationalzipsEIG2017]
 
 .small.quote[
-—[EIG](http://eig.org?embedEIG2017=1&eigmap2017=nationalzipsEIG2017) _This Mapbox wouldn't embed_
+—[EIG](http://eig.org?embedEIG2017=1&eigmap2017=nationalzipsEIG2017) _This Mapbox wouldn’t embed_
 ]
 
 .source[@NewsHour @albertocairo / Janitors at Two Top Companies, Then and Now [NYT](https://www.nytimes.com/2017/09/03/upshot/to-understand-rising-inequality-consider-the-janitors-at-two-top-companies-then-and-now.html)]
@@ -2950,7 +2950,7 @@ class: document-slide
 
 class: document-slide
 
-# Congrats! You're in the 5% of the most-skilled computer users.
+# Congrats! You’re in the 5% of the most-skilled computer users.
 
 .grid.ratio-1-2[
 .group[
@@ -3074,7 +3074,7 @@ class: document-slide
 
 class: document-slide
 
-# A solution to inequality? Possibly, distributed or "remote" work.
+# A solution to inequality? Possibly, distributed or “remote” work.
 
 .grid.ratio-1-2[
 .group[
@@ -3088,7 +3088,7 @@ From the Remotive.io [list of companies](https://docs.google.com/spreadsheets/u/
 ]
 
 .orange.xxx-small.sans[
-Bench, 100Starlings, 2600Hz, 33 Sticks, 3DprinterOS, 3nder, 3SMobile, 4 Ventos, 42Floors, 45royale, Acceleration Partners, Accella, Accounto Technology, Action Verb, Actionable.co, ActiveProspect, Actyx, AddStructure, AdEspresso, AgentFire, AgileBits, Aha!, AirTreks, Alaris Prime, AlchemyTec, Alegion, AltSchool, AmaZix, Ameego, Antavo, AppendTo, Araize, Arkency, Art & Logic, Articulate, Artisanal Code, Inc., AsmallOrange, Assemble, Assembled Brands, Attentiv, Aurity, Auth0, Automattic, Avaaz, Axelerant, Azumio, BacklotCars, Balsamiq, Band Industries, Baremetrics, Barrel, Basecamp, Basho, Basho Technologies, Batchbook, BeBanjo, BetterDoctor, Beutler Ink, Big Universe, Big Wheel Brigade, BioTrust Nutrition, Bithive, Bitnami, Bitovi, Black Pixel, BloodHub, Blossom, Bluespark Labs, Bonfire, BookingSync, BrainCheck, BrandBastion, Brave-software, BriteCore, Buffer, Bugcrowd, Bugfender, BuySellAds, Cadasta, CafeMedia, Camplight, Canonical, Carbon Black, Cargobase, CarriersEdge, Cartstack, Casumo, Catalyze, Cesanta, ChartMogul, Chaser, Chef, Chess.com, Ciao Bambino!, CircleCI, Citrusbyte, Civic Actions, Clerky, Clevertech, Close.io, Cloudpeeps, Cloudstitch, Clustree, Codeable, Codebusters, CodeControl, CodePicnic, Codeship, Cohesive Networks, Coinbase, Collab. Drug Discovery, CollabNet, Collabora, Collage.com, Compose, CompuCorp, Conferize, Continu, ConvertKit LLC, Conveyal, Copass, Copyblogger (source), CoreData, Corgibytes, Countly, Covenant Eyes, Cozy Cloud, Crew, Crive, CROmetrics, Crossover, Crowd Valley, Crowdstrke, Cubspot, Cucumber, Cuddli, Curoverse, Cyanna Education, DataCite e.V., Datadog, Dataquest, DataStax, DealDash, Dealer Inspire, Deekit, Deeson, Demio, DesignLab, Dgraph, Diacode, Digital Ocean, Dimanex, Dito, Divio, Divshot, DNSimple, Docker, doctorSIM, DoInbound, Doist, DojoMadness, Domino Data Lab, doopoll, Dotsub, Doximity, DramaFever, DRONAMICS, DroneDeploy, Duck Duck Go, Eaternity, Edify, Edison Nation, Eet.nu, Eezy, ElasticSearch, ElevenYellow, EngageTech, Enjin, Envato, Erply, Estately, Etsy, EveryoneSocial, Exposure Ninja, Eyeo, Fastly, Fatura Simples, Findify, Fire Engine RED, Five Q, Fleep, Fleetio, Flight Vector, Flockler, Flood IO, Flow, Focus Asia, Fog Creek Software, Folarium Technomedia, Follow Up Boss, Fonoma, Forest Admin, FormAssembly, Formstack, Fortumo, Forward Financing, Founder Centric, Foundersuite.com, Foundr Magazine, Four Kitchens, fournova, FoxAndSheep, Foxio, FRSH, Fuel Made, FullStack, Funding Gates, Funnely, Futurelytics, G2i, GatherContent, General Assembly, Genuitec, GetFileCloud, GetIncredibles, Ghost, Giant Swarm, GigaOM, GigSalad, Gigster, Gistia, Gitbook, GitHub, GitLab, GitPrime, Gitter, GlueNetworks, GMB Fitness, Go Fish Digita, GOFAR, GoHiring, Goodway Group, GrabCAD, Gradle, GrantStreet, Grape.io, GrapheneDB, Grasswire, Graylog, Greenback Tax Services, Gridium, Groove, GuardTime, Hanno, Harvest, hashi Corp, Hasura, Haystack, Hazelcast, HE:labs, Health Leads\xe2\x80\x99, Healthfinch, Heap, Heetch, Help Scout, Helpjuice, Inc., Heroku, Herox, Hexbridge, Highland Solutions, Hippo Education, HireGamePros, Hireology, HiringThing, Hitlist, Holstee, Honeybadger, Hotjar, Hubstaff, Hudl, Hugo, Hugging Face, Human, Human Made, Iambnb, ICUC, iDoneThis, Igalia, iMedicare, Import2, Incsub, Indie Localizers, Influx, InfluxData, Inpsyde GmbH, Inspired HR, Instructure, Intellum, Interactive Intelligence, Intercom, Intridea/Mobomo, INTUO, InVision, IOpipe, iwantmyname, Jackson River, Jim's Mowing, Jitbit, Jolly Good Code, Kalypso LP, Kanopi Studios, Kantree, KBMax, Keen IO, Kellerkinder, KeyCDN, Khan Academy, Kiprosh, KissMetrics, Knack, Knock Homes, KnownFour, Koding, Konveen, Kuali, Later, LaterPay, Launch Potato, layer, Lazy Eight, Leadfeeder, LearnZillion, Let's Encrypt, Librato, Librato, Lightbend, Linaro, Lincoln Loop, LitCharts, Litmus, LiveMentor, Living Social, Localistico, loco2, log, Logikcull, Logmein, Loom, LoveToKnow, Loyal, Lullabot, Lumiserv, Lynx Technology Partners, Machinio, mailparser.io, Make Works, Manage Social, Mapbox, MariaDB, MarkIT.eu, MarsBased, Mattermost, Mavens, Mcbeard Media, MCF Technology Solutions, Mediacurrent, Medko, Meet Edgar, Member Up, MetaLab, Metaluxo IT Security, Metamaterial Technologies, Meteor, Midokura, Mightycast, Mixcloud, Mixmax, Mobile Jazz, Mobility Labs, Inc., Mobomo, Modern Tribe, Modus-create, Mokriya, Moltin, Moment, Moo.do, Moondo, Moraware, MotorLot, Moz, Mozilla, Much Better Adventures, MyOnlineSchool, mySociety, MySQL, myTips, NationBuilder, nClouds, Nearform, Netguru, Netsparker, Network Ninja, New Context, Next Big Sound, NIFTIT, Niteoweb, NodePing, NodeSource, NodeSWAT, NoRedInk, Novoda, Nugg, Numbrs, nVisium, O'Reilly Media, Octopus Deploy, Oh My George, OK GROW!, Olark, Olo, OnTheGoSystems, Onyo, Open Knowledge, OpenCraft, openredis, Optimal, Optimile NV, Origin Eight, Outbank, Overl.ai, owl power, Owsy, PageFreezer Software, Pagely, Paktor, ParcelBright, Parse.ly, Particular Software, Pasilobus, Inc, Patients Know Best, Paylocity, Paylock, Peak Games, Peerfit, Peergust, PeopleDoc, PeopleG2, Percona, PersistIQ, PhishMe, Pindrop, Pipedrive, Pivotal Labs, Pixel2HTML, Planet OS, Platform.sh, Plex, Postlight, Precision Nutrition, Pressable, Pressed.net, PreviousNext, Prezly, Product Hunt, Productive Power, Proemion, Protocol Labs, Puppet Labs, Purple Voice, Quantum Mob, Quartzy, Rackspace, railroad19, Railsformers, RainforestQA, RaRe Technologies, Reaction Commerce, Real HQ, Receiptful, ReCharge, Recruiterbox, Recurly, Red Hat, Redox, Reinteractive, Relayto, RepeaterStore, Replay Gaming, resin.io, retail-zipline, RetailNext, RightScale, rmotr.com, Roadtrippers, Rocana, sailteam.io, Salesforce, Sapien, Savvy Apps, ScheduleOnce, ScienceLogic, Scrapinghub, Screenly, Security Roots, Semaphore CI, Sencha Inc, SenorCoders, Server Density, ServiceNow, ShakaCode, Sherpany AG, Shopify, Shortfundly, Simbiose Ventures, Simple, Simplecast, SiteGround, SketchTogether.com, Skillshare, Skore, Skycrapers, SmileDirectClub, SOASTA, Sococo, SoftwareMill, Songspace, Sourcefabric, SparkLabs, Spatial Key, Speedchecker, Spotify, Spreaker, Stack Exchange, Stack Overflow, Staff Squared, Starcoders, Statement, SteepRock, Stripe, Student Loan Hero, Sucuri, Inc, SugarCRM, Sulvo, Surevine, Superble, SurveyMonkey, Swappa, Sysdig Cloud, Taiga.io, TailorDev, Task Analytics, Taxjar, TeachBoost, Team App, Teamed.io, Teamily, TeamSnap, TechnologyAdvice, TED, Teleport, Tenable, TEONITE, Tesera, Tessitura Network, TestDome, Testlio, The Cheat Sheet, The Sensible Code C'y, The Wirecutter, Thinkbox.io, Third Iron, ThirdPath Institute, tidelift, Time Doctor, Timely, TNTP, Toggl, TopDevz, Toptal, Tortuga Backpacks, Tractionboard, Traity, Transloadit, TraveDoc, Treehouse, Trello, Triposo, Twilio, Twin Technologies, Tyk, Uberspace, Unbounce, UniversalMind, Upwork, UpWorthy, Urbansitter, Urgently, Userbin, UserTesting, Ustream, Vaamo, Valutac, Velaro, Inc., Venafi, Inc, Vervoe, Vidian, Vinted, Virtual Law Partners, Waldo Photos, Water Lily Pond, Watsi, Waybetter, Waygo, WeaveUp, Webikon, WebPunch, WebRTC Ventures, WebSharks, Inc., When I Work, Whitebox, Whitesmith, Whitespectre, Wikimedia, Wildbit, WizeHire, Wordfence, X-Team, Xapo, Yammer, Yoko Co, YouNeedABudget, YourSports, Zapier, Zemanta, ZenCash, Zest, ZeroTurnAround.
+Bench, 100Starlings, 2600Hz, 33 Sticks, 3DprinterOS, 3nder, 3SMobile, 4 Ventos, 42Floors, 45royale, Acceleration Partners, Accella, Accounto Technology, Action Verb, Actionable.co, ActiveProspect, Actyx, AddStructure, AdEspresso, AgentFire, AgileBits, Aha!, AirTreks, Alaris Prime, AlchemyTec, Alegion, AltSchool, AmaZix, Ameego, Antavo, AppendTo, Araize, Arkency, Art & Logic, Articulate, Artisanal Code, Inc., AsmallOrange, Assemble, Assembled Brands, Attentiv, Aurity, Auth0, Automattic, Avaaz, Axelerant, Azumio, BacklotCars, Balsamiq, Band Industries, Baremetrics, Barrel, Basecamp, Basho, Basho Technologies, Batchbook, BeBanjo, BetterDoctor, Beutler Ink, Big Universe, Big Wheel Brigade, BioTrust Nutrition, Bithive, Bitnami, Bitovi, Black Pixel, BloodHub, Blossom, Bluespark Labs, Bonfire, BookingSync, BrainCheck, BrandBastion, Brave-software, BriteCore, Buffer, Bugcrowd, Bugfender, BuySellAds, Cadasta, CafeMedia, Camplight, Canonical, Carbon Black, Cargobase, CarriersEdge, Cartstack, Casumo, Catalyze, Cesanta, ChartMogul, Chaser, Chef, Chess.com, Ciao Bambino!, CircleCI, Citrusbyte, Civic Actions, Clerky, Clevertech, Close.io, Cloudpeeps, Cloudstitch, Clustree, Codeable, Codebusters, CodeControl, CodePicnic, Codeship, Cohesive Networks, Coinbase, Collab. Drug Discovery, CollabNet, Collabora, Collage.com, Compose, CompuCorp, Conferize, Continu, ConvertKit LLC, Conveyal, Copass, Copyblogger (source), CoreData, Corgibytes, Countly, Covenant Eyes, Cozy Cloud, Crew, Crive, CROmetrics, Crossover, Crowd Valley, Crowdstrke, Cubspot, Cucumber, Cuddli, Curoverse, Cyanna Education, DataCite e.V., Datadog, Dataquest, DataStax, DealDash, Dealer Inspire, Deekit, Deeson, Demio, DesignLab, Dgraph, Diacode, Digital Ocean, Dimanex, Dito, Divio, Divshot, DNSimple, Docker, doctorSIM, DoInbound, Doist, DojoMadness, Domino Data Lab, doopoll, Dotsub, Doximity, DramaFever, DRONAMICS, DroneDeploy, Duck Duck Go, Eaternity, Edify, Edison Nation, Eet.nu, Eezy, ElasticSearch, ElevenYellow, EngageTech, Enjin, Envato, Erply, Estately, Etsy, EveryoneSocial, Exposure Ninja, Eyeo, Fastly, Fatura Simples, Findify, Fire Engine RED, Five Q, Fleep, Fleetio, Flight Vector, Flockler, Flood IO, Flow, Focus Asia, Fog Creek Software, Folarium Technomedia, Follow Up Boss, Fonoma, Forest Admin, FormAssembly, Formstack, Fortumo, Forward Financing, Founder Centric, Foundersuite.com, Foundr Magazine, Four Kitchens, fournova, FoxAndSheep, Foxio, FRSH, Fuel Made, FullStack, Funding Gates, Funnely, Futurelytics, G2i, GatherContent, General Assembly, Genuitec, GetFileCloud, GetIncredibles, Ghost, Giant Swarm, GigaOM, GigSalad, Gigster, Gistia, Gitbook, GitHub, GitLab, GitPrime, Gitter, GlueNetworks, GMB Fitness, Go Fish Digita, GOFAR, GoHiring, Goodway Group, GrabCAD, Gradle, GrantStreet, Grape.io, GrapheneDB, Grasswire, Graylog, Greenback Tax Services, Gridium, Groove, GuardTime, Hanno, Harvest, hashi Corp, Hasura, Haystack, Hazelcast, HE:labs, Health Leads\xe2\x80\x99, Healthfinch, Heap, Heetch, Help Scout, Helpjuice, Inc., Heroku, Herox, Hexbridge, Highland Solutions, Hippo Education, HireGamePros, Hireology, HiringThing, Hitlist, Holstee, Honeybadger, Hotjar, Hubstaff, Hudl, Hugo, Hugging Face, Human, Human Made, Iambnb, ICUC, iDoneThis, Igalia, iMedicare, Import2, Incsub, Indie Localizers, Influx, InfluxData, Inpsyde GmbH, Inspired HR, Instructure, Intellum, Interactive Intelligence, Intercom, Intridea/Mobomo, INTUO, InVision, IOpipe, iwantmyname, Jackson River, Jim’s Mowing, Jitbit, Jolly Good Code, Kalypso LP, Kanopi Studios, Kantree, KBMax, Keen IO, Kellerkinder, KeyCDN, Khan Academy, Kiprosh, KissMetrics, Knack, Knock Homes, KnownFour, Koding, Konveen, Kuali, Later, LaterPay, Launch Potato, layer, Lazy Eight, Leadfeeder, LearnZillion, Let’s Encrypt, Librato, Librato, Lightbend, Linaro, Lincoln Loop, LitCharts, Litmus, LiveMentor, Living Social, Localistico, loco2, log, Logikcull, Logmein, Loom, LoveToKnow, Loyal, Lullabot, Lumiserv, Lynx Technology Partners, Machinio, mailparser.io, Make Works, Manage Social, Mapbox, MariaDB, MarkIT.eu, MarsBased, Mattermost, Mavens, Mcbeard Media, MCF Technology Solutions, Mediacurrent, Medko, Meet Edgar, Member Up, MetaLab, Metaluxo IT Security, Metamaterial Technologies, Meteor, Midokura, Mightycast, Mixcloud, Mixmax, Mobile Jazz, Mobility Labs, Inc., Mobomo, Modern Tribe, Modus-create, Mokriya, Moltin, Moment, Moo.do, Moondo, Moraware, MotorLot, Moz, Mozilla, Much Better Adventures, MyOnlineSchool, mySociety, MySQL, myTips, NationBuilder, nClouds, Nearform, Netguru, Netsparker, Network Ninja, New Context, Next Big Sound, NIFTIT, Niteoweb, NodePing, NodeSource, NodeSWAT, NoRedInk, Novoda, Nugg, Numbrs, nVisium, O’Reilly Media, Octopus Deploy, Oh My George, OK GROW!, Olark, Olo, OnTheGoSystems, Onyo, Open Knowledge, OpenCraft, openredis, Optimal, Optimile NV, Origin Eight, Outbank, Overl.ai, owl power, Owsy, PageFreezer Software, Pagely, Paktor, ParcelBright, Parse.ly, Particular Software, Pasilobus, Inc, Patients Know Best, Paylocity, Paylock, Peak Games, Peerfit, Peergust, PeopleDoc, PeopleG2, Percona, PersistIQ, PhishMe, Pindrop, Pipedrive, Pivotal Labs, Pixel2HTML, Planet OS, Platform.sh, Plex, Postlight, Precision Nutrition, Pressable, Pressed.net, PreviousNext, Prezly, Product Hunt, Productive Power, Proemion, Protocol Labs, Puppet Labs, Purple Voice, Quantum Mob, Quartzy, Rackspace, railroad19, Railsformers, RainforestQA, RaRe Technologies, Reaction Commerce, Real HQ, Receiptful, ReCharge, Recruiterbox, Recurly, Red Hat, Redox, Reinteractive, Relayto, RepeaterStore, Replay Gaming, resin.io, retail-zipline, RetailNext, RightScale, rmotr.com, Roadtrippers, Rocana, sailteam.io, Salesforce, Sapien, Savvy Apps, ScheduleOnce, ScienceLogic, Scrapinghub, Screenly, Security Roots, Semaphore CI, Sencha Inc, SenorCoders, Server Density, ServiceNow, ShakaCode, Sherpany AG, Shopify, Shortfundly, Simbiose Ventures, Simple, Simplecast, SiteGround, SketchTogether.com, Skillshare, Skore, Skycrapers, SmileDirectClub, SOASTA, Sococo, SoftwareMill, Songspace, Sourcefabric, SparkLabs, Spatial Key, Speedchecker, Spotify, Spreaker, Stack Exchange, Stack Overflow, Staff Squared, Starcoders, Statement, SteepRock, Stripe, Student Loan Hero, Sucuri, Inc, SugarCRM, Sulvo, Surevine, Superble, SurveyMonkey, Swappa, Sysdig Cloud, Taiga.io, TailorDev, Task Analytics, Taxjar, TeachBoost, Team App, Teamed.io, Teamily, TeamSnap, TechnologyAdvice, TED, Teleport, Tenable, TEONITE, Tesera, Tessitura Network, TestDome, Testlio, The Cheat Sheet, The Sensible Code C’y, The Wirecutter, Thinkbox.io, Third Iron, ThirdPath Institute, tidelift, Time Doctor, Timely, TNTP, Toggl, TopDevz, Toptal, Tortuga Backpacks, Tractionboard, Traity, Transloadit, TraveDoc, Treehouse, Trello, Triposo, Twilio, Twin Technologies, Tyk, Uberspace, Unbounce, UniversalMind, Upwork, UpWorthy, Urbansitter, Urgently, Userbin, UserTesting, Ustream, Vaamo, Valutac, Velaro, Inc., Venafi, Inc, Vervoe, Vidian, Vinted, Virtual Law Partners, Waldo Photos, Water Lily Pond, Watsi, Waybetter, Waygo, WeaveUp, Webikon, WebPunch, WebRTC Ventures, WebSharks, Inc., When I Work, Whitebox, Whitesmith, Whitespectre, Wikimedia, Wildbit, WizeHire, Wordfence, X-Team, Xapo, Yammer, Yoko Co, YouNeedABudget, YourSports, Zapier, Zemanta, ZenCash, Zest, ZeroTurnAround.
 ]
 ]
 
@@ -3099,7 +3099,7 @@ Bench, 100Starlings, 2600Hz, 33 Sticks, 3DprinterOS, 3nder, 3SMobile, 4 Ventos, 
 
 class: document-slide
 
-# What's "remote work" and where is it heading today?
+# What’s “remote work” and where is it heading today?
 
 .grid.ratio-2-1[
 .group[
@@ -3190,7 +3190,7 @@ class: document-slide
 ]
 
 .quote[
-> A crowd of several thousand swarmed Pres. Lyndon B. Johnson in April of 1964, when he made a trip to the Appalachian town of Paintsville, Ky. in Johnson County as part of the "war on poverty."
+> A crowd of several thousand swarmed Pres. Lyndon B. Johnson in April of 1964, when he made a trip to the Appalachian town of Paintsville, Ky. in Johnson County as part of the “war on poverty.”
 
 —[Courier Journal](https://www.courier-journal.com/story/news/history/river-city-retro/2015/04/17/history-lbj-visits-kentucky/25929287/)
 ]
@@ -3218,9 +3218,9 @@ class: chapter-slide lightgray-slide
 .group[
 ### Inclusion = INCLU$ION
 
-* Changing perception around the idea of "helping those who are less fortunate than ourselves" into "learning how ignorant we are as privileged people" is a useful daily exercise.
-* Using that energy to design and make better products is a certain kind of passion and practice that we'll see more often in technology companies. Because inclusive design is becoming commonsense.
-* Choose action over wondering about what you can do about the world you see and don't agree with. It's easy today due to all the technologies we have available to us.
+* Changing perception around the idea of “helping those who are less fortunate than ourselves” into “learning how ignorant we are as privileged people” is a useful daily exercise.
+* Using that energy to design and make better products is a certain kind of passion and practice that we’ll see more often in technology companies. Because inclusive design is becoming commonsense.
+* Choose action over wondering about what you can do about the world you see and don’t agree with. It’s easy today due to all the technologies we have available to us.
 ]
 
 .footer[Inclusive Design]
@@ -3252,7 +3252,7 @@ class: document-slide
 * ### Pre-1950s
 
 * .timeline-title[] Early [designs](https://www.fastcodesign.com/3054927/microsofts-inspiring-bet-on-a-radical-new-type-of-design-thinking) for people with disabilities, from typewriters to telephones to curb cuts, become mass-market solutions that benefit everyone with the rise of industrialization.
-* .timeline-title[] After World Wars I and II, the increase in wounded veterans drives new demand for accessibility accomodations, led by programs like University of Illinois at Urbana-Champaign's [early work](http://disability.illinois.edu/university-illinois-urbana-champaign-disability-firsts) on the American Standards Assocation A117.1 to create architectural accessibility standards in 1961.
+* .timeline-title[] After World Wars I and II, the increase in wounded veterans drives new demand for accessibility accomodations, led by programs like University of Illinois at Urbana-Champaign’s [early work](http://disability.illinois.edu/university-illinois-urbana-champaign-disability-firsts) on the American Standards Assocation A117.1 to create architectural accessibility standards in 1961.
 
 * ### 1950s-60s
 
@@ -3262,7 +3262,7 @@ class: document-slide
 
 * .timeline-title[] Barbara Allen, a Washington-based interior designer, publishes one of the first illustrated guides to accessibility criteria, an important early example of how to turn legal criteria into design standards.
 * .timeline-title[] Patricia Moore goes undercover as an elderly woman to conduct design research in hundreds of cities over the course of three years, laying the groundwork for inclusive design practices.
-* .timeline-title[] "The Seven Principles of Universal Design" are published by [Ron Mace](https://projects.ncsu.edu/design/cud/about_us/usronmace.htm) of North Carolina State University.
+* .timeline-title[] “The Seven Principles of Universal Design” are published by [Ron Mace](https://projects.ncsu.edu/design/cud/about_us/usronmace.htm) of North Carolina State University.
 * .timeline-title[] Section 508 of the Rehabilitation Act of 1973 is passed, governing accessibility of information technology (IT) in the Federal government. After the rise of the internet, these standards will become some of the most important criteria for regulating accessibility in digital technology.
 * .timeline-title[] Jutta Treviranus founds the [Inclusive Design Research Centre](https://idrc.ocadu.ca/about-the-idrc), offering one of the first university degrees in inclusive design.
 * .timeline-title[] [Susan Kare](http://kare.com/) designs the iconographics for the Apple Macintosh and [Virginia Howlett](https://medium.com/microsoft-design/a-brief-history-of-design-8641bd186e00) brings design to Microsoft Windows. Both open the door to making nerd-centric computing experience into ones that can possibly appeal to non-computer people.
@@ -3270,8 +3270,8 @@ class: document-slide
 * ### 1990s
 
 * .timeline-title[] The Americans with Disabilities Act is passed. This civil rights legislation prohibits discrimination and guarantees that people with disabilities have the same opportunities as everyone else to participate in the mainstream of American life.
-* .timeline-title[] DesignAge action research programme of the Royal College of Art begins and evolves into the [Helen Hamlyn Centre for Design](https://www.rca.ac.uk/research-innovation/helen-hamlyn-centre/about/) to undertake design research and projects with industry that will contribute to improving people's lives.
-* .timeline-title[] European Institute for Design and Disability (EIDD) is created with the mission statement, "Enhancing the quality of life through Design for All." and "Good design enables, bad design disables."
+* .timeline-title[] DesignAge action research programme of the Royal College of Art begins and evolves into the [Helen Hamlyn Centre for Design](https://www.rca.ac.uk/research-innovation/helen-hamlyn-centre/about/) to undertake design research and projects with industry that will contribute to improving people’s lives.
+* .timeline-title[] European Institute for Design and Disability (EIDD) is created with the mission statement, “Enhancing the quality of life through Design for All.” and “Good design enables, bad design disables.”
 * .timeline-title[] Web Accessibility Initiative [WAI](https://www.w3.org/WAI/events.html) [starts](https://illyism.com/journal/history-web-accessibility) after a World Wide Web Consortium (W3C) presentation at the White House. [Read](https://w3c.github.io/wai-website/business-case/) Accessibility is Good Business by the W3C.
 * .timeline-title[] The first version of Web Content Accessibility Guidelines [WCAG](https://www.w3.org/WAI/intro/wcag) are published by the World Wide Web Consortium, specifying key criteria for accessible web and digital technology design.
 ]
@@ -3297,12 +3297,12 @@ class: document-slide black-slide
 
 class: document-slide
 
-# Bias in AI and who's auto-complete?
+# Bias in AI and who’s auto-complete?
 
 .stack[
 .group[
 .quote[
-> Turkish uses the gender-neutral pronoun, "o." Yet, when the Turkish sentences "o bir doktor" (top) and "o bir hemşire" (bottom) are entered into Google Translate, they translate into English as "he is a doctor" and "she is a nurse."
+> Turkish uses the gender-neutral pronoun, “o.” Yet, when the Turkish sentences “o bir doktor” (top) and “o bir hemşire” (bottom) are entered into Google Translate, they translate into English as “he is a doctor” and “she is a nurse.”
 
 —[Princeton](https://www.princeton.edu/news/2017/04/18/biased-bots-artificial-intelligence-systems-echo-human-prejudices)
 ]
@@ -3336,7 +3336,7 @@ class: document-slide
 —[Kat Holmes](https://twitter.com/katholmes?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)
 ]
 
-.darkgray[If you don't believe it, visit [Congrats, you have an all male panel!](http://allmalepanels.tumblr.com)]
+.darkgray[If you don’t believe it, visit [Congrats, you have an all male panel!](http://allmalepanels.tumblr.com)]
 
 .small.darkgray[Also check out the [4-hour podcast](https://beta.techcrunch.com/2017/05/13/does-design-have-an-exclusion-problem/) Automattic Design leader **Ashleigh Axios** created with **Amy Choi** (Mashup Americans) **Ethan Zuckerman** (MIT Media Lab) on [Design and Exclusion](https://x.design.blog) with **Aarron Walter** (InVision), **Maria Giudice** (Autodesk), **Paco Viñoly** (NextDoor), **Aminatou Sow** (TechLadymafia), **Anne Diaz** (Airbnb), **Andrew Sinkov** (Etsy)]
 ]
@@ -3350,19 +3350,19 @@ class: document-slide
 ]
 
 .quote[
-> Amazon's Alexa Now Stands Up for Herself If You Use Sexist Language
+> Amazon’s Alexa Now Stands Up for Herself If You Use Sexist Language
 
 —[Glamour](https://www.glamour.com/story/amazon-alexa-stands-up-for-herself-if-you-use-sexist-language)
 ]
 
 .quote[
-> Your company's Slack is probably sexist
+> Your company’s Slack is probably sexist
 
 —[Quartz](https://work.qz.com/1128150/your-companys-slack-is-probably-sexist/)
 ]
 
 .quote[
-> How to Fight Sexism on Your Company's Slack
+> How to Fight Sexism on Your Company’s Slack
 
 —[Life Hacker](https://lifehacker.com/how-to-fight-sexism-on-your-companys-slack-1821302639)
 ]
@@ -3370,7 +3370,7 @@ class: document-slide
 .group[
 ### Change your avatar to an URM
 
-And you'll want to change it to a cat thereafter once you experience the difference.
+And you’ll want to change it to a cat thereafter once you experience the difference.
 
 .quote[
 > Enthoven began the experiment by swapping out her photo for an image of her cofounder, Eric Lu. She was surprised to see harassment drop to nearly zero.
@@ -3404,7 +3404,7 @@ class: document-slide
 ]
 
 .quote.x-small[
-David Gibson, the superintendent of the Paintsville school district, had this idea that the company I'm at, Automattic, which is all remote, that people could be in Paintsville and get a full-time job without leaving the area. A lightbulb went off, that David's kids could do that, and live where their families have lived for generations, and still have an income and benefits. —[Fast Company](https://www.fastcodesign.com/90154530/tech-has-a-diversity-problem-so-this-designer-went-to-kentucky)
+David Gibson, the superintendent of the Paintsville school district, had this idea that the company I’m at, Automattic, which is all remote, that people could be in Paintsville and get a full-time job without leaving the area. A lightbulb went off, that David’s kids could do that, and live where their families have lived for generations, and still have an income and benefits. —[Fast Company](https://www.fastcodesign.com/90154530/tech-has-a-diversity-problem-so-this-designer-went-to-kentucky)
 ]
 ]
 ]
@@ -3429,13 +3429,13 @@ class: document-slide
 ]
 
 .large.quote[
-> There's so many movies from different points of view that are making a ton of money. Don't do it because it's better for society and representation, even though it is. Do it because you'll get rich. You'll get that promotion, right?
+> There’s so many movies from different points of view that are making a ton of money. Don’t do it because it’s better for society and representation, even though it is. Do it because you’ll get rich. You’ll get that promotion, right?
 
 –[Kumail Nanjiani](http://www.upworthy.com/kumail-nanjiani-hilariously-reassures-anyone-fearing-change-in-hollywood) at the Oscars
 ]
 
 .quote[
-'Black Panther' Should Become Marvel's Latest Billion-Dollar Movie This Weekend —[Fortune](http://fortune.com/2018/03/09/black-panther-box-office-weekend-billion-china/)
+‘Black Panther’ Should Become Marvel’s Latest Billion-Dollar Movie This Weekend —[Fortune](http://fortune.com/2018/03/09/black-panther-box-office-weekend-billion-china/)
 ]
 
 .source[@upworthy #wakanda @fortunemagazine and consider the Star Trek economy too]
@@ -3461,7 +3461,7 @@ class: document-slide lightgray-slide sans
 # 2018 #DesignInTech Open Survey Credits
 
 .xxx-small[
-Pedro Sanoja, Alejo Romano, Victor Fernandez, Yawen Jang, Cam Rogers, Chi Ryan, mel, CATHERINE HILLS, Paul Strike, Chris McLay, Hayden Dobson, Benson Low, Hass, CAJ, Joyce Seitzinger, Ben Hamley, RS, Glen Barry, Tom Key, SJD, M.Y., ZT, Drew P A Smith, Jessica Tong, Sam Hancock, VT, Christian Baker, Laura van Doore, Jake Deakin, notrevol, valentijn destoop, Mark Graham Dunn, Glauco Cardoso, Pedro Belleza, Romeu Biscaia Machado, Bubu, Paula Fehper, Cristian Mazzeo, Thiago Barcelos, Lucas Terra Cardial, Bruno Fischer, Duda Rodrigues, Andreia Bersot, LionelC, Tiago P. Taveira, Fabrício Astua, LMSM, FNazario, Melissa Ribeiro, Rafael Brandão, Dani Tavares, bani torrico, G0ntz, Rafael Fernandes, Georgi Kamov, Kevin Morris, Johnny Chauvet, Allyna Sagun, Ryan Neufeld, Adam Leon, Lenny Laurier, Aloke Pillai, Suds, Nuff, Matt Nish-Lapidus, Tyler Benning, Heidi McCulloch, Yabo, Kimberley Peter, Filippo Di Trapani, Myriam Picovschi, Julia Guimaraes, mCorby, Francis Gagnon, Marc-Oliver Gern, Jonas Altman, pak, Jacqueline P. Ashby, Kirill Vechtomov, ic, Justin Lim, Lynne Polischuik, Travis Gertz, Craig Cullimore, cs, Emily, Jenna B, Akshay Chauhan, Sim.S, Noman Sid, José Concha, Ariel Contreras @acontrerasv, Alejandro Urrutia, timworks.net, Misterymotion, Nicolas Ochoa, Koncarovski, Ivana Preiss, Antonin Pospisil, Carsten Nguyen Henriksen, JPT, Jesper Philip Sølvbjørke, Daniel Gjøde, Stupid Studio, Thomas Madsen-Mygdal, Bo Madsen, Niels, Morten Lundholm, Troels Nørlem, Pärtel Vurma, Velvet, Monika Zych, PPoi, Niko Laitinen, Vesa Ahtiainen, John T, armansansd, Alexandre Crenn, Charlie Coucou, Charles Bail, Pierre-Denis Autric, Thomas Nicot, Frederique PAIN, Nicolas Marescaux, Chaker Bejaoui, Lise Kemen, David Duhamel, kliger, Matthieu Bousendorfer, j03£, Rachel Ilan, MASC, Helmut Ramsauer, Evgeny, A. Ribotta, Dawn Ahukanna, Florian Lohse, Philipp Schaefer, MSM, Michael, hiep, Fernando Galdino, Jochen Denzinger, Jenica Lewis, Dragomir Ralchev, Marc from Heimatdesign, Guergana, Markus Nowak, Marianne Guillen, Carolina, Yasmina Haryono, Jannes, Kilometer, Lew Freyholtz, CJC, KN, Axel Baumann, Daniel Echeverri, Michael. N, Agoston Nagy, David Udvardy, Saneef Ansari, Amal Tiwari, Saikat dutta, Anoop Chandra, Nandha, Mohit Sharma, Prateek Parijat, Pallavi Naik, Aradhana, Baskar Ganesan, PointBlank, Prob G, Sandheep, Sweta, Murthy Gollapudi, Prafull, Aadesh Mistry, Vispat, Gavin remedios, Arwin Brahma, Tanuja P., Kumar Murthy, NS, Guillermo Acevedo, Soo Basu, Anand, Nipun K. Garodia, Somyeah, Abhishek Jayaprakash, Arganka, Red Lemonade Creative, Lara Hanlon, Hilary Kenna, Ivan Frantar, Eilis Boyle, Mark Swaine, mm, Eoin Smith, John Buckley, Almudena Blanch, Aidan Doré, Craig Phillips, Rui Eduardo, LH, Kostya Gorskiy, Chanan Greenblatt, Eric Hinz, Eyal Fendell, rainwiz, Antonio Civita, Alessandro Pollini BSD design, Luigi, Niccolò Magnani, Andrea Gaiardo, Luca Troisi, Carlo Cavedon, Lorenzo Ruggieri, Manuela Ciancilla, Giovanni Caruso, aldo fontana, Francesca Monti, Annalisa Angelini, Daniele Vitali, ka2, M. Tanaka, Kenji Mori, Itsumi Matsukawa, Yasuhiro Sasaki, Bert Brautigam, Nathan Paterson, Toshiki Wada, Hajime Kuge, Hans Kurihara, Koichiro Eto, Fady Rostom, AnissaL, samcy, Sylvain Vanderhaegen, Justin Farrugia, LA, Joram Patiño, H. McNamara, Polo Garcia, Wendy Johansson, Iliana Moreno Guzman, Oscar Zavala Hernandez, Jeroen Frumau, Zuzanna Skalska, 360Inspiration, Jos van Roosmalen, Patrick de Jong, Murat Akyol, Hielkje Zijlstra, Wilbert Baan, Bob van Luijt, Dylan Evans, Jenny Shen, Linda Mertens, David Linssen, Peter Boersma, AL, Anon, Brian Lucid, Georg, tristam sparks, Steph Creasy, Rildwan Olayemi Bello, Leif Knutsen, Tom gabriel johansen, Eric Haidara, CS, Eder Rengifo, Hope Joanne Dag-um, Eric Agoncillo Ambata, Maciej Mlynek, Ines Bravo, Sara Gago, Hugo Froes, JPR, Francisco Bordallo, Luis Madureira, Peter Anthony Martins, samuel rosario medina, Dan Baciu, Ovidiu Berdila, IR, Archie, Edison Chee, Amanda Arielle Lu, Lwjon, Anuradha Jain, Ben, Maik Lutze, Kimverlyn Lim, SL, LM, Jon Edwards, Francois Brill, Tefo Mohapi, Ali Ndlovu, J.M, J Y, Antonio Molin, Andres Lopez Josenge, @serrodsan, Claudio Lobos, M Lop, miscalzoncillos, Luis Eduardo Dejo, atriz, Pilar Saura, Marco Righetto, Manu Ageitos, Jesús Miguel Gimeno, @abrahamnavas, JCG, Carlos García Maganto, Dragon, AICS, Team PowerHorse, May O. Caballero, Martina Gobec, Andrea Picchi, Patrik Beskow, Allen Smith, Martin Willers, Vincent Garcia, Supermarjo, Zelia sakhi, Jared Fossey, Nirvana Soltani, Hannes Johansson, Diana Africano Clark, Serena Cangiano, Raphael Schaad, Dominic Wuffli, Sylvestre Lucia, Philipp Maul, Raimund Erdmann, Jules Skopp, Marie-France Bojanowski, Mihaly Keserü, Olivier Heitz, jj, Emre Girgin, Twikirize Switzin Tibz, Denys Kulyk, Alex Debkaliuk, Maksym Tkachuk, Ram Prakash Palaparty, TP, Riccie Audrey Janus, Robin Howie, Roland Whitehead, Jordan Harper, barry ainslie, Ryan Burke, JC, Marcela O, eebster, Brendan Kearns, John Williams Taylor, Adam Williams, Thai.H, Jon Rowlandson, Niklas Hagemann, Mr Nick James Turner, Jonathan Conway, Sergei Golubev, Christina Li, Sevil Rahimova, Stephen Wood xLab, Eli Symeon, Sophie Allcock, Alex Menczykowski, Sandor Gyuris, IP, Jiri Jerabek, Kartik Poria, Christopher Gameson, bup, J Meijer, Giovanni Luperti, MC, QS, Alessio Cuccu, Mariana Morris, Tammie Lister, I Chhat, Aden Davies, Michelle Gerrard-Doyle, Konrad Pitala, Gfag8!, Les Hughes, Liam Hutchinson, Gabrielle Micheletti, MP, Luis Salinas, Shimbug, G Knowles Topham, Jeff Salanco, Matthew Gallagher, Dan Abelow, AV, Jared Stephens, Mark Loomis, David Wen, Chad Ostroff, Nick Cochran, Duncan Robertson, James Dow, Jodi Cutler, Peter Eckert, chris hammond, Erin Hauber, Hayley Hughes, KEM, Nick Tilden, TS, Meriah Garrett, Kara Miekina, Anthony Armendariz, Randomood, Dennis Eusebio, Shaun Bhargav, J. Dustin, Vogthorstar, Remote queen, Lance Willett, Kara DeFrias, Brent Summers, Ali Sarwat Hussain, Kelsey Lancaster, Flo Kat, Sara V, Jonathan Kies, Darin Marshall, Igor, Jim C-L, Alessandra B., Chris Wallace, Joshua smith, Visual Communicator, Florian Schommertz, Scott McManigal, seb, Bri, @shelton, Veronica Kovachi, Justin Ruckman, Jon Bell, Rutiger Poopinstalk, Kevin Bethune, Mark Uraine, Carlo Paolo Espiritu, Nicole Thayer, sylvia, Q.O.T.U. Design, inc., ANON, MH, Michael Sueoka, Matthew E. May, Shawn Johnson, Neil LaVigne, Michelle Wong, Alexa Roman, Patrick Fredrickson, Arturo Perez, RC, goodwinux, claudia bardales, Bryan Cheung, Paul Hanaoka, Marissa, Masako Ikegami, b zepeda, Michelle Chin, irene hoffman, BadGenius, Reed Reibstein, CMAINA, Joe Schram, Leslie Luo, Michael J. Morgan, Che Douglas, Ben Bausili, Joe Payne, Floyd Sanchez, Paul-Felix Montez, Tania Lili, Brian RS Ward, Creative Juggernaut, Russell Ong, Mercury Murphy, Lauren Hancock, Alex Yra, Evan Verdoia, Aaron, Houshang, Jay F, Jonathan Shariat, Neeharika gupta, Prithika, Laura Martini, Dddd, Jeff Z., Diego Rodriguez, Vinita Israni, Leigh Anne Miller, R. Mangrobang, musho, Ozzy Urrutia, Christiana, Tara, Yuki Alzona, Daniel Castro, Alex Kim, Tom Illmensee, Michelle Koh, NB, Holly Marie Gibbs, JY, Darren Farrugia, George Chen, Maria Giudice, Ramya, Peter Cho, n/a, Gareth Kay, Dirk Cleveland, James Murnane, Jeff Zwerner, Florentin Hortopan, Julie Stanescu, Maria M Fabbroni, NBL, Melinda, Gretared, Tyler Miller, Teddy Zmrhal, Meekal Bajaj, James Song, Alessandro Sabatelli, mo, Christian Talmage, Ann-Caryn Cleveland, Christine Park, bebe buckner, Ryan Fariñas, Michele Mizejewski, Steffan Schlarb, Vikram, Luan Chen, Vandy Meares, Andrew S, Todd Zaki Warfel, Arianna Orland, Mary Lukanuski, Vineeth Nair, Israel Nevarez, Brian Beaver, Sharon Cardinal, Diana Tobey, Kyle Bennett, Jsp, Daniela Steinsapir, Kasia Wyser-Pratte, Michael Polivka, Akira Motomura, Eric Fain, Kurt Varner, Genevieve Conaty, Laura Mattis, Siyuan Tu, Glenn Rawlinson, Tommy K, Benjamin Schwartz, Bruno Marinho, PKP, Hamza El-Falah, Jake Mac, Dan Harrelson, Stu Griffiths, AmeliaW, Caio, Joanna Ellis, Len, Alex Dixon, C. A. Stavridis, S. Jones, Vel Prakhantree, Marcelo G., DP Venkatesh, Ashleigh Axios, Jaymes Cloninger, Kit Oliynyk, Katherine M. Zhou, XF, Natalie Buda Smith, Jen Strickland, WTB, Sharif Elshinnawi, MH, Kendell Warner, Kyle Johnston, John Resman, Josh Kubicki, Jason Hargis, Ruzanna Rozman, Adam Rotmil, Michael Ellis, Stacy Kvernmo, Daniel R Farrell, Graphex, Jason P Belaire, Scot Przybylski, GRID Impact, Pete Kinser, J.H., Swan5280, David O'Connell, Peter Lloyd, MWK, Brad Baer, Robert T. Whyte, Jason Prunty, mm, Ryan, Devon Burgoyne, James Williams, Pete Fleming, Troy Lachance, Kate Clayton, Tom McQuaid, jfm, David, Al Logiodice, Layne Jackson Hubbard, Rafael Guevara, Bri Piccari!, Nasty Gold Woman, Dipti Siddamsettiwar, Bryan Howell, Rich Hauck, Yoda, Jordan Jackson, Michelle Leonette, Jason Rincker, Catherine Shen, Sean Oakes, Danny Salvatori, Samantha Clark, Jose Coronado, Chino Wong, Dasami Moodley, Karyn Campbell, Michelle Knoernschild, Judy Wert, MT, Torry Colichio, Randy J. Hunt, Ilya Startsev, Syed Lagoon, B Reichler, Van Rais, Sean Ro, NXD, David Fisher, Mattias Wikman, SL, L. Batista, Juan Daniel Herrera, Gloria Kim, im good., JHMOTIVF, Ryan Haigh, Sandra Barron, Rochelle King, Jessica He, MP, Clay Wiedemann, Sumin Chou, Stephen Gates, Bumhan Yu, Daniel Gomez Seidel, Jayne Lee, Jerlyn, SHANI SANDY, flomerboy, Richard Ting, Andrew (Ande) La Monica, Sandy Chen, Vincent Bahk, Adam, Isa Gouverneur, Stephanie Liu, Cheryl L. Oppenheim, Michael Keany, pnts, Anna Fine, wwl, Kathryn Simon, Jason Brady, Sarah Doody, Laura Simpson, M. Dulin, Kevin Smith, Gunther Chanange, Melanie O'Donnell, TJK, Karl van Turk, CDG, GG, Randy J. Hunt, Albert P, Jay Fichialos, Haijing Liu, Dennis Wong, Cathi Bosco, S.A. Meier, Jeff Golenski, Keith Instone, Milan Kocic, Stephen Szermer, Andy Davies, John Fitch, Not Sure, John Horstman, @jeremydwill, Melody Roberts, Nathan Lagacy, Katherine Luby, Steve Finikiotis, Jase Miller, CWR, David A. Townsend, Mark Rattin, Bill Bernahl, MG, mkbrooks, Chris Coffin, Karen Nickerson, Jeff Steffgen, Daniel Orbach, MultiBiomech, Vanya Prokopovich, Chacko Poothicote, Daniel Marano, Isaac Girard, Jay Liu, jenniwon, CRH, Michelle Curtis, EthanLP, Tristan Harward, Leslie Bondaryk, Lisa deBettencourt, David Abbet, Meeta Mathur, Mel Choyce, Maria Matveeva, Miracle Tonic, Fahad Punjwani, Churu Yun, Luke Jones, Chris Blocher, Patrick Miller, Dale Prentiss, Mirekulous, Jared Fanning, Amy Huang, Kimberly C. Wolting, Sarah Brockett, Chris Chiles, Drew Lettner, Shane Ernest, Thomas Y., Michael Laviolette, Kevin Meyer, Andy Vitale, Alan Smithee, Bob Marchant, Roel Uleners, Ashish Rao, Dylan Wilbanks, Jared R Davis, James Holt, Paola Reyes, Tim Whalin, Wolo, FARRUKH RAZA, EAL, Nico Nuzzaci, Blank, Lucas Colusso, Julie Larson-Green, Jenny Lam, Jerrod Larson, J. Lucero, Manali Gortekar, Savage Ewok, Andi Rusu, Omar Elfanek, Toots MacAfee.
+Pedro Sanoja, Alejo Romano, Victor Fernandez, Yawen Jang, Cam Rogers, Chi Ryan, mel, CATHERINE HILLS, Paul Strike, Chris McLay, Hayden Dobson, Benson Low, Hass, CAJ, Joyce Seitzinger, Ben Hamley, RS, Glen Barry, Tom Key, SJD, M.Y., ZT, Drew P A Smith, Jessica Tong, Sam Hancock, VT, Christian Baker, Laura van Doore, Jake Deakin, notrevol, valentijn destoop, Mark Graham Dunn, Glauco Cardoso, Pedro Belleza, Romeu Biscaia Machado, Bubu, Paula Fehper, Cristian Mazzeo, Thiago Barcelos, Lucas Terra Cardial, Bruno Fischer, Duda Rodrigues, Andreia Bersot, LionelC, Tiago P. Taveira, Fabrício Astua, LMSM, FNazario, Melissa Ribeiro, Rafael Brandão, Dani Tavares, bani torrico, G0ntz, Rafael Fernandes, Georgi Kamov, Kevin Morris, Johnny Chauvet, Allyna Sagun, Ryan Neufeld, Adam Leon, Lenny Laurier, Aloke Pillai, Suds, Nuff, Matt Nish-Lapidus, Tyler Benning, Heidi McCulloch, Yabo, Kimberley Peter, Filippo Di Trapani, Myriam Picovschi, Julia Guimaraes, mCorby, Francis Gagnon, Marc-Oliver Gern, Jonas Altman, pak, Jacqueline P. Ashby, Kirill Vechtomov, ic, Justin Lim, Lynne Polischuik, Travis Gertz, Craig Cullimore, cs, Emily, Jenna B, Akshay Chauhan, Sim.S, Noman Sid, José Concha, Ariel Contreras @acontrerasv, Alejandro Urrutia, timworks.net, Misterymotion, Nicolas Ochoa, Koncarovski, Ivana Preiss, Antonin Pospisil, Carsten Nguyen Henriksen, JPT, Jesper Philip Sølvbjørke, Daniel Gjøde, Stupid Studio, Thomas Madsen-Mygdal, Bo Madsen, Niels, Morten Lundholm, Troels Nørlem, Pärtel Vurma, Velvet, Monika Zych, PPoi, Niko Laitinen, Vesa Ahtiainen, John T, armansansd, Alexandre Crenn, Charlie Coucou, Charles Bail, Pierre-Denis Autric, Thomas Nicot, Frederique PAIN, Nicolas Marescaux, Chaker Bejaoui, Lise Kemen, David Duhamel, kliger, Matthieu Bousendorfer, j03£, Rachel Ilan, MASC, Helmut Ramsauer, Evgeny, A. Ribotta, Dawn Ahukanna, Florian Lohse, Philipp Schaefer, MSM, Michael, hiep, Fernando Galdino, Jochen Denzinger, Jenica Lewis, Dragomir Ralchev, Marc from Heimatdesign, Guergana, Markus Nowak, Marianne Guillen, Carolina, Yasmina Haryono, Jannes, Kilometer, Lew Freyholtz, CJC, KN, Axel Baumann, Daniel Echeverri, Michael. N, Agoston Nagy, David Udvardy, Saneef Ansari, Amal Tiwari, Saikat dutta, Anoop Chandra, Nandha, Mohit Sharma, Prateek Parijat, Pallavi Naik, Aradhana, Baskar Ganesan, PointBlank, Prob G, Sandheep, Sweta, Murthy Gollapudi, Prafull, Aadesh Mistry, Vispat, Gavin remedios, Arwin Brahma, Tanuja P., Kumar Murthy, NS, Guillermo Acevedo, Soo Basu, Anand, Nipun K. Garodia, Somyeah, Abhishek Jayaprakash, Arganka, Red Lemonade Creative, Lara Hanlon, Hilary Kenna, Ivan Frantar, Eilis Boyle, Mark Swaine, mm, Eoin Smith, John Buckley, Almudena Blanch, Aidan Doré, Craig Phillips, Rui Eduardo, LH, Kostya Gorskiy, Chanan Greenblatt, Eric Hinz, Eyal Fendell, rainwiz, Antonio Civita, Alessandro Pollini BSD design, Luigi, Niccolò Magnani, Andrea Gaiardo, Luca Troisi, Carlo Cavedon, Lorenzo Ruggieri, Manuela Ciancilla, Giovanni Caruso, aldo fontana, Francesca Monti, Annalisa Angelini, Daniele Vitali, ka2, M. Tanaka, Kenji Mori, Itsumi Matsukawa, Yasuhiro Sasaki, Bert Brautigam, Nathan Paterson, Toshiki Wada, Hajime Kuge, Hans Kurihara, Koichiro Eto, Fady Rostom, AnissaL, samcy, Sylvain Vanderhaegen, Justin Farrugia, LA, Joram Patiño, H. McNamara, Polo Garcia, Wendy Johansson, Iliana Moreno Guzman, Oscar Zavala Hernandez, Jeroen Frumau, Zuzanna Skalska, 360Inspiration, Jos van Roosmalen, Patrick de Jong, Murat Akyol, Hielkje Zijlstra, Wilbert Baan, Bob van Luijt, Dylan Evans, Jenny Shen, Linda Mertens, David Linssen, Peter Boersma, AL, Anon, Brian Lucid, Georg, tristam sparks, Steph Creasy, Rildwan Olayemi Bello, Leif Knutsen, Tom gabriel johansen, Eric Haidara, CS, Eder Rengifo, Hope Joanne Dag-um, Eric Agoncillo Ambata, Maciej Mlynek, Ines Bravo, Sara Gago, Hugo Froes, JPR, Francisco Bordallo, Luis Madureira, Peter Anthony Martins, samuel rosario medina, Dan Baciu, Ovidiu Berdila, IR, Archie, Edison Chee, Amanda Arielle Lu, Lwjon, Anuradha Jain, Ben, Maik Lutze, Kimverlyn Lim, SL, LM, Jon Edwards, Francois Brill, Tefo Mohapi, Ali Ndlovu, J.M, J Y, Antonio Molin, Andres Lopez Josenge, @serrodsan, Claudio Lobos, M Lop, miscalzoncillos, Luis Eduardo Dejo, atriz, Pilar Saura, Marco Righetto, Manu Ageitos, Jesús Miguel Gimeno, @abrahamnavas, JCG, Carlos García Maganto, Dragon, AICS, Team PowerHorse, May O. Caballero, Martina Gobec, Andrea Picchi, Patrik Beskow, Allen Smith, Martin Willers, Vincent Garcia, Supermarjo, Zelia sakhi, Jared Fossey, Nirvana Soltani, Hannes Johansson, Diana Africano Clark, Serena Cangiano, Raphael Schaad, Dominic Wuffli, Sylvestre Lucia, Philipp Maul, Raimund Erdmann, Jules Skopp, Marie-France Bojanowski, Mihaly Keserü, Olivier Heitz, jj, Emre Girgin, Twikirize Switzin Tibz, Denys Kulyk, Alex Debkaliuk, Maksym Tkachuk, Ram Prakash Palaparty, TP, Riccie Audrey Janus, Robin Howie, Roland Whitehead, Jordan Harper, barry ainslie, Ryan Burke, JC, Marcela O, eebster, Brendan Kearns, John Williams Taylor, Adam Williams, Thai.H, Jon Rowlandson, Niklas Hagemann, Mr Nick James Turner, Jonathan Conway, Sergei Golubev, Christina Li, Sevil Rahimova, Stephen Wood xLab, Eli Symeon, Sophie Allcock, Alex Menczykowski, Sandor Gyuris, IP, Jiri Jerabek, Kartik Poria, Christopher Gameson, bup, J Meijer, Giovanni Luperti, MC, QS, Alessio Cuccu, Mariana Morris, Tammie Lister, I Chhat, Aden Davies, Michelle Gerrard-Doyle, Konrad Pitala, Gfag8!, Les Hughes, Liam Hutchinson, Gabrielle Micheletti, MP, Luis Salinas, Shimbug, G Knowles Topham, Jeff Salanco, Matthew Gallagher, Dan Abelow, AV, Jared Stephens, Mark Loomis, David Wen, Chad Ostroff, Nick Cochran, Duncan Robertson, James Dow, Jodi Cutler, Peter Eckert, chris hammond, Erin Hauber, Hayley Hughes, KEM, Nick Tilden, TS, Meriah Garrett, Kara Miekina, Anthony Armendariz, Randomood, Dennis Eusebio, Shaun Bhargav, J. Dustin, Vogthorstar, Remote queen, Lance Willett, Kara DeFrias, Brent Summers, Ali Sarwat Hussain, Kelsey Lancaster, Flo Kat, Sara V, Jonathan Kies, Darin Marshall, Igor, Jim C-L, Alessandra B., Chris Wallace, Joshua smith, Visual Communicator, Florian Schommertz, Scott McManigal, seb, Bri, @shelton, Veronica Kovachi, Justin Ruckman, Jon Bell, Rutiger Poopinstalk, Kevin Bethune, Mark Uraine, Carlo Paolo Espiritu, Nicole Thayer, sylvia, Q.O.T.U. Design, inc., ANON, MH, Michael Sueoka, Matthew E. May, Shawn Johnson, Neil LaVigne, Michelle Wong, Alexa Roman, Patrick Fredrickson, Arturo Perez, RC, goodwinux, claudia bardales, Bryan Cheung, Paul Hanaoka, Marissa, Masako Ikegami, b zepeda, Michelle Chin, irene hoffman, BadGenius, Reed Reibstein, CMAINA, Joe Schram, Leslie Luo, Michael J. Morgan, Che Douglas, Ben Bausili, Joe Payne, Floyd Sanchez, Paul-Felix Montez, Tania Lili, Brian RS Ward, Creative Juggernaut, Russell Ong, Mercury Murphy, Lauren Hancock, Alex Yra, Evan Verdoia, Aaron, Houshang, Jay F, Jonathan Shariat, Neeharika gupta, Prithika, Laura Martini, Dddd, Jeff Z., Diego Rodriguez, Vinita Israni, Leigh Anne Miller, R. Mangrobang, musho, Ozzy Urrutia, Christiana, Tara, Yuki Alzona, Daniel Castro, Alex Kim, Tom Illmensee, Michelle Koh, NB, Holly Marie Gibbs, JY, Darren Farrugia, George Chen, Maria Giudice, Ramya, Peter Cho, n/a, Gareth Kay, Dirk Cleveland, James Murnane, Jeff Zwerner, Florentin Hortopan, Julie Stanescu, Maria M Fabbroni, NBL, Melinda, Gretared, Tyler Miller, Teddy Zmrhal, Meekal Bajaj, James Song, Alessandro Sabatelli, mo, Christian Talmage, Ann-Caryn Cleveland, Christine Park, bebe buckner, Ryan Fariñas, Michele Mizejewski, Steffan Schlarb, Vikram, Luan Chen, Vandy Meares, Andrew S, Todd Zaki Warfel, Arianna Orland, Mary Lukanuski, Vineeth Nair, Israel Nevarez, Brian Beaver, Sharon Cardinal, Diana Tobey, Kyle Bennett, Jsp, Daniela Steinsapir, Kasia Wyser-Pratte, Michael Polivka, Akira Motomura, Eric Fain, Kurt Varner, Genevieve Conaty, Laura Mattis, Siyuan Tu, Glenn Rawlinson, Tommy K, Benjamin Schwartz, Bruno Marinho, PKP, Hamza El-Falah, Jake Mac, Dan Harrelson, Stu Griffiths, AmeliaW, Caio, Joanna Ellis, Len, Alex Dixon, C. A. Stavridis, S. Jones, Vel Prakhantree, Marcelo G., DP Venkatesh, Ashleigh Axios, Jaymes Cloninger, Kit Oliynyk, Katherine M. Zhou, XF, Natalie Buda Smith, Jen Strickland, WTB, Sharif Elshinnawi, MH, Kendell Warner, Kyle Johnston, John Resman, Josh Kubicki, Jason Hargis, Ruzanna Rozman, Adam Rotmil, Michael Ellis, Stacy Kvernmo, Daniel R Farrell, Graphex, Jason P Belaire, Scot Przybylski, GRID Impact, Pete Kinser, J.H., Swan5280, David O’Connell, Peter Lloyd, MWK, Brad Baer, Robert T. Whyte, Jason Prunty, mm, Ryan, Devon Burgoyne, James Williams, Pete Fleming, Troy Lachance, Kate Clayton, Tom McQuaid, jfm, David, Al Logiodice, Layne Jackson Hubbard, Rafael Guevara, Bri Piccari!, Nasty Gold Woman, Dipti Siddamsettiwar, Bryan Howell, Rich Hauck, Yoda, Jordan Jackson, Michelle Leonette, Jason Rincker, Catherine Shen, Sean Oakes, Danny Salvatori, Samantha Clark, Jose Coronado, Chino Wong, Dasami Moodley, Karyn Campbell, Michelle Knoernschild, Judy Wert, MT, Torry Colichio, Randy J. Hunt, Ilya Startsev, Syed Lagoon, B Reichler, Van Rais, Sean Ro, NXD, David Fisher, Mattias Wikman, SL, L. Batista, Juan Daniel Herrera, Gloria Kim, im good., JHMOTIVF, Ryan Haigh, Sandra Barron, Rochelle King, Jessica He, MP, Clay Wiedemann, Sumin Chou, Stephen Gates, Bumhan Yu, Daniel Gomez Seidel, Jayne Lee, Jerlyn, SHANI SANDY, flomerboy, Richard Ting, Andrew (Ande) La Monica, Sandy Chen, Vincent Bahk, Adam, Isa Gouverneur, Stephanie Liu, Cheryl L. Oppenheim, Michael Keany, pnts, Anna Fine, wwl, Kathryn Simon, Jason Brady, Sarah Doody, Laura Simpson, M. Dulin, Kevin Smith, Gunther Chanange, Melanie O’Donnell, TJK, Karl van Turk, CDG, GG, Randy J. Hunt, Albert P, Jay Fichialos, Haijing Liu, Dennis Wong, Cathi Bosco, S.A. Meier, Jeff Golenski, Keith Instone, Milan Kocic, Stephen Szermer, Andy Davies, John Fitch, Not Sure, John Horstman, @jeremydwill, Melody Roberts, Nathan Lagacy, Katherine Luby, Steve Finikiotis, Jase Miller, CWR, David A. Townsend, Mark Rattin, Bill Bernahl, MG, mkbrooks, Chris Coffin, Karen Nickerson, Jeff Steffgen, Daniel Orbach, MultiBiomech, Vanya Prokopovich, Chacko Poothicote, Daniel Marano, Isaac Girard, Jay Liu, jenniwon, CRH, Michelle Curtis, EthanLP, Tristan Harward, Leslie Bondaryk, Lisa deBettencourt, David Abbet, Meeta Mathur, Mel Choyce, Maria Matveeva, Miracle Tonic, Fahad Punjwani, Churu Yun, Luke Jones, Chris Blocher, Patrick Miller, Dale Prentiss, Mirekulous, Jared Fanning, Amy Huang, Kimberly C. Wolting, Sarah Brockett, Chris Chiles, Drew Lettner, Shane Ernest, Thomas Y., Michael Laviolette, Kevin Meyer, Andy Vitale, Alan Smithee, Bob Marchant, Roel Uleners, Ashish Rao, Dylan Wilbanks, Jared R Davis, James Holt, Paola Reyes, Tim Whalin, Wolo, FARRUKH RAZA, EAL, Nico Nuzzaci, Blank, Lucas Colusso, Julie Larson-Green, Jenny Lam, Jerrod Larson, J. Lucero, Manali Gortekar, Savage Ewok, Andi Rusu, Omar Elfanek, Toots MacAfee.
 ]
 
 .footer[Credits]
