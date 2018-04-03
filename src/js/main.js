@@ -55,7 +55,10 @@ function main () {
 main()
 
 if (module.hot) {
-  module.hot.accept('../../markdown/english.md', async args => {
+  const callback = async () => {
     selectLanguage(selectedLanguage, true)
-  })
+  }
+  // Same discussion above.
+  module.hot.accept(`../../markdown/english.md`, callback)
+  module.hot.accept(`../../markdown/japanese.md`, callback)
 }
