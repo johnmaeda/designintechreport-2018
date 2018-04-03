@@ -90,7 +90,8 @@ module.exports = mode => ({
     new CopyWebpackPlugin([
       {
         context: path.resolve(__dirname),
-        from: 'src/index.md'
+        from: 'markdown',
+        to: 'markdown'
       },
       {
         context: path.resolve(__dirname),

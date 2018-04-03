@@ -7,9 +7,11 @@ const slideshow = new Slideshow()
 async function main() {
   let source
   if (process.env.NODE_ENV !== 'production') {
-    ({ default: source } = await import('../index.md'))
+    ({ default: source } = await import('../../markdown/english.md'))
   } else {
-    source = await window.fetch('index.md').then(response => response.text())
+    source = await window.fetch('markdown/english.md').then(response => {
+      return response.text()
+    })
   }
   slideshow.init(source)
 }
@@ -19,8 +21,8 @@ main().catch(error => {
 })
 
 if (module.hot) {
-  module.hot.accept('../index.md', async () => {
-    const { default: source } = await import('../index.md')
+  module.hot.accept('../../markdown/english.md', async () => {
+    const { default: source } = await import('../../markdown/english.md')
     slideshow.load(source)
   })
 }
