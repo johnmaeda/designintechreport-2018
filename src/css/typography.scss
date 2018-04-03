@@ -2,9 +2,9 @@
 
 @import './functions';
 
-$font-family-sans: 'Roboto', sans-serif;
+$font-family-sans: 'Roboto', 'source-han-sans-japanese', sans-serif;
 $font-family-serif: 'Georgia', serif;
-$font-family-mono: 'Roboto Mono', sans-serif;
+$font-family-mono: 'Roboto Mono', 'source-han-sans-japanese', sans-serif;
 
 $font-size-xx-large: rem(48px);
 $font-size-x-large: rem(45px);
