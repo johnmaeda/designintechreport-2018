@@ -24,6 +24,7 @@ export default class SlideObserver {
 
   startObservingVisibility() {
     if (this.element.classList.contains('remark-visible')) {
+      this.mounted = true
       this.visible = true
       this.slideDidMount()
       this.slideDidAppear()
