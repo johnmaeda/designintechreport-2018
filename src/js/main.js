@@ -7,6 +7,7 @@ import '../css/main.scss'
 
 const slideshow = new Slideshow()
 
+const defaultLanguage = 'english'
 let selectedLanguage = null
 
 async function selectLanguage (language, force = false) {
@@ -42,11 +43,14 @@ function main () {
   if (!language) {
     const [tag] = window.navigator.language.split('-')
     switch (tag) {
+      case 'en':
+        language = 'english'
+        break
       case 'ja':
         language = 'japanese'
         break
       default:
-        language = 'english'
+        language = defaultLanguage
         break
     }
   }
