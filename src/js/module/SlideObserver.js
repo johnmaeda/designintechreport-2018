@@ -98,6 +98,9 @@ export default class SlideObserver {
 
   processAnchor (element) {
     const href = element.getAttribute('href')
+    if (href == null) {
+      return
+    }
     if (/^https?:/.test(href)) {
       element.setAttribute('target', '_blank')
     }
@@ -105,6 +108,9 @@ export default class SlideObserver {
 
   processImage (element) {
     const src = element.getAttribute('data-src')
+    if (src == null) {
+      return
+    }
     element.setAttribute('src', src)
     element.removeAttribute('data-src')
   }
@@ -112,6 +118,9 @@ export default class SlideObserver {
   processAudioVideo (element) {
     const source = element.firstElementChild
     const src = source.getAttribute('data-src')
+    if (src == null) {
+      return
+    }
     source.setAttribute('src', src)
     source.removeAttribute('data-src')
     element.load()
@@ -120,6 +129,9 @@ export default class SlideObserver {
   processIFrame (element) {
     const iframe = element.firstElementChild
     const src = iframe.getAttribute('data-src')
+    if (src == null) {
+      return
+    }
     iframe.setAttribute('src', src)
     iframe.removeAttribute('data-src')
     const callback = event => {
@@ -132,6 +144,9 @@ export default class SlideObserver {
   processChart (element) {
     const type = element.getAttribute('data-type')
     const src = element.getAttribute('data-src')
+    if (type == null || src == null) {
+      return
+    }
     window.fetch(src).then(response => {
       return response.json()
     }).then(({ data, options }) => {
@@ -143,6 +158,9 @@ export default class SlideObserver {
 
   processTweet (element) {
     const tweetId = element.getAttribute('data-tweet-id')
+    if (tweetId == null) {
+      return
+    }
     createTwitterWidget(tweetId, element)
   }
 }
