@@ -13,6 +13,7 @@
     "babel-polyfill": "^6.26.0",
     "compass-mixins": "^0.12.10",
     "cross-fetch": "^2.1.0",
+    "js-cookie": "^2.2.0",
     "load-script": "^1.0.0",
     "marked": "^0.3.19",
     "mutation-observer": "^1.0.3",
