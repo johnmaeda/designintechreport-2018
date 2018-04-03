@@ -8,13 +8,24 @@ const slideshow = new Slideshow()
 
 let selectedLanguage = null
 
-async function selectLanguage(language) {
-  if (language === selectedLanguage) {
+async function selectLanguage (language, force = false) {
+  if (language === selectedLanguage && !force) {
     return
   }
   let source
   if (process.env.NODE_ENV !== 'production') {
-    ({ default: source } = await import(`../../markdown/${language}.md`))
+    // We need to supply string literals in import() to make the hot module
+    // replacement able to track their changes.
+    switch (language) {
+      case 'english':
+        ({ default: source } = await import(`../../markdown/english.md`))
+        break
+      case 'japanese':
+        ({ default: source } = await import(`../../markdown/japanese.md`))
+        break
+      default:
+        throw new Error()
+    }
   } else {
     source = await window.fetch(`markdown/${language}.md`).then(response => {
       return response.text()
@@ -22,9 +33,10 @@ async function selectLanguage(language) {
   }
   slideshow.load(source)
   Cookies.set('language', language)
+  selectedLanguage = language
 }
 
-function main() {
+function main () {
   let language = Cookies.get('language')
   if (!language) {
     const [tag] = window.navigator.language.split('-')
@@ -43,8 +55,7 @@ function main() {
 main()
 
 if (module.hot) {
-  module.hot.accept('../../markdown/english.md', async () => {
-    const { default: source } = await import('../../markdown/english.md')
-    slideshow.load(source)
+  module.hot.accept('../../markdown/english.md', async args => {
+    selectLanguage(selectedLanguage, true)
   })
 }
