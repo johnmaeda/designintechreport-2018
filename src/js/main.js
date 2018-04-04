@@ -1,13 +1,17 @@
-import Cookies from 'js-cookie'
-import loadScript from './module/loadScript'
+/* global Typekit */
 
+import AcceptLanguage from 'accept-language'
+import Cookies from 'js-cookie'
+
+import loadScript from './module/loadScript'
 import Slideshow from './module/Slideshow'
 
 import '../css/main.scss'
 
 const slideshow = new Slideshow()
 
-const defaultLanguage = 'english'
+const acceptLanguage = AcceptLanguage.create()
+acceptLanguage.languages(['en-US', 'ja-JP'])
 let selectedLanguage = null
 
 async function selectLanguage (language, force = false) {
@@ -19,11 +23,11 @@ async function selectLanguage (language, force = false) {
     // We need to supply string literals in import() to make the hot module
     // replacement able to track their changes.
     switch (language) {
-      case 'english':
-        ({ default: source } = await import(`../../markdown/english.md`))
+      case 'en-US':
+        ({ default: source } = await import(`../../markdown/en-US.md`))
         break
-      case 'japanese':
-        ({ default: source } = await import(`../../markdown/japanese.md`))
+      case 'ja-JP':
+        ({ default: source } = await import(`../../markdown/ja-JP.md`))
         break
       default:
         throw new Error()
@@ -34,27 +38,14 @@ async function selectLanguage (language, force = false) {
     })
   }
   slideshow.load(source)
+  document.documentElement.setAttribute('lang', language)
   Cookies.set('language', language)
   selectedLanguage = language
 }
 
 function main () {
-  let language = Cookies.get('language')
-  if (!language) {
-    const [tag] = window.navigator.language.split('-')
-    switch (tag) {
-      case 'en':
-        language = 'english'
-        break
-      case 'ja':
-        language = 'japanese'
-        break
-      default:
-        language = defaultLanguage
-        break
-    }
-  }
-  selectLanguage(language)
+  const language = Cookies.get('language') || window.navigator.language
+  selectLanguage(acceptLanguage.get(language))
 }
 
 main()
@@ -70,6 +61,6 @@ if (module.hot) {
     selectLanguage(selectedLanguage, true)
   }
   // Same discussion above.
-  module.hot.accept(`../../markdown/english.md`, callback)
-  module.hot.accept(`../../markdown/japanese.md`, callback)
+  module.hot.accept('../../markdown/en-US.md', callback)
+  module.hot.accept('../../markdown/ja-JP.md', callback)
 }

@@ -6,10 +6,11 @@
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.development.js",
     "build": "webpack --config webpack.config.production.js",
-    "lint": "standard -v src/js/**/* lib/**/* *.js",
-    "fix": "standard --fix src/js/**/* lib/**/* *.js"
+    "lint": "standard -v src/**/*.js lib/**/*.js *.js",
+    "fix": "standard --fix src/**/*.js lib/**/*.js *.js"
   },
   "dependencies": {
+    "accept-language": "^3.0.18",
     "babel-polyfill": "^6.26.0",
     "compass-mixins": "^0.12.10",
     "cross-fetch": "^2.1.0",
