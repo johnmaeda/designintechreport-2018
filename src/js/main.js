@@ -57,7 +57,7 @@ loadScript('https://use.typekit.net/aos0mpl.js').then(() => {
 })
 
 if (module.hot) {
-  const callback = async () => {
+  const callback = () => {
     selectLanguage(selectedLanguage, true)
   }
   // Same discussion above.
