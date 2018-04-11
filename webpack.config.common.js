@@ -56,7 +56,10 @@ module.exports = mode => ({
           mode === 'production' ? MiniCssExtractPlugin.loader : 'style-loader',
           {
             loader: 'css-loader',
-            options: { sourceMap: true }
+            options: {
+              minimize: mode === 'production',
+              sourceMap: true
+            }
           },
           {
             loader: 'postcss-loader',
