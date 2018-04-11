@@ -87,7 +87,7 @@ module.exports = mode => ({
       /node_modules\/remark\/src\/remark\/highlighter.js/,
       path.resolve(__dirname, 'lib/highlighter.js')
     ),
-    new CleanWebpackPlugin(['build/**/*'], {
+    new CleanWebpackPlugin(['build'], {
       root: path.resolve(__dirname)
     }),
     new CopyWebpackPlugin([
