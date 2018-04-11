@@ -21,37 +21,37 @@ class: team-slide
 
 .section[
 ## Founding Team
-* ![](https://designintech.report/wp-content/uploads/2018/03/jackie.jpg)
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/jackie.jpg)
 	Jackie Xu
-* ![](https://designintech.report/wp-content/uploads/2018/03/aviv.jpg)
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/aviv.jpg)
 	Aviv Gilboa
-* ![](https://designintech.report/wp-content/uploads/2018/03/fatimah2.jpg)
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/fatimah.jpg)
 	Fatimah Kabba
-* ![](https://designintech.report/wp-content/uploads/2018/03/justin.jpg)
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/justin.jpg)
 	Justin Sayarath
-* ![](https://designintech.report/wp-content/uploads/2018/03/maeda.jpg)
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/maeda.jpg)
 	John Maeda
 ]
 
 .section[
 ## Report Contributors
-* ![](https://designintech.report/wp-content/uploads/2018/03/bon.jpg)
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/bon.jpg)
 	Bon Ku<br>
 	Medicine
-* ![](https://designintech.report/wp-content/uploads/2018/03/ling.jpg)
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/ling.jpg)
 	Ling Fan<br>
 	China
-* ![](https://designintech.report/wp-content/uploads/2018/03/sunil2.jpg)
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/sunil.jpg)
 	Sunil Malhotra<br>
 	India
-* ![](https://designintech.report/wp-content/uploads/2018/03/luis.jpg)
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/luis.jpg)
 	Luis Arnal<br>
 	Latin America
 ]
 
 .section[
 ## Report Translators
-* ![](https://pbs.twimg.com/profile_images/776403293123731456/vRapDC6h_400x400.jpg)
+* ![](https://raw.githubusercontent.com/johnmaeda/designintechreport-2018/master/asset/image/takram.jpg)
 	Takram<br>
 	Japanese
 ]
@@ -66,7 +66,7 @@ class: document-slide yellow-slide
 
 # .xx-large.serif[Desktop-First / Beta Release Notes]
 
-.x-large.sans[I had originally intended to design this report in some clever way that was mobile-first and responsive ... but I got lost in all the code along the way. Weekend hacking projects will do that to you (wink). If you’re visiting by mobile -- which is super likely -- please turn around. Next week I’ll release a mobile-only version for fun. I’m learning! —JM]
+.x-large.sans[I had originally intended to design this report in some clever way that was mobile-first and responsive ... but I got lost in all the code along the way. Weekend hacking projects will do that to you (wink). If you’re visiting by mobile -- which is super likely -- please turn around. Eventually I will make a mobile-only version available for fun. I’m learning! —JM]
 
 .footer[Welcome]
 
@@ -78,11 +78,11 @@ class: overview-slide darkgray-slide sans
 
 .group[
 
-Welcome to a new format for the Design in Tech Report. For this year’s report, I took a stab at learning all the CSS/JS that I’ve always wanted to know, and then went after the task of making a fully responsive report. I’ve partially succeeded on my road there with this letterbox-only version — which is better than a PDF, but it’s a little buggy. Sorry!
+Welcome to a new format for the Design in Tech Report. For this year’s report, I took a stab at learning all the CSS/JS that I’ve always wanted to know, and then went after the task of making a fully responsive report. I’ve partially succeeded on my road there with this letterbox-only version — which is better than a PDF. And fortunately thanks to Takram's Shota Matsuda it is greatly improved.
 
-When you see .refresh[Refresh Screen If Needed] please refresh your window and a dynamic diagram is likely to reappear. Chrome seems to work best with this report. If you don’t like an interactive version like this, please visit the one[**](https://www.slideshare.net/johnmaeda/design-in-tech-report-2018) on Slideshare.
+If you see .refresh[Refresh Screen If Needed] please refresh your window and a dynamic diagram is likely to reappear. Chrome seems to work best with this report. If you don’t like an interactive version like this, please visit the one[**](https://www.slideshare.net/johnmaeda/design-in-tech-report-2018) on Slideshare.
 
-Expect a video version on my new YouTube channel “John Maeda is Learning” by this weekend that walks you through all these findings.
+Expect a video version on my new YouTube channel “John Maeda is Learning” some day that walks you through all these findings.
 
 —@johnmaeda
 
@@ -546,7 +546,7 @@ class: document-slide
 ]
 .group[
 .timeline-title[Birth of “Design Thinking” and Design Strategy / Harnessing the Creative Problem Solving Skills of Designers]
-
+
 .sans[**2005**] Hasso Plattner Institute of Design at Stanford starts.
 
 IDEO’s Jane Fulton Suri publishes [Thoughtless Acts?](https://www.ideo.com/post/thoughtless-acts) and brings design research to the foreground.
