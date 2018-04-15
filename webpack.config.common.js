@@ -17,9 +17,6 @@ module.exports = mode => ({
     path: path.resolve(__dirname, 'build'),
     filename: '[name].js'
   },
-  performance: {
-    hints: false
-  },
   resolve: {
     alias: {
       'marked': path.resolve(__dirname, 'lib/marked.js'),
