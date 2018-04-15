@@ -5,6 +5,9 @@ Design In Tech Report 2018 Multi-Lingual Translation
 
 This began as a project that Takram led to refactor and open source the Design in Tech Report. I've been finally learning lot of things I should have learned a long time ago from @shotamatsuda and the Takram team. Thank you! —@johnmaeda
 
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![Dependency Status](https://david-dm.org/takram-design-engineering/designintechreport-2018.svg)](https://david-dm.org/takram-design-engineering/designintechreport-2018)
+
 ## Getting Started
 
 1. Make sure you have the latest node and npm (9.7.1 and 5.7.1 at the time of this writing).
