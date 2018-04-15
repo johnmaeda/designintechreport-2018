@@ -42,12 +42,11 @@ export default class Slideshow {
 
   updateSlides () {
     const elements = document.querySelectorAll('.remark-slide-container')
-    for (let index = 0; index < elements.length; ++index) {
-      const element = elements[index]
+    Array.from(elements).forEach((element, index) => {
       const slide = this.slides.get(element)
       if (!slide) {
         this.slides.set(element, new SlideObserver(element, index + 1))
       }
-    }
+    })
   }
 }
