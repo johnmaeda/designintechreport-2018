@@ -1101,7 +1101,7 @@ New driving and transportation experiences via [NIO](https://www.nio.com/) [Weim
 
 .medium.sans[**Retail Experiences**]
 
-![:video video/mp4, https://bcsecure04-a.akamaihd.net/36/5392214352001/201712/6/5392214352001_5668800512001_5668789168001.mp4?pubId=5392214352001&videoId=5668789168001]
+![:video video/mp4, https://udso-a.akamaihd.net/5392214352001/5392214352001_5668800512001_5668789168001.mp4?pubId=5392214352001&videoId=5668789168001]
 
 Alibaba Hema and the Starbucks Roastery represent a new vertical integration between online and offline experiences.
 
