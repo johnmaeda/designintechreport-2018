@@ -13,16 +13,16 @@
   padding-top: 10rem;
 
   h1 {
+    @include typography-size(x-large);
     margin-top: 0;
-    font-size: $font-size-x-large;
   }
 
   .grid {
     margin-top: 0;
 
     p {
+      @include typography-size(small);
       margin-left: 1rem;
-      font-size: $font-size-small;
     }
   }
 }

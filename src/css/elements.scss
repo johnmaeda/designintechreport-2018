@@ -4,19 +4,19 @@
 @mixin headers() {
   h1 {
     @include typography-sans;
+    @include typography-size(large);
     margin-top: 1.75rem;
     margin-bottom: 1.75rem;
-    font-size: $font-size-large;
   }
 
   h2 {
     @include typography-sans;
+    @include typography-size(medium);
     display: table; // To get both collapsing margins and block layout
     margin-top: 2rem;
     padding: 0.3rem 3.75rem 0.3rem 1.25rem;
     color: $color-white;
     background-color: $color-black;
-    font-size: $font-size-medium;
 
     &:first-child {
       margin-top: 0
@@ -25,12 +25,12 @@
 
   h3 {
     @include typography-sans;
+    @include typography-size(medium);
     display: table; // To get both collapsing margins and block layout
     margin-top: 2rem;
     padding: 0.3rem 0.5rem;
     color: $color-white;
     background-color: $color-black;
-    font-size: $font-size-medium;
   }
 
   h1 + h2 {
@@ -57,19 +57,19 @@
 @mixin unset-headers() {
   h1 {
     @include unset-typography;
+    @include unset-typography-size;
     margin-top: unset;
     margin-bottom: unset;
-    font-size: unset;
   }
 
   h2 {
     @include unset-typography;
+    @include unset-typography-size;
     display: unset;
     margin-top: unset;
     padding: unset;
     color: unset;
     background-color: unset;
-    font-size: unset;
 
     &:first-child {
       margin-top: unset
@@ -78,11 +78,11 @@
 
   h3 {
     @include unset-typography;
+    @include unset-typography-size;
     display: unset;
     padding: unset;
     color: unset;
     background-color: unset;
-    font-size: unset;
   }
 
   h1 + h2 {

@@ -39,12 +39,12 @@
 
 .remark-slide-number {
   @include typography-sans;
+  @include typography-size(xx-small);
   display: block;
   position: absolute;
   right: 40px;
   bottom: 1rem;
   color: $color-darkgray;
-  font-size: $font-size-xx-small;
   line-height: 1.2;
   opacity: 1;
 }
@@ -55,8 +55,8 @@
 
 .slide {
   @include typography-serif;
+  @include typography-size(medium);
   padding: 1.25rem 5rem;
-  font-size: $font-size-medium;
   line-height: 1.1;
 
   *::selection {
@@ -110,13 +110,13 @@
 
   .source {
     @include typography-sans;
+    @include typography-size(xx-small);
     display: block;
     position: absolute;
     right: calc(40% + 2rem); // Not sure
     bottom: 1rem;
     left: 5rem;
     color: $color-darkgray;
-    font-size: $font-size-xx-small;
     line-height: 1.2;
 
     &:before {
@@ -126,12 +126,12 @@
 
   .footer {
     @include typography-sans;
+    @include typography-size(xx-small);
     display: block;
     position: absolute;
     left: 60%; // Not sure
     bottom: 1rem;
     color: $color-orange;
-    font-size: $font-size-xx-small;
     line-height: 1.2;
 
     &:before {
@@ -166,6 +166,7 @@
 
 .language-selector {
   @include typography-sans;
+  @include typography-size(x-small);
   z-index: 3;
   display: flex;
   flex-direction: row;
@@ -176,7 +177,6 @@
   width: 100vw;
   padding: 1rem;
   color: rgba(black, 0.5);
-  font-size: $font-size-x-small;
 
   > * {
     cursor: pointer;
