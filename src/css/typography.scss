@@ -56,7 +56,7 @@ $font-size-scales: (
     font-size: map-get($font-sizes, $size);
 
     @each $lang, $scale in $font-size-scales {
-      html[lang="#{$lang}"] & {
+      *[lang="#{$lang}"] & {
         font-size: map-get($font-sizes, $size) * $scale;
       }
     }
@@ -64,7 +64,7 @@ $font-size-scales: (
     font-size: $size;
 
     @each $lang, $scale in $font-size-scales {
-      html[lang="#{$lang}"] & {
+      *[lang="#{$lang}"] & {
         font-size: $size * $scale;
       }
     }
