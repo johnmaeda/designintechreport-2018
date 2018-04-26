@@ -4,11 +4,22 @@ import MutationObserver from 'mutation-observer'
 import createTwitterWidget from './createTwitterWidget'
 import drawGoogleChart from './drawGoogleChart'
 
+function promisifyLoadEvent (element) {
+  return new Promise((resolve, reject) => {
+    const callback = event => {
+      element.removeEventListener('load', callback, false)
+      element.removeEventListener('error', callback, false)
+      resolve()
+    }
+    element.addEventListener('load', callback, false)
+    element.addEventListener('error', callback, false)
+  })
+}
+
 export default class SlideObserver {
   constructor (element, index) {
     this.element = element
     this.index = index
-    this.mounted = false
     this.init()
   }
 
@@ -21,10 +32,16 @@ export default class SlideObserver {
     }
   }
 
+  mount () {
+    if (!this.mounted) {
+      this.mounted = this.slideDidMount()
+    }
+    return this.mounted
+  }
+
   startObservingVisibility () {
     if (this.element.classList.contains('remark-visible')) {
-      this.mounted = true
-      this.slideDidMount()
+      this.mount()
     }
     const observer = new MutationObserver(mutations => {
       mutations.some(mutation => {
@@ -33,8 +50,7 @@ export default class SlideObserver {
         }
         const visible = this.element.classList.contains('remark-visible')
         if (visible && !this.mounted) {
-          this.mounted = true
-          this.slideDidMount()
+          this.mount()
         }
       })
     })
@@ -68,11 +84,14 @@ export default class SlideObserver {
 
   slideDidMount () {
     this.querySelectorAll('a').forEach(this.processAnchor)
-    this.querySelectorAll('img').forEach(this.processImage)
-    this.querySelectorAll('audio, video').forEach(this.processAudioVideo)
-    this.querySelectorAll('.iframe').forEach(this.processIFrame)
-    this.querySelectorAll('.chart').forEach(this.processChart)
-    this.querySelectorAll('.tweet').forEach(this.processTweet)
+    this.querySelectorAll('audio').forEach(this.processAudio)
+    return Promise.all([
+      ...this.querySelectorAll('img').map(this.processImage),
+      ...this.querySelectorAll('video').map(this.processVideo),
+      ...this.querySelectorAll('.iframe').map(this.processIFrame),
+      ...this.querySelectorAll('.chart').map(this.processChart),
+      ...this.querySelectorAll('.tweet').map(this.processTweet)
+    ])
   }
 
   slideDidUnmount () {}
@@ -91,16 +110,17 @@ export default class SlideObserver {
     }
   }
 
-  processImage (element) {
+  async processImage (element) {
     const src = element.getAttribute('data-src')
     if (src == null) {
       return
     }
     element.setAttribute('src', src)
     element.removeAttribute('data-src')
+    await promisifyLoadEvent(element)
   }
 
-  processAudioVideo (element) {
+  processAudio (element) {
     const source = element.firstElementChild
     const src = source.getAttribute('data-src')
     if (src == null) {
@@ -111,7 +131,19 @@ export default class SlideObserver {
     element.load()
   }
 
-  processIFrame (element) {
+  async processVideo (element) {
+    const source = element.firstElementChild
+    const src = source.getAttribute('data-src')
+    if (src == null) {
+      return
+    }
+    source.setAttribute('src', src)
+    source.removeAttribute('data-src')
+    element.load()
+    await promisifyLoadEvent(source)
+  }
+
+  async processIFrame (element) {
     const iframe = element.firstElementChild
     const src = iframe.getAttribute('data-src')
     if (src == null) {
@@ -119,33 +151,34 @@ export default class SlideObserver {
     }
     iframe.setAttribute('src', src)
     iframe.removeAttribute('data-src')
-    const callback = event => {
-      iframe.removeEventListener('load', callback, false)
-      element.classList.add('loaded')
-    }
-    iframe.addEventListener('load', callback, false)
+    await promisifyLoadEvent(iframe)
+    element.classList.add('loaded')
   }
 
-  processChart (element) {
+  async processChart (element) {
     const type = element.getAttribute('data-type')
     const src = element.getAttribute('data-src')
     if (type == null || src == null) {
       return
     }
-    window.fetch(src).then(response => {
-      return response.json()
-    }).then(({ data, options }) => {
+    try {
+      const response = await window.fetch(src)
+      const { data, options } = await response.json()
       drawGoogleChart(element, type, data, options)
-    }).catch(error => {
-      throw error
-    })
+    } catch (error) {
+      console.error(error)
+    }
   }
 
-  processTweet (element) {
+  async processTweet (element) {
     const tweetId = element.getAttribute('data-tweet-id')
     if (tweetId == null) {
       return
     }
-    createTwitterWidget(tweetId, element)
+    try {
+      await createTwitterWidget(tweetId, element)
+    } catch (error) {
+      console.error(error)
+    }
   }
 }
