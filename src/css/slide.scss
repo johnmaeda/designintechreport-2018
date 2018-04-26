@@ -45,7 +45,6 @@
   right: 40px;
   bottom: 1rem;
   color: $color-darkgray;
-  line-height: 1.2;
   opacity: 1;
 }
 
@@ -57,7 +56,14 @@
   @include typography-serif;
   @include typography-size(medium);
   padding: 1.25rem 5rem;
-  line-height: 1.1;
+
+  html[lang="en"] & {
+    line-height: 1.1;
+  }
+
+  html[lang="ja"] & {
+    line-height: 1.2;
+  }
 
   *::selection {
     color: $color-white;
@@ -117,7 +123,6 @@
     bottom: 1rem;
     left: 5rem;
     color: $color-darkgray;
-    line-height: 1.2;
 
     &:before {
       content: 'Source: ';
@@ -132,7 +137,6 @@
     left: 60%; // Not sure
     bottom: 1rem;
     color: $color-orange;
-    line-height: 1.2;
 
     &:before {
       content: '2018 Design In Tech Report | ';
