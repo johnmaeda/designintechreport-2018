@@ -18,6 +18,8 @@ $colors: (
   yellow: $color-yellow,
 );
 
+:global {
+
 .black {
   color: $color-black;
 }
@@ -49,3 +51,5 @@ $colors: (
 .yellow {
   color: $color-yellow;
 }
+
+} // :global

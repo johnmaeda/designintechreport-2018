@@ -2,6 +2,8 @@
 @import '../elements';
 @import '../typography';
 
+:global {
+
 .kinds-of-design-slide {
   %diagram {
     display: block;
@@ -29,3 +31,5 @@
     background-color: $color-orange;
   }
 }
+
+} // :global
