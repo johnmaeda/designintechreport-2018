@@ -6,5 +6,5 @@
 }
 
 @function rem($size) {
-  @return (strip-unit($size) / 16) + rem;
+  @return strip-unit($size) / 16 + 0rem;
 }
