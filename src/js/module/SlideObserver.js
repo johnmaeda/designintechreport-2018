@@ -9,7 +9,6 @@ export default class SlideObserver {
     this.element = element
     this.index = index
     this.mounted = false
-    this.visible = false
     this.init()
   }
 
@@ -25,9 +24,7 @@ export default class SlideObserver {
   startObservingVisibility () {
     if (this.element.classList.contains('remark-visible')) {
       this.mounted = true
-      this.visible = true
       this.slideDidMount()
-      this.slideDidAppear()
     }
     const observer = new MutationObserver(mutations => {
       mutations.some(mutation => {
@@ -35,17 +32,9 @@ export default class SlideObserver {
           return
         }
         const visible = this.element.classList.contains('remark-visible')
-        if (visible !== this.visible) {
-          if (!this.mounted) {
-            this.mounted = true
-            this.slideDidMount()
-          }
-          this.visible = visible
-          if (visible) {
-            this.slideDidAppear()
-          } else {
-            this.slideDidDisappear()
-          }
+        if (visible && !this.mounted) {
+          this.mounted = true
+          this.slideDidMount()
         }
       })
     })
@@ -87,10 +76,6 @@ export default class SlideObserver {
   }
 
   slideDidUnmount () {}
-
-  slideDidAppear () {}
-
-  slideDidDisappear () {}
 
   querySelectorAll (...args) {
     return Array.from(this.element.querySelectorAll(...args))
