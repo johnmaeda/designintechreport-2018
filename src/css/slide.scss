@@ -170,35 +170,4 @@
   }
 }
 
-.language-selector {
-  @include typography-sans;
-  @include typography-size(x-small);
-  z-index: 3;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: rgba(black, 0.5);
-
-  > * {
-    cursor: pointer;
-
-    &:hover {
-      color: black;
-    }
-  }
-
-  > * + * {
-    margin-left: 1rem;
-  }
-
-  > .selected {
-    border-bottom: solid 2px black;
-  }
-}
-
 } // :global
