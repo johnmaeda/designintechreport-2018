@@ -3,12 +3,12 @@ import MutationObserver from 'mutation-observer'
 
 import createTwitterWidget from './createTwitterWidget'
 import drawGoogleChart from './drawGoogleChart'
+import promisifyLoadEvent from './promisifyLoadEvent'
 
 export default class SlideObserver {
   constructor (element, index) {
     this.element = element
     this.index = index
-    this.mounted = null
     this.init()
   }
 
@@ -22,10 +22,9 @@ export default class SlideObserver {
   }
 
   mount () {
-    if (this.mounted) {
-      return this.mounted
+    if (!this.mounted) {
+      this.mounted = this.slideDidMount()
     }
-    this.mounted = this.slideDidMount()
     return this.mounted
   }
 
@@ -100,22 +99,14 @@ export default class SlideObserver {
     }
   }
 
-  processImage (element) {
+  async processImage (element) {
     const src = element.getAttribute('data-src')
     if (src == null) {
       return Promise.resolve()
     }
     element.setAttribute('src', src)
     element.removeAttribute('data-src')
-    return new Promise((resolve, reject) => {
-      const callback = event => {
-        element.removeEventListener('load', callback, false)
-        element.removeEventListener('error', callback, false)
-        resolve()
-      }
-      element.addEventListener('load', callback, false)
-      element.addEventListener('error', callback, false)
-    })
+    await promisifyLoadEvent(element)
   }
 
   processAudio (element) {
@@ -129,27 +120,19 @@ export default class SlideObserver {
     element.load()
   }
 
-  processVideo (element) {
+  async processVideo (element) {
     const source = element.firstElementChild
     const src = source.getAttribute('data-src')
     if (src == null) {
-      return Promise.resolve()
+      return
     }
     source.setAttribute('src', src)
     source.removeAttribute('data-src')
     element.load()
-    return new Promise((resolve, reject) => {
-      const callback = event => {
-        source.removeEventListener('load', callback, false)
-        source.removeEventListener('error', callback, false)
-        resolve()
-      }
-      source.addEventListener('load', callback, false)
-      source.addEventListener('error', callback, false)
-    })
+    await promisifyLoadEvent(source)
   }
 
-  processIFrame (element) {
+  async processIFrame (element) {
     const iframe = element.firstElementChild
     const src = iframe.getAttribute('data-src')
     if (src == null) {
@@ -157,40 +140,34 @@ export default class SlideObserver {
     }
     iframe.setAttribute('src', src)
     iframe.removeAttribute('data-src')
-    return new Promise((resolve, reject) => {
-      const callback = event => {
-        iframe.removeEventListener('load', callback, false)
-        iframe.removeEventListener('error', callback, false)
-        element.classList.add('loaded')
-        resolve()
-      }
-      iframe.addEventListener('load', callback, false)
-      iframe.addEventListener('error', callback, false)
-    })
+    await promisifyLoadEvent(iframe)
+    element.classList.add('loaded')
   }
 
-  processChart (element) {
+  async processChart (element) {
     const type = element.getAttribute('data-type')
     const src = element.getAttribute('data-src')
     if (type == null || src == null) {
       return Promise.resolve()
     }
-    return window.fetch(src).then(response => {
-      return response.json()
-    }).then(({ data, options }) => {
+    try {
+      const response = await window.fetch(src)
+      const { data, options } = await response.json()
       drawGoogleChart(element, type, data, options)
-    }).catch(error => {
+    } catch (error) {
       console.error(error)
-    })
+    }
   }
 
-  processTweet (element) {
+  async processTweet (element) {
     const tweetId = element.getAttribute('data-tweet-id')
     if (tweetId == null) {
       return Promise.resolve()
     }
-    return createTwitterWidget(tweetId, element).catch(error => {
+    try {
+      await createTwitterWidget(tweetId, element)
+    } catch (error) {
       console.error(error)
-    })
+    }
   }
 }

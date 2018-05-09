@@ -1096,7 +1096,7 @@ class: document-slide
 
 .medium.sans[**小売体験**]
 
-![:video video/mp4, https://bcsecure04-a.akamaihd.net/36/5392214352001/201712/6/5392214352001_5668800512001_5668789168001.mp4?pubId=5392214352001&videoId=5668789168001]
+![:video video/mp4, https://udso-a.akamaihd.net/5392214352001/5392214352001_5668800512001_5668789168001.mp4?pubId=5392214352001&videoId=5668789168001]
 
 AlibabaのHemaとStarbucksのRoasteryには、オンライン体験とオフライン体験の間の新たな垂直統合が表現されている。
 

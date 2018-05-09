@@ -2,7 +2,7 @@
 
 import 'remark/src/remark'
 
-import { supportedLanguages, selectLanguage } from '../main'
+import promisifyLoadEvent from './promisifyLoadEvent'
 import SlideObserver from './SlideObserver'
 
 export default class Slideshow {
@@ -13,13 +13,7 @@ export default class Slideshow {
 
   async load (source) {
     if (document.readyState !== 'complete') {
-      await new Promise((resolve, reject) => {
-        const callback = event => {
-          window.removeEventListener('load', callback, false)
-          resolve()
-        }
-        window.addEventListener('load', callback, false)
-      })
+      await promisifyLoadEvent(window)
     }
     // Chrome seems to need a noop frame to regard the document as fully loaded.
     window.requestAnimationFrame(() => {
