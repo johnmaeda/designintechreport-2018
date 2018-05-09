@@ -98,7 +98,7 @@ class: overview-slide lightgray-slide
 
 .grid.across-2[
 .group[
-### 1) TBD =<br>テクノロジー (T) × ビジネス (B) × デザイン (D)
+### 1) TBD = テクノロジー (T) × ビジネス (B) × デザイン (D)
 
 テクノロジーとビジネス、そしてデザインは、スタートアップや企業のエコシステムの中でお互いにどのように関係しているのだろうか。
 ]
@@ -875,7 +875,7 @@ class: document-slide
 
 * .timeline-title[3月] **Andrew Crow**がデザインのVPとしてStravaに加わる。
 
-* .timeline-title[5月] Google VenturesのデザインパートナーらがNew York Times（NYT）ベストセラー本『*SPRINT(スプリント)*』を出版。
+* .timeline-title[5月] Google VenturesのデザインパートナーらがNew York Times（NYT）ベストセラー本『*SPRINT*』を出版。
 	- **August de los Reyes**がデザイン部門トップとしてPinterestに加わる。
 
 * .timeline-title[7月] Khoslaのデザインパートナー、Irene Auが『*Design in Venture Capital (ベンチャーキャピタルにおけるデザイン)*』を出版。
@@ -910,12 +910,12 @@ class: document-slide
 
 * .timeline-title[12月] デザインツールのスタートアップInVisionが500万ドルのデザインフォワード・ファンドを公表。
 
-* .timeline-title[12月] New Enterprise Associates（NEA）のデザインパートナー、**Albert Lee**がジェネラル・パートナーの**Dayna Grayson**と共に2017年Future of Designin Start-ups (スタートアップにおけるデザインの未来) 調査結果を[発表](https://twitter.com/daynagrayson/status/943173916322861057) 。
+* .timeline-title[12月] New Enterprise Associates（NEA）のデザインパートナー、**Albert Lee**がジェネラル・パートナーの**Dayna Grayson**と共に2017年スタートアップにおけるデザインの未来調査結果を[発表](https://twitter.com/daynagrayson/status/943173916322861057) 。
 
 * ### 2018
 
-* .timeline-title[2018 1月] **Vanessa Cho**がGoogle Venturesにデザインパートナーとして参加。
-	- _Google Venturesが、ベンチャーキャピタルおよびサステナブル・チームとしてのデザインにおいて、明確なリーダーとして頭角を表す。_
+* .timeline-title[2018 1月] **Vanessa Cho**がGVにデザインパートナーとして参加。
+	- _GVが、VCおよびサステナブル・チームとしてのデザインにおいて、明確なリーダーとして頭角を表す。_
 
 * .timeline-title[2月] Google Venturesの元デザインパートナー、**Daniel Burka**がResolve To Save Livesにデザインディレクターとして加わる。
 
@@ -1999,7 +1999,7 @@ class: document-slide
 
 class: chapter-slide lightgray-slide
 
-# .mono[コンピュテーショナルデザイン：<br>最初のステップ]
+# .mono[コンピュテーショナル<br>デザイン：最初のステップ]
 
 .group[
 ### 「アトム &times; ビット &times; 人」が大規模に展開
@@ -2051,7 +2051,7 @@ class: document-slide
 
 class: document-slide
 
-# モバイル（アトム &times; ビット）は、（今後）人々が物事をこなすための作法となる。
+# モバイル（アトム &times; ビット）は（今後）人々が物事をこなすための作法となる
 
 .stack[
 .group[
@@ -2411,7 +2411,7 @@ class: document-slide
 
 class: chapter-slide lightgray-slide
 
-# コンピュテーショナルデザイン：<br>人工知能
+# コンピュテーショナル<br>デザイン：人工知能
 
 .group[
 ### AIはインクルーシブデザインが得意ではない。なぜなら私たちもそれが得意ではないからだ。
@@ -3159,7 +3159,7 @@ class: document-slide
 
 class: document-slide
 
-# Automattic Design社は、[ケンタッキー州ペインツビル](http://www.theholler.org/firecast-episode-7-paintsville-independent/)の生徒らと活動している。
+# Automattic Design社は[ケンタッキー州ペインツビル](http://www.theholler.org/firecast-episode-7-paintsville-independent/)の生徒と活動している
 
 .stack[
 .group[
