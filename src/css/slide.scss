@@ -4,37 +4,35 @@
 
 :global {
 
-.remark-container {
-  background-color: #999999; // TODO: Print media
+@media screen {
+  .remark-container {
+    background-color: #999999;
+  }
+
+  .remark-slide-container {
+    // Make slide containers hidden instead of not displaying in order for Google
+    // Data Studio pages inside iframes to be able to determine their dimensions
+    // when they finish loading while their containing slides are not visible.
+    display: block;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  .remark-visible {
+    visibility: visible;
+  }
+
+  .remark-slide-scaler {
+    box-shadow: none;
+    pointer-events: auto;
+  }
 }
 
-// Make slide containers hidden instead of not displaying in order for Google
-// Data Studio pages inside iframes to be able to determine their dimensions
-// when they finish loading while their containing slides are not visible.
-.remark-slide-container {
-  display: block;
-  visibility: hidden;
-}
-
-.remark-visible {
-  visibility: visible;
-}
-
-.remark-slide-scaler {
-  position: relative;
-  box-shadow: none;
-}
-
-.remark-slide {
-  display: block;
-  overflow: hidden;
-  box-sizing: border-box;
-  height: 100%;
-}
-
+.remark-slide,
 .remark-slide-content {
   display: block;
   overflow: hidden;
+  position: relative;
   box-sizing: border-box;
   height: 100%;
 }
@@ -59,11 +57,11 @@
   @include typography-size(medium);
   padding: 1.25rem 5rem;
 
-  html[lang="en"] & {
+  *[lang="en"] & {
     line-height: 1.1;
   }
 
-  html[lang="ja"] & {
+  *[lang="ja"] & {
     line-height: 1.2;
   }
 
