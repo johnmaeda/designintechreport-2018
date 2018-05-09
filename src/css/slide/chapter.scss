@@ -2,6 +2,8 @@
 @import '../elements';
 @import '../typography';
 
+:global {
+
 .chapter-slide {
   @include headers;
   @include paragraphs;
@@ -17,3 +19,5 @@
     margin-top: 0;
   }
 }
+
+} // :global

@@ -55,6 +55,7 @@ module.exports = mode => ({
             loader: 'css-loader',
             options: {
               minimize: mode === 'production',
+              modules: true,
               sourceMap: true
             }
           },

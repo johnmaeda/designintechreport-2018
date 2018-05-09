@@ -2,6 +2,8 @@
 @import '../elements';
 @import '../typography';
 
+:global {
+
 .overview-slide {
   @include headers;
   @include paragraphs;
@@ -26,3 +28,5 @@
     }
   }
 }
+
+} // :global

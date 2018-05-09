@@ -2,6 +2,8 @@
 @import '../elements';
 @import '../typography';
 
+:global {
+
 .team-slide {
   @include headers;
   @include typography-sans;
@@ -39,3 +41,5 @@
     }
   }
 }
+
+} // :global

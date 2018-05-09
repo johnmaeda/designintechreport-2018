@@ -2,6 +2,8 @@
 @import './typography';
 @import './mixins';
 
+:global {
+
 .remark-container {
   background-color: #999999; // TODO: Print media
 }
@@ -198,3 +200,5 @@
     border-bottom: solid 2px black;
   }
 }
+
+} // :global

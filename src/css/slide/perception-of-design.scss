@@ -2,6 +2,8 @@
 @import '../elements';
 @import '../typography';
 
+:global {
+
 .perception-of-design-slide {
   .grid .grid {
     grid-gap: 1rem;
@@ -14,3 +16,5 @@
     grid-template-columns: 112px 120px;
   }
 }
+
+} // :global

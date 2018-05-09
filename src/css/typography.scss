@@ -76,6 +76,8 @@ $font-size-scales: (
   font-size: unset;
 }
 
+:global {
+
 .sans {
   @include typography-sans;
 }
@@ -103,3 +105,5 @@ $font-size-scales: (
   letter-spacing: 0.1em; // Intentionally em
   text-transform: uppercase;
 }
+
+} // :global

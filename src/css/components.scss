@@ -3,6 +3,8 @@
 @import './mixins';
 @import './typography';
 
+:global {
+
 .block {
   display: block;
 }
@@ -531,3 +533,5 @@
     }
   }
 }
+
+} // :global
