@@ -8,7 +8,7 @@ export default class SlideObserver {
   constructor (element, index) {
     this.element = element
     this.index = index
-    this.mounted = false
+    this.mounted = null
     this.init()
   }
 
@@ -21,10 +21,17 @@ export default class SlideObserver {
     }
   }
 
+  mount () {
+    if (this.mounted) {
+      return this.mounted
+    }
+    this.mounted = this.slideDidMount()
+    return this.mounted
+  }
+
   startObservingVisibility () {
     if (this.element.classList.contains('remark-visible')) {
-      this.mounted = true
-      this.slideDidMount()
+      this.mount()
     }
     const observer = new MutationObserver(mutations => {
       mutations.some(mutation => {
@@ -33,8 +40,7 @@ export default class SlideObserver {
         }
         const visible = this.element.classList.contains('remark-visible')
         if (visible && !this.mounted) {
-          this.mounted = true
-          this.slideDidMount()
+          this.mount()
         }
       })
     })
@@ -68,11 +74,14 @@ export default class SlideObserver {
 
   slideDidMount () {
     this.querySelectorAll('a').forEach(this.processAnchor)
-    this.querySelectorAll('img').forEach(this.processImage)
-    this.querySelectorAll('audio, video').forEach(this.processAudioVideo)
-    this.querySelectorAll('.iframe').forEach(this.processIFrame)
-    this.querySelectorAll('.chart').forEach(this.processChart)
-    this.querySelectorAll('.tweet').forEach(this.processTweet)
+    this.querySelectorAll('audio').forEach(this.processAudio)
+    return Promise.all([
+      ...this.querySelectorAll('img').map(this.processImage),
+      ...this.querySelectorAll('video').map(this.processVideo),
+      ...this.querySelectorAll('.iframe').map(this.processIFrame),
+      ...this.querySelectorAll('.chart').map(this.processChart),
+      ...this.querySelectorAll('.tweet').map(this.processTweet)
+    ])
   }
 
   slideDidUnmount () {}
@@ -94,13 +103,22 @@ export default class SlideObserver {
   processImage (element) {
     const src = element.getAttribute('data-src')
     if (src == null) {
-      return
+      return Promise.resolve()
     }
     element.setAttribute('src', src)
     element.removeAttribute('data-src')
+    return new Promise((resolve, reject) => {
+      const callback = event => {
+        element.removeEventListener('load', callback, false)
+        element.removeEventListener('error', callback, false)
+        resolve()
+      }
+      element.addEventListener('load', callback, false)
+      element.addEventListener('error', callback, false)
+    })
   }
 
-  processAudioVideo (element) {
+  processAudio (element) {
     const source = element.firstElementChild
     const src = source.getAttribute('data-src')
     if (src == null) {
@@ -111,41 +129,68 @@ export default class SlideObserver {
     element.load()
   }
 
+  processVideo (element) {
+    const source = element.firstElementChild
+    const src = source.getAttribute('data-src')
+    if (src == null) {
+      return Promise.resolve()
+    }
+    source.setAttribute('src', src)
+    source.removeAttribute('data-src')
+    element.load()
+    return new Promise((resolve, reject) => {
+      const callback = event => {
+        source.removeEventListener('load', callback, false)
+        source.removeEventListener('error', callback, false)
+        resolve()
+      }
+      source.addEventListener('load', callback, false)
+      source.addEventListener('error', callback, false)
+    })
+  }
+
   processIFrame (element) {
     const iframe = element.firstElementChild
     const src = iframe.getAttribute('data-src')
     if (src == null) {
-      return
+      return Promise.resolve()
     }
     iframe.setAttribute('src', src)
     iframe.removeAttribute('data-src')
-    const callback = event => {
-      iframe.removeEventListener('load', callback, false)
-      element.classList.add('loaded')
-    }
-    iframe.addEventListener('load', callback, false)
+    return new Promise((resolve, reject) => {
+      const callback = event => {
+        iframe.removeEventListener('load', callback, false)
+        iframe.removeEventListener('error', callback, false)
+        element.classList.add('loaded')
+        resolve()
+      }
+      iframe.addEventListener('load', callback, false)
+      iframe.addEventListener('error', callback, false)
+    })
   }
 
   processChart (element) {
     const type = element.getAttribute('data-type')
     const src = element.getAttribute('data-src')
     if (type == null || src == null) {
-      return
+      return Promise.resolve()
     }
-    window.fetch(src).then(response => {
+    return window.fetch(src).then(response => {
       return response.json()
     }).then(({ data, options }) => {
       drawGoogleChart(element, type, data, options)
     }).catch(error => {
-      throw error
+      console.error(error)
     })
   }
 
   processTweet (element) {
     const tweetId = element.getAttribute('data-tweet-id')
     if (tweetId == null) {
-      return
+      return Promise.resolve()
     }
-    createTwitterWidget(tweetId, element)
+    return createTwitterWidget(tweetId, element).catch(error => {
+      console.error(error)
+    })
   }
 }
