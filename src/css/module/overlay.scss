@@ -4,6 +4,7 @@
 .element {
   @include typography-mono;
   z-index: 100;
+  opacity: 0;
   position: absolute;
   top: 0;
   left: 0;
@@ -12,8 +13,10 @@
   font-size: 11px; // Fixed
 }
 
-.item {
-  & + & {
-    margin-top: 0.3rem;
-  }
+body:hover .element {
+  opacity: 1;
+}
+
+.item + .item {
+  margin-top: 0.3rem;
 }
