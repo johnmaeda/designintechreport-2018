@@ -5,7 +5,6 @@ import 'remark/src/remark'
 import { supportedLanguages } from '../main'
 import LanguageSelector from './LanguageSelector'
 import promisifyLoadEvent from './promisifyLoadEvent'
-import SlideLoader from './SlideLoader'
 import SlideObserver from './SlideObserver'
 
 import overlayStyles from '../../css/module/overlay.scss'
@@ -55,7 +54,6 @@ export default class Slideshow {
     const overlay = document.createElement('div')
     overlay.classList.add(overlayStyles.element)
     const items = [
-      new SlideLoader(this).element,
       ...Object.entries(supportedLanguages).map(args => {
         return new LanguageSelector(...args).element
       })
