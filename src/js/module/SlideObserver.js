@@ -33,7 +33,7 @@ export default class SlideObserver {
       this.mount()
     }
     const observer = new MutationObserver(mutations => {
-      mutations.some(mutation => {
+      mutations.forEach(mutation => {
         if (mutation.attributeName !== 'class') {
           return
         }

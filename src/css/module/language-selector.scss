@@ -1,0 +1,17 @@
+.element {
+  color: white;
+  cursor: pointer;
+
+  &:hover {
+    color: black;
+  }
+}
+
+.selected {
+  color: black;
+  cursor: auto;
+
+  &:before {
+    content: '> ';
+  }
+}

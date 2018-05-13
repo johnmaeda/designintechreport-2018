@@ -1,0 +1,19 @@
+@import '../colors';
+@import '../typography';
+
+.element {
+  @include typography-mono;
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: rgba(#999999, 0.75);
+  font-size: 11px; // Fixed
+}
+
+.item {
+  & + & {
+    margin-top: 0.3rem;
+  }
+}

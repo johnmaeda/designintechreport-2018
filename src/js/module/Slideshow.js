@@ -2,8 +2,13 @@
 
 import 'remark/src/remark'
 
+import { supportedLanguages } from '../main'
+import LanguageSelector from './LanguageSelector'
 import promisifyLoadEvent from './promisifyLoadEvent'
+import SlideLoader from './SlideLoader'
 import SlideObserver from './SlideObserver'
+
+import overlayStyles from '../../css/module/overlay.scss'
 
 export default class Slideshow {
   constructor (options = {}) {
@@ -28,6 +33,7 @@ export default class Slideshow {
           },
           ...this.options
         })
+        this.addOverlay()
       } else {
         this.remark.loadFromString(source)
       }
@@ -43,5 +49,22 @@ export default class Slideshow {
         this.slides.set(element, new SlideObserver(element, index + 1))
       }
     })
+  }
+
+  addOverlay () {
+    const overlay = document.createElement('div')
+    overlay.classList.add(overlayStyles.element)
+    const items = [
+      new SlideLoader(this).element,
+      ...Object.entries(supportedLanguages).map(args => {
+        return new LanguageSelector(...args).element
+      })
+    ]
+    items.forEach(item => {
+      item.classList.add(overlayStyles.item)
+      overlay.appendChild(item)
+    })
+    const container = document.querySelector('.remark-slides-area')
+    container.appendChild(overlay)
   }
 }
