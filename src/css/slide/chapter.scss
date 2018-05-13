@@ -2,6 +2,8 @@
 @import '../elements';
 @import '../typography';
 
+:global {
+
 .chapter-slide {
   @include headers;
   @include paragraphs;
@@ -13,7 +15,9 @@
   padding-top: 6rem;
 
   h1 {
+    @include typography-size(x-large);
     margin-top: 0;
-    font-size: $font-size-x-large;
   }
 }
+
+} // :global

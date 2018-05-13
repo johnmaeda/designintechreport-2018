@@ -2,9 +2,9 @@
 
 @import './functions';
 
-$font-family-sans: 'Roboto', sans-serif;
-$font-family-serif: 'Georgia', serif;
-$font-family-mono: 'Roboto Mono', sans-serif;
+$font-family-sans: 'Roboto', 'source-han-sans-japanese', sans-serif;
+$font-family-serif: 'Georgia', 'YuMincho', 'Yu Mincho', serif;
+$font-family-mono: 'Roboto Mono', 'source-han-sans-japanese', sans-serif;
 
 $font-size-xx-large: rem(48px);
 $font-size-x-large: rem(45px);
@@ -15,6 +15,23 @@ $font-size-small: rem(15px);
 $font-size-x-small: rem(13px);
 $font-size-xx-small: rem(12px);
 $font-size-xxx-small: rem(9.6px);
+
+$font-sizes: (
+  xx-large: $font-size-xx-large,
+  x-large: $font-size-x-large,
+  large: $font-size-large,
+  x-medium: $font-size-x-medium,
+  medium: $font-size-medium,
+  small: $font-size-small,
+  x-small: $font-size-x-small,
+  xx-small: $font-size-xx-small,
+  xxx-small: $font-size-xxx-small
+);
+
+$font-size-scales: (
+  en: 1,
+  ja: 0.85
+);
 
 @mixin typography-sans() {
   font-family: $font-family-sans;
@@ -34,13 +51,32 @@ $font-size-xxx-small: rem(9.6px);
 
 @mixin typography-size($size) {
   display: block;
-  font-size: $size;
+
+  @if map-has-key($font-sizes, $size) {
+    font-size: map-get($font-sizes, $size);
+
+    @each $lang, $scale in $font-size-scales {
+      *[lang="#{$lang}"] & {
+        font-size: map-get($font-sizes, $size) * $scale;
+      }
+    }
+  } @else {
+    font-size: $size;
+
+    @each $lang, $scale in $font-size-scales {
+      *[lang="#{$lang}"] & {
+        font-size: $size * $scale;
+      }
+    }
+  }
 }
 
 @mixin unset-typography-size() {
   display: unset;
   font-size: unset;
 }
+
+:global {
 
 .sans {
   @include typography-sans;
@@ -54,40 +90,10 @@ $font-size-xxx-small: rem(9.6px);
   @include typography-mono;
 }
 
-.xx-large {
-  @include typography-size($font-size-xx-large);
-}
-
-.x-large {
-  @include typography-size($font-size-x-large);
-}
-
-.large {
-  @include typography-size($font-size-large);
-}
-
-.x-medium {
-  @include typography-size($font-size-x-medium);
-}
-
-.medium {
-  @include typography-size($font-size-medium);
-}
-
-.small {
-  @include typography-size($font-size-small);
-}
-
-.x-small {
-  @include typography-size($font-size-x-small);
-}
-
-.xx-small {
-  @include typography-size($font-size-xx-small);
-}
-
-.xxx-small {
-  @include typography-size($font-size-xxx-small);
+@each $name, $size in $font-sizes {
+  .#{$name} {
+    @include typography-size($name);
+  }
 }
 
 // TODO
@@ -99,3 +105,5 @@ $font-size-xxx-small: rem(9.6px);
   letter-spacing: 0.1em; // Intentionally em
   text-transform: uppercase;
 }
+
+} // :global

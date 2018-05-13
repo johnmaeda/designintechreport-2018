@@ -17,9 +17,6 @@ module.exports = mode => ({
     path: path.resolve(__dirname, 'build'),
     filename: '[name].js'
   },
-  performance: {
-    hints: false
-  },
   resolve: {
     alias: {
       'marked': path.resolve(__dirname, 'lib/marked.js'),
@@ -56,7 +53,11 @@ module.exports = mode => ({
           mode === 'production' ? MiniCssExtractPlugin.loader : 'style-loader',
           {
             loader: 'css-loader',
-            options: { sourceMap: true }
+            options: {
+              minimize: mode === 'production',
+              modules: true,
+              sourceMap: true
+            }
           },
           {
             loader: 'postcss-loader',
@@ -84,13 +85,14 @@ module.exports = mode => ({
       /node_modules\/remark\/src\/remark\/highlighter.js/,
       path.resolve(__dirname, 'lib/highlighter.js')
     ),
-    new CleanWebpackPlugin(['build/**/*'], {
+    new CleanWebpackPlugin(['build'], {
       root: path.resolve(__dirname)
     }),
     new CopyWebpackPlugin([
       {
         context: path.resolve(__dirname),
-        from: 'src/index.md'
+        from: 'markdown',
+        to: 'markdown'
       },
       {
         context: path.resolve(__dirname),

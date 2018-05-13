@@ -3,13 +3,12 @@ import MutationObserver from 'mutation-observer'
 
 import createTwitterWidget from './createTwitterWidget'
 import drawGoogleChart from './drawGoogleChart'
+import promisifyLoadEvent from './promisifyLoadEvent'
 
 export default class SlideObserver {
   constructor (element, index) {
     this.element = element
     this.index = index
-    this.mounted = false
-    this.visible = false
     this.init()
   }
 
@@ -22,29 +21,25 @@ export default class SlideObserver {
     }
   }
 
-  startObservingVisibility() {
+  mount () {
+    if (!this.mounted) {
+      this.mounted = this.slideDidMount()
+    }
+    return this.mounted
+  }
+
+  startObservingVisibility () {
     if (this.element.classList.contains('remark-visible')) {
-      this.visible = true
-      this.slideDidMount()
-      this.slideDidAppear()
+      this.mount()
     }
     const observer = new MutationObserver(mutations => {
-      mutations.some(mutation => {
+      mutations.forEach(mutation => {
         if (mutation.attributeName !== 'class') {
           return
         }
         const visible = this.element.classList.contains('remark-visible')
-        if (visible !== this.visible) {
-          if (!this.mounted) {
-            this.mounted = true
-            this.slideDidMount()
-          }
-          this.visible = visible
-          if (visible) {
-            this.slideDidAppear()
-          } else {
-            this.slideDidDisappear()
-          }
+        if (visible && !this.mounted) {
+          this.mount()
         }
       })
     })
@@ -54,7 +49,7 @@ export default class SlideObserver {
     this.visibilityObserver = observer
   }
 
-  stopObservingVisibility() {
+  stopObservingVisibility () {
     this.visibilityObserver.disconnect()
   }
 
@@ -76,20 +71,19 @@ export default class SlideObserver {
     })
   }
 
-  slideDidMount() {
+  slideDidMount () {
     this.querySelectorAll('a').forEach(this.processAnchor)
-    this.querySelectorAll('img').forEach(this.processImage)
-    this.querySelectorAll('audio, video').forEach(this.processAudioVideo)
-    this.querySelectorAll('.iframe').forEach(this.processIFrame)
-    this.querySelectorAll('.chart').forEach(this.processChart)
-    this.querySelectorAll('.tweet').forEach(this.processTweet)
+    this.querySelectorAll('audio').forEach(this.processAudio)
+    return Promise.all([
+      ...this.querySelectorAll('img').map(this.processImage),
+      ...this.querySelectorAll('video').map(this.processVideo),
+      ...this.querySelectorAll('.iframe').map(this.processIFrame),
+      ...this.querySelectorAll('.chart').map(this.processChart),
+      ...this.querySelectorAll('.tweet').map(this.processTweet)
+    ])
   }
 
-  slideDidUnmount() {}
-
-  slideDidAppear() {}
-
-  slideDidDisappear() {}
+  slideDidUnmount () {}
 
   querySelectorAll (...args) {
     return Array.from(this.element.querySelectorAll(...args))
@@ -97,51 +91,83 @@ export default class SlideObserver {
 
   processAnchor (element) {
     const href = element.getAttribute('href')
+    if (href == null) {
+      return
+    }
     if (/^https?:/.test(href)) {
       element.setAttribute('target', '_blank')
     }
   }
 
-  processImage (element) {
+  async processImage (element) {
     const src = element.getAttribute('data-src')
+    if (src == null) {
+      return Promise.resolve()
+    }
     element.setAttribute('src', src)
     element.removeAttribute('data-src')
+    await promisifyLoadEvent(element)
   }
 
-  processAudioVideo (element) {
+  processAudio (element) {
     const source = element.firstElementChild
     const src = source.getAttribute('data-src')
+    if (src == null) {
+      return
+    }
     source.setAttribute('src', src)
     source.removeAttribute('data-src')
     element.load()
   }
 
-  processIFrame (element) {
+  async processVideo (element) {
+    const source = element.firstElementChild
+    const src = source.getAttribute('data-src')
+    if (src == null) {
+      return
+    }
+    source.setAttribute('src', src)
+    source.removeAttribute('data-src')
+    element.load()
+    await promisifyLoadEvent(source)
+  }
+
+  async processIFrame (element) {
     const iframe = element.firstElementChild
     const src = iframe.getAttribute('data-src')
+    if (src == null) {
+      return Promise.resolve()
+    }
     iframe.setAttribute('src', src)
     iframe.removeAttribute('data-src')
-    const callback = event => {
-      iframe.removeEventListener('load', callback, false)
-      element.classList.add('loaded')
-    }
-    iframe.addEventListener('load', callback, false)
+    await promisifyLoadEvent(iframe)
+    element.classList.add('loaded')
   }
 
-  processChart (element) {
+  async processChart (element) {
     const type = element.getAttribute('data-type')
     const src = element.getAttribute('data-src')
-    window.fetch(src).then(response => {
-      return response.json()
-    }).then(({ data, options }) => {
+    if (type == null || src == null) {
+      return Promise.resolve()
+    }
+    try {
+      const response = await window.fetch(src)
+      const { data, options } = await response.json()
       drawGoogleChart(element, type, data, options)
-    }).catch(error => {
-      throw error
-    })
+    } catch (error) {
+      console.error(error)
+    }
   }
 
-  processTweet (element) {
+  async processTweet (element) {
     const tweetId = element.getAttribute('data-tweet-id')
-    createTwitterWidget(tweetId, element)
+    if (tweetId == null) {
+      return Promise.resolve()
+    }
+    try {
+      await createTwitterWidget(tweetId, element)
+    } catch (error) {
+      console.error(error)
+    }
   }
 }

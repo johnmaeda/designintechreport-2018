@@ -2,6 +2,8 @@
 @import '../elements';
 @import '../typography';
 
+:global {
+
 .unintended-consequences-slide {
   h2 {
     @include typography-sans;
@@ -13,3 +15,5 @@
     line-height: 1;
   }
 }
+
+} // :global

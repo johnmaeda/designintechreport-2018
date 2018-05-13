@@ -2,45 +2,49 @@
 @import './typography';
 @import './mixins';
 
-// Make slide containers hidden instead of not displaying in order for Google
-// Data Studio pages inside iframes to be able to determine their dimensions
-// when they finish loading while their containing slides are not visible.
-.remark-slide-container {
-  display: block;
-  visibility: hidden;
+:global {
+
+@media screen {
+  .remark-container {
+    background-color: #999999;
+  }
+
+  .remark-slide-container {
+    // Make slide containers hidden instead of not displaying in order for Google
+    // Data Studio pages inside iframes to be able to determine their dimensions
+    // when they finish loading while their containing slides are not visible.
+    display: block;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  .remark-visible {
+    visibility: visible;
+  }
+
+  .remark-slide-scaler {
+    box-shadow: none;
+    pointer-events: auto;
+  }
 }
 
-.remark-visible {
-  visibility: visible;
-}
-
-.remark-slide-scaler {
-  position: relative;
-}
-
-.remark-slide {
-  display: block;
-  overflow: hidden;
-  box-sizing: border-box;
-  height: 100%;
-}
-
+.remark-slide,
 .remark-slide-content {
   display: block;
   overflow: hidden;
+  position: relative;
   box-sizing: border-box;
   height: 100%;
 }
 
 .remark-slide-number {
   @include typography-sans;
+  @include typography-size(xx-small);
   display: block;
   position: absolute;
   right: 40px;
   bottom: 1rem;
   color: $color-darkgray;
-  font-size: $font-size-xx-small;
-  line-height: 1.2;
   opacity: 1;
 }
 
@@ -50,9 +54,16 @@
 
 .slide {
   @include typography-serif;
+  @include typography-size(medium);
   padding: 1.25rem 5rem;
-  font-size: $font-size-medium;
-  line-height: 1.1;
+
+  *[lang="en"] & {
+    line-height: 1.1;
+  }
+
+  *[lang="ja"] & {
+    line-height: 1.2;
+  }
 
   *::selection {
     color: $color-white;
@@ -105,14 +116,13 @@
 
   .source {
     @include typography-sans;
+    @include typography-size(xx-small);
     display: block;
     position: absolute;
     right: calc(40% + 2rem); // Not sure
     bottom: 1rem;
     left: 5rem;
     color: $color-darkgray;
-    font-size: $font-size-xx-small;
-    line-height: 1.2;
 
     &:before {
       content: 'Source: ';
@@ -121,13 +131,12 @@
 
   .footer {
     @include typography-sans;
+    @include typography-size(xx-small);
     display: block;
     position: absolute;
     left: 60%; // Not sure
     bottom: 1rem;
     color: $color-orange;
-    font-size: $font-size-xx-small;
-    line-height: 1.2;
 
     &:before {
       content: '2018 Design In Tech Report | ';
@@ -158,3 +167,5 @@
     color: $color-white;
   }
 }
+
+} // :global

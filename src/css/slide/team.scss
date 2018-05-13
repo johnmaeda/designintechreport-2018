@@ -2,6 +2,8 @@
 @import '../elements';
 @import '../typography';
 
+:global {
+
 .team-slide {
   @include headers;
   @include typography-sans;
@@ -24,9 +26,9 @@
       margin-top: 2.5rem;
 
       > li {
+        @include typography-size(x-small);
         display: block;
         margin-bottom: 1rem;
-        font-size: $font-size-x-small;
         line-height: 1.6;
         text-align: center;
 
@@ -39,3 +41,5 @@
     }
   }
 }
+
+} // :global

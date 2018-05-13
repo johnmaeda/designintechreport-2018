@@ -3,6 +3,8 @@
 @import './mixins';
 @import './typography';
 
+:global {
+
 .block {
   display: block;
 }
@@ -66,12 +68,12 @@
 
 .subhead {
   @include typography-sans;
+  @include typography-size(large);
   display: table; // To get both collapsing margins and block layout
   margin-top: 2rem;
   padding: 0.3em 0.2em 0.2em; // Intentionally em
   color: $color-white;
   background-color: $color-black;
-  font-size: $font-size-large;
   line-height: 1;
 
   &.numeral {
@@ -80,8 +82,8 @@
   }
 
   &.small {
+    @include typography-size(x-small);
     padding: 0.4em 0.3em; // Intentionally em
-    font-size: $font-size-x-small;
     text-transform: uppercase;
     letter-spacing: 0.1em; // Intentionally em
   }
@@ -116,7 +118,7 @@
 .listicle {
   @include block-margin;
   @include unset-lists;
-  font-size: $font-size-x-small;
+  @include typography-size(x-small);
 
   > ul > li + li {
     margin-top: 0.25em; // Intentionally em
@@ -357,6 +359,7 @@
   }
 
   .caption {
+    @include typography-size(xx-small);
     display: inline;
     position: absolute;
     left: 0.3rem;
@@ -364,7 +367,6 @@
     padding: 0.2em 0.5em; // Intentionally em
     color: $color-white;
     background-color: rgba($color-black, 0.5);
-    font-size: $font-size-xx-small;
     line-height: 1;
 
     &.top {
@@ -416,6 +418,7 @@
   border-bottom: dotted 1px black;
 
   .tooltip-text {
+    @include typography-size(x-small);
     visibility: hidden;
     z-index: 1;
     position: absolute;
@@ -424,7 +427,6 @@
     border-radius: 3px;
     color: $color-white;
     background-color: $color-orange;
-    font-size: $font-size-x-small;
     text-align: center;
   }
 
@@ -435,10 +437,9 @@
 
 .timeline-title {
   @include typography-sans;
-  @include typography-size($font-size-xxx-small);
+  @include typography-size(xxx-small);
   color: $color-purple;
   font-weight: bold;
-  line-height: 1.2;
   letter-spacing: 0.1em; // Intentionally em
   text-transform: uppercase;
 }
@@ -446,7 +447,7 @@
 .timeline-list {
   @include block-margin;
   @include unset-lists;
-  @include typography-size($font-size-xxx-small)
+  @include typography-size(xxx-small)
 
   > ul {
     display: flex;
@@ -493,7 +494,7 @@
   }
 
   h3 {
-    @include typography-size($font-size-x-medium);
+    @include typography-size(x-medium);
     position: absolute;
     top: 0;
     right: 0;
@@ -532,3 +533,5 @@
     }
   }
 }
+
+} // :global
