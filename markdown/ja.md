@@ -769,7 +769,7 @@ class: document-slide
 
 class: document-slide perception-of-design-slide
 
-# 互いに10億を超える人口が
+# デザインと、そのビジネスへの影響の議論は繰返し起こる
 
 .grid.ratio-1-3[
 .irregular-small.darkgray.group[
